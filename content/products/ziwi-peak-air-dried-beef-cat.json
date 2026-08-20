@@ -1,0 +1,210 @@
+{
+  "slug": "ziwi-peak-air-dried-beef-cat",
+  "name": "지위픽 에어드라이 소고기 캣",
+  "brand": "ZIWI",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": ["all"],
+  "mainProteins": ["소고기"],
+  "ingredients": [
+    "소고기",
+    "소 위",
+    "소 심장",
+    "소 폐",
+    "소 간",
+    "소 신장",
+    "소 뼈",
+    "뉴질랜드 초록입홍합",
+    "소 연골",
+    "소 비장",
+    "레시틴",
+    "치커리 이눌린",
+    "사과박",
+    "미네랄",
+    "해조분",
+    "정제염",
+    "DL-메티오닌",
+    "구연산",
+    "혼합토코페롤",
+    "비타민합제",
+    "타우린"
+  ],
+    "ingredientDetails": [
+    {
+      "name": "소고기",
+      "sourceText": "소고기",
+      "form": "whole",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "비프",
+        "우육"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 위",
+      "form": "organ",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 위",
+        "소 트라이프"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 심장",
+      "form": "organ",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 심장"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 폐",
+      "form": "organ",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 폐"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 간",
+      "form": "organ",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 간"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 신장",
+      "form": "organ",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 신장"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 뼈",
+      "form": "bone",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 뼈"
+      ]
+    },
+    {
+      "name": "홍합",
+      "sourceText": "뉴질랜드 초록입홍합",
+      "form": "whole",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "초록입홍합",
+        "녹색홍합",
+        "뉴질랜드 초록입홍합"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 연골",
+      "form": "other",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 연골"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "소 비장",
+      "form": "organ",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소 비장"
+      ]
+    },
+    {
+      "name": "레시틴",
+      "sourceText": "레시틴",
+      "form": "supplement",
+      "specificity": "group-only",
+      "aliases": []
+    },
+    {
+      "name": "치커리",
+      "sourceText": "치커리 이눌린",
+      "form": "extract",
+      "specificity": "specific",
+      "aliases": [
+        "이눌린",
+        "치커리 이눌린"
+      ]
+    },
+    {
+      "name": "사과",
+      "sourceText": "사과박",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "사과박",
+        "애플 포마스"
+      ]
+    },
+    {
+      "name": "해조류",
+      "sourceText": "해조분",
+      "form": "other",
+      "specificity": "group-only",
+      "aliases": [
+        "켈프",
+        "해조분"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 38,
+    "fat": 30,
+    "fiber": 3,
+    "ash": 12,
+    "moisture": 14,
+    "calcium": 1.6,
+    "phosphorus": 1.4,
+    "taurine": 0.19
+  },
+    "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "typical"
+  },
+  "calories": 4900,
+  "sourceUrl": "https://ziwipets.co.kr/?act=shop.goods_view&GS=85&GC=GD0100&oc=good_proce&os=desc",
+  "checkedAt": "2026-08-20",
+  "notes": "등록성분의 이상·이하 기준은 제품 상세 페이지에서 확인하세요."
+}

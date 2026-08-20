@@ -1,0 +1,118 @@
+{
+  "slug": "farmina-vet-life-ultrahypo-feline",
+  "name": "파미나 Vet Life CAT 울트라하이포",
+  "brand": "Farmina",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": ["adult"],
+  "isVeterinaryDiet": true,
+  "dietaryUses": [
+    "원료 및 영양소 불내성 감소를 위한 식이",
+    "제거 식이",
+    "피부 기능 지원을 위한 식이"
+  ],
+  "mainProteins": [
+    "가수분해 생선 단백질"
+  ],
+  "ingredients": [
+    "가수분해 생선 단백질",
+    "쌀 전분",
+    "생선 오일",
+    "탄산칼슘",
+    "프락토올리고당",
+    "염화칼륨",
+    "황산칼슘이수화물",
+    "제일인산칼슘 및 제이인산칼슘",
+    "염화나트륨",
+    "미결정 셀룰로오스",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "L-카르니틴",
+    "혼합토코페롤"
+  ],
+    "ingredientDetails": [
+    {
+      "name": "생선",
+      "sourceText": "가수분해 생선 단백질",
+      "form": "hydrolyzed",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "어류",
+        "가수분해 생선 단백질",
+        "가수분해 어류 단백질"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "쌀 전분",
+      "form": "starch",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀 전분"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "생선 오일",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "어유",
+        "생선 기름",
+        "생선 오일"
+      ]
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "FOS"
+      ]
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "미결정 셀룰로오스",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "미결정 셀룰로오스"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 28,
+    "fat": 11,
+    "fiber": 1.8,
+    "ash": 7.1,
+    "calcium": 1,
+    "phosphorus": 0.8
+  },
+  "analysisBasis": {
+    "protein": "typical",
+    "fat": "typical",
+    "fiber": "typical",
+    "ash": "typical",
+    "calcium": "typical",
+    "phosphorus": "typical"
+  },
+  "calories": 3745,
+  "sourceUrl": "https://www.farmina.com/mt/eshop/cat-food/farmina-vet-life-cat/85-ultrahypo-feline.html",
+  "checkedAt": "2026-08-20",
+  "notes": "제조사가 식이 목적을 명시한 처방식입니다. 급여 및 변경은 수의사와 상담하세요. 공개 전 국내 유통 제품 포장의 한글 표시사항과 제조사 국제 페이지의 수치가 일치하는지 재확인이 필요합니다."
+}
