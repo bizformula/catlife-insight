@@ -78,7 +78,7 @@ export default function HeaderNavigation({
 
       {/* 모바일 메뉴 */}
       {isMenuOpen && (
-        <div className="absolute right-0 top-full w-full border-b border-[var(--border)] bg-white dark:bg-[#1a1a1a] md:hidden">
+        <div className="absolute right-0 top-full w-full border-b border-[var(--border)] bg-[var(--background)] md:hidden">
           <nav className="flex flex-col px-4 py-3">
             {menuItems.map((item) => (
               <Link

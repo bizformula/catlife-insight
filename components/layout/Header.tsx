@@ -6,7 +6,7 @@ export default function Header() {
   const categories = getCategories();
 
   return (
-    <header className="sticky top-0 z-50 h-16 border-b border-[var(--border)] bg-white dark:bg-[#1a1a1a]">
+    <header className="sticky top-0 z-50 h-16 border-b border-[var(--border)] bg-[var(--background)]">
       <div className="relative flex h-full items-center justify-between">
         <Link
           href="/"
