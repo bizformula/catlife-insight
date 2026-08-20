@@ -6,23 +6,19 @@ export const SITE_DESCRIPTION =
 export const CATEGORIES = [
   {
     slug: "nutrition-guide",
-    name: "성분 가이드",
+    name: "사료·간식 가이드",
   },
   {
     slug: "product-analysis",
-    name: "제품 분석",
-  },
-  {
-    slug: "comparison",
-    name: "제품 비교",
-  },
-  {
-    slug: "ingredients",
-    name: "원료 사전",
+    name: "제품 분석·비교",
   },
   {
     slug: "cat-nutrition",
-    name: "반려묘 영양",
+    name: "건강·영양 정보",
+  },
+  {
+    slug: "cat-life",
+    name: "생활용품",
   },
 ] as const;
 

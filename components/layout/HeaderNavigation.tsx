@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import ThemeToggle from "@/components/ui/ThemeToggle";
-import { getCategoryName } from "@/lib/site";
 
 type HeaderNavigationProps = {
   categories: string[];
@@ -16,24 +15,48 @@ export default function HeaderNavigation({
 
   const closeMenu = () => setIsMenuOpen(false);
 
+  const ingredientsCategory =
+    categories.find((category) => category === "ingredients") ??
+    "ingredients";
+
+  const menuItems = [
+    {
+      name: "사료 찾기",
+      href: "/finder",
+      highlighted: false,
+    },
+    {
+      name: "제품 비교",
+      href: "/compare",
+      highlighted: false,
+    },
+    {
+      name: "원료 사전",
+      href: `/category/${ingredientsCategory}`,
+      highlighted: false,
+    },
+    {
+      name: "블로그",
+      href: "/",
+      highlighted: false,
+    },
+  ];
+
   return (
     <div className="flex items-center gap-2">
       {/* 데스크톱 메뉴 */}
       <nav className="hidden items-center gap-6 md:flex">
-        <Link
-          href="/finder"
-          className="font-semibold text-[#2563EB] transition-colors hover:opacity-70"
-        >
-          사료 찾기
-        </Link>
-
-        {categories.map((category) => (
+        {menuItems.map((item) => (
           <Link
-            key={category}
-            href={`/category/${encodeURIComponent(category)}`}
-            className="text-base text-[var(--foreground)] transition-colors hover:text-[#2563EB]"
+            key={item.href}
+            href={item.href}
+            className={
+              item.highlighted
+                ? "font-semibold text-[#2563EB] transition-colors hover:opacity-70"
+                : "text-base text-[var(--foreground)] transition-colors hover:text-[#2563EB]"
+            }
           >
-            {getCategoryName(category)}
+            {item.name}
           </Link>
         ))}
       </nav>
@@ -42,7 +65,9 @@ export default function HeaderNavigation({
       <button
         type="button"
         className="flex h-10 w-10 items-center justify-center rounded-md text-xl md:hidden"
-        onClick={() => setIsMenuOpen((previous) => !previous)}
+        onClick={() =>
+          setIsMenuOpen((previous) => !previous)
+        }
         aria-label="메뉴 열기"
         aria-expanded={isMenuOpen}
       >
@@ -55,22 +80,18 @@ export default function HeaderNavigation({
       {isMenuOpen && (
         <div className="absolute right-0 top-full w-full border-b border-[var(--border)] bg-white dark:bg-[#1a1a1a] md:hidden">
           <nav className="flex flex-col px-4 py-3">
-            <Link
-              href="/finder"
-              className="py-2 font-semibold text-[#2563EB]"
-              onClick={closeMenu}
-            >
-              사료 찾기
-            </Link>
-
-            {categories.map((category) => (
+            {menuItems.map((item) => (
               <Link
-                key={category}
-                href={`/category/${encodeURIComponent(category)}`}
-                className="py-2 text-base text-[var(--foreground)] transition-colors hover:text-[#2563EB]"
+                key={item.href}
+                href={item.href}
+                className={
+                  item.highlighted
+                    ? "py-2 font-semibold text-[#2563EB]"
+                    : "py-2 text-base text-[var(--foreground)] transition-colors hover:text-[#2563EB]"
+                }
                 onClick={closeMenu}
               >
-                {getCategoryName(category)}
+                {item.name}
               </Link>
             ))}
           </nav>
