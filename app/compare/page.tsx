@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllProducts } from "@/lib/products";
+import MobileComparison from "@/components/compare/MobileComparison";
 import type {
   NutrientBasis,
   Product,
@@ -54,8 +55,8 @@ export default function ComparePage() {
           비교합니다.
         </p>
       </header>
-
-      <div className="overflow-x-auto rounded-xl border border-[var(--border)]">
+    <MobileComparison products={products} />
+      <div className="hidden overflow-x-auto rounded-xl border border-[var(--border)] md:block">
         <table className="w-full min-w-[760px] border-collapse text-left text-sm">
           <thead>
             <tr className="border-b border-[var(--border)] bg-gray-50 dark:bg-gray-900">
