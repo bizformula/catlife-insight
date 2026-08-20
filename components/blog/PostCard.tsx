@@ -14,40 +14,45 @@ export default function PostCard({
     post.thumbnail?.trim() || "/next.svg";
 
   return (
-    <article className="overflow-hidden rounded-lg border border-[var(--border)]">
-      <Link href={`/blog/${post.slug}`}>
-        <div className="flex aspect-video w-full items-center justify-center bg-[#f8fafc] dark:bg-[#1f2937]">
-          <Image
-            src={thumbnail}
-            alt={`${post.title} 대표 이미지`}
-            width={1200}
-            height={675}
-            className="h-full w-full object-contain"
-          />
-        </div>
+    <article className="flex min-h-32 overflow-hidden rounded-lg border border-[var(--border)] transition-colors hover:border-[#2563EB]">
+      {/* PC와 태블릿에서만 표시되는 작은 썸네일 */}
+      <Link
+        href={`/blog/${post.slug}`}
+        className="relative hidden w-52 shrink-0 border-r border-[var(--border)] bg-[#f8fafc] sm:block dark:bg-[#1f2937]"
+      >
+        <Image
+          src={thumbnail}
+          alt={`${post.title} 대표 이미지`}
+          fill
+          sizes="208px"
+          className="object-contain"
+        />
       </Link>
 
-      <div className="p-5">
-        <p className="mb-2 text-sm text-gray-500">
-          {post.date}
-        </p>
+      {/* 글 정보 */}
+      <div className="min-w-0 flex-1 p-4">
+        <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
+          <span className="text-gray-500 dark:text-gray-400">
+            {post.date}
+          </span>
 
-        <h2 className="mb-2 text-2xl font-semibold">
+          <Link
+            href={`/category/${encodeURIComponent(post.category)}`}
+            className="text-[var(--point)]"
+          >
+            {getCategoryName(post.category)}
+          </Link>
+        </div>
+
+        <h2 className="mb-2 line-clamp-2 text-lg font-semibold leading-6 sm:text-xl">
           <Link href={`/blog/${post.slug}`}>
             {post.title}
           </Link>
         </h2>
 
-        <p className="mb-2 text-base">
+        <p className="line-clamp-2 text-sm leading-6 text-[var(--foreground)]">
           {post.description}
         </p>
-
-        <Link
-          href={`/category/${encodeURIComponent(post.category)}`}
-          className="text-sm text-[var(--point)]"
-        >
-          {getCategoryName(post.category)}
-        </Link>
       </div>
     </article>
   );
