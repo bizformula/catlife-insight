@@ -20,6 +20,10 @@ export const CATEGORIES = [
     slug: "cat-life",
     name: "생활용품",
   },
+  {
+  slug: "ingredients",
+  name: "성분·원료 사전",
+},
 ] as const;
 
 export function getCategoryName(slug: string): string {
