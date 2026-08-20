@@ -47,6 +47,7 @@ export type Product = {
   slug: string;
   name: string;
   brand: string;
+  image?: string;
 
   productType: ProductType;
   foodForm: FoodForm;
