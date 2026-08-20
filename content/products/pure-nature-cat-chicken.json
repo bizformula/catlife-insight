@@ -1,0 +1,163 @@
+{
+  "slug": "pure-nature-cat-chicken",
+  "name": "퓨어네이쳐 캣 치킨",
+  "brand": "퓨어네이쳐",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": ["adult"],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "옥수수·밀·쌀을 사용하지 않은 제품",
+    "가수분해 닭 단백질 사용"
+  ],
+  "mainProteins": [
+    "가수분해 닭 단백질"
+  ],
+  "ingredients": [
+    "유도단백질(가수분해 닭)",
+    "감자전분",
+    "타피오카",
+    "동물성 혼합 유지",
+    "아마인",
+    "유도단백질(가수분해 향미제)",
+    "정제소금",
+    "제오라이트",
+    "과실 및 과채 추출물(천연 항산화제)",
+    "미량광물질류합제",
+    "분말유지(DHA, EPA 공급원)",
+    "비타민제합제",
+    "염화콜린",
+    "유카추출물",
+    "자몽종자추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "유도단백질(가수분해 닭)",
+      "form": "hydrolyzed",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭고기",
+        "치킨",
+        "계육",
+        "가수분해 닭",
+        "가수분해 닭 단백질"
+      ]
+    },
+    {
+      "name": "감자",
+      "sourceText": "감자전분",
+      "form": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "감자전분",
+        "감자 전분"
+      ]
+    },
+    {
+      "name": "타피오카",
+      "sourceText": "타피오카",
+      "form": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "카사바"
+      ]
+    },
+    {
+      "name": "동물성 유지",
+      "sourceText": "동물성 혼합 유지",
+      "form": "fat",
+      "specificity": "group-only",
+      "aliases": [
+        "동물성 혼합 유지",
+        "동물성 지방",
+        "동물성 유지"
+      ]
+    },
+    {
+      "name": "아마인",
+      "sourceText": "아마인",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "아마 종실",
+        "플랙시드"
+      ]
+    },
+    {
+      "name": "가수분해 향미제",
+      "sourceText": "유도단백질(가수분해 향미제)",
+      "form": "hydrolyzed",
+      "specificity": "group-only",
+      "aliases": [
+        "가수분해 향미제",
+        "유도단백질"
+      ]
+    },
+    {
+      "name": "DHA·EPA 공급 유지",
+      "sourceText": "분말유지(DHA, EPA 공급원)",
+      "form": "oil",
+      "specificity": "group-only",
+      "aliases": [
+        "분말유지",
+        "DHA",
+        "EPA"
+      ]
+    },
+    {
+      "name": "유카",
+      "sourceText": "유카추출물",
+      "form": "extract",
+      "specificity": "specific",
+      "aliases": [
+        "유카추출물",
+        "유카 추출물"
+      ]
+    },
+    {
+      "name": "자몽종자",
+      "sourceText": "자몽종자추출물",
+      "form": "extract",
+      "specificity": "specific",
+      "aliases": [
+        "자몽종자추출물",
+        "자몽 종자 추출물"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "unknown",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 35,
+    "fat": 18,
+    "fiber": 5,
+    "ash": 9,
+    "calcium": 1.2,
+    "phosphorus": 0.8,
+    "moisture": 12
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "moisture": "max"
+  },
+  "calories": 3595,
+  "sourceUrl": "https://purenature.kr/product/%ED%93%A8%EC%96%B4%EB%84%A4%EC%9D%B4%EC%B3%90-%EC%BA%A3-%EC%B9%98%ED%82%A8-2kg/52/",
+  "checkedAt": "2026-08-20",
+  "notes": "가수분해 닭 단백질을 사용한 일반 사료이며 처방식은 아닙니다. 동물성 혼합 유지, 가수분해 향미제 및 DHA·EPA 공급원의 구체적인 동물 종은 공개된 표시사항만으로 확인하기 어렵습니다."
+}
