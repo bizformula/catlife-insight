@@ -1,0 +1,79 @@
+{
+  "slug": "brand-product-name",
+  "name": "제품명",
+  "brand": "브랜드명",
+  "image": "/images/products/product-image.webp",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "주단백질 원료"
+  ],
+  "ingredients": [
+    "표시 원재료 1",
+    "표시 원재료 2",
+    "표시 원재료 3"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "정확한 원료명",
+      "sourceText": "제품에 표시된 원재료 원문",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "동의어 1",
+        "동의어 2"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "어류 단백질",
+      "form": "other",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "어류",
+        "생선 단백질"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "unknown",
+    "dairy": "unknown",
+    "egg": "unknown",
+    "grain": "unknown"
+  },
+  "guaranteedAnalysis": {
+    "protein": 0,
+    "fat": 0,
+    "fiber": 0,
+    "ash": 0,
+    "moisture": 0,
+    "calcium": 0,
+    "phosphorus": 0,
+    "taurine": 0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 0,
+  "sourceUrl": "https://example.com/product",
+  "checkedAt": "YYYY-MM-DD",
+  "notes": "표시사항의 출처, 확인이 어려운 원료와 이용 시 주의사항을 기록합니다."
+}

@@ -3,7 +3,7 @@ title: "고양이 사료 성분표 읽는 방법"
 date: "2026-08-20"
 category: "nutrition-guide"
 description: "보증성분, 수분, 열량과 원재료 목록을 순서대로 확인하는 기본 방법을 설명합니다."
-thumbnail: "/images/posts/cat-food-label-guide.png"
+thumbnail: "/images/posts/pola-cat-food-label-guide.png"
 ---
 
 사료 포장에는 제품을 비교하는 데 필요한 정보가 여러 위치에 나뉘어 있습니다. 숫자 하나만 보기보다 제품의 용도, 수분 함량과 급여량을 함께 확인해야 합니다.
