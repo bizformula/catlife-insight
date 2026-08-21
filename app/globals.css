@@ -6,6 +6,7 @@
   --foreground: #333333;
   --point: #2563eb;
   --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
   --border: #e5e7eb;
 }
 
@@ -20,6 +21,7 @@ html.dark {
   --background: #111827;
   --foreground: #f3f4f6;
   --muted: #1f2937;
+  --muted-foreground: #9ca3af;
   --border: #374151;
 }
 
