@@ -83,7 +83,6 @@ export type Product = {
 
   sourceUrl: string;
   checkedAt: string;
-  image?: string;
   affiliateUrl?: string;
 
   notes?: string;
