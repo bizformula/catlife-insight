@@ -1,22 +1,36 @@
 import ProductFinder from "@/components/finder/ProductFinder";
 import { getAllProducts } from "@/lib/products";
+import Link from "next/link";
 
 export default function FinderPage() {
   const products = getAllProducts();
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-10">
+    <main>
       <section className="mb-8">
-        <p className="mb-2 text-sm font-semibold text-[#2563EB]">
-          캣라이프 인사이트
-        </p>
-
+        
         <h1 className="mb-3 text-3xl font-bold">사료 찾기</h1>
 
         <p className="text-[var(--muted-foreground)]">
           제품 유형과 표시 원재료를 기준으로 조건에 맞는 제품을 찾아보세요.
         </p>
       </section>
+
+<div className="mb-8 flex flex-wrap gap-3">
+  <Link
+    href="/products"
+    className="rounded-lg border border-[var(--border)] px-5 py-3 text-sm font-semibold !text-[var(--foreground)] transition hover:border-[#2563EB]"
+  >
+    전체 등록 제품 보기
+  </Link>
+
+  <Link
+    href="/compare"
+    className="rounded-lg border border-[var(--border)] px-5 py-3 text-sm font-semibold !text-[var(--foreground)] transition hover:border-[#2563EB]"
+  >
+    제품 비교하기
+  </Link>
+</div>
 
       <ProductFinder products={products} />
 

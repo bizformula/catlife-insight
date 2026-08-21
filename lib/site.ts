@@ -6,29 +6,31 @@ export const SITE_DESCRIPTION =
 export const CATEGORIES = [
   {
     slug: "nutrition-guide",
-    name: "사료·간식 가이드",
+    name: "사료·간식",
   },
-  {
-    slug: "product-analysis",
-    name: "제품 분석·비교",
-  },
-  {
+    {
     slug: "cat-nutrition",
-    name: "건강·영양 정보",
+    name: "건강·영양",
   },
-  {
+   {
+    slug: "ingredients",
+    name: "원료 사전",
+  },
+   {
     slug: "cat-life",
     name: "생활용품",
   },
   {
-  slug: "ingredients",
-  name: "성분·원료 사전",
-},
+    slug: "pola-story",
+    name: "폴라 이야기",
+  },
 ] as const;
 
-export function getCategoryName(slug: string): string {
+export function getCategoryName(
+  slug: string
+): string {
   const category = CATEGORIES.find(
-    (item) => item.slug === slug,
+    (item) => item.slug === slug
   );
 
   return category?.name ?? slug;

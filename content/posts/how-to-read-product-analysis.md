@@ -1,7 +1,7 @@
 ---
 title: "캣라이프 인사이트의 제품 분석 글 읽는 방법"
 date: "2026-08-15"
-category: "product-analysis"
+category: "nutrition-guide"
 description: "제품 분석 글에 표시되는 정보의 범위와 해석할 때 주의할 점을 안내합니다."
 thumbnail: "/images/posts/product-analysis-guide.png"
 ---

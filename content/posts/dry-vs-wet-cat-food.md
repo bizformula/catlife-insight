@@ -1,7 +1,7 @@
 ---
 title: "건식과 습식 사료 성분을 비교하는 방법"
 date: "2026-08-18"
-category: "product-analysis"
+category: "nutrition-guide"
 description: "건식과 습식 사료를 수분, 건물 기준, 열량과 급여 목적에 따라 비교합니다."
 thumbnail: "/images/posts/dry-vs-wet-cat-food.png"
 ---

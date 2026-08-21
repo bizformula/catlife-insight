@@ -1,7 +1,7 @@
 ---
 title: "고양이 알레르기 검사 후 사료를 바꿔온 과정: 폴라의 네 가지 사료 기록"
 date: "2026-08-21"
-category: "cat-nutrition"
+category: "pola-story"
 description: "알레르기 검사와 건강검진 이후 폴라가 먹었던 네 가지 사료와 보호자가 관찰한 변화를 기록합니다."
 thumbnail: "/images/posts/pola-food-change-story.png"
 ---

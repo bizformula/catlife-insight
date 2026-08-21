@@ -1,129 +1,152 @@
 import Link from "next/link";
 import PostCard from "@/components/blog/PostCard";
-import Sidebar from "@/components/layout/Sidebar";
 import { getAllPosts } from "@/lib/posts";
 
-const POSTS_PER_PAGE = 6;
-
-type HomePageProps = {
-  searchParams: Promise<{
-    page?: string;
-  }>;
-};
-
-export default async function Home({
-  searchParams,
-}: HomePageProps) {
-  const posts = getAllPosts();
-  const { page } = await searchParams;
-
-  const requestedPage = Number(page ?? "1");
-  const totalPages = Math.max(
-    1,
-    Math.ceil(posts.length / POSTS_PER_PAGE)
-  );
-
-  const currentPage =
-    Number.isInteger(requestedPage) &&
-    requestedPage >= 1 &&
-    requestedPage <= totalPages
-      ? requestedPage
-      : 1;
-
-  const startIndex =
-    (currentPage - 1) * POSTS_PER_PAGE;
-
-  const visiblePosts = posts.slice(
-    startIndex,
-    startIndex + POSTS_PER_PAGE
-  );
+export default function Home() {
+  const latestPosts = getAllPosts().slice(0, 3);
 
   return (
-    <div className="grid grid-cols-1 gap-8 lg:grid-cols-10">
-      <section className="lg:col-span-7">
-        <h1 className="mb-5 text-2xl font-bold">
-          최신 글
+    <div className="space-y-14">
+      <section className="rounded-2xl border border-[var(--border)] bg-[var(--muted)] px-6 pb-10 pt-6 sm:px-10 sm:pb-12 sm:pt-8">
+        <p className="mb-3 text-sm font-semibold text-[#2563EB]">
+          캣라이프 인사이트
+        </p>
+
+        <h1 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl">
+          피하고 싶은 원료를 제외하고
+          <br />
+          우리 고양이에게 맞는 사료를 찾아보세요.
         </h1>
 
-        <div className="space-y-4">
-          {visiblePosts.map((post, index) => (
-            <div key={post.slug}>
-              <PostCard post={post} />
+        <p className="mb-8 break-keep leading-7 text-[var(--muted-foreground)] md:whitespace-nowrap">
+          제품에 표시된 원재료와 영양 정보를 확인하고,
+          조건에 맞는 제품을 찾거나 여러 제품을 같은 항목으로
+          비교할 수 있습니다.
+        </p>
 
-              {index === 2 && (
-                <div
-                  className="mt-4 flex min-h-24 items-center justify-center rounded-lg border border-dashed border-[var(--border)] text-sm text-[var(--muted-foreground)]"
-                  aria-label="광고 영역"
-                >
-                  광고 영역
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-
-        {totalPages > 1 && (
-          <nav
-            className="mt-8 flex flex-wrap items-center justify-center gap-2"
-            aria-label="게시글 페이지 이동"
+        <div className="flex flex-wrap gap-3">
+          <Link
+            href="/finder"
+            className="rounded-lg bg-[#2563EB] px-6 py-3 font-semibold !text-white"
           >
-            {currentPage > 1 && (
-              <Link
-                href={
-                  currentPage - 1 === 1
-                    ? "/"
-                    : `/?page=${currentPage - 1}`
-                }
-                className="rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
-              >
-                이전
-              </Link>
-            )}
+            사료 찾기
+          </Link>
 
-            {Array.from(
-              { length: totalPages },
-              (_, index) => index + 1
-            ).map((pageNumber) => {
-              const isCurrent =
-                pageNumber === currentPage;
-
-              return (
-                <Link
-                  key={pageNumber}
-                  href={
-                    pageNumber === 1
-                      ? "/"
-                      : `/?page=${pageNumber}`
-                  }
-                  aria-current={
-                    isCurrent ? "page" : undefined
-                  }
-                  className={
-                    isCurrent
-                      ? "rounded-md bg-[#2563EB] px-3 py-2 text-sm font-semibold !text-white"
-                      : "rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
-                  }
-                >
-                  {pageNumber}
-                </Link>
-              );
-            })}
-
-            {currentPage < totalPages && (
-              <Link
-                href={`/?page=${currentPage + 1}`}
-                className="rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
-              >
-                다음
-              </Link>
-            )}
-          </nav>
-        )}
+          <Link
+            href="/compare"
+            className="rounded-lg border border-[var(--border)] bg-[var(--background)] px-6 py-3 font-semibold !text-[var(--foreground)]"
+          >
+            제품 비교
+          </Link>
+        </div>
       </section>
 
-      <div className="lg:col-span-3">
-        <Sidebar />
-      </div>
+      <section>
+        <h2 className="mb-6 text-2xl font-bold">
+          주요 기능
+        </h2>
+
+        <div className="grid gap-4 md:grid-cols-3">
+          <Link
+            href="/finder"
+            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] hover:border-[#2563EB]"
+          >
+            <p className="mb-2 text-sm font-semibold text-[#2563EB]">
+              조건 검색
+            </p>
+
+            <h3 className="mb-3 text-xl font-bold">
+              사료 찾기
+            </h3>
+
+            <p className="text-sm leading-6">
+              피하고 싶은 원료와 제품 조건을 적용하여 등록된
+              제품을 찾아봅니다.
+            </p>
+          </Link>
+
+          <Link
+            href="/compare"
+            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] hover:border-[#2563EB]"
+          >
+            <p className="mb-2 text-sm font-semibold text-[#2563EB]">
+              항목별 확인
+            </p>
+
+            <h3 className="mb-3 text-xl font-bold">
+              제품 비교
+            </h3>
+
+            <p className="text-sm leading-6">
+              선택한 제품의 원재료, 표시 성분과 열량을 같은
+              항목으로 비교합니다.
+            </p>
+          </Link>
+
+          <Link
+            href="/category/ingredients"
+            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] hover:border-[#2563EB]"
+          >
+            <p className="mb-2 text-sm font-semibold text-[#2563EB]">
+              원료 정보
+            </p>
+
+            <h3 className="mb-3 text-xl font-bold">
+              원료 사전
+            </h3>
+
+            <p className="text-sm leading-6">
+              사료에 표시되는 원료의 명칭과 원재료 목록에서
+              확인할 점을 살펴봅니다.
+            </p>
+          </Link>
+        </div>
+      </section>
+
+      <section>
+        <div className="mb-6 flex items-end justify-between gap-4">
+          <div>
+            <h2 className="mb-2 text-2xl font-bold">
+              최근 업데이트
+            </h2>
+
+            <p className="text-sm text-[var(--muted-foreground)]">
+              새로 등록된 고양이 먹거리와 생활 정보입니다.
+            </p>
+          </div>
+
+          <Link
+            href="/blog"
+            className="shrink-0 text-sm font-semibold text-[#2563EB]"
+          >
+            전체 글 보기 →
+          </Link>
+        </div>
+
+        <div className="space-y-4">
+          {latestPosts.map((post) => (
+            <PostCard
+              key={post.slug}
+              post={post}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="rounded-2xl border border-[var(--border)] p-6 sm:p-8">
+        <p className="mb-2 text-sm font-semibold text-[#2563EB]">
+          폴라의 경험에서 시작했습니다
+        </p>
+
+        <h2 className="mb-4 text-2xl font-bold">
+          사료를 고르는 어려움을 줄이고 싶었습니다.
+        </h2>
+
+        <p className="break-keep leading-7 text-[var(--muted-foreground)]">
+          알레르기 항목과 건강검진 결과를 함께 살펴보며 제품의
+          원재료를 일일이 확인했던 경험을 바탕으로 만들고 있습니다.
+        </p>
+      </section>
     </div>
   );
 }

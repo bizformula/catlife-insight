@@ -37,7 +37,7 @@ export default function HeaderNavigation({
     },
     {
       name: "블로그",
-      href: "/",
+      href: "/blog",
       highlighted: false,
     },
   ];

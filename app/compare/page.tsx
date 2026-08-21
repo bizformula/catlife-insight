@@ -31,12 +31,9 @@ export default async function ComparePage({
   );
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-10">
+    <main>
       <header className="mb-8">
-        <p className="mb-2 text-sm font-semibold text-[#2563EB]">
-          캣라이프 인사이트
-        </p>
-
+        
         <h1 className="mb-3 text-3xl font-bold">
           제품 비교
         </h1>

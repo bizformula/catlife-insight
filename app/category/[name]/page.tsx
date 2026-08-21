@@ -32,7 +32,17 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   return (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-10">
       <section className="space-y-6 lg:col-span-7">
-       <h1 className="text-3xl font-bold">카테고리: {getCategoryName(decoded)}</h1> 
+       <header className="mb-8">
+  <h1 className="mb-3 text-3xl font-bold">
+    {getCategoryName(decoded)}
+  </h1>
+
+  <p className="text-[var(--muted-foreground)]">
+    {decoded === "ingredients"
+      ? "사료와 간식에 표시되는 원료의 이름과 확인할 점을 정리합니다."
+      : `${getCategoryName(decoded)}에 관한 글을 모아봅니다.`}
+  </p>
+</header> 
         {posts.length === 0 ? (
           <p>해당 카테고리의 글이 없습니다.</p>
         ) : (

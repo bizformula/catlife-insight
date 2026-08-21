@@ -1,0 +1,171 @@
+{
+  "slug": "ziwi-peak-wet-beef-cat",
+  "name": "지위픽 캣 캔식품 소고기",
+  "brand": "ZIWI",
+  "image": "/images/products/ziwipeak-wet-beef-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "전연령용 주식",
+    "그레인프리"
+  ],
+  "mainProteins": [
+    "소고기",
+    "소 내장"
+  ],
+  "ingredients": [
+    "소고기",
+    "정제수",
+    "소 폐",
+    "소 신장",
+    "소 위",
+    "소 간",
+    "이집트콩",
+    "뉴질랜드 녹색홍합",
+    "소 뼈",
+    "DL-메티오닌",
+    "해조분",
+    "미네랄",
+    "비타민합제",
+    "타우린"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "소고기",
+      "sourceText": "소고기",
+      "form": "unspecified",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "비프",
+        "우육"
+      ]
+    },
+    {
+      "name": "소 폐",
+      "sourceText": "소 폐",
+      "form": "unspecified",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소폐",
+        "폐"
+      ]
+    },
+    {
+      "name": "소 신장",
+      "sourceText": "소 신장",
+      "form": "unspecified",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소신장",
+        "신장"
+      ]
+    },
+    {
+      "name": "소 위",
+      "sourceText": "소 위",
+      "form": "unspecified",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소위",
+        "트라이프"
+      ]
+    },
+    {
+      "name": "소 간",
+      "sourceText": "소 간",
+      "form": "unspecified",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소간",
+        "간"
+      ]
+    },
+    {
+      "name": "이집트콩",
+      "sourceText": "이집트콩",
+      "form": "unspecified",
+      "specificity": "specific",
+      "aliases": [
+        "병아리콩",
+        "칙피",
+        "chickpea"
+      ]
+    },
+    {
+      "name": "녹색홍합",
+      "sourceText": "뉴질랜드 녹색홍합",
+      "form": "unspecified",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "홍합",
+        "초록입홍합",
+        "뉴질랜드 녹색홍합"
+      ]
+    },
+    {
+      "name": "소 뼈",
+      "sourceText": "소 뼈",
+      "form": "unspecified",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소뼈"
+      ]
+    },
+    {
+      "name": "해조분",
+      "sourceText": "해조분",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "해조류",
+        "켈프"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 9,
+    "fat": 5.5,
+    "fiber": 2,
+    "ash": 4,
+    "moisture": 78,
+    "calcium": 0.3,
+    "phosphorus": 0.24,
+    "taurine": 0.07
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "typical"
+  },
+  "calories": 1250,
+  "sourceUrl": "https://ziwipets.co.kr/?act=shop.goods_view&GS=45&GC=GD0101&oc=good_proce&os=desc",
+  "checkedAt": "2026-08-22",
+  "notes": "전연령용 습식 주식입니다. 녹색홍합이 표시되어 있어 생선·해산물 제외 조건에서는 검색 결과에서 제외됩니다. 제조 시기나 유통 제품에 따라 표시사항이 변경될 수 있으므로 실제 제품 포장지를 함께 확인하세요."
+}
