@@ -1,8 +1,34 @@
 import ProductComparison from "@/components/compare/ProductComparison";
 import { getAllProducts } from "@/lib/products";
 
-export default function ComparePage() {
+type ComparePageProps = {
+  searchParams: Promise<{
+    first?: string | string[];
+    second?: string | string[];
+  }>;
+};
+
+function getSingleValue(
+  value: string | string[] | undefined
+) {
+  return Array.isArray(value)
+    ? value[0]
+    : value;
+}
+
+export default async function ComparePage({
+  searchParams,
+}: ComparePageProps) {
   const products = getAllProducts();
+  const params = await searchParams;
+
+  const firstSlug = getSingleValue(
+    params.first
+  );
+
+  const secondSlug = getSingleValue(
+    params.second
+  );
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
@@ -16,12 +42,17 @@ export default function ComparePage() {
         </h1>
 
         <p className="text-[var(--muted-foreground)]">
-          비교할 제품 두 개를 선택하면 제품 표시사항과
-          제조사 공개 정보를 같은 항목으로 확인할 수 있습니다.
+          비교할 제품 두 개를 선택하면 제품
+          표시사항과 제조사 공개 정보를 같은
+          항목으로 확인할 수 있습니다.
         </p>
       </header>
 
-      <ProductComparison products={products} />
+      <ProductComparison
+        products={products}
+        initialFirstSlug={firstSlug}
+        initialSecondSlug={secondSlug}
+      />
 
       <section className="mt-8 rounded-xl bg-gray-100 p-5 text-sm leading-6 dark:bg-gray-800">
         <h2 className="mb-2 font-bold">
@@ -29,17 +60,21 @@ export default function ComparePage() {
         </h2>
 
         <p>
-          보증성분의 ‘이상’, ‘이하’ 값과 제조사가 제시한
-          분석값은 의미가 다르므로 숫자만으로 단순한 우열을
-          판단할 수 없습니다. 수분 함량이 다른 제품은 건물
-          기준으로 다시 계산해야 정확하게 비교할 수 있습니다.
+          보증성분의 ‘이상’, ‘이하’ 값과
+          제조사가 제시한 분석값은 의미가
+          다르므로 숫자만으로 단순한 우열을
+          판단할 수 없습니다. 수분 함량이
+          다른 제품은 건물 기준으로 다시
+          계산해야 정확하게 비교할 수 있습니다.
         </p>
       </section>
 
       <p className="mt-6 text-xs leading-5 text-[var(--muted-foreground)]">
-        이 페이지는 제품 표시정보를 정리한 것이며 특정 질환의
-        치료 효과나 특정 제품의 적합성을 판단하지 않습니다.
-        처방식의 선택과 변경은 수의사와 상담하세요.
+        이 페이지는 제품 표시정보를 정리한
+        것이며 특정 질환의 치료 효과나 특정
+        제품의 적합성을 판단하지 않습니다.
+        처방식의 선택과 변경은 수의사와
+        상담하세요.
       </p>
     </main>
   );

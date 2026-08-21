@@ -10,6 +10,8 @@ import type {
 
 type ProductComparisonProps = {
   products: Product[];
+  initialFirstSlug?: string;
+  initialSecondSlug?: string;
 };
 
 type ComparisonRow = {
@@ -25,16 +27,23 @@ function formatNutrient(
     return "정보 없음";
   }
 
-  const basisNames: Record<NutrientBasis, string> = {
+  const basisNames: Record<
+    NutrientBasis,
+    string
+  > = {
     min: "이상",
     max: "이하",
     typical: "분석값",
   };
 
-  return `${value}%${basis ? ` ${basisNames[basis]}` : ""}`;
+  return `${value}%${
+    basis ? ` ${basisNames[basis]}` : ""
+  }`;
 }
 
-function formatLifeStage(product: Product) {
+function formatLifeStage(
+  product: Product
+) {
   const lifeStageNames = {
     kitten: "자묘",
     adult: "성묘",
@@ -43,7 +52,10 @@ function formatLifeStage(product: Product) {
   };
 
   return product.lifeStage
-    .map((stage) => lifeStageNames[stage])
+    .map(
+      (stage) =>
+        lifeStageNames[stage]
+    )
     .join(", ");
 }
 
@@ -61,12 +73,16 @@ const comparisonRows: ComparisonRow[] = [
   {
     label: "제품 구분",
     getValue: (product) =>
-      product.isVeterinaryDiet ? "처방식" : "일반식",
+      product.isVeterinaryDiet
+        ? "처방식"
+        : "일반식",
   },
   {
     label: "사료 형태",
     getValue: (product) =>
-      product.foodForm === "dry" ? "건식" : "습식",
+      product.foodForm === "dry"
+        ? "건식"
+        : "습식",
   },
   {
     label: "급여 연령",
@@ -121,12 +137,15 @@ const comparisonRows: ComparisonRow[] = [
   },
   {
     label: "정보 확인일",
-    getValue: (product) => product.checkedAt,
+    getValue: (product) =>
+      product.checkedAt,
   },
 ];
 
 export default function ProductComparison({
   products,
+  initialFirstSlug,
+  initialSecondSlug,
 }: ProductComparisonProps) {
   const farmina = products.find(
     (product) =>
@@ -136,29 +155,82 @@ export default function ProductComparison({
 
   const pureNature = products.find(
     (product) =>
-      product.slug === "pure-nature-cat-chicken"
+      product.slug ===
+      "pure-nature-cat-chicken"
   );
 
-  const [firstSlug, setFirstSlug] = useState(
-    farmina?.slug ?? products[0]?.slug ?? ""
-  );
+  const validInitialFirst =
+    products.some(
+      (product) =>
+        product.slug === initialFirstSlug
+    )
+      ? initialFirstSlug
+      : undefined;
 
-  const [secondSlug, setSecondSlug] = useState(
+  const validInitialSecond =
+    products.some(
+      (product) =>
+        product.slug ===
+        initialSecondSlug
+    )
+      ? initialSecondSlug
+      : undefined;
+
+  const defaultFirstSlug =
+    validInitialFirst ??
+    farmina?.slug ??
+    products[0]?.slug ??
+    "";
+
+  const fallbackSecond =
     pureNature?.slug ??
-      products[1]?.slug ??
-      products[0]?.slug ??
-      ""
-  );
+    products.find(
+      (product) =>
+        product.slug !==
+        defaultFirstSlug
+    )?.slug ??
+    "";
 
-  const firstProduct = products.find(
-    (product) => product.slug === firstSlug
-  );
+  const defaultSecondSlug =
+    validInitialSecond &&
+    validInitialSecond !==
+      defaultFirstSlug
+      ? validInitialSecond
+      : fallbackSecond ===
+          defaultFirstSlug
+        ? products.find(
+            (product) =>
+              product.slug !==
+              defaultFirstSlug
+          )?.slug ?? ""
+        : fallbackSecond;
 
-  const secondProduct = products.find(
-    (product) => product.slug === secondSlug
-  );
+  const [
+    firstSlug,
+    setFirstSlug,
+  ] = useState(defaultFirstSlug);
 
-  if (!firstProduct || !secondProduct) {
+  const [
+    secondSlug,
+    setSecondSlug,
+  ] = useState(defaultSecondSlug);
+
+  const firstProduct =
+    products.find(
+      (product) =>
+        product.slug === firstSlug
+    );
+
+  const secondProduct =
+    products.find(
+      (product) =>
+        product.slug === secondSlug
+    );
+
+  if (
+    !firstProduct ||
+    !secondProduct
+  ) {
     return (
       <p className="rounded-xl border border-[var(--border)] p-5">
         비교할 제품이 부족합니다.
@@ -177,19 +249,27 @@ export default function ProductComparison({
           <select
             value={firstSlug}
             onChange={(event) =>
-              setFirstSlug(event.target.value)
+              setFirstSlug(
+                event.target.value
+              )
             }
             className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-3 text-sm"
           >
-            {products.map((product) => (
-              <option
-                key={product.slug}
-                value={product.slug}
-                disabled={product.slug === secondSlug}
-              >
-                {product.brand} · {product.name}
-              </option>
-            ))}
+            {products.map(
+              (product) => (
+                <option
+                  key={product.slug}
+                  value={product.slug}
+                  disabled={
+                    product.slug ===
+                    secondSlug
+                  }
+                >
+                  {product.brand} ·{" "}
+                  {product.name}
+                </option>
+              )
+            )}
           </select>
         </label>
 
@@ -201,19 +281,27 @@ export default function ProductComparison({
           <select
             value={secondSlug}
             onChange={(event) =>
-              setSecondSlug(event.target.value)
+              setSecondSlug(
+                event.target.value
+              )
             }
             className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-3 text-sm"
           >
-            {products.map((product) => (
-              <option
-                key={product.slug}
-                value={product.slug}
-                disabled={product.slug === firstSlug}
-              >
-                {product.brand} · {product.name}
-              </option>
-            ))}
+            {products.map(
+              (product) => (
+                <option
+                  key={product.slug}
+                  value={product.slug}
+                  disabled={
+                    product.slug ===
+                    firstSlug
+                  }
+                >
+                  {product.brand} ·{" "}
+                  {product.name}
+                </option>
+              )
+            )}
           </select>
         </label>
       </section>
@@ -224,7 +312,10 @@ export default function ProductComparison({
             비교 항목
           </div>
 
-          {[firstProduct, secondProduct].map((product) => (
+          {[
+            firstProduct,
+            secondProduct,
+          ].map((product) => (
             <div
               key={product.slug}
               className="min-w-0 border-l border-[var(--border)] p-3 md:p-4"
@@ -253,11 +344,15 @@ export default function ProductComparison({
             </div>
 
             <div className="min-w-0 break-words border-l border-[var(--border)] p-3 leading-5 md:p-4">
-              {row.getValue(firstProduct)}
+              {row.getValue(
+                firstProduct
+              )}
             </div>
 
             <div className="min-w-0 break-words border-l border-[var(--border)] p-3 leading-5 md:p-4">
-              {row.getValue(secondProduct)}
+              {row.getValue(
+                secondProduct
+              )}
             </div>
           </div>
         ))}
