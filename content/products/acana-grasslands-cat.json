@@ -1,0 +1,257 @@
+{
+  "slug": "acana-grasslands-cat",
+  "name": "아카나 하이프로틴 그래스랜드 캣",
+  "brand": "아카나",
+  "image": "/images/products/acana-grasslands-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "전 연령용",
+    "전 묘종용"
+  ],
+  "mainProteins": [
+    "오리고기",
+    "닭고기",
+    "달걀",
+    "칠면조",
+    "흰살 생선",
+    "메추리"
+  ],
+  "ingredients": [
+    "신선한 오리고기(11%)",
+    "신선한 닭고기(11%)",
+    "신선한 계란(8%)",
+    "건조 닭고기(7%)",
+    "건조 칠면조(7%)",
+    "건조 흰살 생선(7%)",
+    "통강낭콩",
+    "통완두콩",
+    "신선한 칠면조(6%)",
+    "오리고기 지방(5%)",
+    "통적렌틸콩",
+    "통병아리콩",
+    "통녹렌틸콩",
+    "생 메추리(4%)",
+    "신선한 닭고기 내장(간, 심장)(2%)",
+    "명태유(2%)",
+    "신선한 칠면조 내장(간, 심장)(2%)",
+    "렌틸 섬유질",
+    "건조 오리고기(1%)",
+    "오리 간(1%)",
+    "오리 연골(0.5%)",
+    "냉동 건조 닭고기 및 칠면조 간(0.5%)",
+    "말린 해조류",
+    "신선한 통호박",
+    "신선한 통땅콩호박",
+    "신선한 케일",
+    "신선한 시금치",
+    "신선한 순무 그린",
+    "신선한 당근",
+    "신선한 사과",
+    "신선한 배",
+    "신선한 통크랜베리",
+    "통블루베리",
+    "치커리 뿌리",
+    "강황 뿌리",
+    "밀크시슬",
+    "우엉 뿌리",
+    "라벤더",
+    "마시멜로우 뿌리",
+    "로즈힙"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "오리고기",
+      "sourceText": "신선한 오리고기, 건조 오리고기",
+      "form": "fresh",
+      "specificity": "specific",
+      "aliases": [
+        "오리",
+        "오리고기",
+        "덕",
+        "신선한 오리고기",
+        "건조 오리고기",
+        "오리 간",
+        "오리 연골"
+      ]
+    },
+    {
+      "name": "오리고기 지방",
+      "sourceText": "오리고기 지방",
+      "form": "fat",
+      "specificity": "specific",
+      "aliases": [
+        "오리 지방",
+        "덕 지방",
+        "오리고기 지방"
+      ]
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "신선한 닭고기, 건조 닭고기",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "치킨",
+        "계육",
+        "신선한 닭고기",
+        "건조 닭고기",
+        "닭고기 내장",
+        "닭고기 간"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "건조 칠면조, 신선한 칠면조",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조고기",
+        "터키",
+        "건조 칠면조",
+        "신선한 칠면조",
+        "칠면조 내장",
+        "칠면조 간"
+      ]
+    },
+    {
+      "name": "메추리",
+      "sourceText": "생 메추리",
+      "form": "raw",
+      "specificity": "specific",
+      "aliases": [
+        "메추리고기",
+        "생 메추리",
+        "퀘일"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "신선한 계란",
+      "form": "fresh",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "신선한 계란"
+      ]
+    },
+    {
+      "name": "흰살 생선",
+      "sourceText": "건조 흰살 생선",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "흰살생선",
+        "건조 흰살 생선",
+        "건조 흰살생선"
+      ]
+    },
+    {
+      "name": "명태",
+      "sourceText": "명태유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "명태유",
+        "명태 오일",
+        "명태 기름"
+      ]
+    },
+    {
+      "name": "강낭콩",
+      "sourceText": "통강낭콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통강낭콩"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "통완두콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통완두콩"
+      ]
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "통적렌틸콩, 통녹렌틸콩, 렌틸 섬유질",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "렌즈콩",
+        "적렌틸콩",
+        "녹렌틸콩",
+        "통적렌틸콩",
+        "통녹렌틸콩",
+        "렌틸 섬유질"
+      ]
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "통병아리콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통병아리콩",
+        "이집트콩"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "치커리 뿌리",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "치커리 뿌리"
+      ]
+    },
+    {
+      "name": "해조류",
+      "sourceText": "말린 해조류",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "해조",
+        "말린 해조류"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 37,
+    "fat": 18,
+    "fiber": 3,
+    "ash": 9,
+    "moisture": 10,
+    "calcium": 1.9,
+    "phosphorus": 1.3,
+    "taurine": 0.1
+  },
+  "calories": 3930,
+  "sourceUrl": "https://apac.acana.com/ko-KR/ap-ns-aca-grasslands-new-cat.html",
+  "checkedAt": "2026-08-22",
+  "notes": "공식 페이지 기준 동물성 원료 75%를 사용한 전 묘종·전 연령용 건식 주식이며 처방식은 아닙니다. 오리고기, 닭고기, 칠면조, 메추리, 계란과 흰살 생선 및 명태유가 포함되어 있습니다. 흰살 생선의 정확한 어종은 공개되지 않았습니다. 곡류 원료는 표시되지 않았지만 강낭콩, 완두콩, 렌틸콩, 병아리콩이 포함되어 있습니다. 공식 페이지 내 급식 설명에는 열량이 3,850kcal/kg으로도 표시되지만, 성분 및 분석 영역의 3,930kcal/kg과 120g당 472kcal가 서로 계산상 일치하므로 3,930kcal/kg을 등록했습니다. 실제 국내 유통 제품 포장을 함께 확인하세요."
+}

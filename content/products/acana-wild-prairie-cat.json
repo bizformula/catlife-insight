@@ -1,0 +1,253 @@
+{
+  "slug": "acana-wild-prairie-cat",
+  "name": "아카나 하이프로틴 와일드 프레이리 캣",
+  "brand": "아카나",
+  "image": "/images/products/acana-wild-prairie-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "전 연령용",
+    "전 묘종용"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "칠면조",
+    "청어",
+    "달걀",
+    "민물고기",
+    "송어"
+  ],
+  "ingredients": [
+    "신선한 닭고기(11%)",
+    "생 칠면조(10%)",
+    "신선한 닭고기 내장(간, 심장)(9%)",
+    "닭고기(9%)",
+    "칠면조(8%)",
+    "청어(8%)",
+    "통강낭콩",
+    "통완두콩",
+    "닭고기 지방(5%)",
+    "통적렌틸콩",
+    "통병아리콩",
+    "통녹렌틸콩",
+    "신선한 계란(4%)",
+    "생 민물고기(4%)",
+    "생 송어(4%)",
+    "생 칠면조 간(2%)",
+    "렌틸 섬유질",
+    "피쉬 오일(1%)",
+    "말린 해조류",
+    "신선한 통호박",
+    "신선한 통땅콩호박",
+    "신선한 통당근",
+    "신선한 통사과",
+    "신선한 통배",
+    "신선한 통주키니",
+    "말린 치커리 뿌리",
+    "신선한 케일",
+    "신선한 시금치",
+    "신선한 순무 그린",
+    "신선한 비트 그린",
+    "통크랜베리",
+    "통블루베리",
+    "통새스커툰 베리",
+    "강황 뿌리",
+    "밀크시슬",
+    "우엉 뿌리",
+    "라벤더",
+    "마시멜로우 뿌리",
+    "로즈힙"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "신선한 닭고기, 닭고기",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "치킨",
+        "계육",
+        "신선한 닭고기",
+        "닭고기 내장",
+        "닭고기 간"
+      ]
+    },
+    {
+      "name": "닭고기 지방",
+      "sourceText": "닭고기 지방",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭 지방",
+        "계지방",
+        "치킨 지방"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "생 칠면조, 칠면조",
+      "form": "raw",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조고기",
+        "칠면조 간",
+        "생 칠면조",
+        "터키"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "청어",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어"
+      ]
+    },
+    {
+      "name": "민물고기",
+      "sourceText": "생 민물고기",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "민물 생선",
+        "민물생선",
+        "생 민물고기"
+      ]
+    },
+    {
+      "name": "송어",
+      "sourceText": "생 송어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "생송어",
+        "생 송어",
+        "트라우트"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "피쉬 오일",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "피쉬오일",
+        "피쉬 오일",
+        "생선 오일",
+        "생선 기름",
+        "어유"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "신선한 계란",
+      "form": "fresh",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "신선한 계란"
+      ]
+    },
+    {
+      "name": "강낭콩",
+      "sourceText": "통강낭콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통강낭콩"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "통완두콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통완두콩"
+      ]
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "통적렌틸콩, 통녹렌틸콩, 렌틸 섬유질",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "렌즈콩",
+        "적렌틸콩",
+        "녹렌틸콩",
+        "통적렌틸콩",
+        "통녹렌틸콩",
+        "렌틸 섬유질"
+      ]
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "통병아리콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통병아리콩",
+        "이집트콩"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "말린 치커리 뿌리",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "치커리 뿌리",
+        "말린 치커리 뿌리"
+      ]
+    },
+    {
+      "name": "해조류",
+      "sourceText": "말린 해조류",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "해조",
+        "말린 해조류"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 37,
+    "fat": 18,
+    "fiber": 3,
+    "ash": 9,
+    "moisture": 10,
+    "calcium": 1.6,
+    "phosphorus": 1.2,
+    "taurine": 0.1
+  },
+  "calories": 3930,
+  "sourceUrl": "https://apac.acana.com/ko-KR/ap-ns-aca-wild-prairie-new-cat.html",
+  "checkedAt": "2026-08-22",
+  "notes": "공식 페이지 기준 동물성 원료 75%를 사용한 전 묘종·전 연령용 건식 주식이며 처방식은 아닙니다. 닭고기, 칠면조, 청어, 민물고기, 송어와 계란이 포함되어 있습니다. 피쉬 오일은 어종이 공개되지 않았습니다. 곡류 원료는 표시되지 않았지만 강낭콩, 완두콩, 렌틸콩, 병아리콩이 포함되어 있습니다. 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장을 함께 확인하세요."
+}

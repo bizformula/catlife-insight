@@ -1,0 +1,258 @@
+{
+  "slug": "orijen-kitten",
+  "name": "오리젠 키튼",
+  "brand": "오리젠",
+  "image": "/images/products/orijen-kitten.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "자묘 성장기용",
+    "전 품종 자묘용"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "칠면조",
+    "연어",
+    "청어",
+    "고등어",
+    "달걀"
+  ],
+  "ingredients": [
+    "신선한 닭고기(31%)",
+    "생 칠면조(8%)",
+    "생 연어(6%)",
+    "생 통청어(5%)",
+    "신선한 닭고기 내장(간, 심장)(4.5%)",
+    "생 칠면조 간(4%)",
+    "생 통고등어(4%)",
+    "신선한 계란(4%)",
+    "건조 닭고기(4%)",
+    "건조 칠면조(4%)",
+    "건조 청어(4%)",
+    "건조 닭고기 간(4%)",
+    "건조 계란(4%)",
+    "통적렌틸콩",
+    "통완두콩",
+    "명태유(3%)",
+    "통병아리콩",
+    "통녹렌틸콩",
+    "통강낭콩",
+    "통흰강낭콩",
+    "완두콩녹말",
+    "간억새풀",
+    "닭고기 지방(0.5%)",
+    "신선한 통호박",
+    "신선한 통땅콩호박",
+    "말린 해조류",
+    "말린 치커리 뿌리",
+    "신선한 통사과",
+    "신선한 통당근",
+    "신선한 통배",
+    "신선한 통주키니",
+    "신선한 비트 그린",
+    "신선한 케일",
+    "신선한 시금치",
+    "신선한 순무 그린",
+    "통블루베리",
+    "통크랜베리",
+    "통새스커툰 베리",
+    "우엉 뿌리",
+    "라벤더",
+    "마시멜로우 뿌리",
+    "밀크시슬",
+    "로즈힙",
+    "강황"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "신선한 닭고기",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "치킨",
+        "계육",
+        "건조 닭고기",
+        "닭고기 내장",
+        "닭고기 간"
+      ]
+    },
+    {
+      "name": "닭고기 지방",
+      "sourceText": "닭고기 지방",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭 지방",
+        "계지방",
+        "치킨 지방"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "생 칠면조",
+      "form": "raw",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조고기",
+        "건조 칠면조",
+        "칠면조 간",
+        "터키"
+      ]
+    },
+    {
+      "name": "연어",
+      "sourceText": "생 연어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "생연어",
+        "살몬"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "생 통청어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통청어",
+        "건조 청어"
+      ]
+    },
+    {
+      "name": "고등어",
+      "sourceText": "생 통고등어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통고등어"
+      ]
+    },
+    {
+      "name": "명태",
+      "sourceText": "명태유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "명태유",
+        "명태 오일",
+        "명태 기름"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "신선한 계란",
+      "form": "fresh",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "신선한 계란",
+        "건조 계란"
+      ]
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "통적렌틸콩, 통녹렌틸콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "적렌틸콩",
+        "녹렌틸콩",
+        "통적렌틸콩",
+        "통녹렌틸콩",
+        "렌즈콩"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "통완두콩, 완두콩녹말",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통완두콩",
+        "완두콩녹말",
+        "완두콩 전분"
+      ]
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "통병아리콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통병아리콩",
+        "이집트콩"
+      ]
+    },
+    {
+      "name": "강낭콩",
+      "sourceText": "통강낭콩, 통흰강낭콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통강낭콩",
+        "흰강낭콩",
+        "통흰강낭콩"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "말린 치커리 뿌리",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "치커리 뿌리",
+        "말린 치커리 뿌리"
+      ]
+    },
+    {
+      "name": "해조류",
+      "sourceText": "말린 해조류",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "해조",
+        "말린 해조류"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 40,
+    "fat": 20,
+    "fiber": 3,
+    "ash": 9,
+    "moisture": 10,
+    "calcium": 1.3,
+    "phosphorus": 1,
+    "taurine": 0.2
+  },
+  "calories": 4120,
+  "sourceUrl": "https://apac.orijenpetfoods.com/ko-KR/ap-ori-ns-kitten.html",
+  "checkedAt": "2026-08-22",
+  "notes": "공식 페이지 기준 동물성 원료 90%를 사용한 자묘용 건식 주식입니다. 닭고기, 칠면조, 생선 및 계란이 포함되어 있습니다. 곡류 원료는 표시되지 않았지만 렌틸콩, 완두콩, 병아리콩, 강낭콩 등 여러 콩류가 포함되어 있습니다. 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 포장을 함께 확인하세요."
+}

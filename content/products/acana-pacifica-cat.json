@@ -1,0 +1,222 @@
+{
+  "slug": "acana-pacifica-cat",
+  "name": "아카나 하이프로틴 패시피카 캣",
+  "brand": "아카나",
+  "image": "/images/products/acana-pacifica-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "전 연령용",
+    "전 묘종용",
+    "생선 단백질 중심 식단"
+  ],
+  "mainProteins": [
+    "청어",
+    "고등어",
+    "대구류",
+    "청보리멸",
+    "우럭"
+  ],
+  "ingredients": [
+    "생 통청어(16%)",
+    "생 통고등어(12%)",
+    "생 대구류(9%)",
+    "청어(8%)",
+    "청보리멸(8%)",
+    "고등어(8%)",
+    "통강낭콩",
+    "통완두콩",
+    "생 대구류(5%)",
+    "피쉬 오일(5%)",
+    "통적렌틸콩",
+    "통병아리콩",
+    "통녹렌틸콩",
+    "생 우럭(4%)",
+    "해바라기유",
+    "렌틸 섬유질",
+    "말린 해조류",
+    "신선한 통호박",
+    "신선한 통땅콩호박",
+    "신선한 통당근",
+    "신선한 통사과",
+    "신선한 통배",
+    "신선한 통주키니",
+    "건조 치커리 뿌리",
+    "신선한 케일",
+    "신선한 시금치",
+    "신선한 순무 그린",
+    "신선한 비트 그린",
+    "통크랜베리",
+    "통블루베리",
+    "통새스커툰 베리",
+    "강황 뿌리",
+    "밀크시슬",
+    "우엉 뿌리",
+    "라벤더",
+    "마시멜로우 뿌리",
+    "로즈힙"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "청어",
+      "sourceText": "생 통청어, 청어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통청어",
+        "생 통청어"
+      ]
+    },
+    {
+      "name": "고등어",
+      "sourceText": "생 통고등어, 고등어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통고등어",
+        "생 통고등어"
+      ]
+    },
+    {
+      "name": "대구류",
+      "sourceText": "생 대구류",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "대구",
+        "대구류",
+        "생 대구류"
+      ]
+    },
+    {
+      "name": "청보리멸",
+      "sourceText": "청보리멸",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "보리멸",
+        "청보리멸"
+      ]
+    },
+    {
+      "name": "우럭",
+      "sourceText": "생 우럭",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "생우럭",
+        "생 우럭"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "피쉬 오일",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "피쉬오일",
+        "피쉬 오일",
+        "생선 오일",
+        "생선 기름",
+        "어유"
+      ]
+    },
+    {
+      "name": "강낭콩",
+      "sourceText": "통강낭콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통강낭콩"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "통완두콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통완두콩"
+      ]
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "통적렌틸콩, 통녹렌틸콩, 렌틸 섬유질",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "렌즈콩",
+        "적렌틸콩",
+        "녹렌틸콩",
+        "통적렌틸콩",
+        "통녹렌틸콩",
+        "렌틸 섬유질"
+      ]
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "통병아리콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통병아리콩",
+        "이집트콩"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "건조 치커리 뿌리",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "치커리 뿌리",
+        "건조 치커리 뿌리"
+      ]
+    },
+    {
+      "name": "해조류",
+      "sourceText": "말린 해조류",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "해조",
+        "말린 해조류"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 37,
+    "fat": 18,
+    "fiber": 3,
+    "ash": 9,
+    "moisture": 10,
+    "calcium": 1.4,
+    "phosphorus": 1.1,
+    "taurine": 0.1
+  },
+  "calories": 3930,
+  "sourceUrl": "https://apac.acana.com/ko-KR/ap-ns-aca-pacifica-new-cat.html",
+  "checkedAt": "2026-08-22",
+  "notes": "공식 페이지 기준 생선 원료 75%를 사용한 전 묘종·전 연령용 건식 주식이며 처방식은 아닙니다. 청어, 고등어, 대구류, 청보리멸, 우럭과 어종이 특정되지 않은 피쉬 오일이 포함되어 있습니다. 닭고기, 소고기, 돼지고기, 유제품, 계란 및 곡류 원료는 표시되지 않았습니다. 다만 강낭콩, 완두콩, 렌틸콩, 병아리콩이 포함되어 있습니다. 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장을 함께 확인하세요."
+}

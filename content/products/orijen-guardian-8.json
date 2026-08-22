@@ -1,0 +1,293 @@
+{
+  "slug": "orijen-guardian-8",
+  "name": "오리젠 가디언 8",
+  "brand": "오리젠",
+  "image": "/images/products/orijen-guardian-8.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "전 묘종용"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "연어",
+    "칠면조",
+    "청어",
+    "고등어",
+    "달걀",
+    "토끼고기"
+  ],
+  "ingredients": [
+    "신선한 닭고기(32%)",
+    "생 연어(5%)",
+    "생 칠면조(5%)",
+    "생 통청어(5%)",
+    "생 통고등어(5%)",
+    "신선한 닭고기 내장(간, 심장)(4.5%)",
+    "생 칠면조 간(4%)",
+    "신선한 계란(4%)",
+    "건조 닭고기(4%)",
+    "건조 칠면조(4%)",
+    "건조 청어(4%)",
+    "건조 닭고기 간(4%)",
+    "건조 계란(4%)",
+    "생 토끼(4%)",
+    "통적렌틸콩",
+    "통강낭콩",
+    "통녹렌틸콩",
+    "통병아리콩",
+    "통흰강낭콩",
+    "통완두콩",
+    "완두콩녹말",
+    "억새풀",
+    "명태유(1%)",
+    "닭고기 지방(0.5%)",
+    "신선한 통호박",
+    "신선한 통땅콩호박",
+    "말린 해조류",
+    "말린 치커리 뿌리",
+    "신선한 통사과",
+    "신선한 통당근",
+    "신선한 통배",
+    "신선한 통주키니",
+    "맥주 건조 효모",
+    "가수분해 효모",
+    "신선한 비트 그린",
+    "신선한 케일",
+    "신선한 시금치",
+    "신선한 순무 그린",
+    "통크랜베리",
+    "통블루베리",
+    "통새스커툰 베리",
+    "우엉 뿌리",
+    "라벤더",
+    "마시멜로우 뿌리",
+    "밀크시슬",
+    "로즈힙",
+    "강황"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "신선한 닭고기",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "치킨",
+        "계육",
+        "건조 닭고기",
+        "닭고기 내장",
+        "닭고기 간"
+      ]
+    },
+    {
+      "name": "닭고기 지방",
+      "sourceText": "닭고기 지방",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭 지방",
+        "계지방",
+        "치킨 지방"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "생 칠면조",
+      "form": "raw",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조고기",
+        "건조 칠면조",
+        "칠면조 간",
+        "터키"
+      ]
+    },
+    {
+      "name": "연어",
+      "sourceText": "생 연어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "생연어",
+        "살몬"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "생 통청어, 건조 청어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통청어",
+        "생 통청어",
+        "건조 청어"
+      ]
+    },
+    {
+      "name": "고등어",
+      "sourceText": "생 통고등어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통고등어",
+        "생 통고등어"
+      ]
+    },
+    {
+      "name": "명태",
+      "sourceText": "명태유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "명태유",
+        "명태 오일",
+        "명태 기름"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "신선한 계란, 건조 계란",
+      "form": "fresh",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "신선한 계란",
+        "건조 계란"
+      ]
+    },
+    {
+      "name": "토끼고기",
+      "sourceText": "생 토끼",
+      "form": "raw",
+      "specificity": "specific",
+      "aliases": [
+        "토끼",
+        "생 토끼",
+        "래빗"
+      ]
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "통적렌틸콩, 통녹렌틸콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "렌즈콩",
+        "적렌틸콩",
+        "녹렌틸콩",
+        "통적렌틸콩",
+        "통녹렌틸콩"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "통완두콩, 완두콩녹말",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통완두콩",
+        "완두콩녹말",
+        "완두콩 전분"
+      ]
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "통병아리콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통병아리콩",
+        "이집트콩"
+      ]
+    },
+    {
+      "name": "강낭콩",
+      "sourceText": "통강낭콩, 통흰강낭콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통강낭콩",
+        "흰강낭콩",
+        "통흰강낭콩"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "말린 치커리 뿌리",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "치커리 뿌리",
+        "말린 치커리 뿌리"
+      ]
+    },
+    {
+      "name": "효모",
+      "sourceText": "맥주 건조 효모, 가수분해 효모",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "맥주 효모",
+        "맥주효모",
+        "맥주 건조 효모",
+        "가수분해 효모",
+        "효모"
+      ]
+    },
+    {
+      "name": "해조류",
+      "sourceText": "말린 해조류",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "해조",
+        "말린 해조류"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 40,
+    "fat": 18,
+    "fiber": 4,
+    "ash": 9,
+    "moisture": 10,
+    "calcium": 1.4,
+    "phosphorus": 1.1,
+    "taurine": 0.1
+  },
+  "analysisBasis": {
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3980,
+  "sourceUrl": "https://apac.orijenpetfoods.com/ko-KR/ap-ori-ns-guardian-8.html",
+  "checkedAt": "2026-08-22",
+  "notes": "공식 페이지 기준 전 묘종 성묘용 건식 주식이며 처방식은 아닙니다. 제조사는 면역, 소화, 피부와 털, 심장, 근육, 관절, 인지 및 눈 건강 지원을 설명하지만 특정 질환의 예방이나 치료 효과를 의미하지 않습니다. 닭고기, 칠면조, 생선, 계란과 토끼고기가 포함되어 있으며, 곡류 원료는 표시되지 않았지만 여러 콩류와 효모가 포함되어 있습니다. 실제 국내 유통 제품 포장을 함께 확인하세요."
+}

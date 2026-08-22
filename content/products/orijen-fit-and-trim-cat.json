@@ -1,0 +1,313 @@
+{
+  "slug": "orijen-fit-and-trim-cat",
+  "name": "오리젠 피트 앤 트림 캣",
+  "brand": "오리젠",
+  "image": "/images/products/orijen-fit-and-trim-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "전 묘종용",
+    "건강한 체중 유지 지원"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "칠면조",
+    "청어",
+    "대구류",
+    "고등어",
+    "정어리",
+    "흰살 생선",
+    "청보리멸",
+    "달걀"
+  ],
+  "ingredients": [
+    "신선한 닭고기(20%)",
+    "신선한 닭고기 내장(간, 심장)(11%)",
+    "생 통청어(8%)",
+    "생 칠면조(6%)",
+    "생 통대구류(5%)",
+    "신선한 계란(5%)",
+    "생 통고등어(4%)",
+    "건조 닭고기(4%)",
+    "건조 칠면조(4%)",
+    "건조 고등어(4%)",
+    "건조 정어리(3%)",
+    "건조 청어(3%)",
+    "건조 흰살 생선(3%)",
+    "생 칠면조 간(3%)",
+    "렌틸 섬유질",
+    "통적렌틸콩",
+    "통녹렌틸콩",
+    "통완두콩",
+    "통병아리콩",
+    "통강낭콩",
+    "완두콩녹말",
+    "통흰강낭콩",
+    "건조 청보리멸(1%)",
+    "닭고기 지방(1%)",
+    "사과 섬유질",
+    "말린 해조류",
+    "조류(DHA 원천)",
+    "신선한 통호박",
+    "신선한 통땅콩호박",
+    "신선한 통주키니",
+    "신선한 통당근",
+    "신선한 통사과",
+    "신선한 통배",
+    "말린 치커리 뿌리",
+    "신선한 케일",
+    "신선한 시금치",
+    "신선한 비트 그린",
+    "신선한 순무 그린",
+    "통크랜베리",
+    "통블루베리",
+    "통새스커툰 베리",
+    "강황",
+    "밀크시슬",
+    "우엉 뿌리",
+    "라벤더",
+    "마시멜로우 뿌리",
+    "로즈힙"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "신선한 닭고기",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "치킨",
+        "계육",
+        "건조 닭고기",
+        "닭고기 내장",
+        "닭고기 간"
+      ]
+    },
+    {
+      "name": "닭고기 지방",
+      "sourceText": "닭고기 지방",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭 지방",
+        "계지방",
+        "치킨 지방"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "생 칠면조",
+      "form": "raw",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조고기",
+        "건조 칠면조",
+        "칠면조 간",
+        "터키"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "생 통청어, 건조 청어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통청어",
+        "생 통청어",
+        "건조 청어"
+      ]
+    },
+    {
+      "name": "대구류",
+      "sourceText": "생 통대구류",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "대구",
+        "대구류",
+        "통대구류",
+        "생 통대구류"
+      ]
+    },
+    {
+      "name": "고등어",
+      "sourceText": "생 통고등어, 건조 고등어",
+      "form": "raw",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "통고등어",
+        "생 통고등어",
+        "건조 고등어"
+      ]
+    },
+    {
+      "name": "정어리",
+      "sourceText": "건조 정어리",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "건조 정어리"
+      ]
+    },
+    {
+      "name": "흰살 생선",
+      "sourceText": "건조 흰살 생선",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "흰살생선",
+        "건조 흰살 생선",
+        "건조 흰살생선"
+      ]
+    },
+    {
+      "name": "청보리멸",
+      "sourceText": "건조 청보리멸",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "보리멸",
+        "건조 청보리멸"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "신선한 계란",
+      "form": "fresh",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "신선한 계란"
+      ]
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "렌틸 섬유질, 통적렌틸콩, 통녹렌틸콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "렌즈콩",
+        "렌틸 섬유질",
+        "적렌틸콩",
+        "녹렌틸콩",
+        "통적렌틸콩",
+        "통녹렌틸콩"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "통완두콩, 완두콩녹말",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통완두콩",
+        "완두콩녹말",
+        "완두콩 전분"
+      ]
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "통병아리콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통병아리콩",
+        "이집트콩"
+      ]
+    },
+    {
+      "name": "강낭콩",
+      "sourceText": "통강낭콩, 통흰강낭콩",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "통강낭콩",
+        "흰강낭콩",
+        "통흰강낭콩"
+      ]
+    },
+    {
+      "name": "사과",
+      "sourceText": "사과 섬유질, 신선한 통사과",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "사과 섬유질",
+        "통사과",
+        "신선한 통사과"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "말린 치커리 뿌리",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "치커리 뿌리",
+        "말린 치커리 뿌리"
+      ]
+    },
+    {
+      "name": "해조류",
+      "sourceText": "말린 해조류",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "해조",
+        "말린 해조류"
+      ]
+    },
+    {
+      "name": "조류",
+      "sourceText": "조류(DHA 원천)",
+      "form": "supplement",
+      "specificity": "group-only",
+      "aliases": [
+        "조류",
+        "미세조류",
+        "조류 DHA"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 42,
+    "fat": 15,
+    "fiber": 6,
+    "ash": 10,
+    "moisture": 10,
+    "calcium": 1.4,
+    "phosphorus": 1.1,
+    "taurine": 0.2
+  },
+  "calories": 3710,
+  "sourceUrl": "https://apac.orijenpetfoods.com/ko-KR/ap-ori-ns-fittrim-cat.html",
+  "checkedAt": "2026-08-22",
+  "notes": "공식 페이지 기준 전 묘종 성묘용 건식 주식이며 처방식은 아닙니다. 제조사는 오리젠 오리지널 캣보다 열량이 약 10% 낮고 천연 L-카르니틴을 포함해 건강한 체중 유지에 도움을 주도록 설계했다고 설명합니다. 닭고기, 칠면조, 여러 생선과 계란이 포함되어 있습니다. 곡류 원료는 표시되지 않았지만 렌틸콩, 완두콩, 병아리콩, 강낭콩이 포함되어 있습니다. 체중 감량이나 질환 관리를 위한 급여는 수의사와 상담하고 실제 국내 유통 제품 포장을 함께 확인하세요."
+}
