@@ -46,6 +46,7 @@ Catlife Insight는 고양이 사료 및 관련 제품의 공개된 원재료와 
 npm run dev
 npm run validate:products
 npm run build
+```
 
 ## 4. 주요 디렉터리
 
