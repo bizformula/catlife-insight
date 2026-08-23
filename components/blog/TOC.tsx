@@ -1,6 +1,5 @@
 "use client";
 
-// TOC that highlights active H2/H3 headings on scroll.
 import { useEffect, useState } from "react";
 import type { TocItem } from "@/types/post";
 
@@ -8,43 +7,35 @@ type TOCProps = {
   items: TocItem[];
 };
 
-export default function TOC({
-  items,
-}: TOCProps) {
-  const [activeId, setActiveId] =
-    useState<string>("");
+export default function TOC({ items }: TOCProps) {
+  const [activeId, setActiveId] = useState<string>("");
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort(
-            (a, b) =>
-              a.boundingClientRect.top -
-              b.boundingClientRect.top
-          );
+    const updateFromHash = () => {
+      const hashId = decodeURIComponent(
+        window.location.hash.replace("#", "")
+      );
 
-        if (visible[0]) {
-          setActiveId(visible[0].target.id);
-        }
-      },
-      {
-        rootMargin: "-90px 0px -70% 0px",
-        threshold: [0, 1],
-      }
+      const exists = items.some(
+        (item) => item.id === hashId
+      );
+
+      setActiveId(exists ? hashId : "");
+    };
+
+    updateFromHash();
+
+    window.addEventListener(
+      "hashchange",
+      updateFromHash
     );
 
-    items.forEach((item) => {
-      const heading =
-        document.getElementById(item.id);
-
-      if (heading) {
-        observer.observe(heading);
-      }
-    });
-
-    return () => observer.disconnect();
+    return () => {
+      window.removeEventListener(
+        "hashchange",
+        updateFromHash
+      );
+    };
   }, [items]);
 
   return (
@@ -65,8 +56,8 @@ export default function TOC({
               href={`#${item.id}`}
               className={
                 activeId === item.id
-                  ? "font-semibold text-[var(--point)]"
-                  : ""
+                  ? "font-bold text-[var(--point)]"
+                  : "font-normal"
               }
             >
               {item.text}
