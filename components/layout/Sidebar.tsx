@@ -34,7 +34,7 @@ export default function Sidebar({
 
       <section className="rounded-md border border-[var(--border)] p-4">
         <h3 className="mb-2 font-semibold">
-          캣라이프 인사이트 소개
+          Catlife Insight 소개
         </h3>
 
         <p className="mb-4 text-sm leading-6">

@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-[var(--border)] bg-[#f9fafb] py-10 text-center text-sm dark:bg-[#111827]">
       <div className="flex flex-col items-center gap-3">
-        <p className="font-bold text-[var(--point)]">캣라이프 인사이트</p>
+        <p className="font-bold text-[var(--point)]">Catlife Insight</p>
         <p>고양이의 먹거리부터 생활용품까지, 더 나은 선택을 위한 정보</p>
         <nav className="flex flex-wrap items-center justify-center gap-x-2">
           {footerLinks.map((link, index) => (

@@ -12,7 +12,7 @@ export default function Header() {
           href="/"
           className="text-[20px] font-bold !text-[#2563EB]"
         >
-          캣라이프 인사이트
+          Catlife Insight
         </Link>
 
         <HeaderNavigation categories={categories} />

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "소개 | 캣라이프 인사이트",
+  title: "소개 | Catlife Insight",
   description:
-    "캣라이프 인사이트를 시작한 이유와 제품 정보를 정리하는 원칙을 소개합니다.",
+    "Catlife Insight를 시작한 이유와 제품 정보를 정리하는 원칙을 소개합니다.",
 };
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
         </p>
 
         <h1 className="mb-4 text-3xl font-bold">
-          캣라이프 인사이트 소개
+          Catlife Insight 소개
         </h1>
 
         <p className="text-lg leading-8 text-[var(--foreground)]">
@@ -53,7 +53,7 @@ export default function AboutPage() {
           <p>
             이 과정에서 겪은 불편을 줄이고, 다른 보호자도 제품
             표시사항을 조금 더 쉽게 확인할 수 있도록
-            캣라이프 인사이트를 만들었습니다.
+            Catlife Insight를 만들었습니다.
           </p>
         </div>
       </section>
@@ -152,4 +152,4 @@ export default function AboutPage() {
       </div>
     </main>
   );
-}
+}ㅞㅡ

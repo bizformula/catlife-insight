@@ -705,7 +705,7 @@ function validateProducts() {
 }
 
 console.log(
-  "캣라이프 인사이트 데이터 검증을 시작합니다."
+  "Catlife Insight 데이터 검증을 시작합니다."
 );
 
 validateDictionary();

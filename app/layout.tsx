@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "캣라이프 인사이트",
-    template: "%s | 캣라이프 인사이트",
+    default: "Catlife Insight",
+    template: "%s | Catlife Insight",
   },
   description: "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳",
 };

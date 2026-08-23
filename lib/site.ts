@@ -1,4 +1,4 @@
-export const SITE_NAME = "캣라이프 인사이트";
+export const SITE_NAME = "Catlife Insight";
 
 export const SITE_DESCRIPTION =
   "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳";

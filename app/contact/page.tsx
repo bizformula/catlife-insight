@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 const CONTACT_EMAIL = "contact@happy-insight.com";
 
 export const metadata: Metadata = {
-  title: "문의 | 캣라이프 인사이트",
+  title: "문의 | Catlife Insight",
   description:
-    "캣라이프 인사이트의 제품 정보 수정 및 서비스 관련 문의 안내입니다.",
+    "Catlife Insight의 제품 정보 수정 및 서비스 관련 문의 안내입니다.",
 };
 
 export default function ContactPage() {
   const subject = encodeURIComponent(
-    "[캣라이프 인사이트] 문의"
+    "[Catlife Insight] 문의"
   );
 
   return (

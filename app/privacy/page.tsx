@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "개인정보처리방침 | 캣라이프 인사이트",
+  title: "개인정보처리방침 | Catlife Insight",
   description:
-    "캣라이프 인사이트의 개인정보 처리 및 서비스 이용 기록에 관한 안내입니다.",
+    "Catlife Insight의 개인정보 처리 및 서비스 이용 기록에 관한 안내입니다.",
 };
 
 export default function PrivacyPage() {
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
         </h1>
 
         <p className="leading-7">
-          캣라이프 인사이트는 이용자의 개인정보를 중요하게
+          Catlife Insight는 이용자의 개인정보를 중요하게
           생각하며, 현재 제공하는 기능과 실제 운영 방식에 맞춰
           다음과 같이 안내합니다.
         </p>
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
       <div className="space-y-8">
         <PolicySection title="1. 현재 제공하는 서비스">
           <p>
-            현재 캣라이프 인사이트는 회원가입, 로그인, 댓글,
+            현재 Catlife Insight는 회원가입, 로그인, 댓글,
             제품 구매 및 검사 결과 업로드 기능을 제공하지
             않습니다.
           </p>
@@ -113,7 +113,7 @@ export default function PrivacyPage() {
 
         <PolicySection title="7. 건강 및 검사 정보">
           <p>
-            캣라이프 인사이트는 이용자의 반려동물 검사 결과나
+            Catlife Insight는 이용자의 반려동물 검사 결과나
             진료기록을 업로드받아 저장하는 기능을 현재 제공하지
             않습니다.
           </p>

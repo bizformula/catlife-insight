@@ -198,7 +198,7 @@ const groupGuides: GroupGuide[] = [
       "아마란스",
     ],
     cautions:
-      "제품이나 자료에 따라 곡물로 통칭되기도 하지만, 캣라이프 인사이트에서는 곡물과 구분합니다.",
+      "제품이나 자료에 따라 곡물로 통칭되기도 하지만, Catlife Insight에서는 곡물과 구분합니다.",
   },
   {
     group: "starch",
@@ -264,7 +264,7 @@ export default function IngredientStandardsPage() {
         </h1>
 
         <p className="max-w-3xl leading-7 text-[var(--muted-foreground)]">
-          캣라이프 인사이트가 제품의 표시 원재료를 분류하고
+          Catlife Insight가 제품의 표시 원재료를 분류하고
           사료 찾기 결과에 반영하는 기준입니다.
         </p>
       </header>

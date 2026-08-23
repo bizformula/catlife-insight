@@ -9,7 +9,7 @@ export default function Home() {
     <div className="space-y-14">
       <section className="rounded-2xl border border-[var(--border)] bg-[var(--muted)] px-6 pb-10 pt-6 sm:px-10 sm:pb-12 sm:pt-8">
         <p className="mb-3 text-sm font-semibold text-[#2563EB]">
-          캣라이프 인사이트
+          Catlife Insight
         </p>
 
         <h1 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl">
