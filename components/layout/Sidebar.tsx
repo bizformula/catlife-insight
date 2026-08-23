@@ -9,6 +9,7 @@ import AdPlaceholder from "@/components/blog/AdPlaceholder";
 
 type SidebarProps = {
   showTopAd?: boolean;
+  topAdDesktopOnly?: boolean;
 };
 
 const recommendedSlugs = [
@@ -19,7 +20,9 @@ const recommendedSlugs = [
 
 export default function Sidebar({
   showTopAd = true,
+  topAdDesktopOnly = false,
 }: SidebarProps) {
+
   const categories = getCategories().filter(
     (category) => category !== "ingredients"
   );
@@ -38,9 +41,14 @@ export default function Sidebar({
 
   return (
     <aside className="space-y-6">
-      {showTopAd && (
-        <AdPlaceholder position="사이드바 상단" />
-      )}
+      {showTopAd &&
+  (topAdDesktopOnly ? (
+    <div className="hidden lg:block">
+      <AdPlaceholder position="사이드바 상단" />
+    </div>
+  ) : (
+    <AdPlaceholder position="사이드바 상단" />
+  ))}
 
       {recommendedPosts.length > 0 && (
         <section className="rounded-md border border-[var(--border)] p-4">

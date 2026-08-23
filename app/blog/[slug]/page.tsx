@@ -199,7 +199,7 @@ export default async function BlogPostPage({
           </div>
         )}
 
-        <Sidebar />
+        <Sidebar topAdDesktopOnly />
 
         <div className="hidden lg:sticky lg:top-20 lg:block lg:self-start">
           <AdPlaceholder position="사이드바 고정 광고" />
