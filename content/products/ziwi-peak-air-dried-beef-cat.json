@@ -1,13 +1,25 @@
 {
   "slug": "ziwi-peak-air-dried-beef-cat",
   "name": "지위픽 에어드라이 소고기 캣",
-  "brand": "ZIWI",
-   "image": "/images/products/ziwi-peak-beef.jpg",
+  "brand": "지위픽",
+  "summary": "소고기와 소 내장을 주원료로 사용하고 초록입홍합을 더한 전연령 에어드라이 사료입니다.",
+  "image": "/images/products/ziwi-peak-beef.jpg",
   "productType": "food",
   "foodForm": "dry",
   "purpose": "complete",
-  "lifeStage": ["all"],
-  "mainProteins": ["소고기"],
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "전 묘종용",
+    "전 연령용",
+    "완전 영양식",
+    "단독 급여 또는 토퍼로 급여"
+  ],
+  "mainProteins": [
+    "소고기"
+  ],
   "ingredients": [
     "소고기",
     "소 위",
@@ -22,167 +34,127 @@
     "레시틴",
     "치커리 이눌린",
     "사과박",
-    "미네랄",
+    "미네랄(제이인산칼륨, 황산마그네슘, 아연아미노산, 철아미노산, 구리아미노산, 망간아미노산, 아셀렌산나트륨)",
     "해조분",
     "정제염",
     "DL-메티오닌",
     "구연산",
     "혼합토코페롤",
-    "비타민합제",
+    "비타민합제(염화콜린, 비타민B1, 비타민B6, 엽산, 비타민D3)",
     "타우린"
   ],
-    "ingredientDetails": [
+  "ingredientDetails": [
     {
       "name": "소고기",
       "sourceText": "소고기",
       "form": "whole",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소",
-        "비프",
-        "우육"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 위",
       "form": "organ",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 위",
-        "소 트라이프"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 심장",
       "form": "organ",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 심장"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 폐",
       "form": "organ",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 폐"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 간",
       "form": "organ",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 간"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 신장",
       "form": "organ",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 신장"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 뼈",
       "form": "bone",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 뼈"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "홍합",
       "sourceText": "뉴질랜드 초록입홍합",
       "form": "whole",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "초록입홍합",
-        "녹색홍합",
-        "뉴질랜드 초록입홍합"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 연골",
       "form": "other",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 연골"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "소고기",
       "sourceText": "소 비장",
       "form": "organ",
       "group": "beef",
-      "specificity": "specific",
-      "aliases": [
-        "소 비장"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "레시틴",
       "sourceText": "레시틴",
       "form": "supplement",
-      "specificity": "group-only",
-      "aliases": []
+      "specificity": "group-only"
     },
     {
       "name": "치커리",
       "sourceText": "치커리 이눌린",
       "form": "extract",
-      "specificity": "specific",
-      "aliases": [
-        "이눌린",
-        "치커리 이눌린"
-      ]
+      "group": "vegetable",
+      "specificity": "specific"
     },
     {
       "name": "사과",
       "sourceText": "사과박",
       "form": "fiber",
-      "specificity": "specific",
-      "aliases": [
-        "사과박",
-        "애플 포마스"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "해조류",
       "sourceText": "해조분",
       "form": "other",
-      "specificity": "group-only",
-      "aliases": [
-        "켈프",
-        "해조분"
-      ]
+      "specificity": "group-only"
     }
   ],
   "ingredientStatus": {
     "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
     "beef": "contains",
     "pork": "not-listed",
     "fish": "contains",
     "dairy": "not-listed",
     "egg": "not-listed",
-    "grain": "not-listed"
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
   },
   "guaranteedAnalysis": {
     "protein": 38,
@@ -194,7 +166,7 @@
     "phosphorus": 1.4,
     "taurine": 0.19
   },
-    "analysisBasis": {
+  "analysisBasis": {
     "protein": "min",
     "fat": "min",
     "fiber": "max",
@@ -205,7 +177,7 @@
     "taurine": "typical"
   },
   "calories": 4900,
-  "sourceUrl": "https://ziwipets.co.kr/?act=shop.goods_view&GS=85&GC=GD0100&oc=good_proce&os=desc",
-  "checkedAt": "2026-08-20",
-  "notes": "등록성분의 이상·이하 기준은 제품 상세 페이지에서 확인하세요."
+  "sourceUrl": "https://www.ziwipets.co.kr/?act=shop.goods_view&GS=85&GC=GD0100&oc=good_proce&os=desc",
+  "checkedAt": "2026-08-23",
+  "notes": "공식 한국 페이지 기준 전 묘종·전 연령용 에어드라이 완전 영양식이며 처방식은 아닙니다. 소고기와 소 내장, 소 뼈 및 소 연골을 주원료로 사용하고 뉴질랜드 초록입홍합을 포함합니다. 초록입홍합은 생선은 아니지만 현재 검색기의 생선·해산물 통합 그룹에 해당하므로 fish를 contains로 분류했습니다. 공식 페이지는 곡물, 감자 및 콩류를 배제한 제품이라고 안내합니다. 타우린 0.19%는 보증성분이 아니라 공식 상세 성분분석값입니다. 실제 구매 제품의 표시사항도 함께 확인하세요."
 }

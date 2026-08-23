@@ -2,6 +2,7 @@
   "slug": "orijen-six-fish-cat",
   "name": "오리젠 식스 피쉬 캣",
   "brand": "오리젠",
+  "summary": "정어리와 대구류, 고등어, 우럭, 가자미 등 여러 생선을 사용한 전 묘종·전 연령용 건식 사료입니다.",
   "image": "/images/products/orijen-six-fish-cat.png",
   "productType": "food",
   "foodForm": "dry",
@@ -71,183 +72,226 @@
   "ingredientDetails": [
     {
       "name": "정어리",
-      "sourceText": "생 통정어리, 건조 정어리",
+      "sourceText": "생 통정어리",
       "form": "raw",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "통정어리",
-        "생 통정어리",
-        "건조 정어리"
-      ]
+      "specificity": "specific"
+    },
+    {
+      "name": "정어리",
+      "sourceText": "건조 정어리",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
     },
     {
       "name": "대구류",
       "sourceText": "생 통대구류, 생 대구류",
       "form": "raw",
       "group": "fish",
-      "specificity": "group-only",
-      "aliases": [
-        "대구",
-        "대구류",
-        "통대구류",
-        "생 대구류",
-        "생 통대구류"
-      ]
+      "specificity": "group-only"
     },
     {
       "name": "고등어",
-      "sourceText": "생 통고등어, 건조 고등어",
+      "sourceText": "생 통고등어",
       "form": "raw",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "통고등어",
-        "생 통고등어",
-        "건조 고등어"
-      ]
+      "specificity": "specific"
+    },
+    {
+      "name": "고등어",
+      "sourceText": "건조 고등어",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
     },
     {
       "name": "우럭",
       "sourceText": "생 통우럭",
       "form": "raw",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "통우럭",
-        "생 통우럭"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "가자미",
       "sourceText": "생 통가자미",
       "form": "raw",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "통가자미",
-        "생 통가자미"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "청어",
       "sourceText": "건조 청어",
       "form": "dried",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "건조 청어"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "청보리멸",
       "sourceText": "건조 청보리멸",
       "form": "dried",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "보리멸",
-        "건조 청보리멸"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "명태",
       "sourceText": "명태유",
       "form": "oil",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "명태유",
-        "명태 오일",
-        "명태 기름"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "흰살 생선",
       "sourceText": "건조 흰살 생선",
       "form": "dried",
       "group": "fish",
-      "specificity": "group-only",
-      "aliases": [
-        "흰살생선",
-        "건조 흰살 생선",
-        "건조 흰살생선"
-      ]
+      "specificity": "group-only"
+    },
+    {
+      "name": "해바라기유",
+      "sourceText": "해바라기유",
+      "form": "oil",
+      "specificity": "specific"
     },
     {
       "name": "렌틸콩",
-      "sourceText": "통적렌틸콩, 통녹렌틸콩, 렌틸 섬유질",
+      "sourceText": "통적렌틸콩, 통녹렌틸콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "렌즈콩",
-        "적렌틸콩",
-        "녹렌틸콩",
-        "통적렌틸콩",
-        "통녹렌틸콩",
-        "렌틸 섬유질"
-      ]
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "렌틸 섬유질",
+      "form": "fiber",
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "완두콩",
-      "sourceText": "통완두콩, 완두콩전분",
+      "sourceText": "통완두콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통완두콩",
-        "완두콩전분",
-        "완두콩 전분"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "병아리콩",
       "sourceText": "통병아리콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통병아리콩",
-        "이집트콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "강낭콩",
       "sourceText": "통강낭콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통강낭콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
-      "name": "치커리",
-      "sourceText": "건조 치커리 뿌리",
-      "form": "fiber",
-      "specificity": "specific",
-      "aliases": [
-        "치커리",
-        "치커리 뿌리",
-        "건조 치커리 뿌리"
-      ]
+      "name": "완두콩 전분",
+      "sourceText": "완두콩전분",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
     },
     {
       "name": "해조류",
       "sourceText": "말린 해조류",
       "form": "dried",
-      "specificity": "group-only",
-      "aliases": [
-        "해조",
-        "말린 해조류"
-      ]
+      "specificity": "group-only"
+    },
+    {
+      "name": "호박",
+      "sourceText": "신선한 통호박",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "땅콩호박",
+      "sourceText": "신선한 통땅콩호박",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "주키니",
+      "sourceText": "신선한 통주키니",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "신선한 통당근",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "사과",
+      "sourceText": "신선한 통사과",
+      "form": "fresh",
+      "specificity": "specific"
+    },
+    {
+      "name": "배",
+      "sourceText": "신선한 통배",
+      "form": "fresh",
+      "specificity": "specific"
+    },
+    {
+      "name": "치커리",
+      "sourceText": "건조 치커리 뿌리",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "케일",
+      "sourceText": "신선한 케일",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "시금치",
+      "sourceText": "신선한 시금치",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "비트",
+      "sourceText": "신선한 비트 그린",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "순무",
+      "sourceText": "신선한 순무 그린",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
     }
   ],
   "ingredientStatus": {
     "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
     "beef": "not-listed",
     "pork": "not-listed",
     "fish": "contains",
     "dairy": "not-listed",
     "egg": "not-listed",
-    "grain": "not-listed"
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
   },
   "guaranteedAnalysis": {
     "protein": 40,
@@ -262,5 +306,5 @@
   "calories": 4070,
   "sourceUrl": "https://apac.orijenpetfoods.com/ko-KR/ap-ori-ns-sixfish-cat.html",
   "checkedAt": "2026-08-22",
-  "notes": "공식 페이지 기준 고품질 생선 원료 85%를 사용한 전 묘종·전 연령용 건식 주식입니다. 닭고기, 소고기, 돼지고기, 유제품, 계란 및 곡류 원료는 표시되지 않았습니다. 다만 여러 종류의 생선과 렌틸콩, 완두콩, 병아리콩, 강낭콩이 포함되어 있습니다. 공식 제품 설명에는 넙치가 언급되지만 공개된 원재료 목록에서는 넙치 명칭을 확인하기 어려워 검색 데이터에는 포함하지 않았습니다. 실제 국내 유통 제품 포장을 함께 확인하세요."
+  "notes": "공식 페이지 기준 고품질 생선 원료 85%를 사용한 전 묘종·전 연령용 건식 주식입니다. 닭고기, 칠면조, 소고기, 돼지고기, 유제품, 계란 및 곡류 원료는 표시되지 않았습니다. 정어리, 대구류, 고등어, 우럭, 가자미, 청어, 청보리멸, 명태유와 흰살 생선이 포함되어 있으며 렌틸콩, 완두콩, 병아리콩, 강낭콩 및 완두콩전분도 포함되어 있습니다. 공식 제품 설명에는 넙치가 주요 생선으로 안내되지만 공개된 원재료 목록에는 넙치 대신 생 대구류가 표시되어 있어 검색 데이터에는 넙치를 등록하지 않았습니다. 실제 국내 유통 제품 포장도 함께 확인하세요."
 }

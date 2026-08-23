@@ -178,6 +178,11 @@ export default async function ProductsPage({
                       </span>
                     )}
                   </div>
+                  {product.summary && (
+  <p className="mt-3 line-clamp-2 break-keep text-sm leading-6 text-[var(--muted-foreground)]">
+    {product.summary}
+  </p>
+)}
                 </div>
               </div>
 

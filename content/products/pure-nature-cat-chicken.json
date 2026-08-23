@@ -2,14 +2,17 @@
   "slug": "pure-nature-cat-chicken",
   "name": "퓨어네이쳐 캣 치킨",
   "brand": "퓨어네이쳐",
+  "summary": "가수분해 닭 단백질과 감자전분, 타피오카를 사용한 성묘용 건식 사료입니다.",
   "image": "/images/products/pure-nature-cat-chicken.jpg",
   "productType": "food",
   "foodForm": "dry",
   "purpose": "complete",
-  "lifeStage": ["adult"],
+  "lifeStage": [
+    "adult"
+  ],
   "isVeterinaryDiet": false,
   "dietaryUses": [
-    "옥수수·밀·쌀을 사용하지 않은 제품",
+    "옥수수·밀·쌀을 표시 원료로 사용하지 않은 제품",
     "가수분해 닭 단백질 사용"
   ],
   "mainProteins": [
@@ -34,110 +37,85 @@
   ],
   "ingredientDetails": [
     {
-      "name": "닭",
+      "name": "닭고기",
       "sourceText": "유도단백질(가수분해 닭)",
       "form": "hydrolyzed",
       "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "닭고기",
-        "치킨",
-        "계육",
-        "가수분해 닭",
-        "가수분해 닭 단백질"
-      ]
+      "specificity": "specific"
     },
     {
-      "name": "감자",
+      "name": "감자전분",
       "sourceText": "감자전분",
       "form": "starch",
-      "specificity": "specific",
-      "aliases": [
-        "감자전분",
-        "감자 전분"
-      ]
+      "group": "starch",
+      "specificity": "specific"
     },
     {
       "name": "타피오카",
       "sourceText": "타피오카",
       "form": "starch",
-      "specificity": "specific",
-      "aliases": [
-        "카사바"
-      ]
+      "group": "starch",
+      "specificity": "specific"
     },
     {
       "name": "동물성 유지",
       "sourceText": "동물성 혼합 유지",
       "form": "fat",
-      "specificity": "group-only",
-      "aliases": [
-        "동물성 혼합 유지",
-        "동물성 지방",
-        "동물성 유지"
-      ]
+      "specificity": "group-only"
     },
     {
       "name": "아마인",
       "sourceText": "아마인",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "아마씨",
-        "아마 종실",
-        "플랙시드"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "가수분해 향미제",
       "sourceText": "유도단백질(가수분해 향미제)",
       "form": "hydrolyzed",
-      "specificity": "group-only",
-      "aliases": [
-        "가수분해 향미제",
-        "유도단백질"
-      ]
+      "specificity": "group-only"
+    },
+    {
+      "name": "과실 및 과채",
+      "sourceText": "과실 및 과채 추출물(천연 항산화제)",
+      "form": "extract",
+      "group": "vegetable",
+      "specificity": "group-only"
     },
     {
       "name": "DHA·EPA 공급 유지",
       "sourceText": "분말유지(DHA, EPA 공급원)",
       "form": "oil",
-      "specificity": "group-only",
-      "aliases": [
-        "분말유지",
-        "DHA",
-        "EPA"
-      ]
+      "specificity": "group-only"
     },
     {
       "name": "유카",
       "sourceText": "유카추출물",
       "form": "extract",
-      "specificity": "specific",
-      "aliases": [
-        "유카추출물",
-        "유카 추출물"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "자몽종자",
       "sourceText": "자몽종자추출물",
       "form": "extract",
-      "specificity": "specific",
-      "aliases": [
-        "자몽종자추출물",
-        "자몽 종자 추출물"
-      ]
+      "specificity": "specific"
     }
   ],
   "ingredientStatus": {
     "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
     "beef": "unknown",
     "pork": "unknown",
     "fish": "unknown",
     "dairy": "not-listed",
     "egg": "not-listed",
-    "grain": "not-listed"
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
   },
   "guaranteedAnalysis": {
     "protein": 35,
@@ -159,6 +137,6 @@
   },
   "calories": 3595,
   "sourceUrl": "https://purenature.kr/product/%ED%93%A8%EC%96%B4%EB%84%A4%EC%9D%B4%EC%B3%90-%EC%BA%A3-%EC%B9%98%ED%82%A8-2kg/52/",
-  "checkedAt": "2026-08-20",
-  "notes": "가수분해 닭 단백질을 사용한 일반 사료이며 처방식은 아닙니다. 동물성 혼합 유지, 가수분해 향미제 및 DHA·EPA 공급원의 구체적인 동물 종은 공개된 표시사항만으로 확인하기 어렵습니다."
+  "checkedAt": "2026-08-23",
+  "notes": "가수분해 닭 단백질을 사용한 일반 사료이며 처방식은 아닙니다. 동물성 혼합 유지와 가수분해 향미제의 구체적인 동물 종은 공개된 표시사항만으로 확인하기 어렵습니다. DHA·EPA 공급원으로 표시된 분말유지도 구체적인 원료 종이 공개되지 않아 생선 포함 여부를 확인할 수 없습니다. 제품 페이지에는 옥수수·밀·쌀을 사용하지 않았다고 안내되어 있지만, 교차 접촉 가능성까지 의미하지는 않습니다. 실제 구매 제품의 포장 표시사항을 함께 확인하세요."
 }

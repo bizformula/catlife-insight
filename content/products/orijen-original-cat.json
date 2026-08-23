@@ -2,6 +2,7 @@
   "slug": "orijen-original-cat",
   "name": "오리젠 오리지널 캣",
   "brand": "오리젠",
+  "summary": "닭고기와 칠면조, 여러 생선과 계란을 사용한 전 묘종·전 연령용 건식 사료입니다.",
   "image": "/images/products/orijen-original-cat.png",
   "productType": "food",
   "foodForm": "dry",
@@ -74,185 +75,238 @@
       "sourceText": "신선한 닭고기",
       "form": "fresh",
       "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "닭",
-        "치킨",
-        "계육",
-        "건조 닭고기",
-        "닭고기 내장",
-        "닭고기 간"
-      ]
+      "specificity": "specific"
     },
     {
-      "name": "닭고기 지방",
+      "name": "닭고기",
+      "sourceText": "신선한 닭고기 내장(간, 심장)",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "건조 닭고기",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
       "sourceText": "닭고기 지방",
       "form": "fat",
       "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "닭 지방",
-        "계지방",
-        "치킨 지방"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "칠면조",
       "sourceText": "생 칠면조",
       "form": "raw",
-      "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "칠면조고기",
-        "건조 칠면조",
-        "칠면조 간",
-        "터키"
-      ]
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "생 칠면조 간",
+      "form": "organ",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "건조 칠면조",
+      "form": "dried",
+      "group": "turkey",
+      "specificity": "specific"
     },
     {
       "name": "청어",
       "sourceText": "생 통청어",
       "form": "raw",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "통청어",
-        "건조 청어"
-      ]
+      "specificity": "specific"
+    },
+    {
+      "name": "청어",
+      "sourceText": "건조 청어",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
     },
     {
       "name": "대구류",
       "sourceText": "생 통대구류",
       "form": "raw",
       "group": "fish",
-      "specificity": "group-only",
-      "aliases": [
-        "대구",
-        "통대구류",
-        "생 통대구류"
-      ]
+      "specificity": "group-only"
     },
     {
       "name": "고등어",
       "sourceText": "건조 고등어",
       "form": "dried",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "고등어",
-        "건조 고등어"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "정어리",
       "sourceText": "건조 정어리",
       "form": "dried",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "정어리",
-        "건조 정어리"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "명태",
       "sourceText": "명태유",
       "form": "oil",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "명태유",
-        "명태 오일",
-        "명태 기름"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "계란",
       "sourceText": "신선한 계란",
       "form": "fresh",
       "group": "egg",
-      "specificity": "specific",
-      "aliases": [
-        "달걀",
-        "신선한 계란"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "렌틸콩",
-      "sourceText": "통적렌틸콩, 통녹렌틸콩, 렌틸 섬유질",
+      "sourceText": "통적렌틸콩, 통녹렌틸콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "렌즈콩",
-        "적렌틸콩",
-        "녹렌틸콩",
-        "통적렌틸콩",
-        "통녹렌틸콩",
-        "렌틸 섬유질"
-      ]
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "렌틸 섬유질",
+      "form": "fiber",
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "완두콩",
-      "sourceText": "통완두콩, 완두콩녹말",
+      "sourceText": "통완두콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통완두콩",
-        "완두콩녹말",
-        "완두콩 전분"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "병아리콩",
       "sourceText": "통병아리콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통병아리콩",
-        "이집트콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "강낭콩",
       "sourceText": "통강낭콩, 통흰강낭콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통강낭콩",
-        "흰강낭콩",
-        "통흰강낭콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
-      "name": "치커리",
-      "sourceText": "말린 치커리 뿌리",
-      "form": "fiber",
-      "specificity": "specific",
-      "aliases": [
-        "치커리",
-        "치커리 뿌리",
-        "말린 치커리 뿌리"
-      ]
+      "name": "완두콩 전분",
+      "sourceText": "완두콩녹말",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
     },
     {
       "name": "해조류",
       "sourceText": "말린 해조류",
       "form": "dried",
-      "specificity": "group-only",
-      "aliases": [
-        "해조",
-        "말린 해조류"
-      ]
+      "specificity": "group-only"
+    },
+    {
+      "name": "호박",
+      "sourceText": "신선한 통호박",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "땅콩호박",
+      "sourceText": "신선한 통땅콩호박",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "주키니",
+      "sourceText": "신선한 통주키니",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "신선한 통당근",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "사과",
+      "sourceText": "신선한 통사과",
+      "form": "fresh",
+      "specificity": "specific"
+    },
+    {
+      "name": "배",
+      "sourceText": "신선한 통배",
+      "form": "fresh",
+      "specificity": "specific"
+    },
+    {
+      "name": "치커리",
+      "sourceText": "말린 치커리 뿌리",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "케일",
+      "sourceText": "신선한 케일",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "시금치",
+      "sourceText": "신선한 시금치",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "비트",
+      "sourceText": "신선한 비트 그린",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "순무",
+      "sourceText": "신선한 순무 그린",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
     }
   ],
   "ingredientStatus": {
     "chicken": "contains",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
     "beef": "not-listed",
     "pork": "not-listed",
     "fish": "contains",
     "dairy": "not-listed",
     "egg": "contains",
-    "grain": "not-listed"
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
   },
   "guaranteedAnalysis": {
     "protein": 40,
@@ -267,5 +321,5 @@
   "calories": 4160,
   "sourceUrl": "https://apac.orijenpetfoods.com/ko-KR/ap-ori-ns-catkitten.html",
   "checkedAt": "2026-08-22",
-  "notes": "공식 페이지 기준 고품질 동물성 원료 85%를 사용한 전 묘종·전 연령용 건식 주식입니다. 닭고기, 칠면조, 여러 생선 및 계란이 포함되어 있습니다. 곡류 원료는 표시되지 않았지만 렌틸콩, 완두콩, 병아리콩, 강낭콩 등 여러 콩류가 포함되어 있습니다. 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장을 함께 확인하세요."
+  "notes": "공식 페이지 기준 고품질 동물성 원료 85%를 사용한 전 묘종·전 연령용 건식 주식입니다. 닭고기, 칠면조, 청어, 대구류, 고등어, 정어리, 명태유와 계란이 포함되어 있습니다. 곡류 원료는 표시되지 않았지만 렌틸콩, 완두콩, 병아리콩, 강낭콩과 완두콩녹말이 포함되어 있습니다. 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장도 함께 확인하세요."
 }

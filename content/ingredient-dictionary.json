@@ -1,0 +1,469 @@
+[
+  {
+    "canonicalName": "닭고기",
+    "group": "chicken",
+    "aliases": [
+      "닭",
+      "치킨",
+      "계육",
+      "chicken"
+    ]
+  },
+  {
+    "canonicalName": "칠면조",
+    "group": "turkey",
+    "aliases": [
+      "칠면조고기",
+      "터키",
+      "turkey"
+    ]
+  },
+  {
+    "canonicalName": "오리고기",
+    "group": "duck",
+    "aliases": [
+      "오리",
+      "덕",
+      "duck"
+    ]
+  },
+  {
+    "canonicalName": "메추리",
+    "group": "quail",
+    "aliases": [
+      "메추리고기",
+      "퀘일",
+      "quail"
+    ]
+  },
+  {
+    "canonicalName": "소고기",
+    "group": "beef",
+    "aliases": [
+      "소",
+      "쇠고기",
+      "우육",
+      "비프",
+      "beef"
+    ]
+  },
+  {
+    "canonicalName": "돼지고기",
+    "group": "pork",
+    "aliases": [
+      "돼지",
+      "돈육",
+      "포크",
+      "pork"
+    ]
+  },
+  {
+    "canonicalName": "생선",
+    "group": "fish",
+    "aliases": [
+      "어류",
+      "생선류",
+      "어육",
+      "fish"
+    ]
+  },
+  {
+    "canonicalName": "연어",
+    "group": "fish",
+    "aliases": [
+      "살몬",
+      "salmon"
+    ]
+  },
+  {
+    "canonicalName": "참치",
+    "group": "fish",
+    "aliases": [
+      "튜나",
+      "tuna"
+    ]
+  },
+  {
+    "canonicalName": "고등어",
+    "group": "fish",
+    "aliases": [
+      "매커럴",
+      "mackerel"
+    ]
+  },
+  {
+    "canonicalName": "대구",
+    "group": "fish",
+    "aliases": [
+      "코드피시",
+      "cod",
+      "codfish"
+    ]
+  },
+  {
+    "canonicalName": "청어",
+    "group": "fish",
+    "aliases": [
+      "헤링",
+      "herring"
+    ]
+  },
+  {
+    "canonicalName": "정어리",
+    "group": "fish",
+    "aliases": [
+      "사딘",
+      "sardine"
+    ]
+  },
+  {
+    "canonicalName": "명태",
+    "group": "fish",
+    "aliases": [
+      "폴락",
+      "pollock"
+    ]
+  },
+  {
+    "canonicalName": "새우",
+    "group": "fish",
+    "aliases": [
+      "쉬림프",
+      "shrimp"
+    ]
+  },
+  {
+    "canonicalName": "게",
+    "group": "fish",
+    "aliases": [
+      "크랩",
+      "crab"
+    ]
+  },
+  {
+    "canonicalName": "홍합",
+    "group": "fish",
+    "aliases": [
+      "머슬",
+      "mussel"
+    ]
+  },
+  {
+    "canonicalName": "조개",
+    "group": "fish",
+    "aliases": [
+      "패류",
+      "shellfish"
+    ]
+  },
+  {
+    "canonicalName": "우유",
+    "group": "dairy",
+    "aliases": [
+      "유제품",
+      "우유 성분",
+      "밀크",
+      "milk"
+    ]
+  },
+  {
+    "canonicalName": "유청",
+    "group": "dairy",
+    "aliases": [
+      "웨이",
+      "whey"
+    ]
+  },
+  {
+    "canonicalName": "카제인",
+    "group": "dairy",
+    "aliases": [
+      "유단백",
+      "casein"
+    ]
+  },
+  {
+    "canonicalName": "치즈",
+    "group": "dairy",
+    "aliases": [
+      "cheese"
+    ]
+  },
+  {
+    "canonicalName": "달걀",
+    "group": "egg",
+    "aliases": [
+      "계란",
+      "난류",
+      "egg"
+    ]
+  },
+  {
+    "canonicalName": "난황",
+    "group": "egg",
+    "aliases": [
+      "계란 노른자",
+      "달걀 노른자",
+      "egg yolk"
+    ]
+  },
+  {
+    "canonicalName": "난백",
+    "group": "egg",
+    "aliases": [
+      "계란 흰자",
+      "달걀 흰자",
+      "egg white"
+    ]
+  },
+  {
+    "canonicalName": "쌀",
+    "group": "grain",
+    "aliases": [
+      "백미",
+      "쌀가루",
+      "라이스",
+      "rice"
+    ]
+  },
+  {
+    "canonicalName": "현미",
+    "group": "grain",
+    "aliases": [
+      "통현미",
+      "브라운 라이스",
+      "brown rice"
+    ]
+  },
+  {
+    "canonicalName": "밀",
+    "group": "grain",
+    "aliases": [
+      "소맥",
+      "밀가루",
+      "소맥분",
+      "wheat"
+    ]
+  },
+  {
+    "canonicalName": "보리",
+    "group": "grain",
+    "aliases": [
+      "보리가루",
+      "barley"
+    ]
+  },
+  {
+    "canonicalName": "귀리",
+    "group": "grain",
+    "aliases": [
+      "오트",
+      "오트밀",
+      "oat",
+      "oats"
+    ]
+  },
+  {
+    "canonicalName": "옥수수",
+    "group": "grain",
+    "aliases": [
+      "통옥수수",
+      "옥수수가루",
+      "옥수수 가루",
+      "콘",
+      "corn",
+      "maize"
+    ]
+  },
+  {
+    "canonicalName": "조",
+    "group": "grain",
+    "aliases": [
+      "기장",
+      "밀렛",
+      "millet"
+    ]
+  },
+  {
+    "canonicalName": "수수",
+    "group": "grain",
+    "aliases": [
+      "소르검",
+      "sorghum"
+    ]
+  },
+  {
+    "canonicalName": "호밀",
+    "group": "grain",
+    "aliases": [
+      "라이",
+      "rye"
+    ]
+  },
+  {
+    "canonicalName": "렌틸콩",
+    "group": "legume",
+    "aliases": [
+      "렌즈콩",
+      "렌틸",
+      "적렌틸콩",
+      "통적렌틸콩",
+      "녹렌틸콩",
+      "통녹렌틸콩",
+      "붉은 렌즈콩",
+      "레드 렌틸",
+      "lentil",
+      "lentils"
+    ]
+  },
+  {
+    "canonicalName": "병아리콩",
+    "group": "legume",
+    "aliases": [
+      "이집트콩",
+      "칙피",
+      "가르반조",
+      "chickpea",
+      "chickpeas"
+    ]
+  },
+  {
+    "canonicalName": "완두콩",
+    "group": "legume",
+    "aliases": [
+      "완두",
+      "통완두콩",
+      "녹색 완두콩",
+      "pea",
+      "peas"
+    ]
+  },
+  {
+    "canonicalName": "대두",
+    "group": "legume",
+    "aliases": [
+      "대두콩",
+      "콩단백",
+      "대두 단백",
+      "소이",
+      "soy",
+      "soybean"
+    ]
+  },
+  {
+    "canonicalName": "강낭콩",
+    "group": "legume",
+    "aliases": [
+      "통강낭콩",
+      "키드니빈",
+      "kidney bean"
+    ]
+  },
+  {
+    "canonicalName": "메밀",
+    "group": "pseudograin",
+    "aliases": [
+      "메밀가루",
+      "메밀 가루",
+      "버크위트",
+      "buckwheat"
+    ]
+  },
+  {
+    "canonicalName": "퀴노아",
+    "group": "pseudograin",
+    "aliases": [
+      "키노아",
+      "quinoa"
+    ]
+  },
+  {
+    "canonicalName": "아마란스",
+    "group": "pseudograin",
+    "aliases": [
+      "아마란스씨",
+      "amaranth"
+    ]
+  },
+  {
+    "canonicalName": "감자",
+    "group": "starch",
+    "aliases": [
+      "감자전분",
+      "감자 전분",
+      "포테이토",
+      "potato"
+    ]
+  },
+  {
+    "canonicalName": "고구마",
+    "group": "starch",
+    "aliases": [
+      "고구마전분",
+      "고구마 전분",
+      "스위트 포테이토",
+      "sweet potato"
+    ]
+  },
+  {
+    "canonicalName": "타피오카",
+    "group": "starch",
+    "aliases": [
+      "타피오카전분",
+      "타피오카 전분",
+      "카사바",
+      "cassava",
+      "tapioca"
+    ]
+  },
+  {
+    "canonicalName": "호박",
+    "group": "vegetable",
+    "aliases": [
+      "통호박",
+      "단호박",
+      "땅콩호박",
+      "펌킨",
+      "pumpkin"
+    ]
+  },
+  {
+    "canonicalName": "당근",
+    "group": "vegetable",
+    "aliases": [
+      "캐럿",
+      "carrot"
+    ]
+  },
+  {
+    "canonicalName": "시금치",
+    "group": "vegetable",
+    "aliases": [
+      "스피니치",
+      "spinach"
+    ]
+  },
+  {
+    "canonicalName": "치커리",
+    "group": "vegetable",
+    "aliases": [
+      "치커리 뿌리",
+      "치커리뿌리",
+      "chicory"
+    ]
+  },
+  {
+    "canonicalName": "케일",
+    "group": "vegetable",
+    "aliases": [
+      "kale"
+    ]
+  },
+  {
+    "canonicalName": "브로콜리",
+    "group": "vegetable",
+    "aliases": [
+      "broccoli"
+    ]
+  }
+]

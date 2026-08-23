@@ -2,6 +2,7 @@
   "slug": "acana-grasslands-cat",
   "name": "아카나 하이프로틴 그래스랜드 캣",
   "brand": "아카나",
+  "summary": "오리와 닭, 칠면조, 메추리와 생선을 사용한 전연령 건식 사료입니다.",
   "image": "/images/products/acana-grasslands-cat.png",
   "productType": "food",
   "foodForm": "dry",
@@ -67,178 +68,233 @@
   "ingredientDetails": [
     {
       "name": "오리고기",
-      "sourceText": "신선한 오리고기, 건조 오리고기",
+      "sourceText": "신선한 오리고기, 건조 오리고기, 오리 간, 오리 연골",
       "form": "fresh",
-      "specificity": "specific",
-      "aliases": [
-        "오리",
-        "오리고기",
-        "덕",
-        "신선한 오리고기",
-        "건조 오리고기",
-        "오리 간",
-        "오리 연골"
-      ]
+      "group": "duck",
+      "specificity": "specific"
     },
     {
       "name": "오리고기 지방",
       "sourceText": "오리고기 지방",
       "form": "fat",
-      "specificity": "specific",
-      "aliases": [
-        "오리 지방",
-        "덕 지방",
-        "오리고기 지방"
-      ]
+      "group": "duck",
+      "specificity": "specific"
     },
     {
       "name": "닭고기",
       "sourceText": "신선한 닭고기, 건조 닭고기",
       "form": "fresh",
       "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "닭",
-        "치킨",
-        "계육",
-        "신선한 닭고기",
-        "건조 닭고기",
-        "닭고기 내장",
-        "닭고기 간"
-      ]
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "신선한 닭고기 내장(간, 심장), 냉동 건조 닭고기 및 칠면조 간",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
     },
     {
       "name": "칠면조",
       "sourceText": "건조 칠면조, 신선한 칠면조",
       "form": "fresh",
-      "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "칠면조고기",
-        "터키",
-        "건조 칠면조",
-        "신선한 칠면조",
-        "칠면조 내장",
-        "칠면조 간"
-      ]
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "신선한 칠면조 내장(간, 심장), 냉동 건조 닭고기 및 칠면조 간",
+      "form": "organ",
+      "group": "turkey",
+      "specificity": "specific"
     },
     {
       "name": "메추리",
       "sourceText": "생 메추리",
       "form": "raw",
-      "specificity": "specific",
-      "aliases": [
-        "메추리고기",
-        "생 메추리",
-        "퀘일"
-      ]
+      "group": "quail",
+      "specificity": "specific"
     },
     {
       "name": "계란",
       "sourceText": "신선한 계란",
       "form": "fresh",
       "group": "egg",
-      "specificity": "specific",
-      "aliases": [
-        "달걀",
-        "신선한 계란"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "흰살 생선",
       "sourceText": "건조 흰살 생선",
       "form": "dried",
       "group": "fish",
-      "specificity": "group-only",
-      "aliases": [
-        "흰살생선",
-        "건조 흰살 생선",
-        "건조 흰살생선"
-      ]
+      "specificity": "group-only"
     },
     {
       "name": "명태",
       "sourceText": "명태유",
       "form": "oil",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "명태유",
-        "명태 오일",
-        "명태 기름"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "강낭콩",
       "sourceText": "통강낭콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통강낭콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "완두콩",
       "sourceText": "통완두콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통완두콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "렌틸콩",
       "sourceText": "통적렌틸콩, 통녹렌틸콩, 렌틸 섬유질",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "렌즈콩",
-        "적렌틸콩",
-        "녹렌틸콩",
-        "통적렌틸콩",
-        "통녹렌틸콩",
-        "렌틸 섬유질"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "병아리콩",
       "sourceText": "통병아리콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통병아리콩",
-        "이집트콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "호박",
+      "sourceText": "신선한 통호박",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "땅콩호박",
+      "sourceText": "신선한 통땅콩호박",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "케일",
+      "sourceText": "신선한 케일",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "시금치",
+      "sourceText": "신선한 시금치",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "순무",
+      "sourceText": "신선한 순무 그린",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "신선한 당근",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
     },
     {
       "name": "치커리",
       "sourceText": "치커리 뿌리",
       "form": "fiber",
-      "specificity": "specific",
-      "aliases": [
-        "치커리",
-        "치커리 뿌리"
-      ]
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "사과",
+      "sourceText": "신선한 사과",
+      "form": "fresh",
+      "specificity": "specific"
+    },
+    {
+      "name": "배",
+      "sourceText": "신선한 배",
+      "form": "fresh",
+      "specificity": "specific"
+    },
+    {
+      "name": "크랜베리",
+      "sourceText": "신선한 통크랜베리",
+      "form": "fresh",
+      "specificity": "specific"
+    },
+    {
+      "name": "블루베리",
+      "sourceText": "통블루베리",
+      "form": "whole",
+      "specificity": "specific"
     },
     {
       "name": "해조류",
       "sourceText": "말린 해조류",
       "form": "dried",
-      "specificity": "group-only",
-      "aliases": [
-        "해조",
-        "말린 해조류"
-      ]
+      "specificity": "group-only"
+    },
+    {
+      "name": "강황",
+      "sourceText": "강황 뿌리",
+      "form": "extract",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀크시슬",
+      "sourceText": "밀크시슬",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "우엉",
+      "sourceText": "우엉 뿌리",
+      "form": "extract",
+      "specificity": "specific"
+    },
+    {
+      "name": "라벤더",
+      "sourceText": "라벤더",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "마시멜로우 뿌리",
+      "sourceText": "마시멜로우 뿌리",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "로즈힙",
+      "sourceText": "로즈힙",
+      "form": "supplement",
+      "specificity": "specific"
     }
   ],
   "ingredientStatus": {
     "chicken": "contains",
+    "turkey": "contains",
+    "duck": "contains",
+    "quail": "contains",
     "beef": "not-listed",
     "pork": "not-listed",
     "fish": "contains",
     "dairy": "not-listed",
     "egg": "contains",
-    "grain": "not-listed"
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
   },
   "guaranteedAnalysis": {
     "protein": 37,
@@ -252,6 +308,6 @@
   },
   "calories": 3930,
   "sourceUrl": "https://apac.acana.com/ko-KR/ap-ns-aca-grasslands-new-cat.html",
-  "checkedAt": "2026-08-22",
-  "notes": "공식 페이지 기준 동물성 원료 75%를 사용한 전 묘종·전 연령용 건식 주식이며 처방식은 아닙니다. 오리고기, 닭고기, 칠면조, 메추리, 계란과 흰살 생선 및 명태유가 포함되어 있습니다. 흰살 생선의 정확한 어종은 공개되지 않았습니다. 곡류 원료는 표시되지 않았지만 강낭콩, 완두콩, 렌틸콩, 병아리콩이 포함되어 있습니다. 공식 페이지 내 급식 설명에는 열량이 3,850kcal/kg으로도 표시되지만, 성분 및 분석 영역의 3,930kcal/kg과 120g당 472kcal가 서로 계산상 일치하므로 3,930kcal/kg을 등록했습니다. 실제 국내 유통 제품 포장을 함께 확인하세요."
+  "checkedAt": "2026-08-23",
+  "notes": "공식 페이지 기준 동물성 원료 75%를 사용한 전 묘종·전 연령용 건식 주식이며 처방식은 아닙니다. 오리고기, 닭고기, 칠면조, 메추리, 계란과 어종이 특정되지 않은 흰살 생선 및 명태유가 포함되어 있습니다. 강낭콩, 완두콩, 렌틸콩과 병아리콩이 포함되어 있어 콩류 포함으로 분류했습니다. 호박, 땅콩호박, 케일, 시금치, 순무, 당근과 치커리가 포함되어 있어 채소 포함으로 분류했습니다. 곡류, 유사곡물 및 감자·고구마·타피오카 계열 전분 원료는 표시되지 않았습니다. 공식 페이지의 성분 및 분석 영역에는 열량이 3,930kcal/kg으로 표시되어 있지만 급식 설명에는 3,850kcal/kg으로도 표시됩니다. 120g당 472kcal와 계산상 일치하는 3,930kcal/kg을 등록했습니다. 실제 국내 유통 제품의 표시사항도 함께 확인하세요."
 }

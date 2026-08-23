@@ -2,6 +2,7 @@
   "slug": "acana-wild-prairie-cat",
   "name": "아카나 하이프로틴 와일드 프레이리 캣",
   "brand": "아카나",
+  "summary": "닭고기와 칠면조를 중심으로 청어, 민물고기, 송어와 달걀을 사용한 전연령 건식 사료입니다.",
   "image": "/images/products/acana-wild-prairie-cat.png",
   "productType": "food",
   "foodForm": "dry",
@@ -12,15 +13,16 @@
   "isVeterinaryDiet": false,
   "dietaryUses": [
     "전 연령용",
-    "전 묘종용"
+    "전 묘종용",
+    "가금류와 생선 단백질을 사용한 식단"
   ],
   "mainProteins": [
     "닭고기",
     "칠면조",
     "청어",
-    "달걀",
     "민물고기",
-    "송어"
+    "송어",
+    "달걀"
   ],
   "ingredients": [
     "신선한 닭고기(11%)",
@@ -69,172 +71,177 @@
       "sourceText": "신선한 닭고기, 닭고기",
       "form": "fresh",
       "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "닭",
-        "치킨",
-        "계육",
-        "신선한 닭고기",
-        "닭고기 내장",
-        "닭고기 간"
-      ]
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기 내장",
+      "sourceText": "신선한 닭고기 내장(간, 심장)",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
     },
     {
       "name": "닭고기 지방",
       "sourceText": "닭고기 지방",
       "form": "fat",
       "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "닭 지방",
-        "계지방",
-        "치킨 지방"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "칠면조",
       "sourceText": "생 칠면조, 칠면조",
       "form": "raw",
-      "group": "chicken",
-      "specificity": "specific",
-      "aliases": [
-        "칠면조고기",
-        "칠면조 간",
-        "생 칠면조",
-        "터키"
-      ]
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조 간",
+      "sourceText": "생 칠면조 간",
+      "form": "organ",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "달걀",
+      "sourceText": "신선한 계란",
+      "form": "fresh",
+      "group": "egg",
+      "specificity": "specific"
     },
     {
       "name": "청어",
       "sourceText": "청어",
       "form": "dried",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "청어"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "민물고기",
       "sourceText": "생 민물고기",
       "form": "raw",
       "group": "fish",
-      "specificity": "group-only",
-      "aliases": [
-        "민물 생선",
-        "민물생선",
-        "생 민물고기"
-      ]
+      "specificity": "group-only"
     },
     {
       "name": "송어",
       "sourceText": "생 송어",
       "form": "raw",
       "group": "fish",
-      "specificity": "specific",
-      "aliases": [
-        "생송어",
-        "생 송어",
-        "트라우트"
-      ]
+      "specificity": "specific"
     },
     {
       "name": "생선",
       "sourceText": "피쉬 오일",
       "form": "oil",
       "group": "fish",
-      "specificity": "group-only",
-      "aliases": [
-        "피쉬오일",
-        "피쉬 오일",
-        "생선 오일",
-        "생선 기름",
-        "어유"
-      ]
-    },
-    {
-      "name": "계란",
-      "sourceText": "신선한 계란",
-      "form": "fresh",
-      "group": "egg",
-      "specificity": "specific",
-      "aliases": [
-        "달걀",
-        "신선한 계란"
-      ]
+      "specificity": "group-only"
     },
     {
       "name": "강낭콩",
       "sourceText": "통강낭콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통강낭콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "완두콩",
       "sourceText": "통완두콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통완두콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "렌틸콩",
       "sourceText": "통적렌틸콩, 통녹렌틸콩, 렌틸 섬유질",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "렌즈콩",
-        "적렌틸콩",
-        "녹렌틸콩",
-        "통적렌틸콩",
-        "통녹렌틸콩",
-        "렌틸 섬유질"
-      ]
+      "group": "legume",
+      "specificity": "specific"
     },
     {
       "name": "병아리콩",
       "sourceText": "통병아리콩",
       "form": "whole",
-      "specificity": "specific",
-      "aliases": [
-        "통병아리콩",
-        "이집트콩"
-      ]
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "호박",
+      "sourceText": "신선한 통호박, 신선한 통땅콩호박",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "신선한 통당근",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "주키니",
+      "sourceText": "신선한 통주키니",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
     },
     {
       "name": "치커리",
       "sourceText": "말린 치커리 뿌리",
       "form": "fiber",
-      "specificity": "specific",
-      "aliases": [
-        "치커리",
-        "치커리 뿌리",
-        "말린 치커리 뿌리"
-      ]
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "케일",
+      "sourceText": "신선한 케일",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "시금치",
+      "sourceText": "신선한 시금치",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "순무",
+      "sourceText": "신선한 순무 그린",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "비트",
+      "sourceText": "신선한 비트 그린",
+      "form": "fresh",
+      "group": "vegetable",
+      "specificity": "specific"
     },
     {
       "name": "해조류",
       "sourceText": "말린 해조류",
       "form": "dried",
-      "specificity": "group-only",
-      "aliases": [
-        "해조",
-        "말린 해조류"
-      ]
+      "specificity": "group-only"
     }
   ],
   "ingredientStatus": {
     "chicken": "contains",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
     "beef": "not-listed",
     "pork": "not-listed",
     "fish": "contains",
     "dairy": "not-listed",
     "egg": "contains",
-    "grain": "not-listed"
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
   },
   "guaranteedAnalysis": {
     "protein": 37,
@@ -248,6 +255,6 @@
   },
   "calories": 3930,
   "sourceUrl": "https://apac.acana.com/ko-KR/ap-ns-aca-wild-prairie-new-cat.html",
-  "checkedAt": "2026-08-22",
-  "notes": "공식 페이지 기준 동물성 원료 75%를 사용한 전 묘종·전 연령용 건식 주식이며 처방식은 아닙니다. 닭고기, 칠면조, 청어, 민물고기, 송어와 계란이 포함되어 있습니다. 피쉬 오일은 어종이 공개되지 않았습니다. 곡류 원료는 표시되지 않았지만 강낭콩, 완두콩, 렌틸콩, 병아리콩이 포함되어 있습니다. 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장을 함께 확인하세요."
+  "checkedAt": "2026-08-23",
+  "notes": "공식 페이지 기준 동물성 원료 75%를 사용한 전 묘종·전 연령용 건식 주식이며 처방식은 아닙니다. 공개 원재료 목록에는 닭고기, 닭고기 내장과 지방, 칠면조와 칠면조 간, 달걀, 청어, 어종이 특정되지 않은 민물고기, 송어 및 피쉬 오일이 표시되어 있습니다. 오리고기, 메추리, 소고기, 돼지고기, 유제품 및 곡류 원료는 공개 원재료 목록에 표시되어 있지 않습니다. 강낭콩, 완두콩, 렌틸콩, 병아리콩과 여러 채소 원료가 포함되어 있습니다. 어종이 특정되지 않은 민물고기와 피쉬 오일은 특정 생선 원료 제외 검색에서 보수적으로 처리됩니다. 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장을 함께 확인하세요."
 }
