@@ -156,12 +156,13 @@ export default async function ProductsPage({
                         ? "사료"
                         : "간식"}
                     </span>
-
-                    <span className="rounded-full bg-gray-100 px-3 py-1 dark:bg-gray-800">
-                      {product.foodForm === "dry"
-                        ? "건식"
-                        : "습식"}
-                    </span>
+<span className="rounded-full bg-gray-100 px-3 py-1 dark:bg-gray-800">
+  {product.foodForm === "dry"
+    ? "건식"
+    : product.foodForm === "wet"
+      ? "습식"
+      : "분말"}
+</span>
 
                     <span className="rounded-full bg-gray-100 px-3 py-1 dark:bg-gray-800">
                       {product.lifeStage

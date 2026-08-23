@@ -58,6 +58,7 @@ const productTypes = [
 const foodForms = [
   "dry",
   "wet",
+  "powder",
 ];
 
 const productPurposes = [
@@ -350,7 +351,7 @@ function validateProduct(
     )
   ) {
     showError(
-      `${location}: foodForm은 "dry" 또는 "wet"이어야 합니다.`
+      `${location}: foodForm은 "dry", "wet" 또는 "powder"이어야 합니다.`
     );
   }
 

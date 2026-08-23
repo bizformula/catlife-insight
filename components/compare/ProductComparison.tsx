@@ -78,12 +78,15 @@ const comparisonRows: ComparisonRow[] = [
         : "일반식",
   },
   {
-    label: "사료 형태",
-    getValue: (product) =>
-      product.foodForm === "dry"
-        ? "건식"
-        : "습식",
-  },
+  label: "사료 형태",
+
+  getValue: (product) =>
+    product.foodForm === "dry"
+      ? "건식"
+      : product.foodForm === "wet"
+        ? "습식"
+        : "분말",
+},
   {
     label: "급여 연령",
     getValue: formatLifeStage,

@@ -62,6 +62,7 @@ const foodFormNames: Record<
 > = {
   dry: "건식",
   wet: "습식",
+  powder: "분말",
 };
 
 /**
@@ -567,6 +568,9 @@ export default function ProductFinder({
               <option value="wet">
                 습식
               </option>
+              <option value="powder">
+  분말
+</option>
             </select>
           </label>
 

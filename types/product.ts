@@ -1,6 +1,9 @@
 export type ProductType = "food" | "treat";
 
-export type FoodForm = "dry" | "wet";
+export type FoodForm =
+  | "dry"
+  | "wet"
+  | "powder";
 
 export type ProductPurpose =
   | "complete"
