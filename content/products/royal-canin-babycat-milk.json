@@ -1,0 +1,136 @@
+{
+  "slug": "royal-canin-babycat-milk",
+  "name": "로얄캐닌 베이비캣 밀크",
+  "brand": "로얄캐닌",
+  "summary": "생후 2개월 이하 어린 고양이의 성장기 영양 공급을 위한 분말형 반려묘용 분유입니다.",
+  "image": "/images/products/royal-canin-babycat-milk.png",
+  "productType": "food",
+  "foodForm": "powder",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "생후 2개월 이하 어린 고양이",
+    "출생 후 이유기 전 자묘",
+    "모유 대체용 분유"
+  ],
+  "mainProteins": [
+    "우유"
+  ],
+  "ingredients": [
+    "탈지분유",
+    "유지방",
+    "정제 팜유",
+    "유장",
+    "정제 대두유",
+    "정제 야자유",
+    "혼합광물질류 합제",
+    "프락토올리고당",
+    "해조유 (EPA&DHA의 원료)",
+    "아라키돈산 함유 유지",
+    "합성착향료",
+    "아미노산제 합제",
+    "비타민 A",
+    "비타민 D3",
+    "철",
+    "요오드",
+    "구리",
+    "망간",
+    "아연",
+    "셀레늄",
+    "항산화제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "우유",
+      "sourceText": "탈지분유",
+      "form": "dried",
+      "group": "dairy",
+      "specificity": "specific"
+    },
+    {
+      "name": "유지방",
+      "sourceText": "유지방",
+      "form": "fat",
+      "group": "dairy",
+      "specificity": "specific"
+    },
+    {
+      "name": "유장",
+      "sourceText": "유장",
+      "form": "other",
+      "group": "dairy",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "정제 대두유",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "팜유",
+      "sourceText": "정제 팜유",
+      "form": "oil",
+      "specificity": "specific"
+    },
+    {
+      "name": "야자유",
+      "sourceText": "정제 야자유",
+      "form": "oil",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "해조유",
+      "sourceText": "해조유 (EPA&DHA의 원료)",
+      "form": "oil",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "contains",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 31,
+    "fat": 37,
+    "fiber": 0.5,
+    "ash": 7,
+    "moisture": 5.5,
+    "calcium": 0.84,
+    "phosphorus": 0.56
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min"
+  },
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/babycat-milk-2553",
+  "checkedAt": "2026-08-24",
+  "notes": "로얄캐닌 한국 공식 페이지 기준 생후 2개월 이하 어린 고양이의 성장기 영양 공급을 위한 반려묘용 분유입니다. 탈지분유, 유지방 및 유장이 포함되어 있어 유제품 포함으로 분류했습니다. 정제 대두유는 대두 유래 원료이므로 콩류 포함으로 분류했습니다. DHA 공급원은 생선유가 아니라 해조유로 표시되어 있어 생선·해산물에는 포함하지 않았습니다. 공식 페이지에는 조단백질, 조지방, 조섬유, 조회분, 수분, 칼슘 및 인 함량이 공개되어 있습니다. 본 공식 페이지의 정보는 로얄캐닌 글로벌에서 제시되는 기본 정보로 국내 사료관리법에 따른 실제 제품 표시사항과 일부 다를 수 있으므로 구매 제품의 포장 표시사항도 함께 확인하세요."
+}
