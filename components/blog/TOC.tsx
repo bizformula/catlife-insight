@@ -8,7 +8,8 @@ type TOCProps = {
 };
 
 export default function TOC({ items }: TOCProps) {
-  const [activeId, setActiveId] = useState<string>("");
+  const [activeId, setActiveId] =
+    useState<string>("");
 
   useEffect(() => {
     const updateFromHash = () => {
@@ -38,33 +39,52 @@ export default function TOC({ items }: TOCProps) {
     };
   }, [items]);
 
-  return (
-    <aside className="rounded-md border border-[var(--border)] p-4">
-      <h3 className="mb-3 text-base font-semibold">
-        목차
-      </h3>
+  if (items.length === 0) {
+    return null;
+  }
 
-      <ul className="space-y-2 text-sm">
-        {items.map((item) => (
-          <li
-            key={item.id}
-            className={
-              item.level === 3 ? "pl-4" : ""
-            }
-          >
-            <a
-              href={`#${item.id}`}
+  return (
+    <details className="group rounded-md border border-[var(--border)]">
+      <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 font-semibold">
+        <span>목차</span>
+
+        <span
+          aria-hidden="true"
+          className="text-lg leading-none text-[var(--muted-foreground)]"
+        >
+          <span className="group-open:hidden">
+            +
+          </span>
+
+          <span className="hidden group-open:inline">
+            −
+          </span>
+        </span>
+      </summary>
+
+      <div className="border-t border-[var(--border)] px-4 py-4">
+        <ul className="space-y-2 text-sm">
+          {items.map((item) => (
+            <li
+              key={item.id}
               className={
-                activeId === item.id
-                  ? "font-bold text-[var(--point)]"
-                  : "font-normal"
+                item.level === 3 ? "pl-4" : ""
               }
             >
-              {item.text}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </aside>
+              <a
+                href={`#${item.id}`}
+                className={
+                  activeId === item.id
+                    ? "font-bold text-[var(--point)]"
+                    : "font-normal"
+                }
+              >
+                {item.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </details>
   );
 }
