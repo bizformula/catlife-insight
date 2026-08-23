@@ -26,7 +26,7 @@ export default function Footer() {
             </span>
           ))}
         </nav>
-        <p>© 2026 캣파이프 인사이트. All rights reserved.</p>
+        <p>© 2026 Catlife Insight. All rights reserved.</p>
       </div>
     </footer>
   );
