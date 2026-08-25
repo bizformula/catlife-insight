@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -12,6 +13,25 @@ type ProductPageProps = {
     slug: string;
   }>;
 };
+
+export async function generateMetadata({
+  params,
+}: ProductPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
+
+  if (!product) {
+    notFound();
+  }
+
+  return {
+    title: product.name,
+    description: product.summary,
+    alternates: {
+      canonical: `/products/${product.slug}`,
+    },
+  };
+}
 
 const statusNames: Record<
   IngredientStatus,
