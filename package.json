@@ -3,30 +3,46 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "generate:products": "node scripts/generate-products.mjs",
+    "generate:posts": "node scripts/generate-posts.mjs",
+    "generate:content": "npm run generate:products && npm run generate:posts",
+    "dev": "npm run generate:content && next dev",
+    "build": "npm run generate:content && next build",
     "start": "next start",
     "lint": "eslint",
-    "validate:products": "node scripts/validate-products.mjs"
+    "validate:products": "node scripts/validate-products.mjs",
+    "dev:vinext": "npm run generate:content && vinext dev --port 3001",
+    "build:vinext": "npm run generate:content && vinext build",
+    "start:vinext": "wrangler dev --config dist/server/wrangler.json",
+    "deploy:vinext": "vinext-cloudflare deploy --config dist/server/wrangler.json"
   },
   "dependencies": {
+    "@vinext/cloudflare": "^1.0.0-beta.6",
     "gray-matter": "^4.0.3",
     "next": "16.2.4",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-server-dom-webpack": "^19.2.8",
     "reading-time": "^1.5.0",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "vinext": "^1.0.0-beta.8"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.53.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.1.0",
+    "@vitejs/plugin-rsc": "^0.5.34",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "typescript": "^5",
+    "vite": "^8.2.2",
+    "wrangler": "^4.125.0"
+  },
+  "type": "module"
 }

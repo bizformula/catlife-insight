@@ -1,26 +1,16 @@
-import fs from "fs";
-import path from "path";
+import productsData from "@/generated/products.json";
 import type { Product } from "@/types/product";
 
-const productsDirectory = path.join(process.cwd(), "content/products");
+const products = productsData as Product[];
 
 export function getAllProducts(): Product[] {
-  if (!fs.existsSync(productsDirectory)) {
-    return [];
-  }
-
-  const fileNames = fs
-    .readdirSync(productsDirectory)
-    .filter((fileName) => fileName.endsWith(".json"));
-
-  return fileNames.map((fileName) => {
-    const filePath = path.join(productsDirectory, fileName);
-    const fileContents = fs.readFileSync(filePath, "utf8");
-
-    return JSON.parse(fileContents) as Product;
-  });
+  return [...products];
 }
 
-export function getProductBySlug(slug: string): Product | undefined {
-  return getAllProducts().find((product) => product.slug === slug);
+export function getProductBySlug(
+  slug: string,
+): Product | undefined {
+  return products.find(
+    (product) => product.slug === slug,
+  );
 }
