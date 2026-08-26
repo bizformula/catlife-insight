@@ -1,5 +1,15 @@
+import type { Metadata } from "next";
 import ProductFinder from "@/components/finder/ProductFinder";
 import { getAllProducts } from "@/lib/products";
+
+export const metadata: Metadata = {
+  title: "사료 찾기",
+  description:
+    "급여 연령과 사료 형태, 피하고 싶은 원료를 선택해 조건에 맞는 고양이 사료를 찾아보세요.",
+  alternates: {
+    canonical: "/finder",
+  },
+};
 
 export default function FinderPage() {
   const products = getAllProducts().filter(

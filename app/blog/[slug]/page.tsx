@@ -40,9 +40,12 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
 
   return {
-    title: post.title,
-    description: post.description,
-  };
+  title: post.title,
+  description: post.description,
+  alternates: {
+    canonical: `/blog/${post.slug}`,
+  },
+};
 }
 
 export default async function BlogPostPage({

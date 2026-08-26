@@ -20,8 +20,11 @@ export async function generateMetadata({
   const decoded = decodeURIComponent(name);
 
   return {
-    title: `카테고리: ${getCategoryName(decoded)}`,
-  };
+  title: `카테고리: ${getCategoryName(decoded)}`,
+  alternates: {
+    canonical: `/category/${encodeURIComponent(decoded)}`,
+  },
+};
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {

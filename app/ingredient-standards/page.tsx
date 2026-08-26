@@ -1,5 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import type { IngredientGroup } from "@/types/product";
+
+export const metadata: Metadata = {
+  title: "원료 분류 기준",
+  description:
+    "Catlife Insight가 제품의 표시 원재료를 분류하고 사료 찾기 결과에 반영하는 기준입니다.",
+  alternates: {
+    canonical: "/ingredient-standards",
+  },
+};
 
 type GroupGuide = {
   group: IngredientGroup;

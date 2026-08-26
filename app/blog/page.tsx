@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PostCard from "@/components/blog/PostCard";
 import Sidebar from "@/components/layout/Sidebar";
@@ -12,12 +13,8 @@ type BlogPageProps = {
   }>;
 };
 
-export default async function BlogPage({
-  searchParams,
-}: BlogPageProps) {
+function getBlogPagination(page?: string) {
   const posts = getAllPosts();
-  const { page } = await searchParams;
-
   const requestedPage = Number(page ?? "1");
 
   const totalPages = Math.max(
@@ -31,6 +28,46 @@ export default async function BlogPage({
     requestedPage <= totalPages
       ? requestedPage
       : 1;
+
+  return {
+    posts,
+    totalPages,
+    currentPage,
+  };
+}
+
+export async function generateMetadata({
+  searchParams,
+}: BlogPageProps): Promise<Metadata> {
+  const { page } = await searchParams;
+  const { currentPage } = getBlogPagination(page);
+
+  return {
+    title:
+      currentPage === 1
+        ? "블로그"
+        : `블로그 ${currentPage}페이지`,
+    description:
+      "고양이의 먹거리와 건강, 생활에 관한 정보를 정리합니다.",
+    alternates: {
+      canonical:
+        currentPage === 1
+          ? "/blog"
+          : `/blog?page=${currentPage}`,
+    },
+  };
+}
+
+export default async function BlogPage({
+  searchParams,
+}: BlogPageProps) {
+  const { page } = await searchParams;
+
+  const {
+    posts,
+    totalPages,
+    currentPage,
+  } = getBlogPagination(page);
 
   const startIndex =
     (currentPage - 1) * POSTS_PER_PAGE;
@@ -131,12 +168,12 @@ export default async function BlogPage({
       </section>
 
       <div className="space-y-6 lg:col-span-3">
-  <Sidebar />
+        <Sidebar />
 
-  <div className="hidden lg:sticky lg:top-24 lg:block">
-    <AdPlaceholder position="사이드바 고정 광고" />
-  </div>
-</div>
+        <div className="hidden lg:sticky lg:top-24 lg:block">
+          <AdPlaceholder position="사이드바 고정 광고" />
+        </div>
+      </div>
     </div>
   );
 }

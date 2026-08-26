@@ -1,5 +1,15 @@
+import type { Metadata } from "next";
 import ProductComparison from "@/components/compare/ProductComparison";
 import { getAllProducts } from "@/lib/products";
+
+export const metadata: Metadata = {
+  title: "제품 비교",
+  description:
+    "고양이 사료와 간식의 원재료, 표시 성분과 제조사 공개 정보를 같은 항목으로 비교하세요.",
+  alternates: {
+    canonical: "/compare",
+  },
+};
 
 type ComparePageProps = {
   searchParams: Promise<{

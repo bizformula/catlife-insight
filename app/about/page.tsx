@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "소개 | Catlife Insight",
   description:
     "Catlife Insight를 시작한 이유와 제품 정보를 정리하는 원칙을 소개합니다.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

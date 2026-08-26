@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "개인정보처리방침 | Catlife Insight",
   description:
     "Catlife Insight의 개인정보 처리 및 서비스 이용 기록에 관한 안내입니다.",
+  alternates: {
+    canonical: "/privacy",
+  },
 };
 
 export default function PrivacyPage() {

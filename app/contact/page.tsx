@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "문의 | Catlife Insight",
   description:
     "Catlife Insight의 제품 정보 수정 및 서비스 관련 문의 안내입니다.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { getAllProducts } from "@/lib/products";
+
+export const metadata: Metadata = {
+  title: "등록 제품",
+  description:
+    "등록된 고양이 사료와 간식의 기본 정보와 원재료 정보를 확인하세요.",
+  alternates: {
+    canonical: "/products",
+  },
+};
 
 type ProductsPageProps = {
   searchParams: Promise<{

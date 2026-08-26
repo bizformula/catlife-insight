@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PostCard from "@/components/blog/PostCard";
 import { getAllPosts } from "@/lib/posts";
+
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   const latestPosts = getAllPosts().slice(0, 3);
