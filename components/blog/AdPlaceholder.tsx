@@ -53,10 +53,5 @@ export default function AdPlaceholder({
     );
   }
 
-  // 나머지 광고 위치는 당분간 기존 자리표시자로 유지
-  return (
-    <div className="my-6 rounded-md border border-dashed border-[var(--point)] bg-[var(--muted)] p-4 text-center text-sm">
-      광고 영역 ({position})
-    </div>
-  );
+  return null;
 }
