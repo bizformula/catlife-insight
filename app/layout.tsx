@@ -42,8 +42,12 @@ export default function RootLayout({
   </head>
 
   <body className="min-h-full bg-[var(--background)] text-[var(--foreground)]">
-    ...
-  </body>
+  <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 md:px-6">
+    <Header />
+    <main className="flex-1 py-8">{children}</main>
+    <Footer />
+  </div>
+</body>
 </html>
   );
 }
