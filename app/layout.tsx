@@ -30,16 +30,20 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="ko"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full bg-[var(--background)] text-[var(--foreground)]">
-        <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 md:px-6">
-          <Header />
-          <main className="flex-1 py-8">{children}</main>
-          <Footer />
-        </div>
-      </body>
-    </html>
+  lang="ko"
+  className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+>
+  <head>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3781508655873635"
+      crossOrigin="anonymous"
+    />
+  </head>
+
+  <body className="min-h-full bg-[var(--background)] text-[var(--foreground)]">
+    ...
+  </body>
+</html>
   );
 }
