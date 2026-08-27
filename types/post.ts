@@ -2,6 +2,7 @@
 export type PostFrontmatter = {
   title: string;
   date: string;
+  updated?: string;
   category: string;
   description: string;
   thumbnail: string;

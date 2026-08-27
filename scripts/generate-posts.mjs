@@ -47,6 +47,7 @@ const posts = fileNames.map((fileName) => {
     readingTime: readingTime(content).text,
     title: data.title ?? "Untitled",
     date: data.date ?? "1970-01-01",
+    updated: data.updated ?? data.date ?? "1970-01-01",
     category: data.category ?? "nutrition-guide",
     description: data.description ?? "",
     thumbnail:
