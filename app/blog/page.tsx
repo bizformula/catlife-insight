@@ -96,14 +96,7 @@ export default async function BlogPage({
             <div key={post.slug}>
               <PostCard post={post} />
 
-              {index === 2 && (
-                <div
-                  className="mt-4 flex min-h-24 items-center justify-center rounded-lg border border-dashed border-[var(--border)] text-sm text-[var(--muted-foreground)]"
-                  aria-label="광고 영역"
-                >
-                  광고 영역
-                </div>
-              )}
+              
             </div>
           ))}
         </div>
