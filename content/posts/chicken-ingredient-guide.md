@@ -1,10 +1,10 @@
----
+﻿---
 title: "고양이 사료 닭고기 원료 읽는 법: 닭고기·계육분·부산물·닭지방 차이"
 date: "2026-08-17"
 updated: "2026-08-28"
 category: "ingredients"
 description: "고양이 사료 원재료에 표시되는 닭고기, 건조 닭고기, 계육분, 닭 부산물, 닭 간, 닭 지방이 어떻게 다른지와 원재료 목록을 읽을 때 주의할 점을 정리합니다."
-thumbnail: "/images/posts/chicken-ingredient-guide.png"
+thumbnail: "/images/posts/chicken-ingredient-guide.webp"
 ---
 
 고양이 사료의 원재료를 보다 보면 `닭고기`라는 단어가 여러 형태로 등장합니다.

@@ -1,4 +1,4 @@
-# Catlife Insight - Project Context
+﻿# Catlife Insight - Project Context
 
 최종 갱신: 2026-08-28
 
@@ -684,7 +684,7 @@ date: "YYYY-MM-DD"
 updated: "YYYY-MM-DD"
 category: "category-name"
 description: "글 설명"
-thumbnail: "/images/posts/image-name.png"
+thumbnail: "/images/posts/image-name.webp"
 ---
 ```
 

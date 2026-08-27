@@ -1,10 +1,10 @@
----
+﻿---
 title: "Catlife Insight 제품 정보는 어떻게 정리할까? 출처와 데이터 읽는 방법"
 date: "2026-08-15"
 updated: "2026-08-28"
 category: "nutrition-guide"
 description: "Catlife Insight가 고양이 사료와 간식의 원재료, 영양성분, 원료 포함 여부와 출처를 어떤 기준으로 정리하는지와 제품 정보를 해석할 때의 주의점을 설명합니다."
-thumbnail: "/images/posts/product-analysis-guide.png"
+thumbnail: "/images/posts/product-analysis-guide.webp"
 ---
 
 Catlife Insight의 제품 페이지에는 원재료, 영양성분, 열량, 생애주기와 원료 포함 여부 같은 여러 정보가 표시됩니다.

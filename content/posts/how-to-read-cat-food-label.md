@@ -1,10 +1,10 @@
----
+﻿---
 title: "고양이 사료 성분표 읽는 법: 원재료부터 보증성분까지 확인하는 순서"
 date: "2026-08-24"
 updated: "2026-08-27"
 category: "nutrition-guide"
 description: "고양이 사료 성분표를 읽을 때 주식 여부, 원재료 목록, 등록성분량·보증성분, 수분과 열량을 어떤 순서로 확인하면 좋은지 정리합니다."
-thumbnail: "/images/posts/pola-cat-food-label-guide.png"
+thumbnail: "/images/posts/pola-cat-food-label-guide.webp"
 ---
 
 고양이 사료를 고르려고 포장 뒷면을 보면 생각보다 많은 정보가 적혀 있습니다.

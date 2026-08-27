@@ -1,10 +1,10 @@
----
+﻿---
 title: "고양이 알레르기 검사 후 사료를 찾아온 과정: 폴라의 사료 선택 기록"
 date: "2026-08-21"
 updated: "2026-08-27"
 category: "pola-story"
 description: "사료 변경 후 귀지와 가려움이 심해져 알레르기 검사를 받고, IgE와 non-IgE 검사값을 엑셀로 정리해 원재료를 비교하면서 폴라의 사료를 찾아온 과정을 기록합니다."
-thumbnail: "/images/posts/pola-food-change-story.png"
+thumbnail: "/images/posts/pola-food-change-story.webp"
 ---
 
 고양이에게 더 좋은 사료를 먹이고 싶다는 생각에서 시작한 일이 이렇게 오랫동안 이어질 줄은 처음에는 몰랐습니다.

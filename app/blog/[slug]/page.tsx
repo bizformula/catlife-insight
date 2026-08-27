@@ -1,5 +1,6 @@
 // Post detail page with markdown rendering, responsive TOC,
-// related posts, ad placeholders, and BlogPosting JSON-LD.
+// related posts, ad placeholders, BlogPosting JSON-LD,
+// and social sharing metadata.
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -41,11 +42,41 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPostBySlug(slug);
 
+  const postUrl = `${siteUrl}/blog/${post.slug}`;
+  const imageUrl = `${siteUrl}${post.thumbnail}`;
+
   return {
     title: post.title,
     description: post.description,
+
     alternates: {
       canonical: `/blog/${post.slug}`,
+    },
+
+    openGraph: {
+      type: "article",
+      locale: "ko_KR",
+      siteName: "Catlife Insight",
+      title: post.title,
+      description: post.description,
+      url: postUrl,
+      publishedTime: post.date,
+      modifiedTime: post.updated ?? post.date,
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 675,
+          alt: `${post.title} 대표 이미지`,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [imageUrl],
     },
   };
 }

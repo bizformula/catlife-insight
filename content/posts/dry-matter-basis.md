@@ -1,10 +1,10 @@
----
+﻿---
 title: "고양이 사료 건물 기준(DMB) 계산법: 습식과 건식 성분 비교하는 방법"
 date: "2026-08-19"
 updated: "2026-08-27"
 category: "nutrition-guide"
 description: "수분 함량이 다른 고양이 건식·습식 사료의 단백질과 지방을 비교할 때 사용하는 건물 기준(DMB)의 계산법과 해석할 때 주의할 점을 정리합니다."
-thumbnail: "/images/posts/dry-matter-basis.png"
+thumbnail: "/images/posts/dry-matter-basis.webp"
 ---
 
 고양이 건식 사료와 습식 사료의 성분표를 보다 보면 이런 숫자를 볼 수 있습니다.

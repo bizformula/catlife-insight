@@ -1,10 +1,10 @@
----
+﻿---
 title: "고양이 건식 사료와 습식 사료, 무엇이 다를까? 선택할 때 확인할 기준"
 date: "2026-08-24"
 updated: "2026-08-27"
 category: "nutrition-guide"
 description: "고양이 건식 사료와 습식 사료의 수분, 열량, 성분 비교 방법과 혼합 급여 시 확인할 기준을 정리합니다."
-thumbnail: "/images/posts/dry-vs-wet-cat-food.png"
+thumbnail: "/images/posts/dry-vs-wet-cat-food.webp"
 ---
 
 고양이 사료를 고르다 보면 한 번쯤 이런 고민을 하게 됩니다.

@@ -1,10 +1,10 @@
----
+﻿---
 title: "고양이 간식 하루에 얼마나 줘야 할까? 급여량과 열량 확인하는 방법"
 date: "2026-08-16"
 updated: "2026-08-28"
 category: "cat-nutrition"
 description: "고양이 간식을 줄 때 하루 총열량의 10% 기준을 어떻게 적용하는지, 주식과 간식의 차이부터 열량 계산, 원재료와 건강 상태 확인 방법까지 정리합니다."
-thumbnail: "/images/posts/cat-treat-feeding-guide.png"
+thumbnail: "/images/posts/cat-treat-feeding-guide.webp"
 ---
 
 고양이에게 간식을 주다 보면 이런 고민이 생깁니다.
