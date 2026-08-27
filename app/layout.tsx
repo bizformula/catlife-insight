@@ -34,13 +34,29 @@ export default function RootLayout({
   className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
 >
   <head>
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3781508655873635"
-      data-overlays="bottom"
-      crossOrigin="anonymous"
-    />
-  </head>
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3781508655873635"
+    data-overlays="bottom"
+    crossOrigin="anonymous"
+  />
+
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-VQE5R4HP9E"
+  />
+
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VQE5R4HP9E');
+      `,
+    }}
+  />
+</head>
 
   <body className="min-h-full bg-[var(--background)] text-[var(--foreground)]">
   <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 md:px-6">
