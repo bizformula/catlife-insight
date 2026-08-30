@@ -1,0 +1,217 @@
+{
+  "slug": "royal-canin-hairball-care",
+  "name": "로얄캐닌 헤어볼 케어",
+  "brand": "로얄캐닌",
+  "summary": "헤어볼 배출이 어려운 생후 12개월 이후 성묘의 자연스러운 헤어볼 배출을 지원하도록 설계된 건식 사료입니다.",
+  "image": "/images/products/royal-canin-hairball-care.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "생후 12개월 이후 성묘용",
+    "헤어볼 배출 지원",
+    "차전자피를 포함한 식이섬유 함유",
+    "장내 털의 이동과 배출 지원"
+  ],
+  "mainProteins": [
+    "닭",
+    "오리",
+    "칠면조"
+  ],
+  "ingredients": [
+    "육분(닭, 오리)",
+    "옥수수",
+    "분말셀룰로오스",
+    "쌀",
+    "밀 글루텐",
+    "동물성 지방(닭, 오리)",
+    "옥수수 글루텐",
+    "동물성 유도단백질(닭, 칠면조)",
+    "밀",
+    "밀가루",
+    "사탕무박",
+    "혼합광물질류 합제",
+    "효모",
+    "대두유",
+    "어유",
+    "차전자피식이섬유(0.5%)",
+    "프락토올리고당",
+    "아미노산제 합제",
+    "비타민 A",
+    "비타민 D3",
+    "철",
+    "요오드",
+    "구리",
+    "망간",
+    "아연",
+    "셀레늄",
+    "항산화제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "옥수수",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "분말셀룰로오스",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "쌀",
+      "sourceText": "쌀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "밀 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수 글루텐",
+      "sourceText": "옥수수 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 닭 단백질",
+      "sourceText": "동물성 유도단백질(닭, 칠면조)",
+      "form": "hydrolyzed",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 칠면조 단백질",
+      "sourceText": "동물성 유도단백질(닭, 칠면조)",
+      "form": "hydrolyzed",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀",
+      "sourceText": "밀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀",
+      "sourceText": "밀가루",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "사탕무",
+      "sourceText": "사탕무박",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "대두유",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "생선",
+      "sourceText": "어유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only"
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "차전자피식이섬유(0.5%)",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 34,
+    "fat": 15,
+    "fiber": 6.9,
+    "ash": 6.9
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max"
+  },
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/hairball-care-2534",
+  "checkedAt": "2026-08-30",
+  "notes": "헤어볼 배출이 어려운 생후 12개월 이후 성묘의 헤어볼 관리를 위한 일반 건식 사료이며 처방식은 아닙니다. 닭·오리 육분과 지방, 닭·칠면조 유도단백질이 포함되어 있습니다. 어유가 포함되어 있으나 정확한 어종은 공개되지 않았습니다. 옥수수, 쌀, 밀 및 글루텐 원료가 포함되어 있어 곡물 제외 조건을 충족하지 않습니다. 대두유가 포함되어 있어 콩류 제외 조건도 충족하지 않습니다. 차전자피식이섬유가 0.5% 포함되어 있습니다. 공식 페이지의 정보는 로얄캐닌 글로벌에서 제시하는 기본 정보로 국내 사료관리법에 따른 실제 제품 표시사항과 일부 다를 수 있으므로 구매 제품의 최신 포장 표시도 함께 확인해야 합니다."
+}
