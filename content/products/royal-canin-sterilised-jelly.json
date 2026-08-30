@@ -1,0 +1,142 @@
+{
+  "slug": "royal-canin-sterilised-jelly",
+  "name": "로얄캐닌 스테럴라이즈드 파우치 젤리",
+  "brand": "로얄캐닌",
+  "summary": "중성화 이후 생후 12개월 이상 성묘의 이상적인 체중 유지와 요로기계 건강 관리를 지원하는 젤리 타입 습식 사료입니다.",
+  "image": "/images/products/royal-canin-sterilised-jelly.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "중성화 이후 생후 12개월 이상 성묘용",
+    "이상적인 체중 유지 지원",
+    "요로기계 건강 관리 지원",
+    "기호성 충족 지원",
+    "젤리 타입 습식 사료"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "돼지고기"
+  ],
+  "ingredients": [
+    "육류(닭,돼지)",
+    "옥수수전분",
+    "분말 셀룰로오스",
+    "밀글루텐",
+    "카라기난",
+    "로커스트콩검",
+    "혼합광물질류 합제",
+    "효모",
+    "아미노산제 합제",
+    "비타민 D3",
+    "철",
+    "요오드",
+    "구리",
+    "망간",
+    "아연",
+    "제올라이트"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "육류(닭,돼지)",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "돼지고기",
+      "sourceText": "육류(닭,돼지)",
+      "form": "fresh",
+      "group": "pork",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수전분",
+      "sourceText": "옥수수전분",
+      "form": "starch",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수전분",
+      "sourceText": "옥수수전분",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "분말 셀룰로오스",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "밀글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "카라기난",
+      "sourceText": "카라기난",
+      "form": "other",
+      "specificity": "specific"
+    },
+    {
+      "name": "로커스트콩검",
+      "sourceText": "로커스트콩검",
+      "form": "fiber",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모",
+      "form": "other",
+      "specificity": "specific"
+    },
+    {
+      "name": "제올라이트",
+      "sourceText": "제올라이트",
+      "form": "other",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 9,
+    "fat": 2.1,
+    "fiber": 1.5,
+    "ash": 1.5
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max"
+  },
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/sterilised-jelly-4156",
+  "checkedAt": "2026-08-30",
+  "notes": "중성화 이후 생후 12개월 이상 성묘를 위한 일반 습식 사료이며 처방식은 아닙니다. 공식 원재료 목록에서 닭고기와 돼지고기가 확인됩니다. 옥수수전분과 밀글루텐이 포함되어 있어 곡물 및 전분 제외 조건을 충족하지 않으며, 로커스트콩검이 포함되어 있습니다. 공식 페이지에 수분, 칼슘, 인 수치가 제시되지 않아 해당 값은 저장하지 않았습니다. 공식 페이지의 글로벌 기본 정보와 실제 국내 제품 표시사항이 일부 다를 수 있으므로 실제 구매 제품의 포장 표시도 함께 확인하세요."
+}
