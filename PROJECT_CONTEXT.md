@@ -1,6 +1,6 @@
 ﻿# Catlife Insight - Project Context
 
-최종 갱신: 2026-08-30
+최종 갱신: 2026-08-31
 
 ## 1. 프로젝트 개요
 
@@ -673,7 +673,7 @@ content/posts/*.md
 현재 글 수:
 
 ```text
-7개
+8개
 ```
 
 현재 글:
@@ -686,6 +686,7 @@ dry-vs-wet-cat-food.md
 how-to-read-cat-food-label.md
 how-to-read-product-analysis.md
 pola-food-change-story.md
+wet-food-gravy-vs-jelly.md
 ```
 
 2026-08-27 ~ 2026-08-28에 기존 7개 글의 내용 정비를 완료했다.
@@ -1316,7 +1317,7 @@ UI보다 데이터 정확성이 우선이다.
 - 원료 사전
 - 제품 Validator
 - Markdown 블로그
-- 블로그 7개
+- 블로그 8개
 - 자동 목차
 - 관련 글
 - 블로그 WebP 대표 이미지
