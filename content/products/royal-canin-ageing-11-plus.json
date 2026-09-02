@@ -1,0 +1,278 @@
+{
+  "slug": "royal-canin-ageing-11-plus",
+  "name": "로얄캐닌 캣 에이징 11+",
+  "brand": "로얄캐닌",
+  "summary": "11세 이상 노령묘의 건강과 활력 유지에 필요한 여러 요소와 먹기 쉬운 키블을 고려한 건식 사료입니다.",
+  "image": "/images/products/royal-canin-ageing-11-plus.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "senior"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "11세 이상 노령묘용",
+    "신장 건강 유지 지원",
+    "피모 건강 및 활동성 유지 지원",
+    "건강한 식욕과 체중 관리 지원",
+    "건강한 소화와 인지 기능·시력 및 면역 기능 관리 지원",
+    "노령묘를 위해 설계된 씹기 쉬운 키블"
+  ],
+  "mainProteins": [
+    "닭",
+    "오리",
+    "칠면조"
+  ],
+  "ingredients": [
+    "옥수수",
+    "밀",
+    "육분(닭, 오리)",
+    "밀 글루텐",
+    "동물성유지(돼지, 닭, 오리)",
+    "유도단백질(닭, 칠면조)",
+    "옥수수 글루텐",
+    "사탕무박",
+    "대두유",
+    "양조효모",
+    "분말 셀룰로오스",
+    "해조유(EPA+DHA의 원료)",
+    "황산칼슘",
+    "비타민제 합제",
+    "토마토 분말(라이코펜의 원료)",
+    "정제소금",
+    "차전자피식이섬유",
+    "프락토올리고당",
+    "염화칼륨",
+    "염화콜린",
+    "혼합광물질류 합제",
+    "구연산",
+    "타우린",
+    "효모(만난올리고당의 원료)",
+    "L-트립토판",
+    "비타민 E",
+    "비타민 C",
+    "글루코사민",
+    "L-카르니틴",
+    "어유",
+    "금잔화 분말",
+    "프로비타민A(베타-카로틴)",
+    "식물성 유지",
+    "뮤코다당단백(콘드로이친의 원료)",
+    "로즈마리 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "옥수수",
+      "sourceText": "옥수수",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀",
+      "sourceText": "밀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "밀 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "돼지 지방",
+      "sourceText": "동물성유지(돼지, 닭, 오리)",
+      "form": "fat",
+      "group": "pork",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 지방",
+      "sourceText": "동물성유지(돼지, 닭, 오리)",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리 지방",
+      "sourceText": "동물성유지(돼지, 닭, 오리)",
+      "form": "fat",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 닭 단백질",
+      "sourceText": "유도단백질(닭, 칠면조)",
+      "form": "hydrolyzed",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 칠면조 단백질",
+      "sourceText": "유도단백질(닭, 칠면조)",
+      "form": "hydrolyzed",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수 글루텐",
+      "sourceText": "옥수수 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "사탕무",
+      "sourceText": "사탕무박",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "대두유",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "양조효모",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "분말 셀룰로오스",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "해조유",
+      "sourceText": "해조유(EPA+DHA의 원료)",
+      "form": "oil",
+      "specificity": "specific"
+    },
+    {
+      "name": "토마토",
+      "sourceText": "토마토 분말(라이코펜의 원료)",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "차전자피식이섬유",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모(만난올리고당의 원료)",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "L-트립토판",
+      "sourceText": "L-트립토판",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "글루코사민",
+      "sourceText": "글루코사민",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-카르니틴",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "생선",
+      "sourceText": "어유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only"
+    },
+    {
+      "name": "금잔화",
+      "sourceText": "금잔화 분말",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "로즈마리",
+      "sourceText": "로즈마리 추출물",
+      "form": "extract",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 28,
+    "fat": 15,
+    "fiber": 3.9,
+    "ash": 6.7,
+    "moisture": 6.5,
+    "calcium": 0.63,
+    "phosphorus": 0.54
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min"
+  },
+  "calories": 4033,
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/ageing-11%2B-2561",
+  "checkedAt": "2026-09-01",
+  "notes": "11세 이상 노령묘를 위한 일반 건식 주식이며 처방식은 아닙니다. 닭·오리 육분과 닭·칠면조 유도단백질이 포함되어 있고, 동물성유지에는 돼지·닭·오리가 명시되어 있습니다. 옥수수, 밀, 밀글루텐, 옥수수글루텐이 포함되어 있어 곡물 제외 조건을 충족하지 않습니다. 대두유가 포함되어 있어 콩류 제외 조건도 충족하지 않습니다. 어유가 포함되어 있으나 정확한 어종은 공개되지 않았습니다. 공식 한국 페이지에는 조단백 28.0% 이상, 조지방 15.0% 이상, 칼슘 0.63% 이상, 인 0.54% 이상, 조섬유 3.9% 이하, 조회분 6.7% 이하, 수분 6.5% 이하 및 대사에너지 4033 kcal/kg가 표시되어 있습니다. 실제 구매 제품의 최신 포장 표시가 우선합니다."
+}

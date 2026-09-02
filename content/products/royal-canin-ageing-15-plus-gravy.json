@@ -1,0 +1,243 @@
+{
+  "slug": "royal-canin-ageing-15-plus-gravy",
+  "name": "로얄캐닌 캣 에이징 15+ 파우치 그레이비",
+  "brand": "로얄캐닌",
+  "summary": "15세 이상 노령묘의 건강과 활력 유지에 필요한 여러 요소와 씹기 쉬운 텍스처를 고려한 그레이비 타입 습식 사료입니다.",
+  "image": "/images/products/royal-canin-ageing-15-plus-gravy.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "senior"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "15세 이상 노령묘용",
+    "신장 건강 유지 지원",
+    "피모 건강 및 활동성 유지 지원",
+    "건강한 식욕과 체중 관리 지원",
+    "건강한 소화와 인지 기능·시력 및 면역 기능 관리 지원",
+    "노령묘를 위해 설계되고 테스트된 씹기 쉬운 그레이비 텍스처"
+  ],
+  "mainProteins": [
+    "돼지",
+    "닭"
+  ],
+  "ingredients": [
+    "정제수",
+    "육류(돼지)",
+    "육류(닭)",
+    "옥수수가루",
+    "글리신",
+    "해바라기유",
+    "옥수수전분",
+    "밀 글루텐",
+    "비타민제 합제",
+    "분말 셀룰로오스",
+    "혼합광물질류 합제",
+    "탄산칼슘",
+    "해조유(EPA 및 DHA 함유 유지)",
+    "폴리인산나트륨",
+    "염화칼륨",
+    "타우린",
+    "토마토 분말(라이코펜의 원료)",
+    "어유",
+    "카라기난",
+    "염화콜린",
+    "효모(만난올리고당의 원료)",
+    "비타민 C",
+    "보리지유",
+    "DL-메티오닌",
+    "포도당",
+    "글루코사민",
+    "L-카르니틴",
+    "L-트립토판",
+    "L-시스테인염산염",
+    "D-자일로오스",
+    "금잔화 분말",
+    "프락토올리고당",
+    "탄산나트륨",
+    "양조효모",
+    "산화마그네슘",
+    "비타민 E",
+    "뮤코다당단백(콘드로이친의 원료)",
+    "프로비타민A(베타-카로틴)"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "돼지고기",
+      "sourceText": "육류(돼지)",
+      "form": "fresh",
+      "group": "pork",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "육류(닭)",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "옥수수가루",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "해바라기",
+      "sourceText": "해바라기유",
+      "form": "oil",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수전분",
+      "sourceText": "옥수수전분",
+      "form": "starch",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수전분",
+      "sourceText": "옥수수전분",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "밀 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "분말 셀룰로오스",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "해조유",
+      "sourceText": "해조유(EPA 및 DHA 함유 유지)",
+      "form": "oil",
+      "specificity": "specific"
+    },
+    {
+      "name": "토마토",
+      "sourceText": "토마토 분말(라이코펜의 원료)",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "생선",
+      "sourceText": "어유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only"
+    },
+    {
+      "name": "카라기난",
+      "sourceText": "카라기난",
+      "form": "other",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모(만난올리고당의 원료)",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "보리지",
+      "sourceText": "보리지유",
+      "form": "oil",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "포도당",
+      "sourceText": "포도당",
+      "form": "other",
+      "specificity": "specific"
+    },
+    {
+      "name": "글루코사민",
+      "sourceText": "글루코사민",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-카르니틴",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "L-트립토판",
+      "sourceText": "L-트립토판",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "금잔화",
+      "sourceText": "금잔화 분말",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "양조효모",
+      "form": "supplement",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 7.6,
+    "fat": 2.5,
+    "fiber": 1.4,
+    "ash": 1.5,
+    "moisture": 82.1,
+    "calcium": 0.12,
+    "phosphorus": 0.11
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min"
+  },
+  "calories": 954,
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/ageing-15%2B-chunks-in-gravy-8076",
+  "checkedAt": "2026-09-02",
+  "notes": "15세 이상 노령묘를 위한 일반 습식 주식이며 처방식은 아닙니다. 주요 육류 원료로 돼지와 닭이 명시되어 있습니다. 옥수수가루, 옥수수전분, 밀 글루텐이 포함되어 있어 곡물 및 전분 제외 조건을 충족하지 않습니다. 어유가 포함되어 있으나 정확한 어종은 공개되지 않았습니다. 공식 한국 페이지에는 조단백 7.6% 이상, 조지방 2.5% 이상, 칼슘 0.12% 이상, 인 0.11% 이상, 조섬유 1.4% 이하, 조회분 1.5% 이하, 수분 82.1% 이하 및 대사에너지 954 kcal/kg가 표시되어 있습니다. 실제 구매 제품의 최신 포장 표시가 우선합니다."
+}

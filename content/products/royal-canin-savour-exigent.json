@@ -1,0 +1,195 @@
+{
+  "slug": "royal-canin-savour-exigent",
+  "name": "로얄캐닌 세이버 엑시전트",
+  "brand": "로얄캐닌",
+  "summary": "2가지 다른 모양의 알갱이로 입맛이 까다로운 생후 12개월 이후 성묘의 기호성 만족과 이상적인 체중 유지에 도움을 주도록 설계된 건식 사료입니다.",
+  "image": "/images/products/royal-canin-savour-exigent.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "생후 12개월 이후 성묘용",
+    "입맛이 까다로운 고양이의 기호성 지원",
+    "2가지 다른 모양과 질감의 키블 제공",
+    "이상적인 체중 유지 지원"
+  ],
+  "mainProteins": [
+    "닭",
+    "오리"
+  ],
+  "ingredients": [
+    "옥수수",
+    "육분(닭, 오리)",
+    "쌀",
+    "동물성 지방(닭, 오리)",
+    "밀 글루텐",
+    "대두박(가수분해 대두단백질)",
+    "동물성 유도단백질(닭)",
+    "옥수수 글루텐",
+    "분말셀룰로스",
+    "효모",
+    "혼합광물질류 합제",
+    "사탕무박",
+    "대두유",
+    "프락토올리고당",
+    "보리지유",
+    "아미노산제 합제",
+    "비타민 A",
+    "비타민 D3",
+    "철",
+    "요오드",
+    "구리",
+    "망간",
+    "아연",
+    "셀레늄",
+    "제올라이트",
+    "염화암모늄",
+    "항산화제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "옥수수",
+      "sourceText": "옥수수",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "쌀",
+      "sourceText": "쌀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "밀 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "대두박(가수분해 대두단백질)",
+      "form": "hydrolyzed",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 닭 단백질",
+      "sourceText": "동물성 유도단백질(닭)",
+      "form": "hydrolyzed",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수 글루텐",
+      "sourceText": "옥수수 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "분말셀룰로스",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "사탕무",
+      "sourceText": "사탕무박",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "대두유",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "보리지",
+      "sourceText": "보리지유",
+      "form": "oil",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 33,
+    "fat": 16,
+    "fiber": 3.1,
+    "ash": 7.2
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max"
+  },
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/savour-exigent-2531",
+  "checkedAt": "2026-09-01",
+  "notes": "입맛이 까다로운 생후 12개월 이후 성묘를 위한 일반 건식 사료이며 처방식은 아닙니다. 닭·오리 육분과 지방, 닭 유도단백질이 포함되어 있습니다. 옥수수, 쌀, 밀글루텐 및 옥수수글루텐이 포함되어 있어 곡물 제외 조건을 충족하지 않습니다. 가수분해 대두단백질과 대두유가 포함되어 있어 콩류 제외 조건도 충족하지 않습니다. 공식 페이지에는 NFE 35.2%도 표시되어 있지만 현재 제품 데이터 스키마의 보증성분 항목에는 NFE를 저장하지 않았습니다. 공식 페이지의 정보는 국내 사료관리법에 따른 실제 제품 표시사항과 일부 다를 수 있으므로 구매 제품의 최신 포장 표시도 함께 확인해야 합니다."
+}

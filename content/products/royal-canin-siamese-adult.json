@@ -1,0 +1,212 @@
+{
+  "slug": "royal-canin-siamese-adult",
+  "name": "로얄캐닌 샴 어덜트",
+  "brand": "로얄캐닌",
+  "summary": "생후 12개월 이후 샴의 날씬하고 근육질인 체형, 소화 건강, 피부와 피모 및 턱 구조를 고려한 묘종별 건식 사료입니다.",
+  "image": "/images/products/royal-canin-siamese-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "생후 12개월 이후 샴 성묘용",
+    "건강한 근육질 체형 유지 지원",
+    "소화 기능과 장내 미생물총 균형 지원",
+    "피부와 피모 건강 유지 지원",
+    "샴의 턱 구조를 고려한 튜브형 키블"
+  ],
+  "mainProteins": [
+    "닭",
+    "오리"
+  ],
+  "ingredients": [
+    "육분(닭, 오리)",
+    "밀 글루텐",
+    "옥수수",
+    "밀",
+    "쌀",
+    "옥수수 글루텐",
+    "동물성 지방(닭, 오리)",
+    "동물성 유도단백질(닭)",
+    "사탕무박",
+    "혼합광물질류 합제",
+    "어유",
+    "효모",
+    "대두유",
+    "프락토올리고당",
+    "가수분해 효모(만난 올리고당의 원료)",
+    "보리지유",
+    "금잔화추출물",
+    "L-카르니틴",
+    "아미노산제 합제",
+    "비타민 A",
+    "비타민 D3",
+    "철",
+    "요오드",
+    "구리",
+    "망간",
+    "아연",
+    "셀레늄",
+    "제올라이트",
+    "항산화제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "밀 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "옥수수",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀",
+      "sourceText": "밀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "쌀",
+      "sourceText": "쌀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수 글루텐",
+      "sourceText": "옥수수 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 닭 단백질",
+      "sourceText": "동물성 유도단백질(닭)",
+      "form": "hydrolyzed",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "사탕무",
+      "sourceText": "사탕무박",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "생선",
+      "sourceText": "어유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "대두유",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "가수분해 효모(만난 올리고당의 원료)",
+      "form": "hydrolyzed",
+      "specificity": "specific"
+    },
+    {
+      "name": "보리지",
+      "sourceText": "보리지유",
+      "form": "oil",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "금잔화",
+      "sourceText": "금잔화추출물",
+      "form": "extract",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-카르니틴",
+      "form": "supplement",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 38,
+    "fat": 16,
+    "fiber": 1.4,
+    "ash": 7.7
+  },
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/siamese-adult-2551",
+  "checkedAt": "2026-09-01",
+  "notes": "생후 12개월 이후 샴 성묘를 위한 일반 건식 주식이며 처방식은 아닙니다. 닭·오리 육분과 지방, 닭 유도단백질이 포함되어 있습니다. 밀글루텐, 옥수수, 밀, 쌀, 옥수수글루텐이 포함되어 있어 곡물 제외 조건을 충족하지 않습니다. 대두유가 포함되어 있어 콩류 제외 조건도 충족하지 않습니다. 어유가 포함되어 있으나 정확한 어종은 공개되지 않았습니다. 공식 한국 페이지에는 단백질 38%, 지방 16%, 조섬유 1.4%, 조회분 7.7%가 표시되어 있습니다. 해당 페이지에는 최소/최대 표시 기준이 별도로 명시되지 않아 analysisBasis는 등록하지 않았습니다. 실제 구매 제품의 최신 포장 표시가 우선합니다."
+}

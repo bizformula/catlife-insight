@@ -1,0 +1,242 @@
+{
+  "slug": "royal-canin-persian-adult",
+  "name": "로얄캐닌 페르시안 어덜트",
+  "brand": "로얄캐닌",
+  "summary": "생후 12개월 이후 페르시안의 피부와 피모, 헤어볼 배출, 소화 건강과 턱 구조를 고려한 묘종별 건식 사료입니다.",
+  "image": "/images/products/royal-canin-persian-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "생후 12개월 이후 페르시안 성묘용",
+    "피부와 피모 건강 유지 지원",
+    "헤어볼 배출 지원",
+    "소화 건강 지원",
+    "페르시안의 턱 구조를 고려한 아몬드형 키블"
+  ],
+  "mainProteins": [
+    "닭",
+    "칠면조",
+    "오리"
+  ],
+  "ingredients": [
+    "육분(닭, 칠면조, 오리)",
+    "동물성 지방(닭, 칠면조, 오리)",
+    "옥수수",
+    "밀글루텐",
+    "쌀",
+    "분말셀룰로스",
+    "옥수수 글루텐",
+    "동물성 유도단백질(닭, 칠면조)",
+    "밀",
+    "효모",
+    "혼합광물질류 합제",
+    "치커리",
+    "어유",
+    "대두유",
+    "프락토올리고당",
+    "차전자피",
+    "가수분해효모(만난올리고당의 원료)",
+    "보리지유",
+    "금잔화추출물",
+    "L-카르니틴",
+    "아미노산제 합제",
+    "비타민A",
+    "비타민 D3",
+    "철",
+    "요오드",
+    "구리",
+    "망간",
+    "아연",
+    "셀레늄",
+    "제올라이트",
+    "항산화제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "육분(닭, 칠면조, 오리)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "육분(닭, 칠면조, 오리)",
+      "form": "dried",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기",
+      "sourceText": "육분(닭, 칠면조, 오리)",
+      "form": "dried",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기 지방",
+      "sourceText": "동물성 지방(닭, 칠면조, 오리)",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조 지방",
+      "sourceText": "동물성 지방(닭, 칠면조, 오리)",
+      "form": "fat",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기 지방",
+      "sourceText": "동물성 지방(닭, 칠면조, 오리)",
+      "form": "fat",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "옥수수",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀",
+      "sourceText": "밀글루텐, 밀",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "쌀",
+      "sourceText": "쌀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "분말셀룰로스",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수 글루텐",
+      "sourceText": "옥수수 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 닭 단백질",
+      "sourceText": "동물성 유도단백질(닭, 칠면조)",
+      "form": "hydrolyzed",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 칠면조 단백질",
+      "sourceText": "동물성 유도단백질(닭, 칠면조)",
+      "form": "hydrolyzed",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "치커리",
+      "sourceText": "치커리",
+      "form": "other",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "생선",
+      "sourceText": "어유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only"
+    },
+    {
+      "name": "대두",
+      "sourceText": "대두유",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "차전자피",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "가수분해효모(만난올리고당의 원료)",
+      "form": "hydrolyzed",
+      "specificity": "specific"
+    },
+    {
+      "name": "보리지",
+      "sourceText": "보리지유",
+      "form": "oil",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "금잔화",
+      "sourceText": "금잔화추출물",
+      "form": "extract",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-카르니틴",
+      "form": "supplement",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 30,
+    "fat": 22,
+    "fiber": 4.7,
+    "ash": 7.4
+  },
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/persian-adult-2552",
+  "checkedAt": "2026-09-01",
+  "notes": "생후 12개월 이후 페르시안 성묘를 위한 일반 건식 주식이며 처방식은 아닙니다. 육분과 동물성 지방에 닭, 칠면조, 오리가 명시되어 있고 닭·칠면조 유도단백질도 포함됩니다. 옥수수, 밀글루텐, 쌀, 옥수수글루텐, 밀을 포함하므로 곡물 제외 조건을 충족하지 않습니다. 대두유가 포함되어 있어 콩류 제외 조건도 충족하지 않습니다. 어유가 포함되어 있으나 정확한 어종은 공개되지 않았습니다. 공식 한국 페이지에는 단백질 30%, 지방 22%, 조섬유 4.7%, 조회분 7.4%가 표시되어 있으며 수분, 칼슘, 인, 타우린 및 열량은 확인되지 않아 등록하지 않았습니다. 공식 페이지는 글로벌 기본 정보와 국내 제품 표시사항이 일부 다를 수 있다고 안내하므로 실제 구매 제품의 최신 포장 표시도 함께 확인해야 합니다."
+}

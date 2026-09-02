@@ -1,6 +1,6 @@
-﻿# Catlife Insight - Project Context
+# Catlife Insight - Project Context
 
-최종 갱신: 2026-08-31
+최종 갱신: 2026-09-02
 
 ## 1. 프로젝트 개요
 
@@ -259,7 +259,7 @@ PROJECT_CONTEXT.md
 현재 등록 제품 수:
 
 ```text
-40개
+60개
 ```
 
 제품 원본:
@@ -673,12 +673,13 @@ content/posts/*.md
 현재 글 수:
 
 ```text
-8개
+9개
 ```
 
 현재 글:
 
 ```text
+cat-food-age-labels-7-11-15.md
 cat-treat-feeding-guide.md
 chicken-ingredient-guide.md
 dry-matter-basis.md
@@ -1305,7 +1306,7 @@ UI보다 데이터 정확성이 우선이다.
 
 - 제품별 JSON 데이터 관리
 - 제품 이미지
-- 40개 제품 데이터
+- 60개 제품 데이터
 - 제품 목록
 - 제품 상세페이지
 - Finder
@@ -1317,7 +1318,7 @@ UI보다 데이터 정확성이 우선이다.
 - 원료 사전
 - 제품 Validator
 - Markdown 블로그
-- 블로그 8개
+- 블로그 9개
 - 자동 목차
 - 관련 글
 - 블로그 WebP 대표 이미지

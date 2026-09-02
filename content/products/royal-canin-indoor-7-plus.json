@@ -1,0 +1,228 @@
+{
+  "slug": "royal-canin-indoor-7-plus",
+  "name": "로얄캐닌 인도어 7+",
+  "brand": "로얄캐닌",
+  "summary": "생후 7년 이후 활동성이 적은 실내 생활 노령묘의 활력 유지와 신장 건강 관리를 고려한 건식 사료입니다.",
+  "image": "/images/products/royal-canin-indoor-7-plus.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "senior"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "생후 7년 이후 실내 생활 노령묘용",
+    "노화 초기 활력 유지 지원",
+    "적절한 인 함량을 통한 신장 건강 관리 지원",
+    "소화율이 높은 단백질과 식이섬유를 통한 변 상태 및 냄새 관리 지원"
+  ],
+  "mainProteins": [
+    "닭",
+    "오리"
+  ],
+  "ingredients": [
+    "옥수수",
+    "육분(닭, 오리)",
+    "밀",
+    "밀 글루텐",
+    "보리",
+    "옥수수 글루텐",
+    "동물성 유도단백질(닭)",
+    "동물성 지방(닭, 오리)",
+    "분말셀룰로스",
+    "사탕무박",
+    "혼합광물질류 합제",
+    "효모",
+    "대두유",
+    "어유",
+    "차전자피",
+    "프락토올리고당",
+    "글루코사민",
+    "금잔화추출물",
+    "L-카르니틴",
+    "뮤코다당단백(콘드로이틴의 원료)",
+    "아미노산제 합제",
+    "비타민 A",
+    "비타민 D3",
+    "철",
+    "요오드",
+    "구리",
+    "망간",
+    "아연",
+    "셀레늄",
+    "제올라이트",
+    "차카테킨",
+    "염화암모늄",
+    "항산화제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "옥수수",
+      "sourceText": "옥수수",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기",
+      "sourceText": "육분(닭, 오리)",
+      "form": "dried",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀",
+      "sourceText": "밀",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "밀 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "보리",
+      "sourceText": "보리",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수 글루텐",
+      "sourceText": "옥수수 글루텐",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "가수분해 닭 단백질",
+      "sourceText": "동물성 유도단백질(닭)",
+      "form": "hydrolyzed",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리 지방",
+      "sourceText": "동물성 지방(닭, 오리)",
+      "form": "fat",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "분말셀룰로스",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "사탕무",
+      "sourceText": "사탕무박",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "효모",
+      "sourceText": "효모",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "대두유",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "생선",
+      "sourceText": "어유",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only"
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "차전자피",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "프락토올리고당",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "금잔화",
+      "sourceText": "금잔화추출물",
+      "form": "extract",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-카르니틴",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "차카테킨",
+      "sourceText": "차카테킨",
+      "form": "extract",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 27,
+    "fat": 13,
+    "fiber": 3.6,
+    "ash": 6.9
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max"
+  },
+  "sourceUrl": "https://www.royalcanin.com/kr/cats/products/retail-products/indoor-7%2B-2548",
+  "checkedAt": "2026-09-01",
+  "notes": "생후 7년 이후 활동성이 적은 실내 생활 노령묘를 위한 일반 건식 사료이며 처방식은 아닙니다. 옥수수, 밀, 보리와 글루텐 원료가 포함되어 있어 곡물 제외 조건을 충족하지 않습니다. 대두유가 포함되어 있어 콩류 제외 조건도 충족하지 않습니다. 어유가 포함되어 있으나 정확한 어종은 공개되지 않았습니다. 로얄캐닌 한국 공식 페이지의 등록성분량에는 단백질 27%, 지방 13%, 조섬유 3.6%, 조회분 6.9%가 명시되어 있으며, 뒤에 표시된 '44%'는 항목명이 확인되지 않아 데이터에 반영하지 않았습니다. 공식 페이지의 정보는 국내 사료관리법에 따른 실제 제품 표시사항과 일부 다를 수 있으므로 구매 제품의 최신 포장 표시도 함께 확인해야 합니다."
+}
