@@ -1,0 +1,198 @@
+{
+  "slug": "hills-science-diet-kitten-sensitive-stomach-skin-salmon-brown-rice",
+  "name": "힐스 사이언스 다이어트 키튼 센서티브 스토막 & 스킨 연어 & 현미 레시피",
+  "brand": "힐스",
+  "summary": "예민한 위와 피부를 가진 1세 이하 고양이와 임신·수유 중인 고양이를 위해 소화기 부담을 줄이고 피부·모질, 두뇌 발달과 근육 성장을 지원하도록 설계된 건식 사료입니다.",
+  "image": "/images/products/hills-science-diet-kitten-sensitive-stomach-skin-salmon-brown-rice.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "예민한 위와 피부를 가진 1세 이하 고양이용",
+    "임신 및 수유 중인 고양이용",
+    "소화가 잘 되는 고소화성 레시피",
+    "프리바이오틱 섬유를 통한 소화기 건강 지원",
+    "비타민 E와 오메가-3·6 지방산을 통한 피부와 모질 관리 지원",
+    "비타민 C·E 항산화제를 통한 면역 체계 지원",
+    "DHA를 통한 두뇌 발달 지원",
+    "고품질 단백질을 통한 성장기 근육 발달 지원"
+  ],
+  "mainProteins": [
+    "연어",
+    "닭"
+  ],
+  "ingredients": [
+    "연어",
+    "현미",
+    "닭고기",
+    "닭고기분",
+    "닭 지방",
+    "완두 단백질",
+    "옥수수 단백질분",
+    "진주보리",
+    "양조쌀",
+    "계란 제품",
+    "건조 사탕무박",
+    "닭간 향미제",
+    "아마씨",
+    "젖산",
+    "귀리 섬유",
+    "대두유",
+    "염화칼륨",
+    "요오드화 소금",
+    "염화콜린",
+    "제2인산칼슘",
+    "L-라이신",
+    "프락토올리고당(FOS)",
+    "DL-메티오닌",
+    "타우린",
+    "비타민 혼합물",
+    "황산칼슘",
+    "미네랄 혼합물",
+    "혼합 토코페롤",
+    "천연 향미제",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "현미",
+      "sourceText": "Brown Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기분",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 지방",
+      "sourceText": "Chicken Fat",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두",
+      "sourceText": "Pea Protein",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "보리",
+      "sourceText": "Cracked Pearled Barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Brewers Rice",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product",
+      "form": "other",
+      "group": "egg",
+      "specificity": "specific"
+    },
+    {
+      "name": "사탕무",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭간 향미제",
+      "sourceText": "Chicken Liver Flavor",
+      "form": "extract",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific"
+    },
+    {
+      "name": "귀리 섬유",
+      "sourceText": "Oat Fiber",
+      "form": "fiber",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soybean Oil",
+      "form": "oil",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "Fructooligosaccharides (FOS)",
+      "form": "supplement",
+      "specificity": "specific"
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {},
+  "sourceUrl": "https://www.hillspet.co.kr/cat-food/science-diet-kitten-sensitive-stomach-skin-salmon-brown-rice-dry",
+  "checkedAt": "2026-09-02",
+  "notes": "힐스 한국 공식 페이지에서 제품명, 건사료 형태, 연어 & 현미 레시피, 1.58kg 포장, 추천 대상과 주요 특징을 확인했습니다. 한국 공식 페이지의 공개 화면에서는 성분 목록과 평균 영양소·칼로리 수치가 펼쳐져 노출되지 않아, 원재료는 동일 제품의 힐스 미국 공식 페이지에 공개된 제조사 원료표를 보조 공식 자료로 사용해 구조화했습니다. 원재료에는 연어, 닭고기, 닭고기분, 완두 단백질, 곡물류, 계란 제품과 대두유가 명시되어 있습니다. 보증성분 및 열량은 한국 공식 페이지에서 직접 확인할 수 있는 수치가 없어 추정하지 않았습니다. 지역별·시점별 배합 차이가 있을 수 있으므로 실제 국내 판매 제품의 최신 포장 표시가 우선합니다."
+}

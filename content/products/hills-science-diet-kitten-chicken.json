@@ -1,0 +1,190 @@
+{
+  "slug": "hills-science-diet-kitten-chicken",
+  "name": "힐스 사이언스 다이어트 키튼 치킨 레시피",
+  "brand": "힐스",
+  "summary": "1세 미만의 어린 고양이와 임신·수유 중인 고양이를 위해 성장기 에너지, 소화기 건강, 면역 체계, 뇌·눈 발달과 근육·뼈 성장을 지원하도록 설계된 건식 사료입니다.",
+  "image": "/images/products/hills-science-diet-kitten-chicken.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "1세 미만 어린 고양이용",
+    "임신·수유 중인 고양이용",
+    "성장기 에너지 공급 지원",
+    "프리바이오틱스 혼합물을 통한 소화기 건강 지원",
+    "항산화제 혼합물을 통한 면역 체계 지원",
+    "DHA를 통한 뇌와 눈 발달 지원",
+    "고품질 단백질을 통한 근육 성장 지원",
+    "균형 잡힌 미네랄을 통한 뼈와 치아 성장 지원"
+  ],
+  "mainProteins": [
+    "닭"
+  ],
+  "ingredients": [
+    "닭고기",
+    "현미",
+    "밀 글루텐",
+    "닭 지방",
+    "진주보리",
+    "닭고기분",
+    "통귀리",
+    "계란 제품",
+    "닭간 향미제",
+    "분쇄 피칸 껍질",
+    "젖산",
+    "염화칼륨",
+    "제2인산칼슘",
+    "아마씨",
+    "건조 사탕무박",
+    "L-라이신",
+    "황산칼슘",
+    "건조 감귤 펄프",
+    "염화콜린",
+    "요오드화 소금",
+    "해양 미세조류 오일",
+    "DL-메티오닌",
+    "압착 크랜베리",
+    "시스테인",
+    "비타민 혼합물",
+    "타우린",
+    "미네랄 혼합물",
+    "산화마그네슘",
+    "혼합 토코페롤",
+    "천연 향미제",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "현미",
+      "sourceText": "Brown Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "밀글루텐",
+      "sourceText": "Wheat Gluten",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 지방",
+      "sourceText": "Chicken Fat",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "보리",
+      "sourceText": "Cracked Pearled Barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기분",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Whole Grain Oats",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product",
+      "form": "other",
+      "group": "egg",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭간 향미제",
+      "sourceText": "Chicken Liver Flavor",
+      "form": "extract",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "피칸 껍질",
+      "sourceText": "Ground Pecan Shells",
+      "form": "fiber",
+      "specificity": "specific"
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific"
+    },
+    {
+      "name": "사탕무",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "감귤",
+      "sourceText": "Dried Citrus Pulp",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "해양 미세조류 오일",
+      "sourceText": "Marine Microalgae Oil",
+      "form": "oil",
+      "specificity": "specific"
+    },
+    {
+      "name": "크랜베리",
+      "sourceText": "Pressed Cranberries",
+      "form": "other",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {},
+  "sourceUrl": "https://www.hillspet.co.kr/cat-food/science-diet-kitten-original-dry",
+  "checkedAt": "2026-09-02",
+  "notes": "힐스 한국 공식 페이지에서 제품명, 건사료 형태, 1세 이하 및 임신·수유 중 고양이 권장, 액티브바이옴+, 항산화제, DHA와 피쉬 오일, 균형 잡힌 미네랄 및 고품질 단백질 관련 제품 설명을 확인했습니다. 현재 한국 공식 페이지의 웹 공개 화면에서는 전체 원재료 목록과 평균 영양소 수치가 펼쳐진 형태로 노출되지 않아, 원재료 목록은 동일 제품의 힐스 미국 공식 페이지에 공개된 현재 원료표를 보조 공식 자료로 참고해 번역·구조화했습니다. 한국 공식 페이지는 주요 특징에서 피쉬 오일을 명시하므로 fish 상태는 contains로 기록했지만, 미국 공식 원료표에는 해양 미세조류 오일이 표시되어 있어 지역별·시점별 배합 차이가 있을 수 있습니다. 보증성분 수치는 한국 공식 페이지에서 직접 확인 가능한 값이 없어 추정하지 않았습니다. 실제 국내 판매 제품의 최신 포장 표시가 우선합니다."
+}

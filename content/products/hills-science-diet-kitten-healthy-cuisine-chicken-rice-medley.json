@@ -1,0 +1,263 @@
+{
+  "slug": "hills-science-diet-kitten-healthy-cuisine-chicken-rice-medley",
+  "name": "힐스 사이언스 다이어트 키튼 헬시 퀴진 치킨 & 쌀",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "생후 1년까지 자묘를 위한 치킨·돼지 간 기반의 스튜 타입 습식 주식으로, 성장기 근육·면역·뼈와 치아 건강을 지원하도록 설계된 제품입니다.",
+  "image": "/images/products/hills-science-diet-kitten-healthy-cuisine-chicken-rice-medley.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "생후 1년까지 자묘용",
+    "성장기 영양 지원",
+    "스튜 타입 습식 주식"
+  ],
+  "mainProteins": [
+    "닭",
+    "돼지 간"
+  ],
+  "ingredients": [
+    "닭 육수",
+    "닭고기",
+    "돼지 간",
+    "당근",
+    "밀 글루텐",
+    "쌀 전분",
+    "시금치",
+    "쌀",
+    "닭 지방",
+    "천연 향미",
+    "염화칼슘",
+    "알긴산칼륨",
+    "분쇄 피칸 껍질",
+    "인산일나트륨",
+    "인산이칼슘",
+    "아마씨",
+    "건조 비트 펄프",
+    "젖산칼슘",
+    "글루콘산칼슘",
+    "분말 셀룰로오스",
+    "건조 감귤 펄프",
+    "구아검",
+    "어유",
+    "프락토올리고당(FOS)",
+    "염화콜린",
+    "구연산칼륨",
+    "타우린",
+    "압착 크랜베리",
+    "비타민 혼합물",
+    "귀리 섬유",
+    "삼인산나트륨",
+    "산화마그네슘",
+    "미네랄 혼합물",
+    "염산티아민",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken Broth, Chicken, Chicken Fat",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭고기",
+        "치킨",
+        "계육",
+        "닭 육수",
+        "치킨 브로스",
+        "닭 지방"
+      ]
+    },
+    {
+      "name": "돼지",
+      "sourceText": "Pork Liver",
+      "form": "organ",
+      "group": "pork",
+      "specificity": "specific",
+      "aliases": [
+        "돼지고기",
+        "돼지 간",
+        "돈육",
+        "돈간",
+        "포크",
+        "포크 리버"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Gluten",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀글루텐",
+        "밀 글루텐",
+        "소맥",
+        "글루텐"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice Starch, Rice",
+      "form": "starch",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "쌀 전분",
+        "쌀전분",
+        "라이스",
+        "라이스 스타치"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Oat Fiber",
+      "form": "fiber",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "귀리 섬유",
+        "귀리섬유",
+        "오트",
+        "오트 파이버"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "어유",
+        "피쉬 오일",
+        "피쉬오일",
+        "생선 오일",
+        "생선 기름"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "캐럿"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "Spinach",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "스피니치"
+      ]
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "아마인",
+        "플랙시드"
+      ]
+    },
+    {
+      "name": "비트 펄프",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 비트 펄프",
+        "비트펄프"
+      ]
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "Powdered Cellulose",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "분말 셀룰로오스",
+        "분말셀룰로오스"
+      ]
+    },
+    {
+      "name": "감귤 펄프",
+      "sourceText": "Dried Citrus Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 감귤 펄프",
+        "시트러스 펄프"
+      ]
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "Fructooligosaccharides (FOS)",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "FOS",
+        "프락토 올리고당"
+      ]
+    },
+    {
+      "name": "크랜베리",
+      "sourceText": "Pressed Cranberries",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "압착 크랜베리",
+        "크랜베리"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 6.5,
+    "fat": 2.5,
+    "fiber": 2,
+    "ash": 3,
+    "moisture": 85
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max"
+  },
+  "calories": 898,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-kitten-healthy-cuisine-chicken-rice-medley-stew-canned",
+  "checkedAt": "2026-09-02",
+  "notes": "Hill's 미국 공식 페이지 기준 현재 제품명은 'Kitten Healthy Cuisine Tender Chicken & Rice Medley'이며 2.8 oz(79 g) 캔 제품입니다. 자묘 성장기에 필요한 완전균형 영양을 제공하며 처방식은 아닙니다. 닭고기, 돼지 간, 밀 글루텐, 쌀·귀리 및 어종이 특정되지 않은 어유가 포함되어 있습니다. 보증성분과 열량은 현재 유통 판매 정보와 교차 확인했으며, 제조 시기와 국내 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 포장을 함께 확인하세요."
+}

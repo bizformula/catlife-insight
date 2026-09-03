@@ -1,0 +1,233 @@
+{
+  "slug": "hills-science-diet-adult-7-indoor-chicken-recipe",
+  "name": "힐스 사이언스 다이어트 어덜트 7+ 인도어 치킨 레시피",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "7세 이상 실내 생활 성묘를 위한 치킨 기반 건식 주식으로, ActivBiome+ Multi-Benefit 프리바이오틱 섬유와 항산화 성분을 통해 소화·면역·장기 건강과 피부·피모 건강을 지원하도록 설계된 제품입니다.",
+  "image": "/images/products/hills-science-diet-adult-7-indoor-chicken-recipe.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "senior"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "7세 이상 실내 생활 성묘용",
+    "소화 건강 및 배변 관리 지원",
+    "심장·신장·방광 건강 지원",
+    "피부·피모 및 근육 건강 지원"
+  ],
+  "mainProteins": [
+    "닭"
+  ],
+  "ingredients": [
+    "닭고기",
+    "통밀",
+    "옥수수 단백질분",
+    "밀 글루텐",
+    "분말 셀룰로오스",
+    "닭 지방",
+    "브루어스 라이스",
+    "건조 비트 펄프",
+    "닭 간 향미",
+    "젖산",
+    "대두유",
+    "염화칼륨",
+    "어유",
+    "황산칼슘",
+    "염화콜린",
+    "인산이칼슘",
+    "통귀리",
+    "탄산칼슘",
+    "요오드화 소금",
+    "프락토올리고당(FOS)",
+    "타우린",
+    "비타민 혼합물",
+    "미네랄 혼합물",
+    "L-카르니틴",
+    "L-아르기닌",
+    "혼합 토코페롤",
+    "천연 향미",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken, Chicken Fat, Chicken Liver Flavor",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "닭 지방",
+        "닭 간 향미"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Whole Grain Wheat, Wheat Gluten",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "통밀",
+        "밀 글루텐",
+        "밀글루텐",
+        "소맥"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "옥수수 단백질분",
+        "콘 프로틴 밀",
+        "콘 글루텐 밀"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Brewers Rice",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "브루어스 라이스",
+        "맥주효모쌀"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Whole Grain Oats",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "통귀리",
+        "오트",
+        "whole grain oats"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "어유",
+        "피쉬 오일",
+        "피쉬오일",
+        "생선 오일",
+        "생선 기름"
+      ]
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "Powdered Cellulose",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "셀룰로오스",
+        "분말 셀룰로오스",
+        "분말셀룰로오스"
+      ]
+    },
+    {
+      "name": "비트 펄프",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 비트 펄프",
+        "비트펄프"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soybean Oil",
+      "form": "oil",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두유",
+        "소이빈 오일"
+      ]
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "Fructooligosaccharides (FOS)",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "FOS",
+        "프락토 올리고당",
+        "프리바이오틱 섬유"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 29.5,
+    "fat": 12.5,
+    "fiber": 10
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max"
+  },
+  "calories": 3574,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-mature-adult-indoor-dry",
+  "checkedAt": "2026-09-03",
+  "notes": "Hill's 미국 공식 페이지 기준 7세 이상 실내 생활 성묘용 완전균형 건식 주식이며 처방식은 아닙니다. 닭고기가 첫 번째 원료이며 통밀, 옥수수 단백질분, 밀 글루텐, 분말 셀룰로오스, 브루어스 라이스, 어유, 통귀리 및 FOS가 포함됩니다. 따라서 알러지 검색에서는 chicken, fish, grain을 contains로 처리했습니다. 보증성분은 현재 판매 페이지의 라벨 표시값을 기준으로 조단백 29.5% 이상, 조지방 12.5% 이상, 조섬유 10.0% 이하로 등록했고, 열량은 약 3,574 kcal/kg입니다. 제조 시기와 국가별 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장을 함께 확인하세요."
+}

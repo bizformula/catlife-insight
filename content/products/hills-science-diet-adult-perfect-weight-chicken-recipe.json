@@ -1,0 +1,230 @@
+{
+  "slug": "hills-science-diet-adult-perfect-weight-chicken-recipe",
+  "name": "힐스 사이언스 다이어트 어덜트 퍼펙트 웨이트 치킨 레시피",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "체중 증가에 취약한 성묘를 위한 치킨 기반 저칼로리 건식 주식으로, 고단백·고섬유 배합과 L-카르니틴, 코코넛 오일을 통해 건강한 체중과 대사를 지원하도록 설계된 제품입니다.",
+  "image": "/images/products/hills-science-diet-adult-perfect-weight-chicken-recipe.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "체중 관리 지원",
+    "활동량이 적거나 중성화 후 체중 증가에 취약한 고양이",
+    "건강한 대사 및 근육 유지 지원"
+  ],
+  "mainProteins": [
+    "닭"
+  ],
+  "ingredients": [
+    "닭고기",
+    "브루어스 라이스",
+    "옥수수 단백질분",
+    "밀 글루텐",
+    "귀리 섬유",
+    "치킨밀",
+    "건조 토마토 박",
+    "건조 비트 펄프",
+    "아마씨",
+    "닭 지방",
+    "닭 간 향미",
+    "코코넛 오일",
+    "젖산",
+    "황산칼슘",
+    "염화칼륨",
+    "L-라이신",
+    "염화콜린",
+    "당근",
+    "DL-메티오닌",
+    "타우린",
+    "요오드화 소금",
+    "비타민 혼합물",
+    "인산이칼슘",
+    "미네랄 혼합물",
+    "L-카르니틴",
+    "혼합 토코페롤",
+    "천연 향미",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken, Chicken Meal, Chicken Fat, Chicken Liver Flavor",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "치킨밀",
+        "닭 지방",
+        "닭 간 향미"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Brewers Rice",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "브루어스 라이스",
+        "맥주효모쌀"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "옥수수 단백질분",
+        "콘 프로틴 밀",
+        "콘 글루텐 밀"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Gluten",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀 글루텐",
+        "밀글루텐",
+        "소맥",
+        "글루텐"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Oat Fiber",
+      "form": "fiber",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "귀리 섬유",
+        "귀리섬유",
+        "오트 파이버"
+      ]
+    },
+    {
+      "name": "토마토",
+      "sourceText": "Dried Tomato Pomace",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 토마토 박",
+        "토마토 포마스",
+        "토마토"
+      ]
+    },
+    {
+      "name": "비트 펄프",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 비트 펄프",
+        "비트펄프"
+      ]
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "아마인",
+        "플랙시드"
+      ]
+    },
+    {
+      "name": "코코넛",
+      "sourceText": "Coconut Oil",
+      "form": "oil",
+      "specificity": "specific",
+      "aliases": [
+        "코코넛 오일",
+        "코코넛오일"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "캐럿"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 34,
+    "fat": 8.5,
+    "fiber": 9,
+    "ash": 9.8,
+    "moisture": 8
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max"
+  },
+  "calories": 3412,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-adult-perfect-weight-dry",
+  "checkedAt": "2026-09-03",
+  "notes": "Hill's 미국 공식 페이지 기준 성묘용 체중 관리 완전균형 건식 주식이며 처방식은 아닙니다. 닭고기가 첫 번째 원료이며 브루어스 라이스, 옥수수 단백질분, 밀 글루텐, 귀리 섬유, 치킨밀, 토마토 박, 비트 펄프, 아마씨, 코코넛 오일 및 L-카르니틴이 포함됩니다. 현재 공식 원재료표에는 어유나 기타 생선 원료가 표시되지 않아 fish는 not-listed로 처리했습니다. 현재 유통 표시 기준 보증성분은 조단백 34.0% 이상, 조지방 8.5% 이상, 조섬유 9.0% 이하, 조회분 9.8% 이하, 수분 8.0% 이하이며 열량은 약 3,412 kcal/kg(319 kcal/cup)입니다. 제조 시기와 국가별 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장도 함께 확인하세요."
+}

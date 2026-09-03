@@ -1,0 +1,225 @@
+{
+  "slug": "hills-science-diet-adult-hairball-control-chicken-recipe",
+  "name": "힐스 사이언스 다이어트 어덜트 헤어볼 컨트롤 치킨 레시피",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "1~6세 성묘의 헤어볼 관리를 위한 치킨 기반 건식 주식으로, 자연 유래 섬유와 타우린, 오메가 지방산을 통해 헤어볼 배출과 심장·눈, 피부·피모 건강을 지원하도록 설계된 제품입니다.",
+  "image": "/images/products/hills-science-diet-adult-hairball-control-chicken-recipe.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "1~6세 성묘용",
+    "헤어볼 관리",
+    "피부·피모 건강 지원",
+    "성묘 유지 관리"
+  ],
+  "mainProteins": [
+    "닭"
+  ],
+  "ingredients": [
+    "닭고기",
+    "통밀",
+    "옥수수 단백질분",
+    "닭 지방",
+    "분말 셀룰로오스",
+    "브루어스 라이스",
+    "완두 단백질",
+    "치킨밀",
+    "밀 글루텐",
+    "닭 간 향미",
+    "건조 비트 펄프",
+    "젖산",
+    "황산칼슘",
+    "어유",
+    "염화콜린",
+    "염화칼륨",
+    "L-라이신",
+    "대두유",
+    "DL-메티오닌",
+    "요오드화 소금",
+    "비타민 혼합물",
+    "타우린",
+    "L-트립토판",
+    "인산이칼슘",
+    "미네랄 혼합물",
+    "혼합 토코페롤",
+    "천연 향미",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken, Chicken Fat, Chicken Meal, Chicken Liver Flavor",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭고기",
+        "치킨",
+        "계육",
+        "닭 지방",
+        "치킨밀",
+        "치킨 밀",
+        "닭 간 향미"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Whole Grain Wheat, Wheat Gluten",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "통밀",
+        "통곡물 밀",
+        "밀 글루텐",
+        "밀글루텐",
+        "소맥"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "옥수수 단백질분",
+        "콘 프로틴 밀",
+        "콘 글루텐 밀"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Brewers Rice",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "브루어스 라이스",
+        "맥주효모쌀"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "Pea Protein",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 단백질",
+        "피 프로틴"
+      ]
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "Powdered Cellulose",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "셀룰로오스",
+        "분말 셀룰로오스",
+        "분말셀룰로오스"
+      ]
+    },
+    {
+      "name": "비트 펄프",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 비트 펄프",
+        "비트펄프"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "어유",
+        "피쉬 오일",
+        "피쉬오일",
+        "생선 오일",
+        "생선 기름"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soybean Oil",
+      "form": "oil",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두유",
+        "소이빈 오일"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    },
+    {
+      "name": "L-트립토판",
+      "sourceText": "L-Tryptophan",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "트립토판",
+        "L 트립토판"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 29.5,
+    "fat": 15,
+    "fiber": 11,
+    "ash": 9,
+    "moisture": 8,
+    "taurine": 0.1
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 3651,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-adult-hairball-dry",
+  "checkedAt": "2026-09-02",
+  "notes": "Hill's 미국 공식 페이지 기준 1~6세의 헤어볼 발생이 잦은 성묘용 완전균형 건식 주식이며 처방식은 아닙니다. 현재 공식 원재료에는 닭고기, 통밀, 옥수수 단백질분, 닭 지방, 분말 셀룰로오스, 브루어스 라이스, 완두 단백질, 치킨밀, 밀 글루텐, 어유 및 대두유가 포함됩니다. 따라서 알러지 검색에서는 chicken, fish, grain을 contains로 처리했습니다. 현재 유통 표시 기준 보증성분은 조단백 29.5% 이상, 조지방 15.0% 이상, 조섬유 11.0% 이하, 조회분 9.0% 이하, 수분 8.0% 이하, 타우린 0.1% 이상이며 열량은 약 3,651 kcal/kg(321 kcal/cup)입니다. 제조 시기와 국가별 유통 제품에 따라 원재료와 보증성분이 달라질 수 있으므로 실제 제품 포장을 함께 확인하세요."
+}

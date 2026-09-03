@@ -1,0 +1,254 @@
+{
+  "slug": "hills-science-diet-adult-perfect-digestion-salmon-brown-rice-whole-oats",
+  "name": "힐스 사이언스 다이어트 어덜트 퍼펙트 다이제스천 연어·현미·통귀리",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "1~6세 성묘의 소화 건강과 장내 미생물 균형을 지원하도록 설계된 연어 기반 건식 주식으로, 현미·통귀리와 ActivBiome+ Digestion 프리바이오틱 블렌드를 포함합니다.",
+  "image": "/images/products/hills-science-diet-adult-perfect-digestion-salmon-brown-rice-whole-oats.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "1~6세 성묘용",
+    "소화 건강 지원",
+    "장내 미생물 균형 지원",
+    "규칙적인 배변 및 영양소 흡수 지원"
+  ],
+  "mainProteins": [
+    "연어",
+    "닭",
+    "계란"
+  ],
+  "ingredients": [
+    "연어",
+    "현미",
+    "옥수수 단백질분",
+    "통귀리",
+    "감자 단백질",
+    "치킨밀",
+    "통옥수수",
+    "닭 지방",
+    "계란 제품",
+    "닭 간 향미",
+    "분쇄 피칸 껍질",
+    "젖산",
+    "염화칼륨",
+    "황산칼슘",
+    "아마씨",
+    "건조 비트 펄프",
+    "건조 감귤 펄프",
+    "L-라이신",
+    "대두유",
+    "염화콜린",
+    "요오드화 소금",
+    "압착 크랜베리",
+    "호박",
+    "타우린",
+    "비타민 혼합물",
+    "탄산칼슘",
+    "DL-메티오닌",
+    "미네랄 혼합물",
+    "혼합 토코페롤",
+    "천연 향미",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "연어",
+        "살몬",
+        "salmon"
+      ]
+    },
+    {
+      "name": "현미",
+      "sourceText": "Brown Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "현미",
+        "브라운 라이스",
+        "brown rice"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal, Whole Grain Corn",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "옥수수 단백질분",
+        "통옥수수",
+        "콘 프로틴 밀"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Whole Grain Oats",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "통귀리",
+        "오트",
+        "whole grain oats"
+      ]
+    },
+    {
+      "name": "닭",
+      "sourceText": "Chicken Meal, Chicken Fat, Chicken Liver Flavor",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "치킨밀",
+        "닭 지방",
+        "닭 간 향미"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product",
+      "form": "other",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "계란 제품",
+        "에그 프로덕트"
+      ]
+    },
+    {
+      "name": "감자",
+      "sourceText": "Potato Protein",
+      "form": "other",
+      "specificity": "specific",
+      "aliases": [
+        "감자",
+        "감자 단백질",
+        "포테이토 프로틴"
+      ]
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "아마인",
+        "플랙시드"
+      ]
+    },
+    {
+      "name": "비트 펄프",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 비트 펄프",
+        "비트펄프"
+      ]
+    },
+    {
+      "name": "감귤 펄프",
+      "sourceText": "Dried Citrus Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 감귤 펄프",
+        "시트러스 펄프"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soybean Oil",
+      "form": "oil",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두유",
+        "소이빈 오일"
+      ]
+    },
+    {
+      "name": "크랜베리",
+      "sourceText": "Pressed Cranberries",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "크랜베리",
+        "압착 크랜베리"
+      ]
+    },
+    {
+      "name": "호박",
+      "sourceText": "Pumpkin",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "호박",
+        "펌킨"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 29,
+    "fat": 14,
+    "fiber": 4,
+    "moisture": 8
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "calories": 3844,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-adult-perfect-digestion-salmon-oats-rice-dry",
+  "checkedAt": "2026-09-03",
+  "notes": "Hill's 미국 공식 페이지 기준 1~6세 성묘의 소화 건강과 장내 미생물 균형을 지원하는 완전균형 건식 주식이며 처방식은 아닙니다. 연어가 첫 번째 원료이며 현미, 옥수수 단백질분, 통귀리, 감자 단백질, 치킨밀, 통옥수수, 닭 지방 및 계란 제품이 포함됩니다. 따라서 알러지 검색에서는 fish, chicken, egg, grain을 contains로 처리했습니다. 현재 유통 표시 기준 보증성분은 조단백 29% 이상, 조지방 14% 이상, 조섬유 4% 이하, 수분 8% 이하이며 열량은 3,844 kcal/kg(469 kcal/cup)입니다. 제조 시기와 국가별 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장도 함께 확인하세요."
+}

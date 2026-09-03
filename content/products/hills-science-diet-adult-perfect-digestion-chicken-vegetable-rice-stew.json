@@ -1,0 +1,231 @@
+{
+  "slug": "hills-science-diet-adult-perfect-digestion-chicken-vegetable-rice-stew",
+  "name": "힐스 사이언스 다이어트 어덜트 퍼펙트 다이제스천 치킨·채소·쌀 스튜",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "1~6세 성묘의 소화 건강과 장내 미생물 균형을 지원하도록 설계된 치킨·채소·쌀 스튜 타입 습식 주식으로, ActivBiome+ Digestion 프리바이오틱 블렌드와 통귀리·호박 등을 포함합니다.",
+  "image": "/images/products/hills-science-diet-adult-perfect-digestion-chicken-vegetable-rice-stew.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "1~6세 성묘용",
+    "소화 건강 지원",
+    "장내 미생물 균형 지원",
+    "규칙적인 배변 및 영양소 흡수 지원"
+  ],
+  "mainProteins": [
+    "닭",
+    "돼지 간"
+  ],
+  "ingredients": [
+    "닭 육수",
+    "닭고기",
+    "돼지 간",
+    "당근",
+    "쌀",
+    "쌀 전분",
+    "감자 단백질",
+    "시금치",
+    "닭 지방",
+    "가수분해 닭 향미",
+    "알긴산칼륨",
+    "분쇄 피칸 껍질",
+    "염화칼슘",
+    "인산이칼슘",
+    "아마씨",
+    "건조 비트 펄프",
+    "황산칼슘",
+    "건조 감귤 펄프",
+    "삼인산나트륨",
+    "호박",
+    "구아검",
+    "귀리 섬유",
+    "염화콜린",
+    "비타민 혼합물",
+    "L-라이신",
+    "타우린",
+    "압착 크랜베리",
+    "산화마그네슘",
+    "미네랄 혼합물",
+    "탄산칼슘"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken Broth, Chicken, Chicken Fat, Hydrolyzed Chicken Flavor",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "닭 육수",
+        "치킨 브로스",
+        "닭 지방",
+        "가수분해 닭 향미"
+      ]
+    },
+    {
+      "name": "돼지",
+      "sourceText": "Pork Liver",
+      "form": "organ",
+      "group": "pork",
+      "specificity": "specific",
+      "aliases": [
+        "돼지",
+        "돼지고기",
+        "돼지 간",
+        "돈육",
+        "돈간",
+        "포크",
+        "포크 리버"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice, Rice Starch",
+      "form": "starch",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "쌀 전분",
+        "쌀전분",
+        "라이스",
+        "라이스 스타치"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Oat Fiber",
+      "form": "fiber",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "귀리 섬유",
+        "귀리섬유",
+        "오트 파이버"
+      ]
+    },
+    {
+      "name": "감자",
+      "sourceText": "Potato Protein",
+      "form": "other",
+      "specificity": "specific",
+      "aliases": [
+        "감자",
+        "감자 단백질",
+        "포테이토 프로틴"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "캐럿"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "Spinach",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "스피니치"
+      ]
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "아마인",
+        "플랙시드"
+      ]
+    },
+    {
+      "name": "비트 펄프",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 비트 펄프",
+        "비트펄프"
+      ]
+    },
+    {
+      "name": "감귤 펄프",
+      "sourceText": "Dried Citrus Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 감귤 펄프",
+        "시트러스 펄프"
+      ]
+    },
+    {
+      "name": "호박",
+      "sourceText": "Pumpkin",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "호박",
+        "펌킨"
+      ]
+    },
+    {
+      "name": "크랜베리",
+      "sourceText": "Pressed Cranberries",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "크랜베리",
+        "압착 크랜베리"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {},
+  "analysisBasis": {},
+  "calories": 756,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-adult-perfect-digestion-chicken-vegetable-rice-stew-canned",
+  "checkedAt": "2026-09-03",
+  "notes": "Hill's 미국 공식 페이지 기준 1~6세 성묘용 2.9 oz(82 g) 스튜 타입 완전균형 습식 주식이며 처방식은 아닙니다. 닭 육수와 닭고기, 돼지 간, 당근, 쌀, 감자 단백질, 시금치, 닭 지방, 호박, 귀리 섬유 및 크랜베리가 포함됩니다. 현재 공식 원재료표에는 어유나 기타 생선 원료가 표시되지 않아 fish는 not-listed로 처리했습니다. 공식 페이지는 일반 보증성분(as-fed guaranteed analysis)을 표 형태로 제공하지 않고 평균 영양성분을 건물 기준으로 제시하므로 guaranteedAnalysis는 임의 환산하지 않고 비워 두었습니다. 현재 제품의 열량은 62 kcal/2.9 oz(82 g) 캔으로 확인되며 약 756 kcal/kg에 해당합니다. 제조 시기와 국가별 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장도 함께 확인하세요."
+}

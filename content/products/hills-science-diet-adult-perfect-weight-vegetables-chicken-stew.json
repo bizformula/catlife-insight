@@ -1,0 +1,204 @@
+{
+  "slug": "hills-science-diet-adult-perfect-weight-vegetables-chicken-stew",
+  "name": "힐스 사이언스 다이어트 어덜트 퍼펙트 웨이트 채소 & 치킨 스튜",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "성묘의 체중 감량과 건강한 체중 유지를 지원하도록 설계된 채소 & 치킨 스튜 타입 습식 주식입니다.",
+  "image": "/images/products/hills-science-diet-adult-perfect-weight-vegetables-chicken-stew.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "체중 감량 지원",
+    "건강한 체중 유지",
+    "제지방 근육 유지 지원"
+  ],
+  "mainProteins": [
+    "닭",
+    "돼지 간"
+  ],
+  "ingredients": [
+    "닭 육수",
+    "돼지 간",
+    "당근",
+    "닭고기",
+    "시금치",
+    "밀 글루텐",
+    "쌀 전분",
+    "분말 셀룰로오스",
+    "쌀",
+    "아마씨",
+    "건조 토마토 박",
+    "가수분해 닭 향미",
+    "코코넛 오일",
+    "알긴산칼륨",
+    "염화칼슘",
+    "인산이칼슘",
+    "천연 향미",
+    "젖산칼슘",
+    "글루콘산칼슘",
+    "구아검",
+    "염화콜린",
+    "인산일나트륨",
+    "비타민 혼합물",
+    "타우린",
+    "요오드화 소금",
+    "류신",
+    "삼인산나트륨",
+    "L-카르니틴",
+    "미네랄 혼합물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken Broth, Chicken, Hydrolyzed Chicken Flavor",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "닭 육수",
+        "치킨 브로스",
+        "가수분해 닭 향미"
+      ]
+    },
+    {
+      "name": "돼지",
+      "sourceText": "Pork Liver",
+      "form": "organ",
+      "group": "pork",
+      "specificity": "specific",
+      "aliases": [
+        "돼지",
+        "돼지고기",
+        "돼지 간",
+        "돈육",
+        "돈간",
+        "포크",
+        "포크 리버"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Gluten",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀 글루텐",
+        "밀글루텐",
+        "소맥",
+        "글루텐"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice Starch, Rice",
+      "form": "starch",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "쌀 전분",
+        "쌀전분",
+        "라이스",
+        "라이스 스타치"
+      ]
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "Powdered Cellulose",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "셀룰로오스",
+        "분말 셀룰로오스",
+        "분말셀룰로오스"
+      ]
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "아마인",
+        "플랙시드"
+      ]
+    },
+    {
+      "name": "토마토",
+      "sourceText": "Dried Tomato Pomace",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "토마토",
+        "건조 토마토 박",
+        "토마토 포마스"
+      ]
+    },
+    {
+      "name": "코코넛",
+      "sourceText": "Coconut Oil",
+      "form": "oil",
+      "specificity": "specific",
+      "aliases": [
+        "코코넛",
+        "코코넛 오일",
+        "코코넛오일"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {},
+  "analysisBasis": {},
+  "calories": 759,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-adult-perfect-weight-vegetables-chicken-stew-pouch",
+  "checkedAt": "2026-09-03",
+  "notes": "Hill's 미국 공식 페이지 기준 2.8 oz(79 g) 파우치형 스튜 습식 완전균형식이며 처방식은 아닙니다. 성묘의 체중 감량과 건강한 체중 유지, 제지방 근육 유지를 지원하도록 설계되었습니다. 공식 원재료에는 닭 육수, 돼지 간, 당근, 닭고기, 시금치, 밀 글루텐, 쌀 전분, 분말 셀룰로오스, 쌀, 아마씨, 토마토 박, 코코넛 오일 및 L-카르니틴 등이 포함됩니다. 공식 페이지는 이 제품의 일반 보증성분(as-fed guaranteed analysis)을 별도로 제시하지 않고 평균 영양성분을 건물 기준으로 제공하므로 guaranteedAnalysis는 비워 두었습니다. 공식 열량은 759 kcal/kg, 60 kcal/pouch입니다. 제조 시기와 국가별 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장도 함께 확인하세요."
+}

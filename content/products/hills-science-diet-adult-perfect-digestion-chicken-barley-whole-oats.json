@@ -1,0 +1,234 @@
+{
+  "slug": "hills-science-diet-adult-perfect-digestion-chicken-barley-whole-oats",
+  "name": "힐스 사이언스 다이어트 어덜트 퍼펙트 다이제스천 치킨·보리·통귀리",
+  "brand": "힐스 사이언스 다이어트",
+  "summary": "1~6세 성묘의 소화 건강과 장내 미생물 균형을 지원하도록 설계된 치킨 기반 건식 주식으로, ActivBiome+ Digestion 프리바이오틱 블렌드와 보리·통귀리·호박 등을 포함합니다.",
+  "image": "/images/products/hills-science-diet-adult-perfect-digestion-chicken-barley-whole-oats.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "1~6세 성묘용",
+    "소화 건강 지원",
+    "장내 미생물 균형 지원",
+    "규칙적인 배변 및 영양소 흡수 지원"
+  ],
+  "mainProteins": [
+    "닭"
+  ],
+  "ingredients": [
+    "닭고기",
+    "정백 보리",
+    "옥수수 단백질분",
+    "닭 지방",
+    "치킨밀",
+    "통귀리",
+    "통옥수수",
+    "닭 간 향미",
+    "분쇄 피칸 껍질",
+    "젖산",
+    "염화칼륨",
+    "황산칼슘",
+    "아마씨",
+    "건조 비트 펄프",
+    "건조 감귤 펄프",
+    "염화콜린",
+    "대두유",
+    "요오드화 소금",
+    "L-라이신",
+    "어유",
+    "압착 크랜베리",
+    "비타민 혼합물",
+    "타우린",
+    "호박",
+    "미네랄 혼합물",
+    "DL-메티오닌",
+    "탄산칼슘",
+    "인산이칼슘",
+    "혼합 토코페롤",
+    "천연 향미",
+    "베타카로틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken, Chicken Fat, Chicken Meal, Chicken Liver Flavor",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "닭 지방",
+        "치킨밀",
+        "치킨 밀",
+        "닭 간 향미"
+      ]
+    },
+    {
+      "name": "보리",
+      "sourceText": "Cracked Pearled Barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "보리",
+        "정백 보리",
+        "크랙드 펄드 발리",
+        "펄드 발리"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal, Whole Grain Corn",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "옥수수 단백질분",
+        "통옥수수",
+        "콘 프로틴 밀"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Whole Grain Oats",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "통귀리",
+        "오트",
+        "whole grain oats"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "어유",
+        "피쉬 오일",
+        "피쉬오일",
+        "생선 오일",
+        "생선 기름"
+      ]
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Flaxseed",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "아마인",
+        "플랙시드"
+      ]
+    },
+    {
+      "name": "비트 펄프",
+      "sourceText": "Dried Beet Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 비트 펄프",
+        "비트펄프"
+      ]
+    },
+    {
+      "name": "감귤 펄프",
+      "sourceText": "Dried Citrus Pulp",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "건조 감귤 펄프",
+        "시트러스 펄프"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soybean Oil",
+      "form": "oil",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두유",
+        "소이빈 오일"
+      ]
+    },
+    {
+      "name": "크랜베리",
+      "sourceText": "Pressed Cranberries",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "크랜베리",
+        "압착 크랜베리"
+      ]
+    },
+    {
+      "name": "호박",
+      "sourceText": "Pumpkin",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "호박",
+        "펌킨"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 30.5,
+    "fat": 14.5,
+    "fiber": 4,
+    "moisture": 8
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "calories": 3908,
+  "sourceUrl": "https://www.hillspet.com/cat-food/science-diet-adult-perfect-digestion-chicken-barley-whole-oats-recipe-dry",
+  "checkedAt": "2026-09-03",
+  "notes": "Hill's 미국 공식 페이지 기준 1~6세 성묘의 소화 건강과 장내 미생물 균형을 지원하는 완전균형 건식 주식이며 처방식은 아닙니다. 닭고기가 첫 번째 원료이며 정백 보리, 옥수수 단백질분, 통귀리, 통옥수수, 아마씨, 비트 펄프, 감귤 펄프, 어유, 크랜베리 및 호박이 포함됩니다. 따라서 알러지 검색에서는 chicken, fish, grain을 contains로 처리했습니다. 현재 유통 표시 기준 보증성분은 조단백 30.5% 이상, 조지방 14.5% 이상, 조섬유 4.0% 이하, 수분 8.0% 이하입니다. 열량은 469 kcal/cup이며 공식 급여표의 1 cup 약 120 g을 기준으로 약 3,908 kcal/kg으로 환산했습니다. 제조 시기와 국가별 유통 제품에 따라 표시사항이 달라질 수 있으므로 실제 제품 포장도 함께 확인하세요."
+}
