@@ -3,7 +3,7 @@ title: "힐스 고양이 사료 라인업 차이: 키튼·인도어·헤어볼·
 date: "2026-09-03"
 category: "nutrition-guide"
 description: "힐스 사이언스 다이어트 고양이 사료의 키튼, 어덜트, 인도어, 라이트, 헤어볼, 유리너리 헤어볼, 퍼펙트 웨이트, 퍼펙트 다이제스천, 7+, 11+ 라인 차이와 선택 기준을 정리합니다."
-thumbnail: "/images/posts/product-analysis-guide.webp"
+thumbnail: "/images/posts/hills-science-diet-cat-food-lineup-guide.webpp"
 ---
 
 힐스 사이언스 다이어트 고양이 사료를 보다 보면 제품명이 비슷해서 어떤 제품을 골라야 하는지 헷갈릴 수 있습니다.
