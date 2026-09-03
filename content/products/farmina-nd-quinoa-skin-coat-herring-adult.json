@@ -1,0 +1,264 @@
+{
+  "slug": "farmina-nd-quinoa-skin-coat-herring-adult",
+  "name": "파미나 N&D 퀴노아 스킨 & 코트 청어 어덜트",
+  "brand": "파미나",
+  "summary": "청어를 중심으로 퀴노아·코코넛·강황을 배합한 성묘용 스킨 & 코트 기능성 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-quinoa-skin-coat-herring-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "피부 및 피모 건강 지원",
+    "식품 민감성 고려",
+    "고오메가-3 식단",
+    "치킨 단백질 무첨가"
+  ],
+  "mainProteins": [
+    "청어",
+    "생선"
+  ],
+  "ingredients": [
+    "청어",
+    "건조 청어",
+    "완두 전분",
+    "가수분해 생선",
+    "고구마",
+    "청어유",
+    "돼지 지방",
+    "천연 향미",
+    "퀴노아 씨앗",
+    "아마씨",
+    "건조 코코넛",
+    "강황",
+    "이눌린",
+    "프락토올리고당",
+    "효모 추출물",
+    "차전자피 껍질",
+    "건조 비트 펄프",
+    "완두 섬유",
+    "L-라이신",
+    "시스틴",
+    "L-카르니틴",
+    "L-트립토판",
+    "탄산칼슘",
+    "인산이칼슘",
+    "황산칼슘이수화물",
+    "염화칼륨",
+    "소금",
+    "알팔파밀",
+    "건조 맥주효모",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "알로에베라 젤 농축액",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "혼합 토코페롤"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "청어",
+      "sourceText": "herring, dehydrated herring",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "herring",
+        "건조 청어",
+        "dehydrated herring"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "pea starch, pea fiber",
+      "form": "starch",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 전분",
+        "완두전분",
+        "완두 섬유",
+        "완두섬유",
+        "pea",
+        "pea starch",
+        "pea fiber",
+        "pea fibre"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "hydrolyzed fish",
+      "form": "hydrolyzed",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "가수분해 생선",
+        "hydrolyzed fish"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potatoes",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato",
+        "sweet potatoes"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "청어유",
+        "청어 오일",
+        "헤링",
+        "herring oil"
+      ]
+    },
+    {
+      "name": "돼지고기",
+      "sourceText": "pork fat",
+      "form": "fat",
+      "group": "pork",
+      "specificity": "specific",
+      "aliases": [
+        "돼지",
+        "돼지고기",
+        "돈육",
+        "포크",
+        "돼지 지방",
+        "pork",
+        "pork fat"
+      ]
+    },
+    {
+      "name": "퀴노아",
+      "sourceText": "quinoa seed",
+      "form": "whole",
+      "group": "pseudograin",
+      "specificity": "specific",
+      "aliases": [
+        "퀴노아",
+        "키노아",
+        "quinoa",
+        "quinoa seed"
+      ]
+    },
+    {
+      "name": "코코넛",
+      "sourceText": "dried coconut",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "코코넛",
+        "건조 코코넛",
+        "coconut",
+        "dried coconut"
+      ]
+    },
+    {
+      "name": "강황",
+      "sourceText": "turmeric",
+      "form": "other",
+      "specificity": "specific",
+      "aliases": [
+        "강황",
+        "터메릭",
+        "turmeric"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium seed husk",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴",
+        "L-Carnitine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "contains",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 30.0,
+    "fat": 16.0,
+    "fiber": 2.5,
+    "ash": 7.9,
+    "moisture": 8.0,
+    "calcium": 1.0,
+    "phosphorus": 0.8,
+    "taurine": 0.3
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3924,
+  "sourceUrl": "https://www.farmina.com/us/eshop/cat-food/n%26d-quinoa-functional-feline/436-e_skin-%26-coat-herring.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 미국 공식 최신 페이지 기준 성묘 유지기용 완전균형 건식입니다. 제조사는 식품 민감성, 피부·피모 건강, 높은 오메가-3, 치킨 단백질 무첨가를 주요 특징으로 설명합니다. 현재 미국 배합은 청어, 건조 청어, 완두 전분, 가수분해 생선, 고구마, 청어유, 돼지 지방, 퀴노아, 코코넛, 강황 등을 포함합니다. 가수분해 생선은 어종이 특정되지 않아 fish 그룹의 group-only 원료로 등록했습니다. 완두 전분·완두 섬유는 legume, 완두 전분과 고구마는 starch, 퀴노아는 pseudograin으로 반영했습니다. 돼지 지방이 명시되어 있어 pork는 contains로 분류했습니다. 공식 에너지값 1,780 kcal/lb를 환산해 약 3,924 kcal/kg으로 기록했습니다. 국가별 배합과 표시값이 다를 수 있으므로 국내 유통 제품 포장도 함께 확인하세요."
+}

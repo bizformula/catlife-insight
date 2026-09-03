@@ -1,0 +1,254 @@
+{
+  "slug": "farmina-nd-ancestral-grain-chicken-pomegranate-adult",
+  "name": "파미나 N&D 엔세스트럴 그레인 닭고기와 석류 어덜트",
+  "brand": "파미나",
+  "summary": "닭고기와 건조 닭 단백질을 중심으로 스펠트·귀리와 석류를 더한 성묘용 저혈당지수 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-ancestral-grain-chicken-pomegranate-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "스펠트·귀리 포함 식단",
+    "저혈당지수 식단",
+    "동물성 단백질 중심 식단"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "뼈를 제거한 닭고기(24%)",
+    "건조 닭 단백질(24%)",
+    "스펠트(10%)",
+    "귀리(10%)",
+    "닭 지방",
+    "건조 계란",
+    "청어",
+    "건조 청어 단백질",
+    "청어유",
+    "건조 비트 펄프",
+    "건조 당근",
+    "알팔파밀",
+    "이눌린",
+    "프락토올리고당",
+    "효모 추출물(MOS 공급원)",
+    "건조 석류(0.5%)",
+    "건조 사과",
+    "건조 시금치",
+    "차전자피 껍질 및 씨앗(0.3%)",
+    "건조 스위트 오렌지",
+    "건조 블루베리",
+    "염화나트륨",
+    "건조 맥주효모",
+    "강황(0.2%)",
+    "알로에베라 추출물",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "L-카르니틴",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "식물성 오일 유래 토코페롤 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "boneless chicken (24%), dehydrated chicken protein (24%), chicken fat",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "뼈를 제거한 닭고기",
+        "건조 닭 단백질",
+        "닭 지방",
+        "chicken"
+      ]
+    },
+    {
+      "name": "스펠트",
+      "sourceText": "spelt (10%)",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "스펠트",
+        "스펠트밀",
+        "spelt"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "oats (10%)",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "오트",
+        "오트밀",
+        "oat",
+        "oats"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "dried eggs",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "건조 달걀",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring, dehydrated herring protein, fish oil (from herring)",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "건조 청어 단백질",
+        "청어유",
+        "청어 오일",
+        "herring"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "dried carrot",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "건조 당근",
+        "carrot"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "dried spinach",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "건조 시금치",
+        "spinach"
+      ]
+    },
+    {
+      "name": "석류",
+      "sourceText": "dried pomegranate (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "석류",
+        "건조 석류",
+        "pomegranate"
+      ]
+    },
+    {
+      "name": "사과",
+      "sourceText": "dried apple",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "사과",
+        "건조 사과",
+        "apple"
+      ]
+    },
+    {
+      "name": "오렌지",
+      "sourceText": "dried sweet orange",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "오렌지",
+        "건조 오렌지",
+        "스위트 오렌지",
+        "orange"
+      ]
+    },
+    {
+      "name": "블루베리",
+      "sourceText": "dried blueberry",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "블루베리",
+        "건조 블루베리",
+        "blueberry"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium husks and seeds (0.3%)",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.0,
+    "fat": 20.0,
+    "fiber": 1.9,
+    "ash": 8.1,
+    "moisture": 8.0,
+    "calcium": 1.1,
+    "phosphorus": 0.9,
+    "taurine": 0.4
+  },
+  "analysisBasis": {
+    "protein": "typical",
+    "fat": "typical",
+    "fiber": "typical",
+    "ash": "typical",
+    "moisture": "typical",
+    "calcium": "typical",
+    "phosphorus": "typical",
+    "taurine": "typical"
+  },
+  "calories": 4165,
+  "sourceUrl": "https://www.farmina.com/uk/eshop/cat-food/natural-%26-delicious-low-ancestral-grain-feline/150-chicken-%26-pomegranate-adult.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 영국 공식 제품 페이지 기준 성묘용 완전균형 건식입니다. 뼈를 제거한 닭고기 24%, 건조 닭 단백질 24%, 스펠트 10%, 귀리 10%, 닭 지방, 건조 계란, 청어, 건조 청어 단백질, 청어유 등이 포함됩니다. 따라서 grain은 contains이며, 고구마·감자·타피오카 등 별도 전분 원료는 표시되어 있지 않아 starch는 not-listed로 분류했습니다. 당근과 시금치는 vegetable로 반영했습니다. 공식 분석값은 조단백 36%, 조지방 20%, 조섬유 1.9%, 수분 8%, 조회분 8.1%, 칼슘 1.1%, 인 0.9%이며 타우린 첨가량은 4,000 mg/kg(0.4%)입니다. 공식 대사에너지는 4,165 kcal/kg입니다. 국가별 유통 제품의 배합과 표시값이 다를 수 있으므로 국내 판매 제품 포장도 함께 확인하세요."
+}

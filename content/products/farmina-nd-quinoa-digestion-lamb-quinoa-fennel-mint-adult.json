@@ -1,0 +1,275 @@
+{
+  "slug": "farmina-nd-quinoa-digestion-lamb-quinoa-fennel-mint-adult",
+  "name": "파미나 N&D 퀴노아 다이제스천 양고기·퀴노아·펜넬·민트 어덜트",
+  "brand": "파미나",
+  "summary": "양고기를 중심으로 퀴노아, 펜넬, 민트를 배합한 성묘용 소화기 기능성 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-quinoa-digestion-lamb-quinoa-fennel-mint-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "민감한 소화기 지원",
+    "고소화성 식단",
+    "프리바이오틱스 및 수용성 섬유 보충"
+  ],
+  "mainProteins": [
+    "양고기",
+    "돼지고기",
+    "생선",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "양고기",
+    "건조 양고기",
+    "완두 전분",
+    "돼지 지방",
+    "퀴노아 씨앗",
+    "건조 돼지고기",
+    "가수분해 생선",
+    "고구마",
+    "가수분해 돼지 간",
+    "건조 통달걀",
+    "아마씨",
+    "건조 청어",
+    "청어유",
+    "건조 펜넬",
+    "건조 민트",
+    "이눌린",
+    "프락토올리고당",
+    "차전자피 껍질",
+    "염화칼륨",
+    "건조 비트 펄프",
+    "탄산칼슘",
+    "건조 맥주효모",
+    "소금",
+    "황산칼슘이수화물",
+    "비타민 및 미네랄",
+    "L-카르니틴",
+    "DL-메티오닌",
+    "타우린",
+    "알로에베라 젤 농축액",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "혼합 토코페롤"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "양고기",
+      "sourceText": "lamb, dehydrated lamb",
+      "form": "fresh",
+      "specificity": "specific",
+      "aliases": [
+        "양",
+        "양고기",
+        "램",
+        "lamb",
+        "건조 양고기"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "pea starch",
+      "form": "starch",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 전분",
+        "완두전분",
+        "pea starch"
+      ]
+    },
+    {
+      "name": "돼지고기",
+      "sourceText": "pork fat, dehydrated pork, hydrolyzed pork liver",
+      "form": "other",
+      "group": "pork",
+      "specificity": "specific",
+      "aliases": [
+        "돼지",
+        "돼지고기",
+        "돈육",
+        "포크",
+        "돼지 지방",
+        "건조 돼지고기",
+        "가수분해 돼지 간",
+        "pork"
+      ]
+    },
+    {
+      "name": "퀴노아",
+      "sourceText": "quinoa seed",
+      "form": "whole",
+      "group": "pseudograin",
+      "specificity": "specific",
+      "aliases": [
+        "퀴노아",
+        "키노아",
+        "quinoa",
+        "quinoa seed"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "hydrolyzed fish",
+      "form": "hydrolyzed",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "가수분해 생선",
+        "hydrolyzed fish"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potatoes",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato",
+        "sweet potatoes"
+      ]
+    },
+    {
+      "name": "달걀",
+      "sourceText": "dried whole eggs",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "계란",
+        "건조 통달걀",
+        "건조 계란",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "dehydrated herring, herring oil",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "건조 청어",
+        "청어유",
+        "herring",
+        "herring oil"
+      ]
+    },
+    {
+      "name": "펜넬",
+      "sourceText": "dried fennel",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "펜넬",
+        "회향",
+        "건조 펜넬",
+        "fennel"
+      ]
+    },
+    {
+      "name": "민트",
+      "sourceText": "dried mint",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "민트",
+        "박하",
+        "건조 민트",
+        "mint"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium seed husk",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴",
+        "L-Carnitine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "contains",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 33.0,
+    "fat": 21.5,
+    "fiber": 1.9,
+    "ash": 7.9,
+    "moisture": 8.0,
+    "calcium": 1.0,
+    "phosphorus": 0.8,
+    "taurine": 0.25
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 4074,
+  "sourceUrl": "https://www.farmina.com/us/eshop/cat-food/n%26d-quinoa-functional-feline/431-e_digestion.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 미국 공식 최신 페이지 기준 N&D Quinoa Digestion 양고기·퀴노아·펜넬·민트 레시피입니다. 성묘 유지기 AAFCO 영양수준에 맞춘 완전균형식이며, 제조사는 90% 이상의 소화율, 고소화성 지방, 프리바이오틱스 보충을 주요 특징으로 안내합니다. 현재 미국 배합에는 양고기·건조 양고기뿐 아니라 돼지 지방·건조 돼지고기·가수분해 돼지 간, 가수분해 생선, 건조 청어·청어유, 건조 통달걀이 포함됩니다. 완두 전분은 legume과 starch, 퀴노아는 pseudograin, 펜넬은 vegetable로 반영했습니다. 가수분해 생선은 어종이 특정되지 않아 fish 그룹의 group-only 원료로 등록했습니다. 공식 에너지값 1,848 kcal/lb를 환산해 약 4,074 kcal/kg으로 기록했습니다. 국가별 배합과 표시값이 다를 수 있으므로 국내 유통 제품 포장도 함께 확인하세요."
+}

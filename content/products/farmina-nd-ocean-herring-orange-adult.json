@@ -1,0 +1,248 @@
+{
+  "slug": "farmina-nd-ocean-herring-orange-adult",
+  "name": "파미나 N&D 오션 청어와 오렌지 어덜트",
+  "brand": "파미나",
+  "summary": "신선 청어와 건조 청어를 중심으로 고구마와 오렌지를 더한 성묘용 그레인프리 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-ocean-herring-orange-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "그레인프리 식단",
+    "청어 중심 식단"
+  ],
+  "mainProteins": [
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "신선 청어(32%)",
+    "건조 청어(30%)",
+    "고구마",
+    "청어유",
+    "건조 통달걀",
+    "완두 섬유",
+    "건조 당근",
+    "건조 알팔파",
+    "이눌린",
+    "프락토올리고당",
+    "효모 추출물(MOS 공급원)",
+    "건조 스위트 오렌지(0.5%)",
+    "건조 사과",
+    "건조 석류",
+    "건조 시금치",
+    "차전자피(0.3%)",
+    "건조 블루베리",
+    "염화나트륨",
+    "건조 맥주효모",
+    "강황 뿌리(0.2%)",
+    "글루코사민",
+    "콘드로이틴 황산염",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "L-카르니틴",
+    "알로에베라 추출물",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "천연 토코페롤 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "청어",
+      "sourceText": "Fresh herrings (32%), dehydrated herrings (30%)",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "herring",
+        "herrings",
+        "신선 청어",
+        "건조 청어"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potatoes",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato",
+        "sweet potatoes"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "fish oil (from herring)",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어유",
+        "청어 오일",
+        "herring oil",
+        "fish oil from herring"
+      ]
+    },
+    {
+      "name": "달걀",
+      "sourceText": "dried whole eggs",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "계란",
+        "건조 통달걀",
+        "건조 계란",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "fiber vegetable of peas",
+      "form": "fiber",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 섬유",
+        "완두섬유",
+        "pea fiber",
+        "pea fibre"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "dried carrots",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "건조 당근",
+        "carrot",
+        "carrots"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "dried spinach",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "건조 시금치",
+        "spinach"
+      ]
+    },
+    {
+      "name": "오렌지",
+      "sourceText": "dried sweet orange (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "오렌지",
+        "건조 오렌지",
+        "스위트 오렌지",
+        "orange"
+      ]
+    },
+    {
+      "name": "사과",
+      "sourceText": "dried apple",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "사과",
+        "건조 사과",
+        "apple"
+      ]
+    },
+    {
+      "name": "석류",
+      "sourceText": "dried pomegranate",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "석류",
+        "건조 석류",
+        "pomegranate"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium (0.3%)",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "블루베리",
+      "sourceText": "dried blueberries",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "블루베리",
+        "건조 블루베리",
+        "blueberry",
+        "blueberries"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 44.0,
+    "fat": 20.0,
+    "fiber": 1.8,
+    "ash": 8.5,
+    "moisture": 8.0,
+    "calcium": 1.5,
+    "phosphorus": 1.3
+  },
+  "analysisBasis": {
+    "protein": "typical",
+    "fat": "typical",
+    "fiber": "typical",
+    "ash": "typical",
+    "moisture": "typical",
+    "calcium": "typical",
+    "phosphorus": "typical"
+  },
+  "calories": 4204,
+  "sourceUrl": "https://www.farmina.com/sg/eshop/cat-food/n%26d-ocean-feline/494-herring-%26-orange-adult.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 공식 국제 제품 페이지 기준 성묘용 완전균형 건식입니다. 신선 청어 32%, 건조 청어 30%, 고구마, 청어유, 건조 통달걀, 완두 섬유 등이 포함됩니다. 곡물은 표시되어 있지 않습니다. 완두 섬유는 legume, 고구마는 starch, 당근·시금치는 vegetable로 반영했습니다. 공식 분석값은 조단백 44%, 조지방 20%, 조섬유 1.8%, 수분 8%, 조회분 8.5%, 칼슘 1.5%, 인 1.3%이며 대사에너지는 4,204 kcal/kg입니다. 국가별 유통 제품의 배합과 표시값이 다를 수 있으므로 국내 판매 제품 포장도 함께 확인하세요."
+}

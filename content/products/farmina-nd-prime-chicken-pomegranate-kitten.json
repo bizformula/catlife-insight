@@ -1,0 +1,245 @@
+{
+  "slug": "farmina-nd-prime-chicken-pomegranate-kitten",
+  "name": "파미나 N&D 프라임 닭고기와 석류 키튼",
+  "brand": "파미나",
+  "summary": "자묘와 임신·수유묘를 위한 닭고기·석류 기반 그레인프리 건식 완전균형식으로, 동물성 단백질 비중이 높은 N&D Prime 성장기 레시피입니다.",
+  "image": "/images/products/farmina-nd-prime-chicken-pomegranate-kitten.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "자묘 성장기용",
+    "임신·수유묘용",
+    "그레인프리 식단",
+    "성장기 근육 및 전반적 발달 지원"
+  ],
+  "mainProteins": [
+    "닭",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "뼈를 제거한 닭고기(30%)",
+    "건조 닭 단백질(28%)",
+    "고구마",
+    "닭 지방",
+    "건조 계란",
+    "청어",
+    "건조 청어 단백질",
+    "청어유",
+    "완두 섬유",
+    "건조 당근",
+    "알팔파밀",
+    "이눌린",
+    "프락토올리고당(FOS)",
+    "효모 추출물(MOS 공급원)",
+    "건조 석류(0.5%)",
+    "건조 사과",
+    "건조 시금치",
+    "차전자피 껍질 및 씨앗(0.3%)",
+    "건조 스위트 오렌지",
+    "건조 블루베리",
+    "염화나트륨",
+    "건조 맥주효모",
+    "강황(0.2%)",
+    "알로에베라 추출물",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "L-카르니틴",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "식물성 오일 유래 토코페롤 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "boneless chicken (30%), dehydrated chicken protein (28%), chicken fat",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "건조 닭 단백질",
+        "닭 지방"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring, dehydrated herring protein, fish oil (from herring)",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "건조 청어 단백질",
+        "청어유",
+        "herring"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "dried eggs",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "건조 달걀"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potato",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "pea fibre",
+      "form": "fiber",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 섬유",
+        "완두섬유",
+        "pea fiber",
+        "pea fibre"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "dried carrot",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "건조 당근",
+        "carrot"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "dried spinach",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "건조 시금치",
+        "spinach"
+      ]
+    },
+    {
+      "name": "석류",
+      "sourceText": "dried pomegranate (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "석류",
+        "건조 석류",
+        "pomegranate"
+      ]
+    },
+    {
+      "name": "사과",
+      "sourceText": "dried apple",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "사과",
+        "건조 사과",
+        "apple"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium husks and seeds (0.3%)",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 44.0,
+    "fat": 20.0,
+    "fiber": 1.8,
+    "ash": 8.5,
+    "moisture": 8.0,
+    "calcium": 1.1,
+    "phosphorus": 0.9
+  },
+  "analysisBasis": {
+    "protein": "typical",
+    "fat": "typical",
+    "fiber": "typical",
+    "ash": "typical",
+    "moisture": "typical",
+    "calcium": "typical",
+    "phosphorus": "typical"
+  },
+  "calories": 4204,
+  "sourceUrl": "https://www.farmina.com/mt/eshop/cat-food/n%26d-prime-cat/144-chicken-%26-pomegranate-kitten.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 공식 제품 페이지 기준 자묘 및 임신·수유묘용 완전균형 건식입니다. 현재 확인한 국제 공식 배합은 뼈를 제거한 닭고기 30%, 건조 닭 단백질 28%, 고구마, 닭 지방, 건조 계란, 청어, 건조 청어 단백질, 청어유 등을 사용합니다. 곡물은 표시되어 있지 않으며 완두 섬유, 고구마, 당근·시금치를 각각 legume, starch, vegetable 원료군에 반영했습니다. 보증성분은 조단백 44%, 조지방 20%, 조섬유 1.8%, 조회분 8.5%, 수분 8%, 칼슘 1.1%, 인 0.9%이며 대사에너지는 4,204 kcal/kg입니다. 국가별 유통 제품의 원료와 표시값이 다를 수 있으므로 실제 국내 판매 제품 포장도 함께 확인하세요."
+}

@@ -1,0 +1,275 @@
+{
+  "slug": "farmina-nd-tropical-chicken-spelt-oats-tropical-fruits-adult",
+  "name": "파미나 N&D 트로피컬 닭고기·스펠트·귀리·열대과일 어덜트",
+  "brand": "파미나",
+  "summary": "닭고기와 건조 닭고기를 중심으로 스펠트·귀리와 5가지 열대과일을 더한 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-tropical-chicken-spelt-oats-tropical-fruits-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "스펠트·귀리 포함 식단",
+    "열대과일 함유 식단",
+    "동물성 단백질 중심 식단"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "뼈를 발라낸 닭고기(22%)",
+    "건조 닭고기 살(20%)",
+    "스펠트 통밀(12%)",
+    "통귀리(12%)",
+    "건조 청어",
+    "건조 전란",
+    "닭 지방",
+    "건조 비트펄프",
+    "청어 오일",
+    "햇빛으로 말린 알팔파",
+    "건조 당근",
+    "이눌린",
+    "프럭토올리고당",
+    "효모 추출물",
+    "건조 바나나(0.5%)",
+    "건조 키위(0.5%)",
+    "건조 망고(0.5%)",
+    "건조 파파야(0.5%)",
+    "건조 파인애플(0.5%)",
+    "건조 시금치",
+    "차전자피",
+    "소금",
+    "건조 양조 효모",
+    "강황",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "알로에베라 젤 농축액",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "천연 혼합 토코페롤"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "닭고기 - 뼈를 발라낸 (22%), 건조 닭고기 살 (20%), 닭 지방",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "건조 닭고기",
+        "건조 닭고기 살",
+        "닭 지방",
+        "chicken"
+      ]
+    },
+    {
+      "name": "스펠트",
+      "sourceText": "스펠트 통밀 (12%)",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "스펠트",
+        "스펠트밀",
+        "스펠트 통밀",
+        "spelt"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "통귀리 (12%)",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "오트",
+        "오트밀",
+        "통귀리",
+        "oat",
+        "oats"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "건조 청어, 청어 오일",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "건조 청어",
+        "청어유",
+        "청어 오일",
+        "herring"
+      ]
+    },
+    {
+      "name": "달걀",
+      "sourceText": "건조 전란",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "계란",
+        "전란",
+        "건조 전란",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "건조 당근",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "건조 당근",
+        "carrot"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "건조 시금치",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "건조 시금치",
+        "spinach"
+      ]
+    },
+    {
+      "name": "바나나",
+      "sourceText": "건조 바나나 (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "바나나",
+        "건조 바나나",
+        "banana"
+      ]
+    },
+    {
+      "name": "키위",
+      "sourceText": "건조 키위 (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "키위",
+        "건조 키위",
+        "kiwi"
+      ]
+    },
+    {
+      "name": "망고",
+      "sourceText": "건조 망고 (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "망고",
+        "건조 망고",
+        "mango"
+      ]
+    },
+    {
+      "name": "파파야",
+      "sourceText": "건조 파파야 (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "파파야",
+        "건조 파파야",
+        "papaya"
+      ]
+    },
+    {
+      "name": "파인애플",
+      "sourceText": "건조 파인애플 (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "파인애플",
+        "건조 파인애플",
+        "pineapple"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "차전자피",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "타우린",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 32.0,
+    "fat": 11.0,
+    "fiber": 2.7,
+    "ash": 8.3,
+    "moisture": 8.0,
+    "calcium": 1.1,
+    "phosphorus": 0.9,
+    "taurine": 0.18
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3688,
+  "sourceUrl": "https://www.farmina.com/kr/eshop/cat-%EB%B0%98%EB%A0%A4%EB%AC%98/n%26d-tropical-selection/1011-n%26d-%ED%8A%B8%EB%A1%9C%ED%94%BC%EC%BB%AC-cat-%EB%8B%AD%EA%B3%A0%EA%B8%B0-%26-%EC%97%B4%EB%8C%80-%EA%B3%BC%EC%9D%BC.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina Korea 공식 페이지 기준 성묘용 완전균형 건식입니다. 뼈를 발라낸 닭고기 22%, 건조 닭고기 살 20%, 스펠트 통밀 12%, 통귀리 12%, 건조 청어, 건조 전란, 닭 지방, 청어 오일 등이 포함됩니다. 따라서 chicken, fish, egg, grain을 contains로 분류했습니다. 완두·렌틸 등 콩류, 퀴노아·메밀 등 유사곡물, 감자·고구마·타피오카 계열 전분 원료는 한국 공식 배합에 표시되지 않아 각각 not-listed로 처리했습니다. 건조 당근과 건조 시금치는 vegetable로 반영했습니다. 공식 보증성분은 조단백 최소 32%, 조지방 최소 11%, 조섬유 최대 2.7%, 수분 최대 8%, 조회분 최대 8.3%, 칼슘 최소 1.1%, 인 최소 0.9%, 타우린 최소 0.18%이며 대사에너지는 3,688 kcal/kg입니다."
+}

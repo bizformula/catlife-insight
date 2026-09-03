@@ -1,0 +1,176 @@
+{
+  "slug": "farmina-nd-prime-chicken-pomegranate-kitten-wet",
+  "name": "파미나 N&D 프라임 닭고기와 석류 키튼 습식",
+  "brand": "파미나",
+  "summary": "닭고기·청어·계란을 주요 동물성 원료로 사용한 자묘 및 임신·수유묘용 그레인프리 습식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-prime-chicken-pomegranate-kitten-wet.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "자묘 성장기용",
+    "임신·수유묘용",
+    "그레인프리 식단",
+    "습식 급여"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "닭고기",
+    "청어",
+    "계란",
+    "고구마",
+    "청어유",
+    "석류",
+    "프락토올리고당",
+    "탄산칼슘",
+    "염화칼륨",
+    "비타민 A 보충제",
+    "비타민 D3 보충제",
+    "비타민 E 보충제",
+    "염화콜린",
+    "아연 메티오닌 하이드록시 유사체 킬레이트",
+    "망간 메티오닌 하이드록시 유사체 킬레이트",
+    "철 글리신",
+    "구리 메티오닌 하이드록시 유사체 킬레이트",
+    "DL-메티오닌",
+    "타우린"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭",
+      "sourceText": "Chicken",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "chicken"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring",
+      "form": "other",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "herring"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "eggs",
+      "form": "whole",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potatoes",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato",
+        "sweet potatoes"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어유",
+        "청어 오일",
+        "herring oil"
+      ]
+    },
+    {
+      "name": "석류",
+      "sourceText": "pomegranate",
+      "form": "other",
+      "specificity": "specific",
+      "aliases": [
+        "석류",
+        "pomegranate"
+      ]
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "fructooligosaccharide",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "프락토올리고당",
+        "FOS",
+        "fructooligosaccharide"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 12.5,
+    "fat": 4.0,
+    "fiber": 1.2,
+    "ash": 3.0,
+    "moisture": 77.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max"
+  },
+  "calories": 1035,
+  "sourceUrl": "https://www.farmina.com/us/eshop/cat-food/n%26d-prime-feline/498-chicken-%26-pomegranate-kitten-wet-food.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 미국 공식 페이지 기준 N&D Prime Cat Chicken & Pomegranate Recipe for Kitten 습식 제품입니다. AAFCO 성장기 및 임신·수유기 영양수준에 맞도록 설계되었다고 제조사가 명시합니다. 원료는 닭고기, 청어, 계란, 고구마, 청어유, 석류 등이 표시되어 있으며, 공식 페이지는 곡물·완두·렌틸·대두·쌀·옥수수를 사용하지 않는 그레인프리 제품으로 설명합니다. 보증성분은 조단백 최소 12.5%, 조지방 최소 4.0%, 조섬유 최대 1.2%, 수분 최대 77%, 조회분 최대 3.0%이며 계산 대사에너지는 1,035 kcal/kg입니다. 국가별 제품 용량과 배합·표시값이 다를 수 있으므로 국내 유통 제품의 포장 표시도 함께 확인하세요."
+}

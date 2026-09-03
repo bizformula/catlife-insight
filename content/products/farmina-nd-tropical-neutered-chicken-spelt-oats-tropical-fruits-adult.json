@@ -1,0 +1,287 @@
+{
+  "slug": "farmina-nd-tropical-neutered-chicken-spelt-oats-tropical-fruits-adult",
+  "name": "파미나 N&D 트로피컬 중성화 닭고기·스펠트·귀리·열대과일 어덜트",
+  "brand": "파미나",
+  "summary": "닭고기와 건조 닭 단백질을 중심으로 스펠트·귀리와 5가지 열대과일을 더한 중성화 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-tropical-neutered-chicken-spelt-oats-tropical-fruits-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "중성화 성묘용",
+    "스펠트·귀리 포함 식단",
+    "열대과일 함유 식단",
+    "체중 관리에 적합한 고섬유 설계"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "뼈를 제거한 닭고기(20%)",
+    "건조 닭 단백질(20%)",
+    "스펠트(12%)",
+    "귀리(12%)",
+    "건조 비트 펄프",
+    "건조 청어 단백질",
+    "알팔파밀",
+    "건조 계란",
+    "닭 지방",
+    "청어유",
+    "건조 당근",
+    "이눌린",
+    "프락토올리고당",
+    "효모 추출물(MOS 공급원)",
+    "건조 바나나(0.5%)",
+    "건조 키위(0.5%)",
+    "건조 망고(0.5%)",
+    "건조 파파야(0.5%)",
+    "건조 파인애플(0.5%)",
+    "건조 시금치",
+    "차전자피 껍질 및 씨앗",
+    "염화나트륨",
+    "건조 맥주효모",
+    "강황",
+    "알로에베라 추출물",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "L-카르니틴",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "식물성 오일 유래 토코페롤 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "boneless chicken (20%), dehydrated chicken protein (20%), chicken fat",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "계육",
+        "뼈를 제거한 닭고기",
+        "건조 닭 단백질",
+        "닭 지방",
+        "chicken"
+      ]
+    },
+    {
+      "name": "스펠트",
+      "sourceText": "spelt (12%)",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "스펠트",
+        "스펠트밀",
+        "spelt"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "oats (12%)",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "오트",
+        "오트밀",
+        "oat",
+        "oats"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "dehydrated herring protein, fish oil (from herring)",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "건조 청어 단백질",
+        "청어유",
+        "청어 오일",
+        "herring"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "dried eggs",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "건조 달걀",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "dried carrot",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "건조 당근",
+        "carrot"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "dried spinach",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "건조 시금치",
+        "spinach"
+      ]
+    },
+    {
+      "name": "바나나",
+      "sourceText": "dried banana (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "바나나",
+        "건조 바나나",
+        "banana"
+      ]
+    },
+    {
+      "name": "키위",
+      "sourceText": "dried kiwi (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "키위",
+        "건조 키위",
+        "kiwi"
+      ]
+    },
+    {
+      "name": "망고",
+      "sourceText": "dried mango (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "망고",
+        "건조 망고",
+        "mango"
+      ]
+    },
+    {
+      "name": "파파야",
+      "sourceText": "dried papaya (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "파파야",
+        "건조 파파야",
+        "papaya"
+      ]
+    },
+    {
+      "name": "파인애플",
+      "sourceText": "dried pineapple (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "파인애플",
+        "건조 파인애플",
+        "pineapple"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium husks and seeds",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴",
+        "L-Carnitine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 31.0,
+    "fat": 11.0,
+    "fiber": 6.5,
+    "ash": 8.2,
+    "moisture": 8.0,
+    "calcium": 1.1,
+    "phosphorus": 0.9,
+    "taurine": 0.18
+  },
+  "analysisBasis": {
+    "protein": "typical",
+    "fat": "typical",
+    "fiber": "typical",
+    "ash": "typical",
+    "moisture": "typical",
+    "calcium": "typical",
+    "phosphorus": "typical",
+    "taurine": "typical"
+  },
+  "calories": 3522,
+  "sourceUrl": "https://www.farmina.com/mt/eshop/cat-food/n%26d-tropical-selection-feline/1013-neutered-%E2%80%A2-chicken%2C-spelt%2C-oats-and-tropical-fruits-feline.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 공식 국제 제품 페이지 기준 중성화 성묘용 완전균형 건식입니다. 뼈를 제거한 닭고기 20%, 건조 닭 단백질 20%, 스펠트 12%, 귀리 12%, 건조 청어 단백질, 건조 계란, 닭 지방, 청어유 등이 포함됩니다. 따라서 chicken, fish, egg, grain을 contains로 분류했습니다. 현재 이 공식 배합에는 완두·렌틸 등 콩류, 퀴노아·메밀 등 유사곡물, 감자·고구마·타피오카류 전분 원료가 표시되어 있지 않아 legume, pseudograin, starch는 not-listed로 처리했습니다. 건조 당근과 건조 시금치는 vegetable로 반영했습니다. 공식 분석값은 조단백 31%, 조지방 11%, 조섬유 6.5%, 수분 8%, 조회분 8.2%, 칼슘 1.1%, 인 0.9%, 타우린 0.18%이며 대사에너지는 3,522 kcal/kg입니다. 미국 유통 배합은 일부 원료가 다르므로 국내 유통 제품의 실제 포장 표시사항도 함께 확인하세요."
+}

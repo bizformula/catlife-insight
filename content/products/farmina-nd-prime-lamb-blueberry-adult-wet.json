@@ -1,0 +1,190 @@
+{
+  "slug": "farmina-nd-prime-lamb-blueberry-adult-wet",
+  "name": "파미나 N&D 프라임 양고기와 블루베리 어덜트 습식",
+  "brand": "파미나",
+  "summary": "양고기·청어·계란을 주요 동물성 원료로 사용한 성묘용 그레인프리 습식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-prime-lamb-blueberry-adult-wet.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "그레인프리 식단",
+    "습식 급여",
+    "양고기 중심 식단"
+  ],
+  "mainProteins": [
+    "양고기",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "양고기",
+    "청어",
+    "계란",
+    "고구마",
+    "청어유",
+    "블루베리",
+    "프락토올리고당",
+    "탄산칼슘",
+    "염화칼륨",
+    "비타민 A 보충제",
+    "비타민 D3 보충제",
+    "비타민 E 보충제",
+    "염화콜린",
+    "아연 메티오닌 하이드록시 유사체 킬레이트",
+    "망간 메티오닌 하이드록시 유사체 킬레이트",
+    "철 글리신",
+    "구리 메티오닌 하이드록시 유사체 킬레이트",
+    "DL-메티오닌",
+    "타우린",
+    "L-카르니틴"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "양고기",
+      "sourceText": "Lamb",
+      "form": "other",
+      "specificity": "specific",
+      "aliases": [
+        "양",
+        "양고기",
+        "램",
+        "lamb"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring",
+      "form": "other",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "herring"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "eggs",
+      "form": "whole",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potatoes",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato",
+        "sweet potatoes"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어유",
+        "청어 오일",
+        "herring oil"
+      ]
+    },
+    {
+      "name": "블루베리",
+      "sourceText": "blueberries",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "블루베리",
+        "blueberries",
+        "blueberry"
+      ]
+    },
+    {
+      "name": "프락토올리고당",
+      "sourceText": "fructooligosaccharide",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "프락토올리고당",
+        "FOS",
+        "fructooligosaccharide"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴",
+        "L-Carnitine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10.5,
+    "fat": 5.5,
+    "fiber": 1.2,
+    "ash": 3.0,
+    "moisture": 78.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max"
+  },
+  "calories": 1124,
+  "sourceUrl": "https://www.farmina.com/us/eshop/cat-food/n%26d-prime-feline/371-lamb-and-blueberry-wet-food.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 미국 공식 페이지 기준 N&D Prime Cat Lamb & Blueberry Recipe 성묘용 습식 완전균형식입니다. 원료는 양고기, 청어, 계란, 고구마, 청어유, 블루베리 등이 표시되어 있습니다. 공식 페이지는 그레인프리 제품으로 설명하며 완두, 렌틸, 대두, 쌀, 옥수수를 사용하지 않는다고 명시합니다. 보증성분은 조단백 최소 10.5%, 조지방 최소 5.5%, 조섬유 최대 1.2%, 수분 최대 78%, 조회분 최대 3.0%이며 계산 대사에너지는 1,124 kcal/kg입니다. 현재 ingredientStatus 스키마에는 lamb 전용 그룹이 없으므로 양고기는 ingredientDetails의 정확 일치 검색용 이름과 별칭으로 등록했습니다. 국가별 유통 제품의 배합과 표시값이 다를 수 있으므로 국내 판매 제품 포장도 함께 확인하세요."
+}

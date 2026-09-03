@@ -1,0 +1,194 @@
+{
+  "slug": "farmina-nd-quinoa-skin-coat-quail-adult",
+  "name": "파미나 N&D 퀴노아 스킨 & 코트 메추라기 어덜트",
+  "brand": "파미나",
+  "summary": "메추라기를 단일 동물성 단백질원으로 사용하고 퀴노아·코코넛·강황을 더한 성묘용 스킨 & 코트 기능성 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-quinoa-skin-coat-quail-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "피부 및 피모 건강 지원",
+    "식품 민감성 고려",
+    "제한 원료 식단",
+    "단일 동물성 단백질원"
+  ],
+  "mainProteins": [
+    "메추라기"
+  ],
+  "ingredients": [
+    "메추라기",
+    "건조 메추라기",
+    "완두 전분",
+    "청어유",
+    "퀴노아 씨앗",
+    "아마씨",
+    "건조 코코넛",
+    "강황",
+    "이눌린",
+    "프락토올리고당",
+    "효모 추출물",
+    "차전자피 껍질",
+    "탄산칼슘",
+    "인산이칼슘",
+    "황산칼슘이수화물",
+    "염화칼륨",
+    "소금",
+    "건조 맥주효모",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "알로에베라 젤 농축액",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "혼합 토코페롤"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "메추리",
+      "sourceText": "quail, dehydrated quail",
+      "form": "fresh",
+      "group": "quail",
+      "specificity": "specific",
+      "aliases": [
+        "메추리",
+        "메추리고기",
+        "퀘일",
+        "quail",
+        "건조 메추리",
+        "건조 메추리고기"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "pea starch",
+      "form": "starch",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 전분",
+        "완두전분",
+        "pea starch"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "청어유",
+        "청어 오일",
+        "헤링",
+        "herring",
+        "herring oil"
+      ]
+    },
+    {
+      "name": "퀴노아",
+      "sourceText": "quinoa seed",
+      "form": "whole",
+      "group": "pseudograin",
+      "specificity": "specific",
+      "aliases": [
+        "퀴노아",
+        "키노아",
+        "quinoa",
+        "quinoa seed"
+      ]
+    },
+    {
+      "name": "코코넛",
+      "sourceText": "dried coconut",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "코코넛",
+        "건조 코코넛",
+        "coconut",
+        "dried coconut"
+      ]
+    },
+    {
+      "name": "강황",
+      "sourceText": "turmeric",
+      "form": "other",
+      "specificity": "specific",
+      "aliases": [
+        "강황",
+        "터메릭",
+        "turmeric"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium seed husk",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "contains",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "contains",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 30.0,
+    "fat": 16.0,
+    "fiber": 2.3,
+    "ash": 6.8,
+    "moisture": 8.0,
+    "calcium": 1.0,
+    "phosphorus": 0.8,
+    "taurine": 0.3
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3973,
+  "sourceUrl": "https://www.farmina.com/us/eshop/cat-food/n%26d-quinoa-feline/437-skin-%26-coat-quail.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 미국 공식 최신 페이지 기준 성묘 유지기용 완전균형 건식입니다. 메추라기와 건조 메추라기를 주요 단백질원으로 사용하며 제조사는 L.I.D. 단일 신규 단백질, 높은 오메가-3, 치킨 단백질 무첨가를 주요 특징으로 안내합니다. 현재 미국 배합은 메추라기, 건조 메추라기, 완두 전분, 청어유, 퀴노아, 아마씨, 코코넛, 강황 등을 포함합니다. 완두 전분은 legume과 starch, 퀴노아는 pseudograin으로 반영했습니다. 청어유는 fish 원료로 분류했지만 단백질원은 아니므로 mainProteins에는 포함하지 않았습니다. 공식 에너지값 1,802 kcal/lb를 환산해 약 3,973 kcal/kg으로 기록했습니다. 국가별 배합과 표시값이 다를 수 있으므로 국내 유통 제품 포장의 표시사항도 함께 확인하세요."
+}

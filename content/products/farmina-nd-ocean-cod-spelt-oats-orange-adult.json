@@ -1,0 +1,269 @@
+{
+  "slug": "farmina-nd-ocean-cod-spelt-oats-orange-adult",
+  "name": "파미나 N&D 오션 대구·스펠트·귀리·오렌지 어덜트",
+  "brand": "파미나",
+  "summary": "대구를 주 단백질원으로 하고 스펠트·귀리 등 전통 곡물과 오렌지를 더한 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-ocean-cod-spelt-oats-orange-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "해산물 단백질 중심 식단",
+    "전통 곡물 포함 식단"
+  ],
+  "mainProteins": [
+    "대구",
+    "생선"
+  ],
+  "ingredients": [
+    "대구",
+    "건조 대구",
+    "건조 생선",
+    "청어유",
+    "통스펠트",
+    "통귀리",
+    "통보리",
+    "돼지 지방",
+    "가수분해 생선",
+    "천연 향미",
+    "건조 비트 펄프",
+    "건조 당근",
+    "알팔파밀",
+    "탄산칼슘",
+    "황산칼슘이수화물",
+    "이눌린",
+    "프락토올리고당",
+    "건조 스위트 오렌지",
+    "건조 사과",
+    "건조 석류",
+    "건조 시금치",
+    "차전자피 껍질",
+    "건조 블루베리",
+    "완두 섬유",
+    "소금",
+    "건조 맥주효모",
+    "강황",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "L-카르니틴",
+    "알로에베라 젤 농축액",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "혼합 토코페롤"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "대구",
+      "sourceText": "cod, dehydrated cod",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "대구",
+        "코드",
+        "코드피시",
+        "cod",
+        "codfish",
+        "건조 대구"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "dehydrated fish, hydrolyzed fish",
+      "form": "hydrolyzed",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "건조 생선",
+        "가수분해 생선",
+        "dehydrated fish",
+        "hydrolyzed fish"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "청어유",
+        "청어 오일",
+        "헤링",
+        "herring",
+        "herring oil"
+      ]
+    },
+    {
+      "name": "스펠트",
+      "sourceText": "whole spelt",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "스펠트",
+        "스펠트밀",
+        "통스펠트",
+        "spelt",
+        "whole spelt"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "whole oats",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "오트",
+        "오트밀",
+        "통귀리",
+        "oat",
+        "oats",
+        "whole oats"
+      ]
+    },
+    {
+      "name": "보리",
+      "sourceText": "whole barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "보리",
+        "통보리",
+        "barley",
+        "whole barley"
+      ]
+    },
+    {
+      "name": "돼지고기",
+      "sourceText": "pork fat",
+      "form": "fat",
+      "group": "pork",
+      "specificity": "specific",
+      "aliases": [
+        "돼지",
+        "돼지고기",
+        "돈육",
+        "포크",
+        "돼지 지방",
+        "pork",
+        "pork fat"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "pea fiber",
+      "form": "fiber",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 섬유",
+        "완두섬유",
+        "pea",
+        "pea fiber",
+        "pea fibre"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "dried carrot",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "건조 당근",
+        "carrot"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "dried spinach",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "건조 시금치",
+        "spinach"
+      ]
+    },
+    {
+      "name": "오렌지",
+      "sourceText": "dried sweet orange",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "오렌지",
+        "스위트 오렌지",
+        "건조 오렌지",
+        "orange"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium seed husk",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.0,
+    "fat": 20.0,
+    "fiber": 1.9,
+    "ash": 8.0,
+    "moisture": 8.0,
+    "calcium": 1.0,
+    "phosphorus": 0.9,
+    "taurine": 0.4
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 4169,
+  "sourceUrl": "https://www.farmina.com/us/eshop/cat-food/n%26d-ocean-feline/496-cod%2C-spelt%2C-oats-%26-orange-adult.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 미국 공식 페이지의 현재 배합 기준입니다. 대구와 건조 대구 외에 세부 어종이 특정되지 않은 건조 생선 및 가수분해 생선이 포함되어 있어 fish 그룹에 group-only 원료를 추가했습니다. 또한 통스펠트·통귀리·통보리, 돼지 지방, 완두 섬유가 표시되어 있으므로 grain, pork, legume을 contains로 분류했습니다. 공식 보증성분은 조단백 최소 36%, 조지방 최소 20%, 조섬유 최대 1.9%, 수분 최대 8%, 조회분 최대 8%, 칼슘 최소 1.0%, 인 최소 0.9%, 타우린 최소 0.4%입니다. 공식 에너지값 1,891 kcal/lb를 환산해 약 4,169 kcal/kg으로 기록했습니다. 국가별 공식 배합이 다를 수 있으므로 국내 유통 제품 포장의 표시사항도 함께 확인하세요."
+}

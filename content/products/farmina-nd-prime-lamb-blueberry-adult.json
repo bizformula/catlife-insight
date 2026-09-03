@@ -1,0 +1,218 @@
+{
+  "slug": "farmina-nd-prime-lamb-blueberry-adult",
+  "name": "파미나 N&D 프라임 양고기와 블루베리 어덜트",
+  "brand": "파미나",
+  "summary": "양고기와 블루베리를 중심으로 한 성묘용 그레인프리 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-prime-lamb-blueberry-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "그레인프리 식단",
+    "동물성 단백질 중심 식단"
+  ],
+  "mainProteins": [
+    "양고기",
+    "청어",
+    "계란"
+  ],
+  "ingredients": [
+    "양고기(28%)",
+    "건조 양고기 단백질(26%)",
+    "고구마",
+    "닭 지방",
+    "건조 계란",
+    "청어",
+    "건조 청어 단백질",
+    "청어유",
+    "완두 섬유",
+    "건조 당근",
+    "알팔파밀",
+    "이눌린",
+    "프락토올리고당(FOS)",
+    "효모 추출물(MOS 공급원)",
+    "건조 블루베리(0.5%)",
+    "건조 스위트 오렌지",
+    "건조 사과",
+    "건조 석류",
+    "건조 시금치",
+    "차전자피 껍질 및 씨앗(0.3%)",
+    "염화나트륨",
+    "건조 맥주효모",
+    "강황(0.2%)",
+    "알로에베라 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "양고기",
+      "sourceText": "lamb (28%), dehydrated lamb protein (26%)",
+      "form": "fresh",
+      "specificity": "specific",
+      "aliases": [
+        "양",
+        "양고기",
+        "램",
+        "lamb",
+        "건조 양고기 단백질"
+      ]
+    },
+    {
+      "name": "닭",
+      "sourceText": "chicken fat",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭 지방",
+        "chicken fat"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "dried eggs",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "건조 달걀",
+        "egg"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "herring, dehydrated herring protein, fish oil (from herring)",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "건조 청어 단백질",
+        "청어유",
+        "herring"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potato",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "pea fibre",
+      "form": "fiber",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 섬유",
+        "완두섬유",
+        "pea fibre",
+        "pea fiber"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "dried carrot",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "건조 당근",
+        "carrot"
+      ]
+    },
+    {
+      "name": "시금치",
+      "sourceText": "dried spinach",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "시금치",
+        "건조 시금치",
+        "spinach"
+      ]
+    },
+    {
+      "name": "블루베리",
+      "sourceText": "dried blueberry (0.5%)",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "블루베리",
+        "건조 블루베리",
+        "blueberry"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium husks and seeds (0.3%)",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 42.0,
+    "fat": 20.0,
+    "fiber": 1.8,
+    "ash": 8.9,
+    "moisture": 8.0,
+    "calcium": 1.2,
+    "phosphorus": 1.0
+  },
+  "analysisBasis": {
+    "protein": "typical",
+    "fat": "typical",
+    "fiber": "typical",
+    "ash": "typical",
+    "moisture": "typical",
+    "calcium": "typical",
+    "phosphorus": "typical"
+  },
+  "calories": 4178,
+  "sourceUrl": "https://www.farmina.com/eg/eshop/cat-food/n%26d-prime/149-lamb-%26-blueberry-adult.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 공식 제품 페이지 기준 성묘용 완전균형 건식입니다. 양고기 28%, 건조 양고기 단백질 26%가 주요 단백질원이며, 닭 지방·건조 계란·청어·건조 청어 단백질·청어유도 포함됩니다. 곡물은 표시되어 있지 않으며 완두 섬유, 고구마, 당근·시금치를 각각 legume, starch, vegetable 원료군에 반영했습니다. 현재 ingredientStatus 스키마에는 lamb 전용 그룹이 없으므로 양고기는 ingredientDetails의 정확 일치 검색용 별칭으로 등록했습니다. 공식 분석값은 조단백 42%, 조지방 20%, 조섬유 1.8%, 조회분 8.9%, 수분 8%, 칼슘 1.2%, 인 1.0%이며 대사에너지는 4,178 kcal/kg입니다. 국가별 유통 배합은 달라질 수 있으므로 국내 판매 포장 표시도 함께 확인하세요."
+}

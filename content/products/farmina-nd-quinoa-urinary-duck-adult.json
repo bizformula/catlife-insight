@@ -1,0 +1,262 @@
+{
+  "slug": "farmina-nd-quinoa-urinary-duck-adult",
+  "name": "파미나 N&D 퀴노아 유리너리 오리 어덜트",
+  "brand": "파미나",
+  "summary": "오리와 퀴노아를 중심으로 크랜베리·카모마일을 더하고 요 pH와 마그네슘 수준을 고려한 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/farmina-nd-quinoa-urinary-duck-adult.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘용",
+    "요로 건강 유지 지원",
+    "저마그네슘 식단",
+    "요 pH 6.0~6.3 유지 지원"
+  ],
+  "mainProteins": [
+    "오리고기",
+    "돼지고기",
+    "청어",
+    "생선",
+    "계란"
+  ],
+  "ingredients": [
+    "오리고기",
+    "건조 오리고기",
+    "완두 전분",
+    "돼지 지방",
+    "고구마",
+    "퀴노아 씨앗",
+    "가수분해 돼지 간",
+    "건조 통달걀",
+    "건조 청어",
+    "청어유",
+    "가수분해 생선",
+    "천연 향미",
+    "건조 크랜베리",
+    "카모마일",
+    "황산칼슘이수화물",
+    "프락토올리고당",
+    "효모 추출물",
+    "차전자피 껍질",
+    "L-라이신",
+    "L-카르니틴",
+    "탄산칼슘",
+    "염화칼륨",
+    "건조 맥주효모",
+    "소금",
+    "비타민 및 미네랄",
+    "DL-메티오닌",
+    "타우린",
+    "알로에베라 젤 농축액",
+    "녹차 추출물",
+    "로즈마리 추출물",
+    "혼합 토코페롤"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "오리고기",
+      "sourceText": "duck, dehydrated duck",
+      "form": "fresh",
+      "group": "duck",
+      "specificity": "specific",
+      "aliases": [
+        "오리",
+        "오리고기",
+        "덕",
+        "duck",
+        "건조 오리고기"
+      ]
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "pea starch",
+      "form": "starch",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 전분",
+        "완두전분",
+        "pea starch"
+      ]
+    },
+    {
+      "name": "돼지고기",
+      "sourceText": "pork fat, hydrolyzed pork liver",
+      "form": "other",
+      "group": "pork",
+      "specificity": "specific",
+      "aliases": [
+        "돼지",
+        "돼지고기",
+        "돈육",
+        "포크",
+        "돼지 지방",
+        "가수분해 돼지 간",
+        "pork",
+        "pork fat"
+      ]
+    },
+    {
+      "name": "고구마",
+      "sourceText": "sweet potatoes",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "고구마",
+        "스위트 포테이토",
+        "sweet potato",
+        "sweet potatoes"
+      ]
+    },
+    {
+      "name": "퀴노아",
+      "sourceText": "quinoa seed",
+      "form": "whole",
+      "group": "pseudograin",
+      "specificity": "specific",
+      "aliases": [
+        "퀴노아",
+        "키노아",
+        "quinoa",
+        "quinoa seed"
+      ]
+    },
+    {
+      "name": "달걀",
+      "sourceText": "dried whole eggs",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "달걀",
+        "계란",
+        "건조 통달걀",
+        "건조 계란",
+        "egg",
+        "eggs"
+      ]
+    },
+    {
+      "name": "청어",
+      "sourceText": "dehydrated herring, herring oil",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "청어",
+        "헤링",
+        "건조 청어",
+        "청어유",
+        "청어 오일",
+        "herring",
+        "herring oil"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "hydrolyzed fish",
+      "form": "hydrolyzed",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "가수분해 생선",
+        "hydrolyzed fish"
+      ]
+    },
+    {
+      "name": "크랜베리",
+      "sourceText": "dried cranberry",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "크랜베리",
+        "건조 크랜베리",
+        "cranberry"
+      ]
+    },
+    {
+      "name": "차전자피",
+      "sourceText": "psyllium seed husk",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "차전자피",
+        "질경이씨껍질",
+        "psyllium"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    },
+    {
+      "name": "L-카르니틴",
+      "sourceText": "L-Carnitine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "L-카르니틴",
+        "L 카르니틴",
+        "엘카르니틴",
+        "카르니틴",
+        "L-Carnitine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "contains",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 33.0,
+    "fat": 16.5,
+    "fiber": 2.1,
+    "ash": 7.9,
+    "moisture": 8.0,
+    "calcium": 1.0,
+    "phosphorus": 0.8,
+    "taurine": 0.2
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3984,
+  "sourceUrl": "https://www.farmina.com/us/eshop/cat-food/n%26d-quinoa-feline/438-urinary-duck.html",
+  "checkedAt": "2026-09-03",
+  "notes": "Farmina 미국 공식 최신 페이지 기준 성묘 유지기용 완전균형 건식입니다. 제조사는 요 pH를 6.0~6.3 범위로 안정화하도록 설계하고 마그네슘 0.08%의 저마그네슘 포뮬러라고 안내합니다. 현재 미국 배합에는 오리·건조 오리 외에 돼지 지방·가수분해 돼지 간, 건조 통달걀, 건조 청어·청어유, 가수분해 생선이 포함됩니다. 완두 전분은 legume과 starch, 고구마는 starch, 퀴노아는 pseudograin으로 반영했습니다. 가수분해 생선은 어종이 특정되지 않아 fish 그룹의 group-only 원료로 등록했습니다. 공식 에너지값 1,807 kcal/lb를 환산해 약 3,984 kcal/kg으로 기록했습니다. 처방식이 아닌 일반 기능성 완전균형식이므로 isVeterinaryDiet는 false로 설정했습니다. 국가별 배합과 표시값이 다를 수 있으므로 국내 유통 제품 포장의 표시사항도 함께 확인하세요."
+}
