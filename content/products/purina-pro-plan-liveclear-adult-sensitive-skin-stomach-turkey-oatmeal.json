@@ -1,0 +1,289 @@
+{
+  "slug": "purina-pro-plan-liveclear-adult-sensitive-skin-stomach-turkey-oatmeal",
+  "name": "퓨리나 프로플랜 라이브클리어 어덜트 센서티브 스킨 & 스토막 터키 & 오트밀",
+  "brand": "퓨리나 프로플랜",
+  "summary": "칠면조를 첫 원료로 사용하고 닭고기분, 완두 단백질, 쌀, 계란, 귀리, 소 지방, 감자 단백질, 보리와 카사바를 포함하며 민감한 피부·소화와 고양이 알레르겐 저감을 함께 고려한 LiveClear 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-liveclear-adult-sensitive-skin-stomach-turkey-oatmeal.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "민감한 소화 고려",
+    "피부·피모 영양 지원",
+    "고양이 털·비듬의 주요 알레르겐 감소 지원",
+    "프로바이오틱스 함유",
+    "프리바이오틱 섬유 함유"
+  ],
+  "mainProteins": [
+    "칠면조",
+    "닭고기",
+    "계란"
+  ],
+  "ingredients": [
+    "칠면조",
+    "닭고기분",
+    "완두 단백질",
+    "쌀",
+    "건조 계란 제품",
+    "귀리",
+    "혼합 토코페롤로 보존한 소 지방",
+    "감자 단백질",
+    "건조 효모",
+    "보리",
+    "카사바 뿌리 가루",
+    "간 향미",
+    "치커리 뿌리 이눌린",
+    "젤라틴",
+    "염화칼륨",
+    "해바라기유",
+    "인산",
+    "아연 프로테이네이트",
+    "망간 프로테이네이트",
+    "황산철",
+    "구리 프로테이네이트",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "염화콜린",
+    "소금",
+    "비타민 E 보충제",
+    "티아민 모노나이트레이트",
+    "나이아신",
+    "비타민 A 보충제",
+    "판토텐산칼슘",
+    "리보플라빈 보충제",
+    "비타민 B12 보충제",
+    "피리독신 염산염",
+    "엽산",
+    "비타민 D3 보충제",
+    "비오틴",
+    "메나디온 중아황산나트륨 복합체",
+    "타우린",
+    "L-라이신 모노하이드로클로라이드",
+    "건조 Bacillus coagulans 발효산물",
+    "탄산칼슘"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey",
+      "form": "fresh",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "turkey"
+      ]
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭고기분",
+        "chicken",
+        "chicken meal"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "Pea Protein",
+      "form": "dried",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 단백질",
+        "pea",
+        "pea protein"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product (Dried)",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "egg",
+        "egg product"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Oat Meal",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "오트",
+        "오트밀",
+        "oat",
+        "oats",
+        "oat meal",
+        "oatmeal"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Fat Preserved With Mixed-Tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "감자",
+      "sourceText": "Potato Protein",
+      "form": "other",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "감자",
+        "감자 단백질",
+        "potato",
+        "potato protein"
+      ]
+    },
+    {
+      "name": "보리",
+      "sourceText": "Barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "보리",
+        "barley"
+      ]
+    },
+    {
+      "name": "카사바",
+      "sourceText": "Cassava Root Flour",
+      "form": "other",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "카사바",
+        "타피오카",
+        "카사바 뿌리 가루",
+        "cassava",
+        "cassava root flour",
+        "tapioca"
+      ]
+    },
+    {
+      "name": "간 향미",
+      "sourceText": "Liver Flavor",
+      "form": "extract",
+      "specificity": "group-only",
+      "aliases": [
+        "간 향미",
+        "간향미",
+        "liver flavor"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "Chicory Root Inulin",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "치커리 뿌리",
+        "치커리 이눌린",
+        "chicory",
+        "chicory root inulin",
+        "inulin"
+      ]
+    },
+    {
+      "name": "젤라틴",
+      "sourceText": "Gelatin",
+      "form": "other",
+      "specificity": "group-only",
+      "aliases": [
+        "젤라틴",
+        "gelatin"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "contains",
+    "pork": "unknown",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 40.0,
+    "fat": 18.0,
+    "fiber": 2.5,
+    "moisture": 12.0,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 4494,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-liveclear-allergen-reducing-sensitive-skin-stomach-turkey-dry-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지 기준입니다. 칠면조가 첫 원료이며 닭고기분, 완두 단백질, 쌀, 건조 계란, 귀리, 소 지방, 감자 단백질, 보리, 카사바 뿌리 가루, 간 향미, 치커리 뿌리 이눌린, 젤라틴이 포함됩니다. Purina는 LiveClear가 고양이 털과 비듬의 주요 알레르겐을 감소시키도록 설계되었다고 안내합니다. 이는 사람의 알레르기를 치료한다는 의미가 아닙니다. Liver Flavor와 Gelatin의 동물 종이 특정되지 않아 duck, quail, pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 40%, 조지방 최소 18%, 조섬유 최대 2.5%, 수분 최대 12%, 타우린 최소 0.15%이며 대사에너지는 4,494 kcal/kg, 컵당 581 kcal입니다."
+}

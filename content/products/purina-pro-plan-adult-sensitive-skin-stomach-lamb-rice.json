@@ -1,0 +1,279 @@
+{
+  "slug": "purina-pro-plan-adult-sensitive-skin-stomach-lamb-rice",
+  "name": "퓨리나 프로플랜 어덜트 센서티브 스킨 & 스토막 램 & 라이스",
+  "brand": "퓨리나 프로플랜",
+  "summary": "양고기를 첫 원료로 사용하고 쌀·귀리 등 소화가 쉬운 곡류와 닭고기, 생선, 계란, 대두 원료를 포함한 민감한 피부와 소화를 고려한 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-adult-sensitive-skin-stomach-lamb-rice.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "민감한 소화 고려",
+    "피부·피모 영양 지원",
+    "프리바이오틱 섬유 함유"
+  ],
+  "mainProteins": [
+    "양고기",
+    "닭고기",
+    "생선",
+    "계란"
+  ],
+  "ingredients": [
+    "양고기",
+    "쌀",
+    "옥수수 단백질분",
+    "닭고기분",
+    "대두박",
+    "혼합 토코페롤로 보존한 소 지방",
+    "분리대두단백",
+    "보리",
+    "귀리",
+    "어분",
+    "건조 계란 제품",
+    "간 향미",
+    "대두유",
+    "건조 치커리 뿌리",
+    "인산",
+    "탄산칼슘",
+    "소금",
+    "염화칼륨",
+    "염화콜린",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "중아황산나트륨",
+    "L-라이신 모노하이드로클로라이드",
+    "비타민 E 보충제",
+    "나이아신",
+    "티아민 모노나이트레이트",
+    "판토텐산칼슘",
+    "리보플라빈 보충제",
+    "비타민 A 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비오틴",
+    "비타민 D3 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "타우린"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "양고기",
+      "sourceText": "Lamb",
+      "form": "fresh",
+      "specificity": "specific",
+      "aliases": [
+        "양",
+        "양고기",
+        "램",
+        "lamb"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "corn protein meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "콘",
+        "옥수수 단백질분",
+        "corn",
+        "corn protein meal"
+      ]
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "chicken meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭고기분",
+        "chicken",
+        "chicken meal"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "soybean meal, soy protein isolate, soybean oil",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두박",
+        "분리대두단백",
+        "대두유",
+        "soy",
+        "soybean",
+        "soybean meal",
+        "soy protein isolate",
+        "soybean oil"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "beef fat preserved with mixed-tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "보리",
+      "sourceText": "barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "보리",
+        "barley"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "oat meal",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "오트",
+        "오트밀",
+        "oat",
+        "oats",
+        "oat meal"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "fish meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "어분",
+        "fish",
+        "fish meal"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "dried egg product",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "egg",
+        "dried egg product"
+      ]
+    },
+    {
+      "name": "간 향미",
+      "sourceText": "liver flavor",
+      "form": "extract",
+      "specificity": "group-only",
+      "aliases": [
+        "간 향미",
+        "간향미",
+        "liver flavor"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "dried chicory root",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "건조 치커리 뿌리",
+        "chicory",
+        "dried chicory root"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.0,
+    "fat": 18.0,
+    "fiber": 2.5,
+    "moisture": 12.0,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 3907,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-sensitive-skin-stomach-lamb-rice-dry-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지에서 연결되는 2025-07 공식 라벨 PDF 기준입니다. 양고기가 첫 원료이며 쌀, 옥수수 단백질분, 닭고기분, 대두박, 소 지방, 분리대두단백, 보리, 귀리, 어분, 건조 계란, 대두유, 건조 치커리 뿌리가 포함됩니다. Fish Meal은 어종이 특정되지 않아 fish 그룹의 group-only로 등록했습니다. 간 향미는 동물 종이 공개되지 않아 특정 육류 원료군으로 추정하지 않았습니다. 공식 보증성분은 조단백 최소 36%, 조지방 최소 18%, 조섬유 최대 2.5%, 수분 최대 12%, 타우린 최소 0.15%이며 대사에너지는 3,907 kcal/kg입니다."
+}

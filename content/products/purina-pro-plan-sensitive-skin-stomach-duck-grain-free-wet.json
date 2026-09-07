@@ -1,0 +1,163 @@
+{
+  "slug": "purina-pro-plan-sensitive-skin-stomach-duck-grain-free-wet",
+  "name": "퓨리나 프로플랜 센서티브 스킨 & 스토막 덕 앙트레 그레인프리 클래식",
+  "brand": "퓨리나 프로플랜",
+  "summary": "오리를 첫 원료로 사용하고 간, 육류 부산물, 오션 화이트피시와 이눌린을 포함한 민감한 피부와 소화를 고려한 성묘용 그레인프리 습식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-sensitive-skin-stomach-duck-grain-free-wet.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "민감한 소화 고려",
+    "피부·피모 영양 지원",
+    "그레인프리 식단",
+    "프리바이오틱 섬유 함유"
+  ],
+  "mainProteins": [
+    "오리",
+    "오션 화이트피시",
+    "육류 부산물"
+  ],
+  "ingredients": [
+    "오리",
+    "간",
+    "육류 부산물",
+    "가공에 충분한 물",
+    "오션 화이트피시",
+    "이눌린",
+    "염화칼륨",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드화칼륨",
+    "염화콜린",
+    "구아검",
+    "타우린",
+    "인산삼칼슘",
+    "소금",
+    "비타민 E 보충제",
+    "티아민 모노나이트레이트",
+    "나이아신",
+    "판토텐산칼슘",
+    "비타민 A 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "피리독신 염산염",
+    "리보플라빈 보충제",
+    "비타민 B12 보충제",
+    "비오틴",
+    "엽산",
+    "비타민 D3 보충제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "오리",
+      "sourceText": "Duck",
+      "form": "fresh",
+      "group": "duck",
+      "specificity": "specific",
+      "aliases": [
+        "오리",
+        "덕",
+        "duck"
+      ]
+    },
+    {
+      "name": "간",
+      "sourceText": "Liver",
+      "form": "organ",
+      "specificity": "group-only",
+      "aliases": [
+        "간",
+        "동물 간",
+        "liver"
+      ]
+    },
+    {
+      "name": "육류 부산물",
+      "sourceText": "Meat By-Products",
+      "form": "other",
+      "specificity": "group-only",
+      "aliases": [
+        "육류 부산물",
+        "육류부산물",
+        "고기 부산물",
+        "meat by-products"
+      ]
+    },
+    {
+      "name": "오션 화이트피시",
+      "sourceText": "Ocean Whitefish",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "오션 화이트피시",
+        "화이트피시",
+        "흰살생선",
+        "ocean whitefish",
+        "whitefish"
+      ]
+    },
+    {
+      "name": "이눌린",
+      "sourceText": "Inulin",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "이눌린",
+        "inulin"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "unknown",
+    "turkey": "unknown",
+    "duck": "contains",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10.0,
+    "fat": 6.0,
+    "fiber": 1.5,
+    "ash": 3.5,
+    "moisture": 78.0,
+    "taurine": 0.05
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 1027,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-sensitive-skin-stomach-grain-free-duck-wet-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지와 공식 라벨 PDF 기준입니다. 오리가 첫 원료이며 간, 육류 부산물, 오션 화이트피시, 이눌린이 포함됩니다. 제품은 Corn, Wheat, Soy 없이 제조된 Grain Free 포뮬러로 안내됩니다. Liver와 Meat By-Products의 동물 종이 특정되지 않아 chicken, turkey, quail, beef, pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 10%, 조지방 최소 6%, 조섬유 최대 1.5%, 수분 최대 78%, 조회분 최대 3.5%, 타우린 최소 0.05%이며 대사에너지는 1,027 kcal/kg, 3 oz 캔당 87 kcal입니다."
+}

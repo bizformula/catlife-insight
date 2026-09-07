@@ -1,0 +1,261 @@
+{
+  "slug": "purina-pro-plan-adult-sensitive-skin-stomach-turkey-oat-meal",
+  "name": "퓨리나 프로플랜 어덜트 센서티브 스킨 & 스토막 터키 & 오트밀",
+  "brand": "퓨리나 프로플랜",
+  "summary": "칠면조를 첫 원료로 사용하고 닭고기분, 쌀, 완두 단백질, 귀리, 보리, 계란과 소 지방 등을 포함한 민감한 피부와 소화를 고려한 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-adult-sensitive-skin-stomach-turkey-oat-meal.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "민감한 소화 고려",
+    "피부·피모 영양 지원",
+    "프리바이오틱 섬유 함유"
+  ],
+  "mainProteins": [
+    "칠면조",
+    "닭고기",
+    "계란"
+  ],
+  "ingredients": [
+    "칠면조",
+    "닭고기분",
+    "쌀",
+    "완두 단백질",
+    "혼합 토코페롤로 보존한 소 지방",
+    "건조 계란 제품",
+    "귀리",
+    "건조 효모",
+    "보리",
+    "감자 단백질",
+    "천연 향미",
+    "카사바 뿌리 가루",
+    "건조 치커리 뿌리",
+    "염화칼륨",
+    "해바라기유",
+    "인산",
+    "소금",
+    "아연 프로테이네이트",
+    "황산철",
+    "망간 프로테이네이트",
+    "구리 프로테이네이트",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "탄산칼슘",
+    "L-라이신 모노하이드로클로라이드",
+    "비타민 E 보충제",
+    "나이아신",
+    "티아민 모노나이트레이트",
+    "판토텐산칼슘",
+    "리보플라빈 보충제",
+    "비타민 A 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비오틴",
+    "비타민 D3 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "염화콜린",
+    "타우린"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey",
+      "form": "fresh",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "turkey"
+      ]
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭고기분",
+        "chicken",
+        "chicken meal"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "Pea Protein",
+      "form": "dried",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 단백질",
+        "pea",
+        "pea protein"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Fat Preserved With Mixed-Tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Dried Egg Product",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "egg",
+        "dried egg product"
+      ]
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Oat Meal",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "귀리",
+        "오트",
+        "오트밀",
+        "oat",
+        "oats",
+        "oat meal"
+      ]
+    },
+    {
+      "name": "보리",
+      "sourceText": "Barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "보리",
+        "barley"
+      ]
+    },
+    {
+      "name": "감자",
+      "sourceText": "Potato Protein",
+      "form": "other",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "감자",
+        "감자 단백질",
+        "potato",
+        "potato protein"
+      ]
+    },
+    {
+      "name": "카사바",
+      "sourceText": "Cassava Root Flour",
+      "form": "other",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "카사바",
+        "타피오카",
+        "카사바 뿌리 가루",
+        "cassava",
+        "cassava root flour",
+        "tapioca"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "Dried Chicory Root",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "건조 치커리 뿌리",
+        "chicory",
+        "dried chicory root"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.0,
+    "fat": 18.0,
+    "fiber": 2.5,
+    "moisture": 12.0,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 3911,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-sensitive-skin-stomach-turkey-oat-meal-dry-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지에서 연결되는 2025-07 공식 라벨 PDF 기준입니다. 칠면조가 첫 원료이며 닭고기분, 쌀, 완두 단백질, 소 지방, 건조 계란, 귀리, 보리, 감자 단백질, 카사바 뿌리 가루, 건조 치커리 뿌리가 포함됩니다. 공식 보증성분은 조단백 최소 36%, 조지방 최소 18%, 조섬유 최대 2.5%, 수분 최대 12%, 타우린 최소 0.15%이며 대사에너지는 3,911 kcal/kg, 컵당 492 kcal입니다."
+}

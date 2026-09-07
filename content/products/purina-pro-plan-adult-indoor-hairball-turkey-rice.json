@@ -1,0 +1,262 @@
+{
+  "slug": "purina-pro-plan-adult-indoor-hairball-turkey-rice",
+  "name": "퓨리나 프로플랜 어덜트 인도어 + 헤어볼 터키 & 라이스",
+  "brand": "퓨리나 프로플랜",
+  "summary": "칠면조를 첫 원료로 사용하고 쌀, 닭고기분, 밀, 대두 단백질, 소 지방, 계란, 어분과 셀룰로오스를 포함해 실내 성묘의 헤어볼 관리와 건강한 체중 유지를 고려한 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-adult-indoor-hairball-turkey-rice.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "실내 성묘용",
+    "헤어볼 관리",
+    "건강한 체중 유지 지원",
+    "소화 건강 지원"
+  ],
+  "mainProteins": [
+    "칠면조",
+    "닭고기",
+    "계란",
+    "생선"
+  ],
+  "ingredients": [
+    "칠면조",
+    "쌀",
+    "옥수수 단백질분",
+    "닭고기분",
+    "밀가루",
+    "분리대두단백",
+    "혼합 토코페롤로 보존한 소 지방",
+    "분말 셀룰로오스",
+    "건조 계란 제품",
+    "어분",
+    "대두 껍질",
+    "천연 향미",
+    "건조 치커리 뿌리",
+    "염화칼륨",
+    "인산",
+    "소금",
+    "염화콜린",
+    "L-라이신 모노하이드로클로라이드",
+    "탄산칼슘",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "비타민 E 보충제",
+    "나이아신",
+    "티아민 모노나이트레이트",
+    "판토텐산칼슘",
+    "리보플라빈 보충제",
+    "비타민 A 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비오틴",
+    "비타민 D3 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "타우린"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey",
+      "form": "fresh",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "turkey"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "콘",
+        "옥수수 단백질분",
+        "corn",
+        "corn protein meal"
+      ]
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭고기분",
+        "chicken",
+        "chicken meal"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Flour",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀가루",
+        "wheat",
+        "wheat flour"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soy Protein Isolate, Soybean Hulls",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "분리대두단백",
+        "대두 껍질",
+        "soy",
+        "soy protein isolate",
+        "soybean hulls"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Fat Preserved With Mixed-Tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "Powdered Cellulose",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "셀룰로오스",
+        "분말 셀룰로오스",
+        "powdered cellulose"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product (Dried)",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "egg",
+        "egg product"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "어분",
+        "fish",
+        "fish meal"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "Dried Chicory Root",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "건조 치커리 뿌리",
+        "chicory",
+        "dried chicory root"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.0,
+    "fat": 11.0,
+    "fiber": 5.5,
+    "moisture": 12.0,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 3979,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-specialized-nutrition-indoor-care-turkey-rice-dry-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지 기준입니다. 칠면조가 첫 원료이며 쌀, 옥수수 단백질분, 닭고기분, 밀가루, 분리대두단백, 소 지방, 분말 셀룰로오스, 건조 계란, 어분, 대두 껍질, 건조 치커리 뿌리가 포함됩니다. Fish Meal은 어종이 특정되지 않아 fish 그룹의 group-only로 등록했습니다. 공식 보증성분은 조단백 최소 36%, 조지방 최소 11%, 조섬유 최대 5.5%, 수분 최대 12%, 타우린 최소 0.15%이며 대사에너지는 3,979 kcal/kg, 컵당 451 kcal입니다."
+}

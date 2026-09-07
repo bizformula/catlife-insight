@@ -1,0 +1,153 @@
+{
+  "slug": "purina-pro-plan-hairball-chicken-entree-classic-wet",
+  "name": "퓨리나 프로플랜 헤어볼 치킨 앙트레 클래식",
+  "brand": "퓨리나 프로플랜",
+  "summary": "닭고기를 첫 원료로 사용하고 오션 화이트피시와 천연 섬유를 포함해 성묘의 헤어볼 관리를 고려한 습식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-hairball-chicken-entree-classic-wet.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "헤어볼 관리",
+    "성묘 유지용",
+    "천연 섬유 함유"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "오션 화이트피시",
+    "육류 부산물"
+  ],
+  "ingredients": [
+    "닭고기",
+    "가공에 충분한 물",
+    "육류 부산물",
+    "오션 화이트피시",
+    "분말 셀룰로오스",
+    "인공 및 천연 향미",
+    "염화칼륨",
+    "마그네슘 프로테이네이트",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드화칼륨",
+    "구아검",
+    "타우린",
+    "염화콜린",
+    "비타민 E 보충제",
+    "소금",
+    "티아민 모노나이트레이트",
+    "나이아신",
+    "판토텐산칼슘",
+    "비타민 A 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "피리독신 염산염",
+    "리보플라빈 보충제",
+    "비타민 B12 보충제",
+    "비오틴",
+    "엽산",
+    "비타민 D3 보충제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "chicken"
+      ]
+    },
+    {
+      "name": "육류 부산물",
+      "sourceText": "Meat By-Products",
+      "form": "other",
+      "specificity": "group-only",
+      "aliases": [
+        "육류 부산물",
+        "육류부산물",
+        "고기 부산물",
+        "meat by-products"
+      ]
+    },
+    {
+      "name": "오션 화이트피시",
+      "sourceText": "Ocean Whitefish",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "오션 화이트피시",
+        "화이트피시",
+        "흰살생선",
+        "ocean whitefish",
+        "whitefish"
+      ]
+    },
+    {
+      "name": "셀룰로오스",
+      "sourceText": "Powdered Cellulose",
+      "form": "fiber",
+      "specificity": "specific",
+      "aliases": [
+        "셀룰로오스",
+        "분말 셀룰로오스",
+        "powdered cellulose"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 9.0,
+    "fat": 4.5,
+    "fiber": 2.6,
+    "ash": 3.5,
+    "moisture": 78.0,
+    "taurine": 0.05
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 1052,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-hairball-chicken-wet-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지와 공식 라벨 PDF 기준입니다. 닭고기가 첫 원료이며 육류 부산물, 오션 화이트피시, 분말 셀룰로오스가 포함됩니다. Meat By-Products의 동물 종이 특정되지 않아 turkey, duck, quail, beef, pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 9%, 조지방 최소 4.5%, 조섬유 최대 2.6%, 수분 최대 78%, 조회분 최대 3.5%, 타우린 최소 0.05%이며 대사에너지는 1,052 kcal/kg, 3 oz 캔당 89 kcal입니다."
+}

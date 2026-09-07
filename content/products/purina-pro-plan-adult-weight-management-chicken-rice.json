@@ -1,0 +1,254 @@
+{
+  "slug": "purina-pro-plan-adult-weight-management-chicken-rice",
+  "name": "퓨리나 프로플랜 어덜트 웨이트 매니지먼트 치킨 & 라이스",
+  "brand": "퓨리나 프로플랜",
+  "summary": "닭고기를 첫 원료로 사용하고 쌀, 가금류 부산물분, 대두 단백질, 밀, 소 지방, 어분과 치커리 뿌리를 포함해 체중 관리와 근육량 유지를 고려한 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-adult-weight-management-chicken-rice.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘 체중 관리",
+    "체중 감량 중 근육량 유지 지원",
+    "프리바이오틱 섬유 함유"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "가금류",
+    "생선"
+  ],
+  "ingredients": [
+    "닭고기",
+    "쌀",
+    "옥수수 단백질분",
+    "가금류 부산물분",
+    "대두 단백질 농축물",
+    "밀가루",
+    "분리대두단백",
+    "혼합 토코페롤로 보존한 소 지방",
+    "어분",
+    "대두박",
+    "대두 껍질",
+    "간 향미",
+    "건조 치커리 뿌리",
+    "건조 효모",
+    "인산",
+    "L-라이신 모노하이드로클로라이드",
+    "소금",
+    "염화콜린",
+    "염화칼륨",
+    "중아황산나트륨",
+    "탄산칼슘",
+    "비타민 E 보충제",
+    "나이아신",
+    "티아민 모노나이트레이트",
+    "판토텐산칼슘",
+    "리보플라빈 보충제",
+    "비타민 A 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비오틴",
+    "비타민 D3 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "타우린"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "chicken"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "콘",
+        "옥수수 단백질분",
+        "corn",
+        "corn protein meal"
+      ]
+    },
+    {
+      "name": "가금류",
+      "sourceText": "Poultry By-Product Meal",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "가금류",
+        "가금류 부산물분",
+        "poultry",
+        "poultry by-product meal"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soy Protein Concentrate, Soy Protein Isolate, Soybean Meal, Soybean Hulls",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두 단백질 농축물",
+        "분리대두단백",
+        "대두박",
+        "대두 껍질",
+        "soy",
+        "soy protein concentrate",
+        "soy protein isolate",
+        "soybean meal",
+        "soybean hulls"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Flour",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀가루",
+        "wheat",
+        "wheat flour"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Fat Preserved With Mixed-Tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "어분",
+        "fish",
+        "fish meal"
+      ]
+    },
+    {
+      "name": "간 향미",
+      "sourceText": "Liver Flavor",
+      "form": "extract",
+      "specificity": "group-only",
+      "aliases": [
+        "간 향미",
+        "간향미",
+        "liver flavor"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "Dried Chicory Root",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "건조 치커리 뿌리",
+        "chicory",
+        "dried chicory root"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "contains",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 43.0,
+    "fat": 9.0,
+    "fiber": 5.0,
+    "moisture": 12.0,
+    "calcium": 0.8,
+    "phosphorus": 0.7,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3443,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-weight-management-chicken-rice-dry-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지와 2026-01 공식 라벨 PDF 기준입니다. 닭고기가 첫 원료이며 쌀, 옥수수 단백질분, 가금류 부산물분, 대두 단백질 농축물, 밀가루, 분리대두단백, 소 지방, 어분, 대두박, 대두 껍질, 간 향미, 건조 치커리 뿌리가 포함됩니다. 'Poultry By-Product Meal'은 가금류 종류가 특정되지 않아 turkey, duck, quail은 unknown으로 처리했고, Liver Flavor도 동물 종이 특정되지 않아 pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 43%, 조지방 최소 9% 및 최대 12.8%, 조섬유 최대 5%, 수분 최대 12%, 칼슘 최소 0.8%, 인 최소 0.7%, 타우린 최소 0.15%이며 대사에너지는 3,443 kcal/kg, 컵당 353 kcal입니다. 현재 스키마는 지방의 최소·최대값을 동시에 저장할 수 없어 guaranteedAnalysis에는 최소 9%를 저장하고 최대 12.8%는 notes에 보존했습니다."
+}

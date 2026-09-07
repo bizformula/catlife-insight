@@ -1,0 +1,249 @@
+{
+  "slug": "purina-pro-plan-adult-complete-essentials-salmon-rice",
+  "name": "퓨리나 프로플랜 어덜트 컴플리트 에센셜 연어 & 라이스",
+  "brand": "퓨리나 프로플랜",
+  "summary": "연어를 첫 원료로 사용하고 쌀, 곡류, 계란, 생선 및 대두 원료와 살아있는 프로바이오틱스를 포함한 성묘용 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-adult-complete-essentials-salmon-rice.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘 유지용",
+    "프로바이오틱스 함유",
+    "프리바이오틱 섬유 함유"
+  ],
+  "mainProteins": [
+    "연어",
+    "가금류",
+    "계란",
+    "생선"
+  ],
+  "ingredients": [
+    "연어",
+    "쌀",
+    "옥수수 단백질분",
+    "가금류 부산물분",
+    "밀가루",
+    "건조 계란 제품",
+    "혼합 토코페롤로 보존한 소 지방",
+    "대두 단백질 농축물",
+    "어분",
+    "천연 향미",
+    "건조 치커리 뿌리",
+    "인산",
+    "염화칼륨",
+    "탄산칼슘",
+    "소금",
+    "카라멜 색소",
+    "염화콜린",
+    "비타민 E 보충제",
+    "나이아신",
+    "비타민 A 보충제",
+    "판토텐산칼슘",
+    "티아민 모노나이트레이트",
+    "리보플라빈 보충제",
+    "비타민 B12 보충제",
+    "피리독신 염산염",
+    "엽산",
+    "비타민 D3 보충제",
+    "비오틴",
+    "메나디온 중아황산나트륨 복합체",
+    "타우린",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "L-라이신 모노하이드로클로라이드",
+    "건조 Bacillus coagulans 발효산물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "연어",
+        "살몬",
+        "salmon"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "콘",
+        "옥수수 단백질분",
+        "corn",
+        "corn protein meal"
+      ]
+    },
+    {
+      "name": "가금류",
+      "sourceText": "Poultry By-Product Meal",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "가금류",
+        "가금류 부산물분",
+        "poultry",
+        "poultry by-product meal"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Flour",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀가루",
+        "wheat",
+        "wheat flour"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product (Dried)",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "egg",
+        "egg product"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Fat Preserved With Mixed-Tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soy Protein Concentrate",
+      "form": "dried",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두 단백질 농축물",
+        "soy",
+        "soy protein concentrate"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "어분",
+        "fish",
+        "fish meal"
+      ]
+    },
+    {
+      "name": "치커리",
+      "sourceText": "Dried Chicory Root",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "치커리",
+        "건조 치커리 뿌리",
+        "chicory",
+        "dried chicory root"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "unknown",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.0,
+    "fat": 16.0,
+    "fiber": 2.0,
+    "moisture": 12.0,
+    "calcium": 0.8,
+    "phosphorus": 0.7,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 4225,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-complete-essentials-salmon-rice-probiotics-dry-cat-food",
+  "checkedAt": "2026-09-07",
+  "notes": "Purina 미국 공식 현재 제품 페이지와 2025-10 공식 라벨 PDF 기준입니다. 연어가 첫 원료이며 쌀, 옥수수 단백질분, 가금류 부산물분, 밀가루, 건조 계란, 소 지방, 대두 단백질 농축물, 어분, 건조 치커리 뿌리가 포함됩니다. 'Poultry By-Product Meal'은 가금류 종류가 특정되지 않아 chicken, turkey, duck, quail은 unknown으로 처리했습니다. Fish Meal도 어종이 특정되지 않아 fish 그룹의 group-only로 등록했습니다. 공식 보증성분은 조단백 최소 36%, 조지방 최소 16%, 조섬유 최대 2%, 수분 최대 12%, 칼슘 최소 0.8%, 인 최소 0.7%, 타우린 최소 0.15%이며 현재 공식 제품 페이지의 대사에너지는 4,225 kcal/kg입니다."
+}

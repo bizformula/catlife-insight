@@ -1,0 +1,236 @@
+{
+  "slug": "purina-pro-plan-adult-urinary-tract-health-chicken-rice",
+  "name": "퓨리나 프로플랜 어덜트 유리너리 트랙 헬스 치킨 & 라이스",
+  "brand": "퓨리나 프로플랜",
+  "summary": "옥수수 글루텐분, 닭고기, 밀가루, 쌀을 사용하고 낮은 식이 마그네슘과 소변 pH 관리를 고려한 성묘용 유리너리 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-adult-urinary-tract-health-chicken-rice.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘 요로 건강 유지",
+    "소변 pH 감소 지원",
+    "낮은 식이 마그네슘"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "계란",
+    "유제품 단백질"
+  ],
+  "ingredients": [
+    "옥수수 글루텐분",
+    "닭고기",
+    "밀가루",
+    "쌀",
+    "통옥수수",
+    "혼합 토코페롤로 보존한 소 지방",
+    "건조 계란 제품",
+    "소듐 카제이네이트",
+    "인산",
+    "탄산칼슘",
+    "염화칼륨",
+    "간 향미",
+    "L-라이신 모노하이드로클로라이드",
+    "소금",
+    "염화콜린",
+    "인산일칼슘 및 인산이칼슘",
+    "건조 유청",
+    "타우린",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "비타민 E 보충제",
+    "나이아신",
+    "비타민 A 보충제",
+    "판토텐산칼슘",
+    "티아민 모노나이트레이트",
+    "리보플라빈 보충제",
+    "비타민 B12 보충제",
+    "피리독신 염산염",
+    "엽산",
+    "비타민 D3 보충제",
+    "비오틴",
+    "메나디온 중아황산나트륨 복합체",
+    "구연산"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Gluten Meal, Whole Grain Corn",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "콘",
+        "옥수수 글루텐분",
+        "통옥수수",
+        "corn",
+        "corn gluten meal",
+        "whole grain corn"
+      ]
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "chicken"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Flour",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀가루",
+        "wheat",
+        "wheat flour"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Fat Preserved With Mixed-Tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product (Dried)",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "egg",
+        "egg product"
+      ]
+    },
+    {
+      "name": "카제인",
+      "sourceText": "Sodium Caseinate",
+      "form": "other",
+      "group": "dairy",
+      "specificity": "specific",
+      "aliases": [
+        "카제인",
+        "카제이네이트",
+        "소듐 카제이네이트",
+        "sodium caseinate",
+        "caseinate"
+      ]
+    },
+    {
+      "name": "간 향미",
+      "sourceText": "Liver Flavor",
+      "form": "extract",
+      "specificity": "group-only",
+      "aliases": [
+        "간 향미",
+        "간향미",
+        "liver flavor"
+      ]
+    },
+    {
+      "name": "유청",
+      "sourceText": "Dried Whey",
+      "form": "dried",
+      "group": "dairy",
+      "specificity": "specific",
+      "aliases": [
+        "유청",
+        "건조 유청",
+        "웨이",
+        "whey",
+        "dried whey"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "contains",
+    "pork": "unknown",
+    "fish": "not-listed",
+    "dairy": "contains",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 31.0,
+    "fat": 14.0,
+    "fiber": 2.0,
+    "ash": 6.2,
+    "moisture": 10.0,
+    "calcium": 0.7,
+    "phosphorus": 0.6
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min"
+  },
+  "calories": 4365,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-urinary-tract-health-chicken-rice-dry-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지와 공식 라벨 PDF 기준입니다. 이 제품은 수의사 처방식이 아닌 일반 유통용 Specialized Urinary Tract Health 제품입니다. 공식 자료는 소변 pH를 낮추고 낮은 식이 마그네슘을 제공하도록 설계되었다고 안내합니다. 원료에는 옥수수 글루텐분, 닭고기, 밀가루, 쌀, 통옥수수, 소 지방, 건조 계란, 소듐 카제이네이트, 간 향미, 건조 유청 등이 포함됩니다. Liver Flavor의 동물 종이 특정되지 않아 turkey, duck, quail, pork는 unknown으로 처리했습니다. 보증성분은 조단백 최소 31%, 조지방 최소 14%, 조섬유 최대 2%, 수분 최대 10%, 조회분 최대 6.2%, 칼슘 최소 0.7%, 인 최소 0.6%, 마그네슘 최대 0.075%이며 대사에너지는 4,365 kcal/kg, 컵당 487 kcal입니다. 마그네슘은 현재 Product 타입의 guaranteedAnalysis 필드에 없어 notes에만 기록했습니다. 임신·수유묘 및 자묘에는 해당 연령대용 사료를 사용하도록 공식 안내합니다."
+}

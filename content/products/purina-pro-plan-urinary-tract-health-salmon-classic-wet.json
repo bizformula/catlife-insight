@@ -1,0 +1,154 @@
+{
+  "slug": "purina-pro-plan-urinary-tract-health-salmon-classic-wet",
+  "name": "퓨리나 프로플랜 유리너리 트랙 헬스 위드 살몬 클래식",
+  "brand": "퓨리나 프로플랜",
+  "summary": "육류 부산물과 닭 부산물, 연어, 쌀을 사용하고 낮은 식이 마그네슘과 소변 pH 관리를 고려한 성묘용 유리너리 습식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-urinary-tract-health-salmon-classic-wet.jpg",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘 요로 건강 유지",
+    "소변 pH 감소 지원",
+    "낮은 식이 마그네슘"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "연어",
+    "육류 부산물"
+  ],
+  "ingredients": [
+    "육류 부산물",
+    "닭 부산물",
+    "가공에 충분한 물",
+    "연어",
+    "쌀",
+    "인산삼칼슘",
+    "구아검",
+    "염화칼륨",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드화칼륨",
+    "소금",
+    "카라기난",
+    "타우린",
+    "티아민 모노나이트레이트",
+    "비타민 E 보충제",
+    "나이아신",
+    "판토텐산칼슘",
+    "비타민 A 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "피리독신 염산염",
+    "리보플라빈 보충제",
+    "비타민 B12 보충제",
+    "비오틴",
+    "엽산",
+    "비타민 D3 보충제",
+    "아질산나트륨"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "육류 부산물",
+      "sourceText": "Meat By-Products",
+      "form": "other",
+      "specificity": "group-only",
+      "aliases": [
+        "육류 부산물",
+        "육류부산물",
+        "고기 부산물",
+        "meat by-products"
+      ]
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken By-Product",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭 부산물",
+        "chicken",
+        "chicken by-product"
+      ]
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "연어",
+        "살몬",
+        "salmon"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10.0,
+    "fat": 6.0,
+    "fiber": 0.5,
+    "ash": 2.5,
+    "moisture": 78.0,
+    "taurine": 0.05
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 950,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-urinary-tract-health-formula-salmon-wet-cat-food",
+  "checkedAt": "2026-09-08",
+  "notes": "Purina 미국 공식 현재 제품 페이지와 공식 라벨 PDF 기준입니다. 일반 유통용 Urinary Tract Health 제품으로 수의사 처방식은 아닙니다. 육류 부산물, 닭 부산물, 연어, 쌀이 포함됩니다. Meat By-Products의 동물 종이 특정되지 않아 turkey, duck, quail, beef, pork는 unknown으로 처리했습니다. 공식 보증성분은 조단백 최소 10%, 조지방 최소 6%, 조섬유 최대 0.5%, 수분 최대 78%, 조회분 최대 2.5%, 마그네슘 최대 0.024%, 타우린 최소 0.05%이며 대사에너지는 950 kcal/kg, 온스당 27 kcal입니다. 마그네슘은 현재 Product 타입의 guaranteedAnalysis 필드에 없어 notes에만 기록했습니다."
+}

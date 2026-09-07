@@ -1,0 +1,208 @@
+{
+  "slug": "purina-pro-plan-complete-essentials-chicken-tuna-wild-rice-wet",
+  "name": "퓨리나 프로플랜 컴플리트 에센셜 치킨·참치 & 야생쌀 앙트레 인 소스",
+  "brand": "퓨리나 프로플랜",
+  "summary": "닭고기와 참치에 야생쌀을 더하고 소스 형태로 만든 성묘용 습식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-complete-essentials-chicken-tuna-wild-rice-wet.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘 유지용",
+    "닭고기·참치 함유 식단",
+    "소스 타입 습식"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "참치",
+    "육류 부산물"
+  ],
+  "ingredients": [
+    "가공에 충분한 물",
+    "닭고기",
+    "밀 글루텐",
+    "간",
+    "참치",
+    "야생쌀",
+    "육류 부산물",
+    "변성 옥수수 전분",
+    "글리신",
+    "소금",
+    "대두 단백질 농축물",
+    "인산삼칼슘",
+    "천연 향미",
+    "염화칼륨",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드화칼륨",
+    "타우린",
+    "염화콜린",
+    "비타민 E 보충제",
+    "티아민 모노나이트레이트",
+    "나이아신",
+    "판토텐산칼슘",
+    "비타민 A 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "피리독신 염산염",
+    "리보플라빈 보충제",
+    "비타민 B12 보충제",
+    "비오틴",
+    "엽산",
+    "비타민 D3 보충제"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "chicken"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Gluten",
+      "form": "other",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀 글루텐",
+        "밀글루텐",
+        "wheat",
+        "wheat gluten"
+      ]
+    },
+    {
+      "name": "간",
+      "sourceText": "Liver",
+      "form": "organ",
+      "specificity": "group-only",
+      "aliases": [
+        "간",
+        "동물 간",
+        "liver"
+      ]
+    },
+    {
+      "name": "참치",
+      "sourceText": "Tuna",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "참치",
+        "튜나",
+        "tuna"
+      ]
+    },
+    {
+      "name": "야생쌀",
+      "sourceText": "Wild Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "야생쌀",
+        "와일드라이스",
+        "wild rice"
+      ]
+    },
+    {
+      "name": "육류 부산물",
+      "sourceText": "Meat By-Products",
+      "form": "other",
+      "specificity": "group-only",
+      "aliases": [
+        "육류 부산물",
+        "육류부산물",
+        "고기 부산물",
+        "meat by-products"
+      ]
+    },
+    {
+      "name": "옥수수 전분",
+      "sourceText": "Corn Starch-Modified",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수 전분",
+        "변성 옥수수 전분",
+        "corn starch",
+        "modified corn starch"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soy Protein Concentrate",
+      "form": "dried",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두 단백질 농축물",
+        "soy",
+        "soy protein concentrate"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10.0,
+    "fat": 2.0,
+    "fiber": 1.5,
+    "ash": 3.0,
+    "moisture": 80.0,
+    "taurine": 0.05
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "ash": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 849,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-complete-essentials-chicken-tuna-wild-rice-wet-cat-food",
+  "checkedAt": "2026-09-07",
+  "notes": "Purina 미국 공식 제품 페이지와 공식 제품 라벨 PDF 기준입니다. 닭고기와 참치, 밀 글루텐, 간, 야생쌀, 육류 부산물, 변성 옥수수 전분, 대두 단백질 농축물이 포함됩니다. 간과 Meat By-Products의 동물 종이 특정되지 않아 turkey, duck, quail, beef, pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 10%, 조지방 최소 2%, 조섬유 최대 1.5%, 수분 최대 80%, 조회분 최대 3%, 타우린 최소 0.05%이며 대사에너지는 849 kcal/kg, 3 oz 캔당 72 kcal입니다."
+}

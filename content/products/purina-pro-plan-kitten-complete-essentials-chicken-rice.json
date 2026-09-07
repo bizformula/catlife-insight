@@ -1,0 +1,277 @@
+{
+  "slug": "purina-pro-plan-kitten-complete-essentials-chicken-rice",
+  "name": "퓨리나 프로플랜 키튼 컴플리트 에센셜 치킨 & 라이스",
+  "brand": "퓨리나 프로플랜",
+  "summary": "닭고기를 첫 원료로 사용하고 쌀, 계란, 생선 원료와 DHA, 프로바이오틱스를 포함한 성장기 자묘용 건식 완전균형식입니다.",
+  "image": "/images/products/purina-pro-plan-kitten-complete-essentials-chicken-rice.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성장기 자묘용",
+    "임신·수유묘 영양 요구 충족",
+    "DHA 함유",
+    "프로바이오틱스 함유"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "가금류",
+    "계란",
+    "생선"
+  ],
+  "ingredients": [
+    "닭고기",
+    "쌀",
+    "닭 부산물분",
+    "옥수수 단백질분",
+    "혼합 토코페롤로 보존한 소 지방",
+    "대두박",
+    "분리대두단백",
+    "가금류 부산물분",
+    "건조 계란 제품",
+    "어분",
+    "천연 향미",
+    "밀가루",
+    "대두유",
+    "소듐 카제이네이트",
+    "인산",
+    "L-라이신 모노하이드로클로라이드",
+    "중아황산나트륨",
+    "어유",
+    "탄산칼슘",
+    "DL-메티오닌",
+    "염화콜린",
+    "소금",
+    "염화칼륨",
+    "비타민 E 보충제",
+    "나이아신",
+    "티아민 모노나이트레이트",
+    "판토텐산칼슘",
+    "리보플라빈 보충제",
+    "비타민 A 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비오틴",
+    "비타민 D3 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "황산아연",
+    "황산철",
+    "황산망간",
+    "황산구리",
+    "요오드산칼슘",
+    "셀렌산나트륨",
+    "타우린",
+    "건조 Bacillus coagulans 발효산물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken, Chicken By-Product Meal",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭 부산물분",
+        "chicken",
+        "chicken by-product meal"
+      ]
+    },
+    {
+      "name": "쌀",
+      "sourceText": "Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "쌀",
+        "라이스",
+        "rice"
+      ]
+    },
+    {
+      "name": "옥수수",
+      "sourceText": "Corn Protein Meal",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "옥수수",
+        "콘",
+        "옥수수 단백질분",
+        "corn",
+        "corn protein meal"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Fat Preserved With Mixed-Tocopherols",
+      "form": "fat",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 지방",
+        "beef",
+        "beef fat"
+      ]
+    },
+    {
+      "name": "대두",
+      "sourceText": "Soybean Meal, Soy Protein Isolate, Soybean Oil",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "대두",
+        "콩",
+        "대두박",
+        "분리대두단백",
+        "대두유",
+        "soy",
+        "soybean",
+        "soybean meal",
+        "soy protein isolate",
+        "soybean oil"
+      ]
+    },
+    {
+      "name": "가금류",
+      "sourceText": "Poultry By-Product Meal",
+      "form": "dried",
+      "specificity": "group-only",
+      "aliases": [
+        "가금류",
+        "가금류 부산물분",
+        "poultry",
+        "poultry by-product meal"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product (Dried)",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "건조 계란",
+        "egg",
+        "egg product"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "생선",
+        "어류",
+        "어분",
+        "fish",
+        "fish meal"
+      ]
+    },
+    {
+      "name": "밀",
+      "sourceText": "Wheat Flour",
+      "form": "dried",
+      "group": "grain",
+      "specificity": "specific",
+      "aliases": [
+        "밀",
+        "밀가루",
+        "wheat",
+        "wheat flour"
+      ]
+    },
+    {
+      "name": "우유 단백질",
+      "sourceText": "Sodium Caseinate",
+      "form": "other",
+      "group": "dairy",
+      "specificity": "specific",
+      "aliases": [
+        "카제인",
+        "카제이네이트",
+        "소듐 카제이네이트",
+        "sodium caseinate",
+        "caseinate"
+      ]
+    },
+    {
+      "name": "생선",
+      "sourceText": "Fish Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "group-only",
+      "aliases": [
+        "어유",
+        "생선기름",
+        "피쉬오일",
+        "fish oil"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "contains",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 42.0,
+    "fat": 19.0,
+    "fiber": 2.5,
+    "moisture": 12.0,
+    "calcium": 1.0,
+    "phosphorus": 0.8,
+    "taurine": 0.18
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 4470,
+  "sourceUrl": "https://www.purina.com/cats/shop/pro-plan-kitten-chicken-rice-dry-cat-food",
+  "checkedAt": "2026-09-07",
+  "notes": "Purina 미국 공식 제품 페이지와 공식 라벨 PDF 기준입니다. 닭고기가 첫 원료이며 쌀, 닭 부산물분, 옥수수 단백질분, 소 지방, 대두 원료, 가금류 부산물분, 건조 계란, 어분, 밀가루, 소듐 카제이네이트, 어유 등이 포함됩니다. 'Poultry By-Product Meal'은 가금류 종류가 특정되지 않아 turkey, duck, quail은 unknown으로 처리했습니다. Fish Meal과 Fish Oil도 어종이 특정되지 않아 fish 그룹의 group-only로 등록했습니다. 공식 보증성분은 조단백 최소 42%, 조지방 최소 19%, 조섬유 최대 2.5%, 수분 최대 12%, 칼슘 최소 1.0%, 인 최소 0.8%, 타우린 최소 0.18%이며 대사에너지는 4,470 kcal/kg입니다."
+}
