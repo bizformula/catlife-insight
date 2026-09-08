@@ -1,0 +1,272 @@
+﻿{
+  "slug": "instinct-original-kibble-kittens-chicken",
+  "name": "인스팅트 오리지널 키블 포 키튼 치킨 레시피",
+  "brand": "인스팅트",
+  "summary": "닭고기를 첫 원료로 사용하고 칠면조분, 멘헤이든 어분, 완두, 닭 지방, 계란, 화이트피시분, 타피오카, 양고기분과 동결건조 명태 등을 포함한 자묘용 그레인프리 건식 완전균형식입니다.",
+  "image": "/images/products/instinct-original-kibble-kittens-chicken.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성장기 자묘용",
+    "그레인프리 식단",
+    "DHA 함유",
+    "프로바이오틱스 함유"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "칠면조",
+    "멘헤이든 피시",
+    "계란",
+    "화이트피시",
+    "양고기",
+    "명태"
+  ],
+  "ingredients": [
+    "닭고기",
+    "칠면조분",
+    "멘헤이든 어분",
+    "완두",
+    "혼합 토코페롤로 보존한 닭 지방",
+    "계란 제품",
+    "닭고기분",
+    "화이트피시분",
+    "타피오카",
+    "천연 향미",
+    "양고기분",
+    "건조 토마토 포마스",
+    "비타민 E 보충제",
+    "비타민 A 보충제",
+    "L-아스코빌-2-폴리포스페이트",
+    "나이아신 보충제",
+    "메나디온 중아황산나트륨 복합체",
+    "티아민 모노나이트레이트",
+    "D-판토텐산칼슘",
+    "리보플라빈 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비타민 D3 보충제",
+    "비오틴",
+    "사과",
+    "당근",
+    "크랜베리",
+    "아연 프로테이네이트",
+    "철 프로테이네이트",
+    "구리 프로테이네이트",
+    "망간 프로테이네이트",
+    "셀렌산나트륨",
+    "에틸렌디아민 디하이드리오다이드",
+    "염화콜린",
+    "몬모릴로나이트 클레이",
+    "염화칼륨",
+    "소금",
+    "동결건조 명태",
+    "타우린",
+    "호박씨",
+    "건조 Bacillus coagulans 발효산물",
+    "로즈마리 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken, Chicken Fat, Chicken Meal",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭 지방",
+        "닭고기분",
+        "chicken",
+        "chicken fat",
+        "chicken meal"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey Meal",
+      "form": "dried",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "칠면조분",
+        "turkey",
+        "turkey meal"
+      ]
+    },
+    {
+      "name": "멘헤이든 피시",
+      "sourceText": "Menhaden Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "멘헤이든",
+        "멘헤이든 어분",
+        "menhaden",
+        "menhaden fish meal"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "Peas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "pea",
+        "peas"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product",
+      "form": "other",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "계란 제품",
+        "egg",
+        "egg product"
+      ]
+    },
+    {
+      "name": "화이트피시",
+      "sourceText": "White Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "화이트피시",
+        "흰살생선",
+        "white fish",
+        "white fish meal",
+        "whitefish"
+      ]
+    },
+    {
+      "name": "타피오카",
+      "sourceText": "Tapioca",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "타피오카",
+        "카사바",
+        "tapioca"
+      ]
+    },
+    {
+      "name": "양고기",
+      "sourceText": "Lamb Meal",
+      "form": "dried",
+      "specificity": "specific",
+      "aliases": [
+        "양",
+        "양고기",
+        "램",
+        "양고기분",
+        "lamb",
+        "lamb meal"
+      ]
+    },
+    {
+      "name": "토마토",
+      "sourceText": "Dried Tomato Pomace",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "토마토",
+        "토마토 포마스",
+        "tomato",
+        "tomato pomace",
+        "dried tomato pomace"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "carrot",
+        "carrots"
+      ]
+    },
+    {
+      "name": "명태",
+      "sourceText": "Freeze Dried Pollock",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "명태",
+        "폴락",
+        "동결건조 명태",
+        "pollock",
+        "freeze dried pollock"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 42.5,
+    "fat": 22.5,
+    "fiber": 3.0,
+    "moisture": 9.0,
+    "taurine": 0.2
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://www.instinctpetfood.com/products/original-kibble-for-kittens-chicken",
+  "checkedAt": "2026-09-08",
+  "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 닭고기가 첫 원료이며 칠면조분, 멘헤이든 어분, 완두, 닭 지방, 계란 제품, 닭고기분, 화이트피시분, 타피오카, 양고기분, 동결건조 명태 등이 포함됩니다. 공식 페이지는 81% 동물성 원료 및 영양 오일, 19% 채소·과일 등, 0% 곡물이라고 안내하며 grain, potato, corn, wheat, soy 및 by-product meal 없이 제조된다고 설명합니다. Natural Flavor의 동물 종이 특정되지 않아 duck, quail, beef, pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 42.5%, 조지방 최소 22.5%, 조섬유 최대 3%, 수분 최대 9%, DHA 최소 0.2%, 타우린 최소 0.2%입니다. DHA는 현재 Product 타입의 guaranteedAnalysis 필드에 없어 notes에만 기록했습니다."
+}
+
+

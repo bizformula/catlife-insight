@@ -1,0 +1,260 @@
+﻿{
+  "slug": "instinct-raw-boost-kibble-real-chicken-cat",
+  "name": "인스팅트 로우 부스트 키블 리얼 치킨 레시피",
+  "brand": "인스팅트",
+  "summary": "닭고기를 첫 원료로 하고 칠면조분, 멘헤이든 어분, 완두, 타피오카와 동결건조 닭고기·닭 간·닭 심장, 동결건조 명태를 함께 담은 전연령용 그레인프리 건식 완전균형식입니다.",
+  "image": "/images/products/instinct-raw-boost-kibble-real-chicken-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "전연령용",
+    "그레인프리 식단",
+    "고단백 식단",
+    "동결건조 생식 토핑 함유",
+    "프로바이오틱스 함유"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "칠면조",
+    "멘헤이든 피시",
+    "명태"
+  ],
+  "ingredients": [
+    "닭고기",
+    "닭고기분",
+    "칠면조분",
+    "멘헤이든 어분",
+    "완두",
+    "혼합 토코페롤로 보존한 닭 지방",
+    "타피오카",
+    "동결건조 닭고기",
+    "천연 향미",
+    "동결건조 닭 간",
+    "건조 토마토 포마스",
+    "호박씨",
+    "동결건조 닭 심장",
+    "몬모릴로나이트 클레이",
+    "당근",
+    "사과",
+    "크랜베리",
+    "염화콜린",
+    "소금",
+    "비타민 E 보충제",
+    "L-아스코빌-2-폴리포스페이트",
+    "나이아신 보충제",
+    "비타민 A 보충제",
+    "티아민 모노나이트레이트",
+    "D-판토텐산칼슘",
+    "리보플라빈 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비타민 D3 보충제",
+    "비오틴",
+    "아연 프로테이네이트",
+    "철 프로테이네이트",
+    "구리 프로테이네이트",
+    "망간 프로테이네이트",
+    "셀렌산나트륨",
+    "에틸렌디아민 디하이드리오다이드",
+    "동결건조 명태",
+    "타우린",
+    "건조 켈프",
+    "연어유",
+    "블루베리",
+    "건조 Bacillus coagulans 발효산물",
+    "로즈마리 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken, Chicken Meal, Chicken Fat, Freeze Dried Chicken, Freeze Dried Chicken Liver, Freeze Dried Chicken Heart",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭고기분",
+        "닭 지방",
+        "동결건조 닭고기",
+        "닭 간",
+        "닭 심장",
+        "chicken",
+        "chicken meal",
+        "chicken fat",
+        "freeze dried chicken",
+        "freeze dried chicken liver",
+        "freeze dried chicken heart"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey Meal",
+      "form": "dried",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "칠면조분",
+        "turkey",
+        "turkey meal"
+      ]
+    },
+    {
+      "name": "멘헤이든 피시",
+      "sourceText": "Menhaden Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "멘헤이든",
+        "멘헤이든 어분",
+        "menhaden",
+        "menhaden fish meal"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "Peas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "pea",
+        "peas"
+      ]
+    },
+    {
+      "name": "타피오카",
+      "sourceText": "Tapioca",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "타피오카",
+        "카사바",
+        "tapioca"
+      ]
+    },
+    {
+      "name": "토마토",
+      "sourceText": "Dried Tomato Pomace",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "토마토",
+        "토마토 포마스",
+        "tomato",
+        "tomato pomace",
+        "dried tomato pomace"
+      ]
+    },
+    {
+      "name": "호박씨",
+      "sourceText": "Pumpkinseeds",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "호박씨",
+        "펌킨시드",
+        "pumpkinseed",
+        "pumpkinseeds"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "carrot",
+        "carrots"
+      ]
+    },
+    {
+      "name": "명태",
+      "sourceText": "Freeze Dried Pollock",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "명태",
+        "폴락",
+        "동결건조 명태",
+        "pollock",
+        "freeze dried pollock"
+      ]
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "연어",
+        "살몬",
+        "연어유",
+        "salmon",
+        "salmon oil"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 41.0,
+    "fat": 22.0,
+    "fiber": 3.5,
+    "moisture": 9.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "sourceUrl": "https://www.instinctpetfood.com/products/raw-boost-kibble-for-cats-chicken",
+  "checkedAt": "2026-09-08",
+  "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 닭고기, 닭고기분, 칠면조분, 멘헤이든 어분, 완두, 닭 지방, 타피오카, 동결건조 닭고기·닭 간·닭 심장, 건조 토마토 포마스, 호박씨, 당근, 사과, 크랜베리, 동결건조 명태, 연어유 등이 포함됩니다. 공식 페이지는 grain, potato, corn, wheat, soy, by-product meal, artificial colors 또는 preservatives 없이 제조된다고 설명합니다. Natural Flavor의 동물 종이 특정되지 않아 duck, quail, beef, pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 41%, 조지방 최소 22%, 조섬유 최대 3.5%, 수분 최대 9%입니다. 공식/현행 판매 자료에서 AAFCO 전연령용 기준 충족이 확인되어 lifeStage를 all로 등록했습니다."
+}
+
+

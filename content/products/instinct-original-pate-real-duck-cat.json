@@ -1,0 +1,221 @@
+﻿{
+  "slug": "instinct-original-pate-real-duck-cat",
+  "name": "인스팅트 오리지널 파테 리얼 덕 레시피",
+  "brand": "인스팅트",
+  "summary": "오리고기를 첫 원료로 하고 오리 육수, 칠면조 간, 멘헤이든 어유, 완두, 당근과 여러 채소·과일을 포함한 그레인프리 파테 타입 습식 완전균형식입니다.",
+  "image": "/images/products/instinct-original-pate-real-duck-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "전연령용",
+    "그레인프리 식단",
+    "고단백 습식",
+    "수분 섭취 지원"
+  ],
+  "mainProteins": [
+    "오리고기",
+    "칠면조",
+    "멘헤이든 피시"
+  ],
+  "ingredients": [
+    "오리고기",
+    "오리 육수",
+    "칠면조 간",
+    "분쇄 아마씨",
+    "혼합 토코페롤로 보존한 멘헤이든 어유",
+    "완두",
+    "당근",
+    "염화칼륨",
+    "철 프로테이네이트",
+    "아연 프로테이네이트",
+    "구리 프로테이네이트",
+    "망간 프로테이네이트",
+    "셀렌산나트륨",
+    "요오드화칼륨",
+    "소금",
+    "해바라기유",
+    "염화콜린",
+    "비타민 E 보충제",
+    "나이아신 보충제",
+    "티아민 모노나이트레이트",
+    "비타민 A 보충제",
+    "D-판토텐산칼슘",
+    "비타민 B12 보충제",
+    "리보플라빈 보충제",
+    "피리독신 염산염",
+    "비오틴",
+    "엽산",
+    "비타민 D3 보충제",
+    "타우린",
+    "황산마그네슘",
+    "크랜베리",
+    "호박",
+    "토마토",
+    "블루베리",
+    "브로콜리",
+    "케일",
+    "파슬리"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "오리고기",
+      "sourceText": "Duck, Duck Broth",
+      "form": "fresh",
+      "group": "duck",
+      "specificity": "specific",
+      "aliases": [
+        "오리",
+        "오리고기",
+        "덕",
+        "오리 육수",
+        "duck",
+        "duck broth"
+      ]
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey Liver",
+      "form": "organ",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "칠면조 간",
+        "turkey",
+        "turkey liver"
+      ]
+    },
+    {
+      "name": "멘헤이든 피시",
+      "sourceText": "Menhaden Fish Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "멘헤이든",
+        "멘헤이든 어유",
+        "menhaden",
+        "menhaden fish oil"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "Peas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "pea",
+        "peas"
+      ]
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "당근",
+        "carrot",
+        "carrots"
+      ]
+    },
+    {
+      "name": "호박",
+      "sourceText": "Pumpkin",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "호박",
+        "펌킨",
+        "pumpkin"
+      ]
+    },
+    {
+      "name": "토마토",
+      "sourceText": "Tomato",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "토마토",
+        "tomato"
+      ]
+    },
+    {
+      "name": "브로콜리",
+      "sourceText": "Broccoli",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "브로콜리",
+        "broccoli"
+      ]
+    },
+    {
+      "name": "케일",
+      "sourceText": "Kale",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "케일",
+        "kale"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "contains",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 9.0,
+    "fat": 7.5,
+    "fiber": 2.0,
+    "moisture": 78.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "sourceUrl": "https://www.instinctpetfood.com/products/original-pates-for-cats-duck",
+  "checkedAt": "2026-09-08",
+  "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 오리고기가 첫 원료이며 오리 육수, 칠면조 간, 멘헤이든 어유, 완두, 당근과 여러 채소·과일이 포함됩니다. 공식 페이지는 95% 오리 및 칠면조 간, 5% 채소·과일 및 기타 영양 원료, 0% 곡물이라고 안내하며 grain, potato, corn, wheat, soy, artificial colors 또는 preservatives 없이 제조된다고 설명합니다. 공식 보증성분은 조단백 최소 9%, 조지방 최소 7.5%, 조섬유 최대 2%, 수분 최대 78%입니다. 현재 판매 자료의 AAFCO 영양적 적합성 안내에서 전연령 기준 충족이 확인되어 lifeStage를 all로 등록했습니다."
+}
+
+

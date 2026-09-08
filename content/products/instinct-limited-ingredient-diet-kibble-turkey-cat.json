@@ -1,0 +1,164 @@
+﻿{
+  "slug": "instinct-limited-ingredient-diet-kibble-turkey-cat",
+  "name": "인스팅트 리미티드 인그리디언트 다이어트 키블 리얼 터키 레시피",
+  "brand": "인스팅트",
+  "summary": "칠면조를 단일 동물성 단백질로 사용하고 완두와 타피오카를 중심으로 구성한 성묘용 그레인프리 제한원료 건식 완전균형식입니다.",
+  "image": "/images/products/instinct-limited-ingredient-diet-kibble-turkey-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘 유지용",
+    "제한원료 식단",
+    "단일 동물성 단백질",
+    "그레인프리 식단"
+  ],
+  "mainProteins": [
+    "칠면조"
+  ],
+  "ingredients": [
+    "칠면조분",
+    "완두",
+    "칠면조",
+    "타피오카",
+    "혼합 토코페롤과 구연산으로 보존한 카놀라유",
+    "천연 향미",
+    "코코넛오일",
+    "소금",
+    "몬모릴로나이트 클레이",
+    "염화콜린",
+    "비타민 E 보충제",
+    "L-아스코빌-2-폴리포스페이트",
+    "나이아신 보충제",
+    "티아민 모노나이트레이트",
+    "D-판토텐산칼슘",
+    "비타민 A 보충제",
+    "리보플라빈 보충제",
+    "피리독신 염산염",
+    "비타민 B12 보충제",
+    "엽산",
+    "비타민 D3 보충제",
+    "비오틴",
+    "염화칼륨",
+    "아연 프로테이네이트",
+    "철 프로테이네이트",
+    "구리 프로테이네이트",
+    "망간 프로테이네이트",
+    "셀렌산나트륨",
+    "에틸렌디아민 디하이드리오다이드",
+    "타우린",
+    "DL-메티오닌",
+    "동결건조 칠면조",
+    "동결건조 칠면조 간",
+    "호박씨",
+    "동결건조 칠면조 심장",
+    "로즈마리 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey Meal, Turkey, Freeze Dried Turkey, Freeze Dried Turkey Liver, Freeze Dried Turkey Heart",
+      "form": "dried",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "칠면조분",
+        "동결건조 칠면조",
+        "칠면조 간",
+        "칠면조 심장",
+        "turkey",
+        "turkey meal",
+        "freeze dried turkey",
+        "freeze dried turkey liver",
+        "freeze dried turkey heart"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "Peas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "pea",
+        "peas"
+      ]
+    },
+    {
+      "name": "타피오카",
+      "sourceText": "Tapioca",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific",
+      "aliases": [
+        "타피오카",
+        "카사바",
+        "tapioca"
+      ]
+    },
+    {
+      "name": "호박씨",
+      "sourceText": "Pumpkinseeds",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "호박씨",
+        "펌킨시드",
+        "pumpkinseed",
+        "pumpkinseeds"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 35.5,
+    "fat": 16.5,
+    "fiber": 4.0,
+    "moisture": 9.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "sourceUrl": "https://www.instinctpetfood.com/products/limited-ingredient-diet-kibble-for-cats-turkey",
+  "checkedAt": "2026-09-08",
+  "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 칠면조분, 완두, 칠면조, 타피오카, 카놀라유, 천연 향미, 코코넛오일, 동결건조 칠면조·간·심장, 호박씨 등이 포함됩니다. 공식 설명은 ONE ANIMAL PROTEIN과 ONE VEGETABLE의 제한원료 설계를 강조하며 grain, dairy, eggs, chicken, beef, fish, sweet potato, potato, chickpeas, corn, wheat, soy 없이 제조된다고 안내합니다. 공식 보증성분은 조단백 최소 35.5%, 조지방 최소 16.5%, 조섬유 최대 4%, 수분 최대 9%입니다. 비타민 E 최소 100 IU/kg, 비타민 C 최소 85 mg/kg, 오메가-3 최소 0.6%, 오메가-6 최소 2.5%도 공식 페이지에 표기되어 있으나 현재 guaranteedAnalysis 스키마에 별도 필드가 없어 notes에만 기록했습니다. AAFCO maintenance 기준 자료가 확인되어 lifeStage를 adult로 등록했습니다."
+}
+
+

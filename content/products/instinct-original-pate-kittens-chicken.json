@@ -1,0 +1,228 @@
+﻿{
+  "slug": "instinct-original-pate-kittens-chicken",
+  "name": "인스팅트 오리지널 파테 포 키튼 치킨 레시피",
+  "brand": "인스팅트",
+  "summary": "닭고기를 첫 원료로 사용하고 소 간, 연어, 계란, 호박, 멘헤이든 어유와 여러 채소·과일을 포함한 자묘용 그레인프리 파테 타입 습식 완전균형식입니다.",
+  "image": "/images/products/instinct-original-pate-kittens-chicken.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "kitten"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성장기 자묘용",
+    "그레인프리 식단",
+    "DHA 함유",
+    "수분 섭취 지원"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "소고기",
+    "연어",
+    "계란"
+  ],
+  "ingredients": [
+    "닭고기",
+    "닭 육수",
+    "소 간",
+    "연어",
+    "계란 제품",
+    "분쇄 아마씨",
+    "건조 켈프",
+    "타우린",
+    "토마토",
+    "염화칼륨",
+    "호박",
+    "혼합 토코페롤로 보존한 멘헤이든 어유",
+    "철 프로테이네이트",
+    "아연 프로테이네이트",
+    "구리 프로테이네이트",
+    "망간 프로테이네이트",
+    "셀렌산나트륨",
+    "요오드화칼륨",
+    "소금",
+    "염화콜린",
+    "티아민 모노나이트레이트",
+    "비타민 E 보충제",
+    "나이아신 보충제",
+    "비타민 A 보충제",
+    "D-판토텐산칼슘",
+    "비타민 B12 보충제",
+    "리보플라빈 보충제",
+    "피리독신 염산염",
+    "비오틴",
+    "엽산",
+    "비타민 D3 보충제",
+    "해바라기유",
+    "황산마그네슘",
+    "브로콜리",
+    "크랜베리",
+    "블루베리",
+    "케일",
+    "파슬리"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken, Chicken Broth",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific",
+      "aliases": [
+        "닭",
+        "닭고기",
+        "치킨",
+        "닭 육수",
+        "chicken",
+        "chicken broth"
+      ]
+    },
+    {
+      "name": "소고기",
+      "sourceText": "Beef Liver",
+      "form": "organ",
+      "group": "beef",
+      "specificity": "specific",
+      "aliases": [
+        "소",
+        "소고기",
+        "쇠고기",
+        "비프",
+        "소 간",
+        "beef",
+        "beef liver"
+      ]
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "연어",
+        "살몬",
+        "salmon"
+      ]
+    },
+    {
+      "name": "계란",
+      "sourceText": "Egg Product",
+      "form": "other",
+      "group": "egg",
+      "specificity": "specific",
+      "aliases": [
+        "계란",
+        "달걀",
+        "계란 제품",
+        "egg",
+        "egg product"
+      ]
+    },
+    {
+      "name": "토마토",
+      "sourceText": "Tomato",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "토마토",
+        "tomato"
+      ]
+    },
+    {
+      "name": "호박",
+      "sourceText": "Pumpkin",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "호박",
+        "펌킨",
+        "pumpkin"
+      ]
+    },
+    {
+      "name": "멘헤이든 피시",
+      "sourceText": "Menhaden Fish Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific",
+      "aliases": [
+        "멘헤이든",
+        "멘헤이든 어유",
+        "menhaden",
+        "menhaden fish oil"
+      ]
+    },
+    {
+      "name": "브로콜리",
+      "sourceText": "Broccoli",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "브로콜리",
+        "broccoli"
+      ]
+    },
+    {
+      "name": "케일",
+      "sourceText": "Kale",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific",
+      "aliases": [
+        "케일",
+        "kale"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "contains",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 12.0,
+    "fat": 8.0,
+    "fiber": 1.0,
+    "moisture": 78.0,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://www.instinctpetfood.com/products/original-pates-for-kittens-chicken",
+  "checkedAt": "2026-09-08",
+  "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 닭고기가 첫 원료이며 닭 육수, 소 간, 연어, 계란 제품, 분쇄 아마씨, 건조 켈프, 토마토, 호박, 멘헤이든 어유, 브로콜리, 크랜베리, 블루베리, 케일, 파슬리 등이 포함됩니다. 공식 페이지는 grain, potato, corn, wheat, soy, by-product meal, artificial colors 또는 preservatives 없이 제조된 그레인프리 자묘용 파테라고 안내합니다. 공식 보증성분은 조단백 최소 12%, 조지방 최소 8%, 조섬유 최대 1%, 수분 최대 78%, DHA 0.1%, 타우린 최소 0.15%입니다. DHA는 현재 Product 타입의 guaranteedAnalysis 필드에 없어 notes에만 기록했습니다."
+}
+
+

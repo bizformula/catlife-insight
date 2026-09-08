@@ -1,0 +1,156 @@
+﻿{
+  "slug": "instinct-limited-ingredient-diet-pate-turkey-cat",
+  "name": "인스팅트 리미티드 인그리디언트 다이어트 파테 리얼 터키 레시피",
+  "brand": "인스팅트",
+  "summary": "칠면조를 단일 동물성 단백질로 사용하고 완두를 중심으로 구성한 성묘용 그레인프리 제한원료 파테 타입 습식 완전균형식입니다.",
+  "image": "/images/products/instinct-limited-ingredient-diet-pate-turkey-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "성묘 유지용",
+    "제한원료 식단",
+    "단일 동물성 단백질",
+    "그레인프리 식단",
+    "수분 섭취 지원"
+  ],
+  "mainProteins": [
+    "칠면조"
+  ],
+  "ingredients": [
+    "칠면조",
+    "칠면조 육수",
+    "칠면조 간",
+    "완두",
+    "완두 단백질",
+    "몬모릴로나이트 클레이",
+    "해양 미세조류 오일",
+    "염화칼륨",
+    "분쇄 아마씨",
+    "철 프로테이네이트",
+    "아연 프로테이네이트",
+    "구리 프로테이네이트",
+    "망간 프로테이네이트",
+    "셀렌산나트륨",
+    "요오드화칼륨",
+    "염화콜린",
+    "소금",
+    "비타민 E 보충제",
+    "티아민 모노나이트레이트",
+    "나이아신 보충제",
+    "D-판토텐산칼슘",
+    "피리독신 염산염",
+    "리보플라빈 보충제",
+    "비타민 A 보충제",
+    "비오틴",
+    "비타민 D3 보충제",
+    "비타민 B12 보충제",
+    "엽산",
+    "타우린",
+    "L-아스코빌-2-폴리포스페이트"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey, Turkey Broth, Turkey Liver",
+      "form": "fresh",
+      "group": "turkey",
+      "specificity": "specific",
+      "aliases": [
+        "칠면조",
+        "터키",
+        "칠면조 육수",
+        "칠면조 간",
+        "turkey",
+        "turkey broth",
+        "turkey liver"
+      ]
+    },
+    {
+      "name": "완두",
+      "sourceText": "Peas, Pea Protein",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific",
+      "aliases": [
+        "완두",
+        "완두콩",
+        "완두 단백질",
+        "pea",
+        "peas",
+        "pea protein"
+      ]
+    },
+    {
+      "name": "해양 미세조류 오일",
+      "sourceText": "Marine Microalgae Oil",
+      "form": "oil",
+      "specificity": "specific",
+      "aliases": [
+        "미세조류 오일",
+        "해양 미세조류 오일",
+        "marine microalgae oil"
+      ]
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Ground Flaxseeds",
+      "form": "whole",
+      "specificity": "specific",
+      "aliases": [
+        "아마씨",
+        "분쇄 아마씨",
+        "flaxseed",
+        "flaxseeds",
+        "ground flaxseeds"
+      ]
+    },
+    {
+      "name": "타우린",
+      "sourceText": "Taurine",
+      "form": "supplement",
+      "specificity": "specific",
+      "aliases": [
+        "타우린",
+        "taurine"
+      ]
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 11.5,
+    "fat": 7.0,
+    "fiber": 2.0,
+    "moisture": 78.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "sourceUrl": "https://www.instinctpetfood.com/products/limited-ingredient-diet-pates-for-cats-turkey",
+  "checkedAt": "2026-09-08",
+  "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 현행 공식 원재료표는 Turkey, Turkey Broth, Turkey Liver, Peas, Pea Protein, Montmorillonite Clay, Marine Microalgae Oil, Potassium Chloride, Ground Flaxseeds, 미네랄·비타민, Taurine 등으로 구성됩니다. 제조사는 한 가지 동물성 단백질과 한 가지 채소를 사용하는 제한원료 설계를 강조하며 chicken, beef, fish, dairy, eggs, grain, potato, corn, wheat, soy 없이 제조된다고 안내합니다. Catlife Insight 분류에서는 완두를 vegetable이 아니라 legume으로 분류하므로 ingredientStatus.legume은 contains, vegetable은 not-listed로 기록했습니다. 공식 보증성분은 조단백 최소 11.5%, 조지방 최소 7%, 조섬유 최대 2%, 수분 최대 78%입니다. 오메가-3 최소 0.1%, 오메가-6 최소 0.65%는 현재 guaranteedAnalysis 스키마에 별도 필드가 없어 notes에만 기록했습니다. 현행 판매처 분류 및 급여 안내에서 Adult로 확인되어 lifeStage를 adult로 등록했습니다. 유통 중인 구형 포뮬러 표기와 차이가 있을 수 있으므로 실제 구매 제품의 최신 라벨을 우선 확인해야 합니다."
+}
+
+

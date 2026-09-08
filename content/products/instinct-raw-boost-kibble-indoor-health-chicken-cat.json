@@ -1,0 +1,200 @@
+﻿{
+  "slug": "instinct-raw-boost-kibble-indoor-health-chicken-cat",
+  "name": "인스팅트 로우 부스트 키블 인도어 헬스 리얼 치킨",
+  "brand": "인스팅트",
+  "summary": "닭고기를 주원료로 하고 연어·멘헤이든 어류 단백질을 함께 사용한 실내묘용 그레인프리 건식 사료로, 키블에 동결건조 생식 조각을 더한 제품입니다.",
+  "image": "/images/products/instinct-raw-boost-kibble-indoor-health-chicken-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [
+    "실내 생활 고양이용",
+    "변 냄새 관리 지원",
+    "활동량이 적은 실내묘의 체중 관리 지원",
+    "전 연령용 완전 영양식"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "연어",
+    "멘헤이든"
+  ],
+  "ingredients": [
+    "닭고기",
+    "닭고기 밀",
+    "연어 밀",
+    "완두콩",
+    "멘헤이든 피시 밀",
+    "타피오카",
+    "닭고기 지방(혼합 토코페롤 및 구연산으로 보존)",
+    "선큐어드 알팔파 밀",
+    "동결건조 닭고기",
+    "건조 토마토 포마스",
+    "천연 향미",
+    "동결건조 닭 간",
+    "프락토올리고당",
+    "호박씨",
+    "건조 치커리 뿌리",
+    "몬모릴로나이트 점토",
+    "비타민류",
+    "동결건조 닭 심장",
+    "소금",
+    "당근",
+    "사과",
+    "크랜베리",
+    "염화콜린",
+    "염화칼륨",
+    "미네랄류",
+    "DL-메티오닌",
+    "유카 쉬디게라 추출물",
+    "타우린",
+    "건조 켈프",
+    "연어 오일",
+    "블루베리",
+    "건조 Bacillus coagulans 발효물",
+    "로즈마리 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "Peas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "멘헤이든",
+      "sourceText": "Menhaden Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "타피오카",
+      "sourceText": "Tapioca",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기 지방",
+      "sourceText": "Chicken Fat",
+      "form": "fat",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "알팔파",
+      "sourceText": "Suncured Alfalfa Meal",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Freeze Dried Chicken",
+      "form": "raw",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "토마토",
+      "sourceText": "Dried Tomato Pomace",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 간",
+      "sourceText": "Freeze Dried Chicken Liver",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "치커리",
+      "sourceText": "Dried Chicory Root",
+      "form": "fiber",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 심장",
+      "sourceText": "Freeze Dried Chicken Heart",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 37.5,
+    "fat": 13.0,
+    "fiber": 5.0,
+    "moisture": 9.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "calories": 3861,
+  "sourceUrl": "https://www.instinctpetfood.com/products/raw-boost-kibble-for-cats-indoor-health-chicken",
+  "checkedAt": "2026-09-08",
+  "notes": "Instinct 공식 제품 페이지 기준으로 작성했습니다. 닭고기, 닭고기 밀, 연어 밀, 멘헤이든 피시 밀, 닭고기 지방, 동결건조 닭고기·간·심장 및 연어 오일이 표시되어 있습니다. 곡물은 표시 원료에 없으며 완두콩과 타피오카가 포함됩니다. 공식 영양 프로파일은 이 레시피가 AAFCO Cat Food Nutrient Profiles의 전 연령 기준을 충족한다고 안내합니다. 제조 시기와 유통 국가에 따라 표시사항이 달라질 수 있으므로 실제 포장도 함께 확인하세요."
+}
+
