@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "instinct-limited-ingredient-diet-kibble-rabbit-cat",
   "name": "인스팅트 리미티드 인그리디언트 다이어트 키블 리얼 래빗 레시피",
   "brand": "인스팅트",
@@ -153,5 +153,6 @@
   "checkedAt": "2026-09-08",
   "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 토끼고기분, 완두, 타피오카, 카놀라유, 토끼고기, 천연 향미, 코코넛오일, 동결건조 토끼고기, 호박씨 등이 포함됩니다. 공식 설명은 ONE ANIMAL PROTEIN과 ONE VEGETABLE의 제한원료 설계를 강조하며 grain, dairy, eggs, chicken, beef, fish, sweet potato, potato, chickpeas, corn, wheat, soy 없이 제조된다고 안내합니다. 공식 보증성분은 조단백 최소 35%, 조지방 최소 19%, 조섬유 최대 5.5%, 수분 최대 9%입니다. 비타민 E 최소 100 IU/kg, 비타민 C 최소 85 mg/kg, 오메가-3 최소 0.7%, 오메가-6 최소 3.4%도 공식 페이지에 표기되어 있으나 현재 guaranteedAnalysis 스키마에 별도 필드가 없어 notes에만 기록했습니다. AAFCO maintenance 기준 충족 자료가 확인되어 lifeStage를 adult로 등록했습니다."
 }
+
 
 

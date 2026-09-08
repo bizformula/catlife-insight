@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "instinct-original-pate-real-salmon-cat",
   "name": "인스팅트 오리지널 파테 리얼 살몬 레시피",
   "brand": "인스팅트",
@@ -234,5 +234,6 @@
   "checkedAt": "2026-09-08",
   "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 연어와 연어 육수, 돼지 간, 계란 제품, 완두, 당근, 멘헤이든 어유와 여러 채소·과일이 포함됩니다. 공식 페이지는 95% 연어 및 돼지 간, 5% 채소·과일 및 기타 영양 원료, 0% 곡물이라고 안내하며 gums, grain, potato, corn, wheat, soy, artificial colors 또는 preservatives 없이 제조된다고 설명합니다. 공식 보증성분은 조단백 최소 10.5%, 조지방 최소 7%, 조섬유 최대 2%, 수분 최대 78%입니다. 오메가-3 최소 0.09%, 오메가-6 최소 0.45%도 공식 페이지에 표기되어 있으나 현재 guaranteedAnalysis 스키마에 별도 필드가 없어 notes에만 기록했습니다. 현행 판매 자료에서 AAFCO 전연령용 기준 충족이 확인되어 lifeStage를 all로 등록했습니다."
 }
+
 
 

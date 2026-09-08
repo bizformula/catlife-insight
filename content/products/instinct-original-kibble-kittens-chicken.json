@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "instinct-original-kibble-kittens-chicken",
   "name": "인스팅트 오리지널 키블 포 키튼 치킨 레시피",
   "brand": "인스팅트",
@@ -268,5 +268,6 @@
   "checkedAt": "2026-09-08",
   "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 닭고기가 첫 원료이며 칠면조분, 멘헤이든 어분, 완두, 닭 지방, 계란 제품, 닭고기분, 화이트피시분, 타피오카, 양고기분, 동결건조 명태 등이 포함됩니다. 공식 페이지는 81% 동물성 원료 및 영양 오일, 19% 채소·과일 등, 0% 곡물이라고 안내하며 grain, potato, corn, wheat, soy 및 by-product meal 없이 제조된다고 설명합니다. Natural Flavor의 동물 종이 특정되지 않아 duck, quail, beef, pork는 unknown으로 보수적으로 처리했습니다. 공식 보증성분은 조단백 최소 42.5%, 조지방 최소 22.5%, 조섬유 최대 3%, 수분 최대 9%, DHA 최소 0.2%, 타우린 최소 0.2%입니다. DHA는 현재 Product 타입의 guaranteedAnalysis 필드에 없어 notes에만 기록했습니다."
 }
+
 
 

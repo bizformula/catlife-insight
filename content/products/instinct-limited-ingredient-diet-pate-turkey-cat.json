@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "instinct-limited-ingredient-diet-pate-turkey-cat",
   "name": "인스팅트 리미티드 인그리디언트 다이어트 파테 리얼 터키 레시피",
   "brand": "인스팅트",
@@ -152,5 +152,6 @@
   "checkedAt": "2026-09-08",
   "notes": "Instinct 미국 공식 현재 제품 페이지 기준입니다. 현행 공식 원재료표는 Turkey, Turkey Broth, Turkey Liver, Peas, Pea Protein, Montmorillonite Clay, Marine Microalgae Oil, Potassium Chloride, Ground Flaxseeds, 미네랄·비타민, Taurine 등으로 구성됩니다. 제조사는 한 가지 동물성 단백질과 한 가지 채소를 사용하는 제한원료 설계를 강조하며 chicken, beef, fish, dairy, eggs, grain, potato, corn, wheat, soy 없이 제조된다고 안내합니다. Catlife Insight 분류에서는 완두를 vegetable이 아니라 legume으로 분류하므로 ingredientStatus.legume은 contains, vegetable은 not-listed로 기록했습니다. 공식 보증성분은 조단백 최소 11.5%, 조지방 최소 7%, 조섬유 최대 2%, 수분 최대 78%입니다. 오메가-3 최소 0.1%, 오메가-6 최소 0.65%는 현재 guaranteedAnalysis 스키마에 별도 필드가 없어 notes에만 기록했습니다. 현행 판매처 분류 및 급여 안내에서 Adult로 확인되어 lifeStage를 adult로 등록했습니다. 유통 중인 구형 포뮬러 표기와 차이가 있을 수 있으므로 실제 구매 제품의 최신 라벨을 우선 확인해야 합니다."
 }
+
 
 
