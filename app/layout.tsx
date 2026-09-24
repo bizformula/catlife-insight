@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: "https://catlife.happy-insight.com",
     images: [
       {
-        url: "/images/social/catlife-og-home.png",
+        url: "/images/social/catlife-og-home-v2.png",
         width: 1200,
         height: 630,
         alt: "Catlife Insight 고양이 사료 검색 및 비교",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Catlife Insight",
     description: "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳",
-    images: ["/images/social/catlife-og-home.png"],
+    images: ["/images/social/catlife-og-home-v2.png"],
   },
 
   icons: {
