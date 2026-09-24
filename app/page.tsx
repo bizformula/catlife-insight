@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import PostCard from "@/components/blog/PostCard";
 import { getAllPosts } from "@/lib/posts";
-
+import { getAllProducts } from "@/lib/products";
 
 export const metadata: Metadata = {
   alternates: {
@@ -12,12 +13,25 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const latestPosts = getAllPosts().slice(0, 3);
+  const products = getAllProducts();
+
+  const featuredSlugs = [
+    "nutro-wholesome-essentials-adult-salmon-brown-rice",
+    "instinct-original-pate-real-duck-cat",
+    "farmina-nd-prime-lamb-blueberry-adult",
+    "royal-canin-indoor-gravy",
+  ];
+
+  const featuredProducts = featuredSlugs.flatMap((slug) => {
+    const product = products.find((item) => item.slug === slug);
+    return product ? [product] : [];
+  });
 
   return (
     <div className="space-y-14">
       <section className="rounded-2xl border border-[var(--border)] bg-[var(--muted)] px-6 pb-10 pt-6 sm:px-10 sm:pb-12 sm:pt-8">
         <p className="mb-3 text-sm font-semibold text-[#2563EB]">
-          Catlife Insight
+          고양이 사료 검색 · 비교
         </p>
 
         <h1 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl">
@@ -26,10 +40,14 @@ export default function Home() {
           우리 고양이에게 맞는 사료를 찾아보세요.
         </h1>
 
-        <p className="mb-8 break-keep leading-7 text-[var(--muted-foreground)] md:whitespace-nowrap">
-          제품에 표시된 원재료와 영양 정보를 확인하고,
-          조건에 맞는 제품을 찾거나 여러 제품을 같은 항목으로
+        <p className="mb-5 max-w-3xl break-keep leading-7 text-[var(--muted-foreground)]">
+          등록된 고양이 사료와 간식을 원료, 사료 형태, 생애주기,
+          브랜드 등의 조건으로 찾고 원재료와 영양 정보를 같은 기준으로
           비교할 수 있습니다.
+        </p>
+
+        <p className="mb-8 text-sm font-semibold text-[var(--foreground)]">
+          현재 {products.length}개 제품 데이터
         </p>
 
         <div className="flex flex-wrap gap-3">
@@ -46,6 +64,79 @@ export default function Home() {
           >
             제품 비교
           </Link>
+        </div>
+      </section>
+
+      <section>
+        <div className="mb-6 flex items-end justify-between gap-4">
+          <div>
+            <h2 className="mb-2 text-2xl font-bold">
+              등록 사료 미리보기
+            </h2>
+
+            <p className="text-sm text-[var(--muted-foreground)]">
+              Catlife Insight에 등록된 고양이 사료 중 일부입니다.
+            </p>
+          </div>
+
+          <Link
+            href="/products"
+            className="shrink-0 text-sm font-semibold text-[#2563EB]"
+          >
+            등록 제품 보기 →
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+          {featuredProducts.map((product) => (
+            <article
+              key={product.slug}
+              className="rounded-xl border border-[var(--border)] p-4 transition hover:border-[#2563EB] hover:shadow-sm"
+            >
+              <Link
+                href={`/products/${product.slug}`}
+                className="block !text-[var(--foreground)]"
+              >
+                <div className="mb-4 flex aspect-square items-center justify-center overflow-hidden rounded-lg border border-[var(--border)] bg-white">
+                  {product.image ? (
+                    <Image
+                      src={product.image}
+                      alt={`${product.name} 제품 이미지`}
+                      width={220}
+                      height={220}
+                      className="h-full w-full object-contain p-3"
+                    />
+                  ) : (
+                    <span className="px-3 text-center text-xs text-gray-400">
+                      이미지 준비 중
+                    </span>
+                  )}
+                </div>
+
+                <p className="mb-1 text-sm font-semibold text-[#2563EB]">
+                  {product.brand}
+                </p>
+
+                <h3 className="break-keep font-bold leading-6">
+                  {product.name}
+                </h3>
+
+                <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                  <span className="rounded-full bg-gray-100 px-3 py-1 dark:bg-gray-800">
+                    {product.productType === "food" ? "사료" : "간식"}
+                  </span>
+
+                  <span className="rounded-full bg-gray-100 px-3 py-1 dark:bg-gray-800">
+                    {product.foodForm === "dry"
+                      ? "건식"
+                      : product.foodForm === "wet"
+                        ? "습식"
+                        : "분말"}
+                  </span>
+                </div>
+              </Link>
+            </article>
+          ))}
         </div>
       </section>
 
