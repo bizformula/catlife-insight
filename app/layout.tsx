@@ -22,10 +22,11 @@ export const metadata: Metadata = {
   },
   description: "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳",
 icons: {
-    icon: "/images/catlife-favicon-512.png",
-    shortcut: "/images/catlife-favicon-512.png",
-    apple: "/images/catlife-favicon-512.png",
-  },
+    icons: {
+  icon: "/images/catlife-favicon-512-v2.png",
+  shortcut: "/images/catlife-favicon-512-v2.png",
+  apple: "/images/catlife-favicon-512-v2.png",
+},
 };
 
 export default function RootLayout({
