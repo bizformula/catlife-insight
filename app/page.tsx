@@ -28,41 +28,49 @@ export default function Home() {
   });
 
   return (
-    <div className="space-y-14">
-      <section className="rounded-2xl border border-[var(--border)] bg-[var(--muted)] px-6 pb-8 pt-6 sm:px-10 sm:py-10">
-        <div className="grid items-center gap-8 lg:grid-cols-[1.05fr_0.95fr]">
+    <div className="space-y-16">
+      <section className="overflow-hidden rounded-[28px] border border-[#E5EAF3] bg-gradient-to-br from-[#F8FAFF] via-[#FBFCFF] to-white px-6 py-8 dark:border-[var(--border)] dark:from-[#111827] dark:via-[#101622] dark:to-[var(--background)] sm:px-10 sm:py-12">
+        <div className="grid items-center gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:gap-12">
           <div>
-            <p className="mb-3 text-sm font-semibold text-[#2563EB]">
+            <p className="mb-4 text-sm font-semibold tracking-[-0.01em] text-[#2563EB]">
               고양이 사료 검색 · 비교
             </p>
 
-            <h1 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl">
-              피하고 싶은 원료를 제외하고
-              <br />
-              우리 고양이에게 맞는 사료를 찾아보세요.
+            <h1 className="mb-6 text-[32px] font-bold leading-[1.22] tracking-[-0.03em] sm:text-[40px] lg:text-[42px]">
+              <span className="block">
+                피하고 싶은 원료를 제외하고
+              </span>
+              <span className="block">
+                우리 고양이에게 맞는 사료를
+              </span>
+              <span className="block">
+                찾아보세요.
+              </span>
             </h1>
 
-            <p className="mb-5 max-w-3xl break-keep leading-7 text-[var(--muted-foreground)]">
-              등록된 고양이 사료와 간식을 원료, 사료 형태, 생애주기,
-              브랜드 등의 조건으로 찾고 원재료와 영양 정보를 같은 기준으로
-              비교할 수 있습니다.
+            <p className="mb-6 max-w-xl break-keep text-[15px] leading-7 text-[var(--muted-foreground)] sm:text-base">
+              원료, 사료 형태, 생애주기, 브랜드 조건으로 등록된 제품을
+              찾고 원재료와 영양 정보를 같은 기준으로 비교해보세요.
             </p>
 
-            <p className="mb-8 text-sm font-semibold text-[var(--foreground)]">
-              현재 {products.length}개 제품 데이터
-            </p>
+            <div className="mb-8">
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#DBE7FF] bg-white/80 px-4 py-2 text-sm font-semibold text-[var(--foreground)] shadow-sm dark:border-[var(--border)] dark:bg-[var(--background)]">
+                <span className="h-2 w-2 rounded-full bg-[#2563EB]" />
+                {products.length}개 제품 데이터
+              </span>
+            </div>
 
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/finder"
-                className="rounded-lg bg-[#2563EB] px-6 py-3 font-semibold !text-white"
+                className="rounded-xl bg-[#2563EB] px-6 py-3.5 font-semibold !text-white shadow-sm transition hover:bg-[#1D4ED8]"
               >
                 사료 찾기
               </Link>
 
               <Link
                 href="/compare"
-                className="rounded-lg border border-[var(--border)] bg-[var(--background)] px-6 py-3 font-semibold !text-[var(--foreground)]"
+                className="rounded-xl border border-[var(--border)] bg-white px-6 py-3.5 font-semibold !text-[var(--foreground)] shadow-sm transition hover:border-[#2563EB] dark:bg-[var(--background)]"
               >
                 제품 비교
               </Link>
@@ -71,17 +79,20 @@ export default function Home() {
 
           <Link
             href="/finder"
-            className="group block overflow-hidden rounded-2xl border border-[var(--border)] bg-white"
+            className="group block"
             aria-label="고양이 사료 찾기로 이동"
           >
-            <Image
-              src="/images/home/pola-food-finder-hero.webp"
-              alt="폴라와 고양이 사료 검색 및 비교 기능"
-              width={1200}
-              height={675}
-              className="h-auto w-full transition duration-300 group-hover:scale-[1.01]"
-              priority
-            />
+            <div className="overflow-hidden rounded-[24px] bg-white shadow-[0_20px_55px_rgba(37,99,235,0.14)] dark:bg-[#111827] dark:shadow-none">
+              <Image
+                src="/images/home/pola-food-finder-hero.webp"
+                alt="폴라와 고양이 사료 검색 및 비교 기능"
+                width={1200}
+                height={675}
+                sizes="(max-width: 1024px) 100vw, 58vw"
+                className="h-auto w-full transition duration-300 group-hover:scale-[1.015]"
+                priority
+              />
+            </div>
           </Link>
         </div>
       </section>
@@ -167,7 +178,7 @@ export default function Home() {
         <div className="grid gap-4 md:grid-cols-3">
           <Link
             href="/finder"
-            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] hover:border-[#2563EB]"
+            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] transition hover:border-[#2563EB] hover:shadow-sm"
           >
             <p className="mb-2 text-sm font-semibold text-[#2563EB]">
               조건 검색
@@ -185,7 +196,7 @@ export default function Home() {
 
           <Link
             href="/compare"
-            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] hover:border-[#2563EB]"
+            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] transition hover:border-[#2563EB] hover:shadow-sm"
           >
             <p className="mb-2 text-sm font-semibold text-[#2563EB]">
               항목별 확인
@@ -203,7 +214,7 @@ export default function Home() {
 
           <Link
             href="/category/ingredients"
-            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] hover:border-[#2563EB]"
+            className="rounded-xl border border-[var(--border)] p-6 !text-[var(--foreground)] transition hover:border-[#2563EB] hover:shadow-sm"
           >
             <p className="mb-2 text-sm font-semibold text-[#2563EB]">
               원료 정보
