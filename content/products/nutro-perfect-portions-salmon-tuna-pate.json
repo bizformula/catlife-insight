@@ -1,0 +1,125 @@
+{
+  "slug": "nutro-perfect-portions-salmon-tuna-pate",
+  "name": "뉴트로 퍼펙트 포션 연어 & 참치 레시피 파테",
+  "brand": "뉴트로",
+  "summary": "연어, 닭고기와 참치를 포함한 성묘용 그레인프리 파테 타입 습식 완전사료입니다.",
+  "image": "/images/products/nutro-perfect-portions-salmon-tuna-pate.png",
+  "foodForm": "wet",
+  "lifeStage": [
+    "adult"
+  ],
+  "dietaryUses": [
+    "성묘용",
+    "그레인프리",
+    "습식"
+  ],
+  "mainProteins": [
+    "연어",
+    "닭고기",
+    "닭 간",
+    "참치",
+    "건조 돼지고기 육수"
+  ],
+  "ingredients": [
+    "연어",
+    "닭고기",
+    "닭고기 육수",
+    "닭 간",
+    "참치",
+    "물",
+    "건조 돼지고기 육수",
+    "구아검",
+    "염화칼륨",
+    "탄산칼슘",
+    "어유",
+    "카라기난",
+    "산성 피로인산나트륨",
+    "황산마그네슘",
+    "피로인산사나트륨",
+    "타우린",
+    "타피오카 전분",
+    "염화콜린",
+    "소금",
+    "헥사메타인산나트륨",
+    "티아민 모노나이트레이트",
+    "비타민 E 보충제",
+    "황산아연",
+    "황산철",
+    "비타민 D3 보충제",
+    "황산망간",
+    "황산구리",
+    "피리독신 염산염",
+    "요오드화칼륨",
+    "엽산",
+    "메나디온 중아황산나트륨 복합체"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "참치",
+      "sourceText": "Tuna",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken, Chicken Broth, Chicken Liver",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "돼지고기",
+      "sourceText": "Dried Pork Broth",
+      "form": "other",
+      "group": "pork",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 11.5,
+    "fat": 6.0,
+    "fiber": 1.0,
+    "moisture": 78.0,
+    "ash": 3.0,
+    "taurine": 0.06
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max",
+    "taurine": "min"
+  },
+  "calories": 1141,
+  "sourceUrl": "https://www.nutro.com/products/wet-grain-free/salmon-tuna-recipe-pate",
+  "notes": "NUTRO 미국 공식 현재 제품 페이지와 공식 Nutrition 라벨 이미지 기준입니다. 공식 페이지의 Nutrition 이미지가 일부 접근 제한되어 원재료·보증성분은 동일 현행 제품의 Petco/H-E-B 유통 라벨 표기와 교차 확인했습니다.",
+  "productType": "food",
+  "purpose": "complete",
+  "isVeterinaryDiet": false,
+  "checkedAt": "2026-09-11"
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "nutro-wholesome-essentials-kitten-chicken-brown-rice",
+  "name": "뉴트로 홀섬 에센셜 키튼 닭고기 & 현미 레시피",
+  "brand": "뉴트로",
+  "summary": "닭고기를 첫 원료로 사용하고 DHA와 칼슘을 표시한 자묘용 건식 완전사료입니다.",
+  "image": "/images/products/nutro-wholesome-essentials-kitten-chicken-brown-rice.png",
+  "foodForm": "dry",
+  "lifeStage": [
+    "kitten"
+  ],
+  "dietaryUses": [
+    "자묘용"
+  ],
+  "mainProteins": [
+    "닭고기",
+    "닭고기분",
+    "어분"
+  ],
+  "ingredients": [
+    "닭고기",
+    "닭고기분",
+    "완두 단백질",
+    "혼합 토코페롤로 보존한 닭지방",
+    "브루어스 라이스",
+    "통현미",
+    "감자 단백질",
+    "건조 비트펄프",
+    "통귀리",
+    "어분",
+    "천연 향미",
+    "건조 알팔파분",
+    "염화칼륨",
+    "혼합 토코페롤로 보존한 대두유",
+    "염화콜린",
+    "혼합 토코페롤로 보존한 어유",
+    "타우린",
+    "구연산(보존제)",
+    "혼합 토코페롤(보존제)",
+    "소금",
+    "DL-메티오닌",
+    "비타민 E 보충제",
+    "산화아연",
+    "황산망간",
+    "탄산칼슘",
+    "황산철",
+    "나이아신 보충제",
+    "아스코르빈산(비타민 C)",
+    "황산구리",
+    "D-판토텐산칼슘",
+    "비타민 A 보충제",
+    "비오틴",
+    "티아민 모노나이트레이트(비타민 B1)",
+    "피리독신 염산염(비타민 B6)",
+    "비타민 B12 보충제",
+    "셀렌산나트륨",
+    "비타민 D3 보충제",
+    "리보플라빈 보충제(비타민 B2)",
+    "엽산",
+    "요오드화칼륨",
+    "로즈마리 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기분",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "어분",
+      "sourceText": "Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "현미",
+      "sourceText": "Whole Grain Brown Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두 단백질",
+      "sourceText": "Pea Protein",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.0,
+    "fat": 19.0,
+    "fiber": 4.0,
+    "moisture": 10.0,
+    "calcium": 1.2,
+    "taurine": 0.18
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "taurine": "min"
+  },
+  "calories": 3891,
+  "sourceUrl": "https://www.nutro.com/products/dry/kitten-formula-chicken-brown-rice-recipe",
+  "notes": "NUTRO 미국 공식 제품 페이지 기준. 공식 분석표에는 DHA 최소 0.05%도 별도 표시됩니다. calories는 3891 kcal ME/kg입니다.",
+  "productType": "food",
+  "purpose": "complete",
+  "isVeterinaryDiet": false,
+  "checkedAt": "2026-09-11"
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "nutro-wholesome-essentials-adult-salmon-brown-rice",
+  "name": "뉴트로 홀섬 에센셜 성묘용 연어 & 현미 레시피",
+  "brand": "뉴트로",
+  "summary": "연어를 첫 원료로 사용하고 닭고기분, 현미, 귀리와 완두 단백질을 포함한 성묘용 건식 완전사료입니다.",
+  "image": "/images/products/nutro-wholesome-essentials-adult-salmon-brown-rice.png",
+  "foodForm": "dry",
+  "lifeStage": [
+    "adult"
+  ],
+  "dietaryUses": [
+    "성묘용"
+  ],
+  "mainProteins": [
+    "연어",
+    "닭고기분"
+  ],
+  "ingredients": [
+    "연어",
+    "닭고기분",
+    "브루어스 라이스",
+    "완두 단백질",
+    "통현미",
+    "혼합 토코페롤로 보존한 닭지방",
+    "감자 단백질",
+    "통귀리",
+    "건조 비트펄프",
+    "건조 알팔파분",
+    "천연 향미",
+    "혼합 토코페롤로 보존한 대두유",
+    "염화칼륨",
+    "소금",
+    "염화콜린",
+    "타우린",
+    "구연산(보존제)",
+    "혼합 토코페롤(보존제)",
+    "DL-메티오닌",
+    "비타민 E 보충제",
+    "산화아연",
+    "황산망간",
+    "탄산칼슘",
+    "황산철",
+    "나이아신 보충제",
+    "아스코르빈산(비타민 C)",
+    "황산구리",
+    "D-판토텐산칼슘",
+    "비타민 A 보충제",
+    "비오틴",
+    "티아민 모노나이트레이트(비타민 B1)",
+    "피리독신 염산염(비타민 B6)",
+    "비타민 B12 보충제",
+    "셀렌산나트륨",
+    "비타민 D3 보충제",
+    "리보플라빈 보충제(비타민 B2)",
+    "엽산",
+    "요오드화칼륨",
+    "로즈마리 추출물"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "fresh",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기분",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "현미",
+      "sourceText": "Whole Grain Brown Rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두 단백질",
+      "sourceText": "Pea Protein",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "귀리",
+      "sourceText": "Whole Grain Oatmeal",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 33.0,
+    "fat": 17.0,
+    "fiber": 4.0,
+    "moisture": 10.0,
+    "calcium": 0.9,
+    "taurine": 0.18
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "taurine": "min"
+  },
+  "calories": 3785,
+  "sourceUrl": "https://www.nutro.com/products/dry/adult-formula-salmon-brown-rice-recipe",
+  "notes": "NUTRO 미국 공식 제품 페이지 기준. Salmon이 첫 원료이며 공식 보증성분과 kcal ME/kg 값을 사용했습니다.",
+  "productType": "food",
+  "purpose": "complete",
+  "isVeterinaryDiet": false,
+  "checkedAt": "2026-09-11"
+}
