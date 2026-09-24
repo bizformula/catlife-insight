@@ -25,10 +25,27 @@ export const metadata: Metadata = {
   description: "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳",
 
   openGraph: {
+    title: "Catlife Insight",
+    description: "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳",
     siteName: "Catlife Insight",
     type: "website",
     locale: "ko_KR",
     url: "https://catlife.happy-insight.com",
+    images: [
+      {
+        url: "/images/social/catlife-og-home.png",
+        width: 1200,
+        height: 630,
+        alt: "Catlife Insight 고양이 사료 검색 및 비교",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Catlife Insight",
+    description: "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳",
+    images: ["/images/social/catlife-og-home.png"],
   },
 
   icons: {
