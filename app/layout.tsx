@@ -16,17 +16,26 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://catlife.happy-insight.com"),
+
   title: {
     default: "Catlife Insight",
     template: "%s | Catlife Insight",
   },
+
   description: "고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳",
 
-    icons: {
-  icon: "/images/catlife-favicon-512-v2.png",
-  shortcut: "/images/catlife-favicon-512-v2.png",
-  apple: "/images/catlife-favicon-512-v2.png",
-},
+  openGraph: {
+    siteName: "Catlife Insight",
+    type: "website",
+    locale: "ko_KR",
+    url: "https://catlife.happy-insight.com",
+  },
+
+  icons: {
+    icon: "/images/catlife-favicon-512-v3.png",
+    shortcut: "/images/catlife-favicon-512-v3.png",
+    apple: "/images/catlife-favicon-512-v3.png",
+  },
 };
 
 export default function RootLayout({
@@ -36,41 +45,45 @@ export default function RootLayout({
 }>) {
   return (
     <html
-  lang="ko"
-  className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
->
-  <head>
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3781508655873635"
-    data-overlays="bottom"
-    crossOrigin="anonymous"
-  />
+      lang="ko"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3781508655873635"
+          data-overlays="bottom"
+          crossOrigin="anonymous"
+        />
 
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-VQE5R4HP9E"
-  />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-VQE5R4HP9E"
+        />
 
-  <script
-    dangerouslySetInnerHTML={{
-      __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-VQE5R4HP9E');
-      `,
-    }}
-  />
-</head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-VQE5R4HP9E');
+            `,
+          }}
+        />
+      </head>
 
-  <body className="min-h-full bg-[var(--background)] text-[var(--foreground)]">
-  <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 md:px-6">
-    <Header />
-    <main className="flex-1 py-8">{children}</main>
-    <Footer />
-  </div>
-</body>
-</html>
+      <body className="min-h-full bg-[var(--background)] text-[var(--foreground)]">
+        <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 md:px-6">
+          <Header />
+
+          <main className="flex-1 py-8">
+            {children}
+          </main>
+
+          <Footer />
+        </div>
+      </body>
+    </html>
   );
 }
