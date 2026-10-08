@@ -11,20 +11,17 @@ export default function Header() {
       <div className="relative flex h-full items-center justify-between">
         <Link
           href="/"
-          className="flex items-center gap-2 !text-[#2563EB]"
+          className="flex items-center gap-2 !text-[var(--foreground)] transition-colors hover:!text-[var(--point)]"
         >
           <Image
-            src="/images/catlife-favicon-512-v3.png"
+            src="/images/catlife-favicon-brown-v1.png"
             alt="Catlife Insight"
             width={30}
             height={30}
             priority
             className="h-[30px] w-[30px] rounded-md"
           />
-
-          <span className="text-[20px] font-bold">
-            Catlife Insight
-          </span>
+          <span className="text-[20px] font-bold">Catlife Insight</span>
         </Link>
 
         <HeaderNavigation categories={categories} />

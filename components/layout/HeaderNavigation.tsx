@@ -52,8 +52,8 @@ export default function HeaderNavigation({
             href={item.href}
             className={
               item.highlighted
-                ? "font-semibold text-[#2563EB] transition-colors hover:opacity-70"
-                : "text-base text-[var(--foreground)] transition-colors hover:text-[#2563EB]"
+                ? "font-semibold text-[var(--point)] transition-colors hover:opacity-70"
+                : "text-base text-[var(--foreground)] transition-colors hover:text-[var(--point)]"
             }
           >
             {item.name}
@@ -86,8 +86,8 @@ export default function HeaderNavigation({
                 href={item.href}
                 className={
                   item.highlighted
-                    ? "py-2 font-semibold text-[#2563EB]"
-                    : "py-2 text-base text-[var(--foreground)] transition-colors hover:text-[#2563EB]"
+                    ? "py-2 font-semibold text-[var(--point)]"
+                    : "py-2 text-base text-[var(--foreground)] transition-colors hover:text-[var(--point)]"
                 }
                 onClick={closeMenu}
               >

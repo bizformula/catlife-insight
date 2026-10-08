@@ -271,7 +271,7 @@ function NutrientRangeField({
   maximumPlaceholder,
 }: NutrientRangeFieldProps) {
   const inputClassName =
-    "min-w-0 w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none transition focus:border-[#2563EB] disabled:cursor-not-allowed disabled:bg-[var(--muted)] disabled:text-[var(--muted-foreground)] disabled:opacity-70";
+    "min-w-0 w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none transition focus:border-[#B9835A] disabled:cursor-not-allowed disabled:bg-[var(--muted)] disabled:text-[var(--muted-foreground)] disabled:opacity-70";
 
   return (
     <div>
@@ -634,7 +634,7 @@ export default function ProductFinder({
       <section className="rounded-2xl border border-[var(--border)] bg-[var(--background)] p-5 sm:p-6">
         <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border-b border-[var(--border)] pb-4">
           <div>
-            <p className="text-sm font-semibold text-[#2563EB]">
+            <p className="text-sm font-semibold text-[#93613F]">
               조건 선택
             </p>
 
@@ -647,7 +647,7 @@ export default function ProductFinder({
             <button
               type="button"
               onClick={resetFilters}
-              className="text-sm font-semibold text-[#2563EB] hover:underline"
+              className="text-sm font-semibold text-[#93613F] hover:underline"
             >
               모두 지우기
             </button>
@@ -671,7 +671,7 @@ export default function ProductFinder({
                     )
                   }
                   placeholder="예: 렌즈콩, 게, 밀"
-                  className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none transition focus:border-[#2563EB]"
+                  className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none transition focus:border-[#B9835A]"
                 />
 
                 <span className="mt-2 block text-xs leading-5 text-[var(--muted-foreground)]">
@@ -786,7 +786,7 @@ export default function ProductFinder({
               </label>
             </div>
 
-            <section className="rounded-xl bg-blue-50 p-4 dark:bg-blue-950/40">
+            <section className="rounded-xl bg-[#F3E9DD] p-4 dark:bg-[#392C24]">
               <div className="mb-3">
                 <h3 className="font-bold">
                   피하고 싶은 원료
@@ -799,7 +799,7 @@ export default function ProductFinder({
 
                 <Link
                   href="/ingredient-standards"
-                  className="mt-2 inline-flex text-xs font-semibold text-[#2563EB] hover:underline"
+                  className="mt-2 inline-flex text-xs font-semibold text-[#93613F] hover:underline"
                 >
                   원료 분류 기준 보기 →
                 </Link>
@@ -827,8 +827,8 @@ export default function ProductFinder({
                         }
                         className={`rounded-full border px-3 py-2 text-sm transition-colors ${
                           isSelected
-                            ? "border-[#2563EB] bg-[#2563EB] text-white"
-                            : "border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] hover:border-[#2563EB]"
+                            ? "border-[#B9835A] bg-[#93613F] text-white"
+                            : "border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] hover:border-[#B9835A]"
                         }`}
                       >
                         {option.label}
@@ -842,7 +842,7 @@ export default function ProductFinder({
 
           <section className="rounded-xl border border-[var(--border)] bg-[var(--muted)]/30 p-4 sm:p-5">
             <div className="mb-4">
-              <p className="text-xs font-semibold text-[#2563EB]">
+              <p className="text-xs font-semibold text-[#93613F]">
                 영양성분 검색
               </p>
 
@@ -858,7 +858,7 @@ export default function ProductFinder({
             </div>
 
             {!selectedFoodForm ? (
-              <div className="mb-4 rounded-lg bg-blue-50 p-3 text-xs leading-5 text-blue-700 dark:bg-blue-950/40 dark:text-blue-200">
+              <div className="mb-4 rounded-lg bg-[#F3E9DD] p-3 text-xs leading-5 text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]">
                 영양성분 검색을 사용하려면
                 먼저 사료 형태를
                 선택해주세요. 건식과
@@ -867,7 +867,7 @@ export default function ProductFinder({
                 비교하기 어렵습니다.
               </div>
             ) : (
-              <div className="mb-4 rounded-lg bg-blue-50 p-3 text-xs leading-5 text-blue-700 dark:bg-blue-950/40 dark:text-blue-200">
+              <div className="mb-4 rounded-lg bg-[#F3E9DD] p-3 text-xs leading-5 text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]">
                 현재{" "}
                 <strong>
                   {
@@ -936,7 +936,7 @@ export default function ProductFinder({
       <main className="min-w-0">
         <header className="mb-5 flex flex-wrap items-end justify-between gap-3 border-b border-[var(--border)] pb-4">
           <div>
-            <p className="mb-1 text-sm font-semibold text-[#2563EB]">
+            <p className="mb-1 text-sm font-semibold text-[#93613F]">
               사료 탐색
             </p>
 
@@ -961,7 +961,7 @@ export default function ProductFinder({
 
             <Link
               href="/products"
-              className="text-sm font-semibold text-[#2563EB] hover:underline"
+              className="text-sm font-semibold text-[#93613F] hover:underline"
             >
               전체 제품 보기 →
             </Link>
@@ -978,7 +978,7 @@ export default function ProductFinder({
                   onClick={() =>
                     toggleExclusion(group)
                   }
-                  className="rounded-full bg-blue-50 px-3 py-1.5 text-sm text-blue-700 dark:bg-blue-950 dark:text-blue-200"
+                  className="rounded-full bg-[#F3E9DD] px-3 py-1.5 text-sm text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]"
                 >
                   {
                     INGREDIENT_GROUP_NAMES[
@@ -996,7 +996,7 @@ export default function ProductFinder({
                 onClick={() =>
                   setIngredientQuery("")
                 }
-                className="rounded-full bg-blue-50 px-3 py-1.5 text-sm text-blue-700 dark:bg-blue-950 dark:text-blue-200"
+                className="rounded-full bg-[#F3E9DD] px-3 py-1.5 text-sm text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]"
               >
                 {ingredientQuery.trim()}{" "}
                 제외 ×
@@ -1114,7 +1114,7 @@ export default function ProductFinder({
         )}
 
         {comparisonSlugs.length > 0 && (
-          <section className="mb-5 rounded-xl border border-[#2563EB] bg-blue-50 p-4 dark:bg-blue-950">
+          <section className="mb-5 rounded-xl border border-[#B9835A] bg-[#F3E9DD] p-4 dark:bg-[#392C24]">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
                 <p className="font-bold">
@@ -1139,7 +1139,7 @@ export default function ProductFinder({
               2 ? (
                 <Link
                   href={comparisonHref}
-                  className="rounded-lg bg-[#2563EB] px-4 py-2 text-sm font-semibold !text-white"
+                  className="rounded-lg bg-[#93613F] px-4 py-2 text-sm font-semibold !text-white"
                 >
                   선택 제품 비교
                 </Link>
@@ -1179,7 +1179,7 @@ export default function ProductFinder({
 
               <Link
                 href="/products"
-                className="mt-5 inline-block text-sm font-semibold text-[#2563EB] hover:underline"
+                className="mt-5 inline-block text-sm font-semibold text-[#93613F] hover:underline"
               >
                 등록된 전체 제품
                 둘러보기 →
@@ -1221,7 +1221,7 @@ export default function ProductFinder({
                 return (
                   <article
                     key={product.slug}
-                    className="rounded-xl border border-[var(--border)] p-4 transition hover:border-[#2563EB] hover:shadow-sm"
+                    className="rounded-xl border border-[var(--border)] p-4 transition hover:border-[#B9835A] hover:shadow-sm"
                   >
                     <div className="flex gap-4">
                       <Link
@@ -1247,7 +1247,7 @@ export default function ProductFinder({
 
                       <div className="min-w-0 flex-1">
                         <div className="mb-1 flex flex-wrap items-start justify-between gap-2">
-                          <p className="text-sm text-[#2563EB]">
+                          <p className="text-sm text-[#93613F]">
                             {product.brand}
                           </p>
 
@@ -1261,7 +1261,7 @@ export default function ProductFinder({
                               }
                             </span>
 
-                            <span className="rounded-full bg-blue-50 px-2 py-1 text-xs text-blue-700 dark:bg-blue-950 dark:text-blue-200">
+                            <span className="rounded-full bg-[#F3E9DD] px-2 py-1 text-xs text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]">
                               {product.isVeterinaryDiet
                                 ? "처방식"
                                 : "일반식"}
@@ -1272,7 +1272,7 @@ export default function ProductFinder({
                         <h3 className="mb-2 break-keep text-lg font-bold">
                           <Link
                             href={`/products/${product.slug}`}
-                            className="!text-[var(--foreground)] hover:!text-[#2563EB]"
+                            className="!text-[var(--foreground)] hover:!text-[#93613F]"
                           >
                             {product.name}
                           </Link>
@@ -1287,7 +1287,7 @@ export default function ProductFinder({
                         )}
 
                         <p className="mb-1 text-sm">
-                          <span className="font-semibold text-[#2563EB]">
+                          <span className="font-semibold text-[#93613F]">
                             급여 연령:
                           </span>{" "}
                           {product.lifeStage
@@ -1301,7 +1301,7 @@ export default function ProductFinder({
                         </p>
 
                         <p className="mb-2 break-keep text-sm">
-                          <span className="font-semibold text-[#2563EB]">
+                          <span className="font-semibold text-[#93613F]">
                             주단백질:
                           </span>{" "}
                           {product.mainProteins.join(
@@ -1335,7 +1335,7 @@ export default function ProductFinder({
                     <div className="mt-4 flex items-center justify-between gap-3">
                       <Link
                         href={`/products/${product.slug}`}
-                        className="text-sm font-semibold text-[#2563EB] hover:underline"
+                        className="text-sm font-semibold text-[#93613F] hover:underline"
                       >
                         상세정보 보기 →
                       </Link>
@@ -1355,10 +1355,10 @@ export default function ProductFinder({
                         }
                         className={
                           isComparisonSelected
-                            ? "rounded-lg border border-[#2563EB] bg-[#2563EB] px-3 py-2 text-sm font-semibold text-white"
+                            ? "rounded-lg border border-[#B9835A] bg-[#93613F] px-3 py-2 text-sm font-semibold text-white"
                             : comparisonLimitReached
                               ? "cursor-not-allowed rounded-lg border border-[var(--border)] px-3 py-2 text-sm text-gray-400"
-                              : "rounded-lg border border-[var(--border)] px-3 py-2 text-sm font-semibold hover:border-[#2563EB]"
+                              : "rounded-lg border border-[var(--border)] px-3 py-2 text-sm font-semibold hover:border-[#B9835A]"
                         }
                       >
                         {isComparisonSelected
@@ -1388,7 +1388,7 @@ export default function ProductFinder({
             <button
               type="button"
               onClick={resetFilters}
-              className="mt-5 rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-semibold hover:border-[#2563EB]"
+              className="mt-5 rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-semibold hover:border-[#B9835A]"
             >
               조건 초기화
             </button>

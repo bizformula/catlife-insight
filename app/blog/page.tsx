@@ -113,7 +113,7 @@ export default async function BlogPage({
                     ? "/blog"
                     : `/blog?page=${currentPage - 1}`
                 }
-                className="rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
+                className="rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#B9835A]"
               >
                 이전
               </Link>
@@ -139,8 +139,8 @@ export default async function BlogPage({
                   }
                   className={
                     isCurrent
-                      ? "rounded-md bg-[#2563EB] px-3 py-2 text-sm font-semibold !text-white"
-                      : "rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
+                      ? "rounded-md bg-[#93613F] px-3 py-2 text-sm font-semibold !text-white"
+                      : "rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#B9835A]"
                   }
                 >
                   {pageNumber}
@@ -151,7 +151,7 @@ export default async function BlogPage({
             {currentPage < totalPages && (
               <Link
                 href={`/blog?page=${currentPage + 1}`}
-                className="rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
+                className="rounded-md border border-[var(--border)] px-3 py-2 text-sm !text-[var(--foreground)] hover:border-[#B9835A]"
               >
                 다음
               </Link>

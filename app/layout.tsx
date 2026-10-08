@@ -49,9 +49,16 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/images/catlife-favicon-512-v3.png",
-    shortcut: "/images/catlife-favicon-512-v3.png",
-    apple: "/images/catlife-favicon-512-v3.png",
+    icon: "/images/catlife-favicon-brown-v1.png",
+    shortcut: "/images/catlife-favicon-brown-v1.png",
+    apple: "/images/catlife-favicon-brown-v1.png",
+  },
+
+  verification: {
+    other: {
+      "naver-site-verification":
+        "befb838fb33b41a2fbe2591c81c26a148cdc97d1",
+    },
   },
 };
 

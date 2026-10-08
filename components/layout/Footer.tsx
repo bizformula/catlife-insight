@@ -9,29 +9,19 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[var(--border)] bg-[#f9fafb] py-10 text-center text-sm dark:bg-[#111827]">
+    <footer className="border-t border-[var(--border)] bg-[#FFFDF9] py-10 text-center text-sm dark:bg-[var(--background)]">
       <div className="flex flex-col items-center gap-3">
-        <p className="font-bold text-[var(--point)]">
-          Catlife Insight
-        </p>
+        <p className="font-bold text-[var(--foreground)]">Catlife Insight</p>
 
-        <p>
-          고양이의 먹거리와 생활환경, 더 나은 선택을 위한 정보
-        </p>
+        <p>고양이의 먹거리와 생활환경, 더 나은 선택을 위한 정보</p>
 
         <nav className="flex flex-wrap items-center justify-center gap-x-2">
           {footerLinks.map((link, index) => (
-            <span
-              key={link.href}
-              className="inline-flex items-center gap-x-2"
-            >
-              {index > 0 && (
-                <span aria-hidden="true">·</span>
-              )}
-
+            <span key={link.href} className="inline-flex items-center gap-x-2">
+              {index > 0 && <span aria-hidden="true">·</span>}
               <Link
                 href={link.href}
-                className="text-[var(--foreground)] no-underline hover:text-[var(--point)]"
+                className="text-[var(--foreground)] no-underline transition-colors hover:text-[var(--point)]"
               >
                 {link.label}
               </Link>
@@ -39,9 +29,7 @@ export default function Footer() {
           ))}
         </nav>
 
-        <p>
-          © 2026 Catlife Insight. All rights reserved.
-        </p>
+        <p>© 2026 Catlife Insight. All rights reserved.</p>
       </div>
     </footer>
   );

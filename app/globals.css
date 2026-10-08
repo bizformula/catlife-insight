@@ -2,12 +2,15 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #333333;
-  --point: #2563eb;
-  --muted: #f3f4f6;
-  --muted-foreground: #6b7280;
-  --border: #e5e7eb;
+  --background: #f7f2eb;
+  --foreground: #111111;
+  --point: #93613f;
+  --muted: #f4ece2;
+  --muted-foreground: #525252;
+  --border: #eadbcb;
+  --card: #fffdf9;
+  --brand-brown: #b9835a;
+  --brand-brown-hover: #a4734f;
 }
 
 @theme inline {
@@ -22,7 +25,11 @@ html.dark {
   --foreground: #f3f4f6;
   --muted: #1f2937;
   --muted-foreground: #9ca3af;
-  --border: #374151;
+  --border: #4b4039;
+  --point: #dfae88;
+  --card: #241f1b;
+  --brand-brown: #c49673;
+  --brand-brown-hover: #d3a886;
 }
 
 body {
@@ -52,10 +59,10 @@ a {
   margin-top: 3rem;
   margin-bottom: 1.25rem;
   padding: 0.9rem 1.1rem;
-  border: 1px solid #dbeafe;
+  border: 1px solid #eadbcb;
   border-left: 5px solid var(--point);
   border-radius: 0.75rem;
-  background: #eff6ff;
+  background: #f7efe6;
   color: var(--foreground);
   font-size: 1.5rem;
   font-weight: 700;
@@ -132,9 +139,9 @@ a {
 
 /* 다크 모드 소제목 */
 html.dark .prose h2 {
-  border-color: #334155;
-  border-left-color: #60a5fa;
-  background: #1e293b;
+  border-color: #4b4039;
+  border-left-color: var(--point);
+  background: #2b2420;
 }
 /* 블로그 본문 표 */
 .prose table {
@@ -151,7 +158,7 @@ html.dark .prose h2 {
 
 /* 표 제목 행 */
 .prose thead {
-  background: #eff6ff;
+  background: #f7efe6;
 }
 
 /* 표 제목 셀 */
@@ -182,12 +189,12 @@ html.dark .prose h2 {
 
 /* 표 행 강조 */
 .prose tbody tr:hover {
-  background: #eff6ff;
+  background: #f7efe6;
 }
 
 /* 다크 모드 표 */
 html.dark .prose thead {
-  background: #1e293b;
+  background: #2b2420;
 }
 
 html.dark .prose tbody tr:nth-child(even) {
@@ -195,5 +202,5 @@ html.dark .prose tbody tr:nth-child(even) {
 }
 
 html.dark .prose tbody tr:hover {
-  background: #243047;
+  background: #3a2f28;
 }

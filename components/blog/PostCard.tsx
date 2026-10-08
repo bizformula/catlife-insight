@@ -14,7 +14,7 @@ export default function PostCard({
     post.thumbnail?.trim() || "/next.svg";
 
   return (
-    <article className="flex min-h-32 overflow-hidden rounded-lg border border-[var(--border)] transition-colors hover:border-[#2563EB]">
+    <article className="flex min-h-32 overflow-hidden rounded-lg border border-[var(--border)] transition-colors hover:border-[#B9835A]">
       {/* PC와 태블릿에서만 표시되는 작은 썸네일 */}
       <Link
         href={`/blog/${post.slug}`}
