@@ -309,7 +309,7 @@ export default function ProductComparison({
         </label>
       </section>
 
-      <section className="overflow-hidden rounded-xl border border-[var(--border)] text-sm">
+      <section className="overflow-hidden rounded-xl border border-[var(--border)] text-sm text-[#111111] dark:text-[#F3F4F6]">
         <div className="grid grid-cols-[0.7fr_1fr_1fr] bg-gray-50 dark:bg-gray-900">
           <div className="p-3 font-semibold md:p-4">
             비교 항목
@@ -323,13 +323,13 @@ export default function ProductComparison({
               key={product.slug}
               className="min-w-0 border-l border-[var(--border)] p-3 md:p-4"
             >
-              <p className="mb-1 text-xs font-normal text-[#2563EB]">
+              <p className="mb-1 text-xs font-normal text-[#111111] dark:text-[#F3F4F6]">
                 {product.brand}
               </p>
 
               <Link
                 href={`/products/${product.slug}`}
-                className="block break-keep text-sm font-bold leading-5 hover:underline md:text-base"
+                className="block break-keep text-sm font-bold leading-5 !text-[#111111] hover:underline dark:!text-[#F3F4F6] md:text-base"
               >
                 {product.name}
               </Link>
