@@ -61,7 +61,7 @@ export default function Sidebar({
               <li key={post.slug}>
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="leading-5"
+                  className="leading-5 !text-[var(--foreground)] transition-colors hover:!text-[var(--point)]"
                 >
                   {post.title}
                 </Link>
@@ -83,6 +83,7 @@ export default function Sidebar({
                 href={`/category/${encodeURIComponent(
                   category
                 )}`}
+                className="!text-[var(--foreground)] transition-colors hover:!text-[var(--point)]"
               >
                 {getCategoryName(category)}
               </Link>
@@ -103,7 +104,7 @@ export default function Sidebar({
 
         <Link
           href="/finder"
-          className="inline-block rounded-md bg-[#2563EB] px-4 py-2 text-sm font-semibold !text-white"
+          className="inline-block rounded-md bg-[var(--point)] px-4 py-2 text-sm font-semibold !text-white transition-colors hover:opacity-90"
         >
           사료 찾기
         </Link>

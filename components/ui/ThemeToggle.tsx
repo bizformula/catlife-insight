@@ -59,7 +59,7 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={handleToggle}
-      className="flex h-10 w-10 items-center justify-center rounded-md text-[var(--foreground)] transition-colors hover:text-[#2563EB]"
+      className="flex h-10 w-10 items-center justify-center rounded-md text-[var(--foreground)] transition-colors hover:text-[var(--point)]"
       aria-label={isDark ? "라이트 모드로 전환" : "다크 모드로 전환"}
     >
       {isDark ? <SunIcon /> : <MoonIcon />}

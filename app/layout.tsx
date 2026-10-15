@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/images/catlife-favicon-brown-v1.png",
-    shortcut: "/images/catlife-favicon-brown-v1.png",
-    apple: "/images/catlife-favicon-brown-v1.png",
+    icon: "/images/catlife-favicon-charcoal-v1.png?v=2",
+    shortcut: "/images/catlife-favicon-charcoal-v1.png?v=2",
+    apple: "/images/catlife-favicon-charcoal-v1.png",
   },
 
   verification: {
@@ -70,6 +70,7 @@ export default function RootLayout({
   return (
     <html
       lang="ko"
+      data-season="brown"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
@@ -82,7 +83,7 @@ export default function RootLayout({
 
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-VQE5R4HP9E"
+          src="https://www.googletagmanager.com/gtag/js?id=G-YQE5R4HP9E"
         />
 
         <script
@@ -91,7 +92,7 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-VQE5R4HP9E');
+              gtag('config', 'G-YQE5R4HP9E');
             `,
           }}
         />

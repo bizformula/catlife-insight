@@ -75,8 +75,8 @@ export default async function ProductsPage({
             href="/products"
             className={
               selectedBrand === ""
-                ? "rounded-full border border-[#2563EB] bg-[#2563EB] px-4 py-2 text-sm !text-white"
-                : "rounded-full border border-[var(--border)] px-4 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
+                ? "rounded-full border border-[var(--point)] bg-[var(--point)] px-4 py-2 text-sm !text-white"
+                : "rounded-full border border-[var(--border)] px-4 py-2 text-sm !text-[var(--foreground)] hover:border-[var(--point)]"
             }
           >
             전체 {products.length}
@@ -98,8 +98,8 @@ export default async function ProductsPage({
                 )}`}
                 className={
                   isSelected
-                    ? "rounded-full border border-[#2563EB] bg-[#2563EB] px-4 py-2 text-sm !text-white"
-                    : "rounded-full border border-[var(--border)] px-4 py-2 text-sm !text-[var(--foreground)] hover:border-[#2563EB]"
+                    ? "rounded-full border border-[var(--point)] bg-[var(--point)] px-4 py-2 text-sm !text-white"
+                    : "rounded-full border border-[var(--border)] px-4 py-2 text-sm !text-[var(--foreground)] hover:border-[var(--point)]"
                 }
               >
                 {brandName} {productCount}
@@ -124,7 +124,7 @@ export default async function ProductsPage({
           {visibleProducts.map((product) => (
             <article
               key={product.slug}
-              className="rounded-xl border border-[var(--border)] p-4 transition hover:border-[#2563EB] hover:shadow-sm"
+              className="rounded-xl border border-[var(--border)] p-4 transition hover:border-[var(--point)] hover:shadow-sm"
             >
               <div className="flex gap-4">
                 <Link
@@ -147,14 +147,14 @@ export default async function ProductsPage({
                 </Link>
 
                 <div className="min-w-0 flex-1">
-                  <p className="mb-1 text-sm text-[#2563EB]">
+                  <p className="mb-1 text-sm text-[var(--muted-foreground)]">
                     {product.brand}
                   </p>
 
                   <h3 className="mb-3 break-keep text-lg font-bold">
                     <Link
                       href={`/products/${product.slug}`}
-                      className="!text-[var(--foreground)] hover:!text-[#2563EB]"
+                      className="!text-[var(--foreground)] hover:!text-[var(--point)]"
                     >
                       {product.name}
                     </Link>
@@ -199,7 +199,7 @@ export default async function ProductsPage({
 
               <Link
                 href={`/products/${product.slug}`}
-                className="mt-4 inline-block text-sm font-semibold text-[#2563EB] hover:underline"
+                className="mt-4 inline-block text-sm font-semibold text-[var(--point)] hover:underline"
               >
                 상세정보 보기 →
               </Link>
@@ -219,14 +219,14 @@ export default async function ProductsPage({
       <div className="mt-10 flex flex-wrap gap-3">
         <Link
           href="/finder"
-          className="rounded-lg bg-[#2563EB] px-5 py-3 text-sm font-semibold !text-white"
+          className="rounded-lg bg-[var(--point)] px-5 py-3 text-sm font-semibold !text-white"
         >
           조건으로 사료 찾기
         </Link>
 
         <Link
           href="/compare"
-          className="rounded-lg border border-[var(--border)] px-5 py-3 text-sm font-semibold !text-[var(--foreground)] hover:border-[#2563EB]"
+          className="rounded-lg border border-[var(--border)] px-5 py-3 text-sm font-semibold !text-[var(--foreground)] hover:border-[var(--point)]"
         >
           제품 비교하기
         </Link>

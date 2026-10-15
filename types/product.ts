@@ -85,6 +85,13 @@ export type NutrientBasis =
   | "max"
   | "typical";
 
+export type PurchaseLink = {
+  /** 판매처명 (예: 공식 브랜드몰, 반려동물 전문몰) */
+  name: string;
+  /** 검증한 실제 판매/상품 페이지의 주소 */
+  url: string;
+};
+
 export type Product = {
   slug: string;
   name: string;
@@ -132,6 +139,8 @@ export type Product = {
   sourceUrl: string;
   checkedAt: string;
   affiliateUrl?: string;
+  /** 검증된 제품별 판매처 목록. 없으면 쇼핑 검색 링크만 표시 */
+  purchaseLinks?: PurchaseLink[];
 
   notes?: string;
 };

@@ -4,17 +4,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { notFound, permanentRedirect } from "next/navigation";
 
 import AdPlaceholder from "@/components/blog/AdPlaceholder";
 import TOC from "@/components/blog/TOC";
 import Sidebar from "@/components/layout/Sidebar";
-
-import {
-  extractToc,
-  injectHeadingIds,
-  markdownToHtml,
-  splitForMiddleAd,
-} from "@/lib/markdown";
 
 import {
   getAllPosts,
@@ -30,6 +24,34 @@ type BlogPostPageProps = {
 
 const siteUrl = "https://catlife.happy-insight.com";
 
+/**
+ * Accept known blog slugs only. For historical URLs with an extra
+ * colon-delimited suffix (e.g. slug:random:2), redirect to the real post.
+ * Never redirect an unknown slug to an unrelated article.
+ */
+function resolvePostSlug(rawSlug: string): string {
+  let slug = rawSlug;
+  try {
+    slug = decodeURIComponent(rawSlug);
+  } catch {
+    notFound();
+  }
+
+  const knownSlugs = getPostSlugs();
+  if (knownSlugs.includes(slug)) {
+    return slug;
+  }
+
+  const originalSlug = knownSlugs.find((known) =>
+    slug.startsWith(`${known}:`)
+  );
+  if (originalSlug) {
+    permanentRedirect(`/blog/${encodeURIComponent(originalSlug)}`);
+  }
+
+  notFound();
+}
+
 export async function generateStaticParams() {
   return getPostSlugs().map((slug) => ({
     slug,
@@ -39,7 +61,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: BlogPostPageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = resolvePostSlug(rawSlug);
   const post = getPostBySlug(slug);
 
   const postUrl = `${siteUrl}/blog/${post.slug}`;
@@ -84,8 +107,15 @@ export async function generateMetadata({
 export default async function BlogPostPage({
   params,
 }: BlogPostPageProps) {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const { slug: rawSlug } = await params;
+  const slug = resolvePostSlug(rawSlug);
+  const post = getPostBySlug(slug) as ReturnType<typeof getPostBySlug> & {
+    rendered: {
+      toc: { id: string; text: string; level: 2 | 3 }[];
+      firstHtml: string;
+      secondHtml: string;
+    };
+  };
 
   const postUrl = `${siteUrl}/blog/${post.slug}`;
   const imageUrl = `${siteUrl}${post.thumbnail}`;
@@ -117,20 +147,8 @@ export default async function BlogPostPage({
     inLanguage: "ko-KR",
   };
 
-  const toc = extractToc(post.content);
-
-  const [firstPart, secondPart] =
-    splitForMiddleAd(post.content);
-
-  const firstHtml = injectHeadingIds(
-    await markdownToHtml(firstPart),
-    toc
-  );
-
-  const secondHtml = injectHeadingIds(
-    await markdownToHtml(secondPart),
-    toc
-  );
+  // HTML and TOC are computed by scripts/generate-posts.mjs during build.
+  const { toc, firstHtml, secondHtml } = post.rendered;
 
   const guideCategories = [
     "nutrition-guide",
@@ -245,13 +263,13 @@ export default async function BlogPostPage({
                   <Link
                     key={item.slug}
                     href={`/blog/${item.slug}`}
-                    className="block rounded-lg border border-[var(--border)] p-4"
+                    className="block rounded-lg border border-[var(--border)] p-4 hover:border-[var(--point)]"
                   >
                     <p className="mb-2 text-sm text-[var(--muted-foreground)]">
                       {getCategoryName(item.category)}
                     </p>
 
-                    <h3 className="font-semibold leading-6">
+                    <h3 className="font-semibold leading-6 text-[var(--foreground)]">
                       {item.title}
                     </h3>
 

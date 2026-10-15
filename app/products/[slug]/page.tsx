@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProductBySlug } from "@/lib/products";
+import { getVerifiedPurchaseLinks, getPurchaseSearchLinks } from "@/lib/purchase-links";
 import type {
   IngredientStatus,
   NutrientBasis,
@@ -24,11 +25,36 @@ export async function generateMetadata({
     notFound();
   }
 
+  const siteUrl = "https://catlife.happy-insight.com";
+  const productUrl = `${siteUrl}/products/${encodeURIComponent(product.slug)}`;
+  const productTitle = `${product.name} 성분·원재료 정보`;
+  const productDescription =
+    product.summary ||
+    `${product.name}의 원재료, 영양성분, 급여 연령 및 제품 정보를 Catlife Insight에서 확인하세요.`;
+  const productImage = product.image
+    ? new URL(product.image, siteUrl).toString()
+    : `${siteUrl}/images/social/catlife-og-home-v2.png`;
+
   return {
-    title: product.name,
-    description: product.summary,
+    title: productTitle,
+    description: productDescription,
     alternates: {
-      canonical: `/products/${product.slug}`,
+      canonical: productUrl,
+    },
+    openGraph: {
+      title: productTitle,
+      description: productDescription,
+      url: productUrl,
+      siteName: "Catlife Insight",
+      type: "website",
+      locale: "ko_KR",
+      images: [{ url: productImage, alt: `${product.name} 제품 이미지` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: productTitle,
+      description: productDescription,
+      images: [productImage],
     },
   };
 }
@@ -90,12 +116,14 @@ export default async function ProductPage({
 
   const analysis =
     product.guaranteedAnalysis;
+  const verifiedPurchaseLinks = getVerifiedPurchaseLinks(product);
+  const purchaseSearchLinks = getPurchaseSearchLinks(product);
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-10">
       <Link
         href="/finder"
-        className="mb-6 inline-block text-sm text-[#2563EB] hover:underline"
+        className="mb-6 inline-block text-sm text-[var(--point)] hover:underline"
       >
         ← 사료 찾기로 돌아가기
       </Link>
@@ -121,7 +149,7 @@ export default async function ProductPage({
         </div>
 
         <div className="min-w-0">
-          <p className="mb-2 text-sm font-semibold text-[#2563EB]">
+          <p className="mb-2 text-sm font-semibold text-[var(--muted-foreground)]">
             {product.brand}
           </p>
 
@@ -323,20 +351,50 @@ export default async function ProductPage({
         </p>
       )}
 
-      {product.sourceUrl ? (
-        <a
-          href={product.sourceUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block rounded-lg bg-[#2563EB] px-5 py-3 text-sm font-semibold !text-white"
-        >
-          정보 출처 확인
-        </a>
-      ) : (
-        <p className="text-sm text-red-600">
-          아직 정보 출처가 등록되지
-          않은 제품입니다.
+      <section id="purchase-options" className="mb-8 scroll-mt-24 rounded-xl border border-[var(--border)] p-6">
+        <h2 className="mb-2 text-xl font-bold">구매처 안내</h2>
+        <p className="mb-5 text-sm leading-6 text-[var(--muted-foreground)]">
+          아래 링크를 통해 제품을 찾아볼 수 있습니다. 실제 판매 여부, 제품 규격 및 가격은 각 판매처에서 확인해주세요.
         </p>
+
+        {verifiedPurchaseLinks.length > 0 && (
+          <div className="mb-5">
+            <h3 className="mb-2 text-sm font-semibold">확인된 판매처</h3>
+            <div className="flex flex-wrap gap-2">
+              {verifiedPurchaseLinks.map((item) => (
+                <a key={`${item.name}-${item.url}`} href={item.url} target="_blank" rel="noopener noreferrer"
+                  className="inline-flex rounded-lg border border-[var(--point)] px-4 py-2 text-sm font-semibold !text-[var(--point)] hover:bg-[var(--point-soft)]">
+                  {item.name} ↗
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <h3 className="mb-2 text-sm font-semibold">쇼핑몰에서 검색</h3>
+        <div className="flex flex-wrap gap-2">
+          {purchaseSearchLinks.map((item) => (
+            <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer"
+              className="inline-flex rounded-lg bg-[var(--point)] px-4 py-2 text-sm font-semibold !text-[var(--point-foreground)] hover:opacity-90">
+              {item.name} ↗
+            </a>
+          ))}
+        </div>
+        <p className="mt-3 text-xs leading-5 text-[var(--muted-foreground)]">
+          쇼핑몰 검색 링크는 해당 제품의 판매 또는 재고를 확인한 링크가 아닙니다. Catlife Insight는 현재 제휴 구매 링크를 제공하지 않습니다.
+        </p>
+      </section>
+
+      {product.sourceUrl ? (
+        <p className="mb-5 text-sm leading-6">
+          제품 표시정보의 출처: {" "}
+          <a href={product.sourceUrl} target="_blank" rel="noopener noreferrer"
+             className="font-semibold !text-[var(--point)] underline underline-offset-2">
+            제품 정보 원문 보기 ↗
+          </a>
+        </p>
+      ) : (
+        <p className="mb-5 text-sm text-[var(--muted-foreground)]">제품 정보 출처가 아직 등록되지 않았습니다.</p>
       )}
 
       <p className="mt-8 text-xs leading-5 text-[var(--muted-foreground)]">

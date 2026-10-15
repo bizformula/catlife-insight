@@ -1,0 +1,275 @@
+// Post detail page with markdown rendering, responsive TOC,
+// related posts, ad placeholders, BlogPosting JSON-LD,
+// and social sharing metadata.
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+
+import AdPlaceholder from "@/components/blog/AdPlaceholder";
+import TOC from "@/components/blog/TOC";
+import Sidebar from "@/components/layout/Sidebar";
+
+import {
+  getAllPosts,
+  getPostBySlug,
+  getPostSlugs,
+} from "@/lib/posts";
+
+import { getCategoryName } from "@/lib/site";
+
+type BlogPostPageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+const siteUrl = "https://catlife.happy-insight.com";
+
+export async function generateStaticParams() {
+  return getPostSlugs().map((slug) => ({
+    slug,
+  }));
+}
+
+export async function generateMetadata({
+  params,
+}: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+
+  const postUrl = `${siteUrl}/blog/${post.slug}`;
+  const imageUrl = `${siteUrl}${post.thumbnail}`;
+
+  return {
+    title: post.title,
+    description: post.description,
+
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
+
+    openGraph: {
+      type: "article",
+      locale: "ko_KR",
+      siteName: "Catlife Insight",
+      title: post.title,
+      description: post.description,
+      url: postUrl,
+      publishedTime: post.date,
+      modifiedTime: post.updated ?? post.date,
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 675,
+          alt: `${post.title} 대표 이미지`,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [imageUrl],
+    },
+  };
+}
+
+export default async function BlogPostPage({
+  params,
+}: BlogPostPageProps) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug) as ReturnType<typeof getPostBySlug> & {
+    rendered: {
+      toc: { id: string; text: string; level: 2 | 3 }[];
+      firstHtml: string;
+      secondHtml: string;
+    };
+  };
+
+  const postUrl = `${siteUrl}/blog/${post.slug}`;
+  const imageUrl = `${siteUrl}${post.thumbnail}`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    image: imageUrl,
+    datePublished: post.date,
+    dateModified: post.updated ?? post.date,
+    author: {
+      "@type": "Organization",
+      name: "Catlife Insight",
+      url: siteUrl,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Catlife Insight",
+      url: siteUrl,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": postUrl,
+    },
+    url: postUrl,
+    articleSection: getCategoryName(post.category),
+    inLanguage: "ko-KR",
+  };
+
+  // HTML and TOC are computed by scripts/generate-posts.mjs during build.
+  const { toc, firstHtml, secondHtml } = post.rendered;
+
+  const guideCategories = [
+    "nutrition-guide",
+    "ingredients",
+  ];
+
+  const relatedPosts = getAllPosts()
+    .filter((item) => item.slug !== slug)
+    .sort((a, b) => {
+      const getScore = (category: string) => {
+        if (category === post.category) {
+          return 0;
+        }
+
+        if (
+          guideCategories.includes(post.category) &&
+          guideCategories.includes(category)
+        ) {
+          return 1;
+        }
+
+        return 2;
+      };
+
+      const scoreDifference =
+        getScore(a.category) - getScore(b.category);
+
+      if (scoreDifference !== 0) {
+        return scoreDifference;
+      }
+
+      return a.date < b.date ? 1 : -1;
+    })
+    .slice(0, 3);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(
+            /</g,
+            "\\u003c"
+          ),
+        }}
+      />
+
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-10">
+        <article className="lg:col-span-7">
+          <header className="mb-8 border-b border-[var(--border)] pb-4">
+            <p className="mb-3 text-sm text-gray-500">
+              {post.date} ·{" "}
+              {getCategoryName(post.category)} · 읽는 시간 약{" "}
+              {post.readingTime.replace(
+                " min read",
+                "분"
+              )}
+            </p>
+
+            <h1 className="text-3xl font-bold leading-tight sm:text-4xl">
+              {post.title}
+            </h1>
+
+            <p className="mt-4 text-lg leading-8 text-[var(--muted-foreground)]">
+              {post.description}
+            </p>
+
+            <AdPlaceholder position="포스트 제목 아래" />
+
+            <div className="mt-6 flex aspect-video w-full items-center justify-center overflow-hidden rounded-lg border border-[var(--border)] bg-[#f8fafc] dark:bg-[#1f2937]">
+              <Image
+                src={post.thumbnail}
+                alt={`${post.title} 대표 이미지`}
+                width={1200}
+                height={675}
+                className="h-full w-full object-contain"
+                priority
+              />
+            </div>
+          </header>
+
+          {toc.length > 0 && (
+            <div className="mb-8 lg:hidden">
+              <TOC items={toc} />
+            </div>
+          )}
+
+          <div className="prose max-w-none">
+            <div
+              dangerouslySetInnerHTML={{
+                __html: firstHtml,
+              }}
+            />
+
+            <AdPlaceholder position="본문 중간" />
+
+            <div
+              dangerouslySetInnerHTML={{
+                __html: secondHtml,
+              }}
+            />
+          </div>
+
+          {relatedPosts.length > 0 && (
+            <section className="mt-10 border-t border-[var(--border)] pt-8">
+              <h2 className="mb-5 text-xl font-bold">
+                다음 읽을 글
+              </h2>
+
+              <div className="space-y-4">
+                {relatedPosts.map((item) => (
+                  <Link
+                    key={item.slug}
+                    href={`/blog/${item.slug}`}
+                    className="block rounded-lg border border-[var(--border)] p-4 hover:border-[var(--point)]"
+                  >
+                    <p className="mb-2 text-sm text-[var(--muted-foreground)]">
+                      {getCategoryName(item.category)}
+                    </p>
+
+                    <h3 className="font-semibold leading-6 text-[var(--foreground)]">
+                      {item.title}
+                    </h3>
+
+                    <p className="mt-2 text-sm leading-6 text-[var(--muted-foreground)]">
+                      {item.description}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <div className="mt-10">
+            <AdPlaceholder position="본문 끝" />
+          </div>
+        </article>
+
+        <div className="space-y-6 lg:col-span-3">
+          {toc.length > 0 && (
+            <div className="hidden lg:block">
+              <TOC items={toc} />
+            </div>
+          )}
+
+          <Sidebar topAdDesktopOnly />
+
+          <div className="hidden lg:sticky lg:top-20 lg:block lg:self-start">
+            <AdPlaceholder position="사이드바 고정 광고" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

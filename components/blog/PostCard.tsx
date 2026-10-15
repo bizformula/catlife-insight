@@ -14,11 +14,11 @@ export default function PostCard({
     post.thumbnail?.trim() || "/next.svg";
 
   return (
-    <article className="flex min-h-32 overflow-hidden rounded-lg border border-[var(--border)] transition-colors hover:border-[#B9835A]">
+    <article className="flex min-h-32 overflow-hidden rounded-lg border border-[var(--border)] transition-colors hover:border-[var(--point)]">
       {/* PC와 태블릿에서만 표시되는 작은 썸네일 */}
       <Link
         href={`/blog/${post.slug}`}
-        className="relative hidden w-52 shrink-0 border-r border-[var(--border)] bg-[#f8fafc] sm:block dark:bg-[#1f2937]"
+        className="relative hidden w-52 shrink-0 border-r border-[var(--border)] bg-[var(--card)] sm:block dark:bg-[var(--card)]"
       >
         <Image
           src={thumbnail}
@@ -44,8 +44,11 @@ export default function PostCard({
           </Link>
         </div>
 
-        <h2 className="mb-2 line-clamp-2 text-lg font-semibold leading-6 sm:text-xl">
-          <Link href={`/blog/${post.slug}`}>
+        <h2 className="mb-2 line-clamp-2 text-base font-semibold leading-6">
+          <Link
+            href={`/blog/${post.slug}`}
+            className="!text-[var(--foreground)] transition-colors hover:!text-[var(--point)]"
+          >
             {post.title}
           </Link>
         </h2>

@@ -12,7 +12,6 @@ import {
 } from "@/lib/ingredient-dictionary";
 import type {
   IngredientGroup,
-  NutrientBasis,
   Product,
 } from "@/types/product";
 
@@ -228,37 +227,6 @@ function parseNutrientInput(
   return parsed;
 }
 
-function nutrientBasisLabel(
-  basis: NutrientBasis | undefined
-): string {
-  if (basis === "min") {
-    return "최소";
-  }
-
-  if (basis === "max") {
-    return "최대";
-  }
-
-  if (basis === "typical") {
-    return "대표값";
-  }
-
-  return "표시 기준 미기재";
-}
-
-function nutrientDisplay(
-  value: number | undefined,
-  basis: NutrientBasis | undefined
-): string | null {
-  if (typeof value !== "number") {
-    return null;
-  }
-
-  return `${value}% · ${nutrientBasisLabel(
-    basis
-  )}`;
-}
-
 function NutrientRangeField({
   label,
   minimum,
@@ -271,7 +239,7 @@ function NutrientRangeField({
   maximumPlaceholder,
 }: NutrientRangeFieldProps) {
   const inputClassName =
-    "min-w-0 w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none transition focus:border-[#B9835A] disabled:cursor-not-allowed disabled:bg-[var(--muted)] disabled:text-[var(--muted-foreground)] disabled:opacity-70";
+    "min-w-0 w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none transition focus:border-[var(--point)] disabled:cursor-not-allowed disabled:bg-[var(--muted)] disabled:text-[var(--muted-foreground)] disabled:opacity-70";
 
   return (
     <div>
@@ -289,7 +257,7 @@ function NutrientRangeField({
             <input
               type="number"
               min="0"
-              step="0.1"
+              step="1"
               inputMode="decimal"
               value={minimum}
               onChange={(event) =>
@@ -319,7 +287,7 @@ function NutrientRangeField({
             <input
               type="number"
               min="0"
-              step="0.1"
+              step="1"
               inputMode="decimal"
               value={maximum}
               onChange={(event) =>
@@ -363,6 +331,11 @@ export default function ProductFinder({
     ingredientQuery,
     setIngredientQuery,
   ] = useState("");
+
+  const [productQuery, setProductQuery] = useState("");
+  const [showAdvanced, setShowAdvanced] = useState(false);
+  const [showAllIngredients, setShowAllIngredients] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(16);
 
   const [
     selectedBrand,
@@ -505,6 +478,8 @@ export default function ProductFinder({
   const resetFilters = () => {
     setExcludedGroups([]);
     setIngredientQuery("");
+    setProductQuery("");
+    setVisibleCount(16);
     setSelectedBrand("");
     setSelectedFoodForm("");
     setSelectedLifeStage("");
@@ -512,6 +487,7 @@ export default function ProductFinder({
   };
 
   const hasActiveFilter =
+    productQuery.trim().length > 0 ||
     excludedGroups.length > 0 ||
     ingredientQuery.trim().length > 0 ||
     selectedBrand.length > 0 ||
@@ -520,9 +496,10 @@ export default function ProductFinder({
     hasNutrientFilter;
 
   const filteredProducts =
-    hasActiveFilter &&
     !hasInvalidNutrientRange
       ? products.filter((product) => {
+          const q = productQuery.trim().toLocaleLowerCase("ko");
+          const passesProductQuery = !q || `${product.name} ${product.brand}`.toLocaleLowerCase("ko").includes(q);
           const passesGroupFilters =
             excludedGroups.every(
               (group) =>
@@ -592,6 +569,7 @@ export default function ProductFinder({
               fat <= maximumFatValue);
 
           return (
+            passesProductQuery &&
             passesGroupFilters &&
             passesIngredientQuery &&
             passesBrand &&
@@ -604,6 +582,8 @@ export default function ProductFinder({
           );
         })
       : [];
+
+  const visibleProducts = filteredProducts.slice(0, visibleCount);
 
   const selectedProducts =
     comparisonSlugs
@@ -631,223 +611,135 @@ export default function ProductFinder({
 
   return (
     <div className="space-y-6">
-      <section className="rounded-2xl border border-[var(--border)] bg-[var(--background)] p-5 sm:p-6">
-        <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border-b border-[var(--border)] pb-4">
-          <div>
-            <p className="text-sm font-semibold text-[#93613F]">
-              조건 선택
-            </p>
-
-            <h2 className="text-xl font-bold">
-              사료 필터
-            </h2>
-          </div>
+      <section className="rounded-2xl border border-[var(--border)] bg-[var(--background)] p-3 sm:p-4">
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-3 border-b border-[var(--border)] pb-2">
+          <h2 className="text-lg font-bold">사료 찾기</h2>
 
           {hasActiveFilter && (
             <button
               type="button"
               onClick={resetFilters}
-              className="text-sm font-semibold text-[#93613F] hover:underline"
+              className="text-sm font-semibold text-[var(--point)] hover:underline"
             >
               모두 지우기
             </button>
           )}
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(360px,0.65fr)] lg:items-start">
-          <div className="space-y-5">
-            <div className="grid gap-4 sm:grid-cols-2">
-              <label className="block sm:col-span-2">
-                <span className="mb-2 block text-sm font-semibold">
-                  개별 원료 제외
-                </span>
-
-                <input
-                  type="search"
-                  value={ingredientQuery}
-                  onChange={(event) =>
-                    setIngredientQuery(
-                      event.target.value
-                    )
-                  }
-                  placeholder="예: 렌즈콩, 게, 밀"
-                  className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none transition focus:border-[#B9835A]"
-                />
-
-                <span className="mt-2 block text-xs leading-5 text-[var(--muted-foreground)]">
-                  여러 원료는 쉼표로
-                  구분하세요. 유사한 이름은
-                  공통 원료 사전을 기준으로
-                  검색합니다.
-                </span>
-              </label>
-
-              <label className="block">
-                <span className="mb-2 block text-sm font-semibold">
-                  급여 연령
-                </span>
-
-                <select
-                  value={selectedLifeStage}
-                  onChange={(event) =>
-                    setSelectedLifeStage(
-                      event.target
-                        .value as
-                        | ""
-                        | LifeStage
-                    )
-                  }
-                  className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm"
-                >
-                  <option value="">
-                    급여 연령
-                  </option>
-
-                  <option value="kitten">
-                    자묘
-                  </option>
-
-                  <option value="adult">
-                    성묘
-                  </option>
-
-                  <option value="senior">
-                    노령묘
-                  </option>
-
-                  <option value="all">
-                    전연령
-                  </option>
-                </select>
-              </label>
-
-              <label className="block">
-                <span className="mb-2 block text-sm font-semibold">
-                  사료 형태
-                </span>
-
-                <select
-                  value={selectedFoodForm}
-                  onChange={(event) =>
-                    handleFoodFormChange(
-                      event.target
-                        .value as
-                        | ""
-                        | FoodForm
-                    )
-                  }
-                  className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm"
-                >
-                  <option value="">
-                    사료 형태
-                  </option>
-
-                  <option value="dry">
-                    건식
-                  </option>
-
-                  <option value="wet">
-                    습식
-                  </option>
-
-                  <option value="powder">
-                    분말
-                  </option>
-                </select>
-              </label>
-
-              <label className="block sm:col-span-2">
-                <span className="mb-2 block text-sm font-semibold">
-                  브랜드
-                </span>
-
-                <select
-                  value={selectedBrand}
-                  onChange={(event) =>
-                    setSelectedBrand(
-                      event.target.value
-                    )
-                  }
-                  className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm"
-                >
-                  <option value="">
-                    브랜드
-                  </option>
-
-                  {brands.map((brand) => (
-                    <option
-                      key={brand}
-                      value={brand}
-                    >
-                      {brand}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            </div>
-
-            <section className="rounded-xl bg-[#F3E9DD] p-4 dark:bg-[#392C24]">
-              <div className="mb-3">
-                <h3 className="font-bold">
-                  피하고 싶은 원료
-                </h3>
-
-                <p className="mt-1 text-xs leading-5 text-[var(--muted-foreground)]">
-                  선택한 원료가 표시되지
-                  않은 제품만 찾습니다.
-                </p>
-
-                <Link
-                  href="/ingredient-standards"
-                  className="mt-2 inline-flex text-xs font-semibold text-[#93613F] hover:underline"
-                >
-                  원료 분류 기준 보기 →
-                </Link>
-              </div>
-
-              <div className="flex flex-wrap gap-2">
-                {exclusionOptions.map(
-                  (option) => {
-                    const isSelected =
-                      excludedGroups.includes(
-                        option.value
-                      );
-
-                    return (
-                      <button
-                        key={option.value}
-                        type="button"
-                        onClick={() =>
-                          toggleExclusion(
-                            option.value
-                          )
-                        }
-                        aria-pressed={
-                          isSelected
-                        }
-                        className={`rounded-full border px-3 py-2 text-sm transition-colors ${
-                          isSelected
-                            ? "border-[#B9835A] bg-[#93613F] text-white"
-                            : "border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] hover:border-[#B9835A]"
-                        }`}
-                      >
-                        {option.label}
-                      </button>
-                    );
-                  }
-                )}
-              </div>
-            </section>
+        <div className="space-y-3">
+          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+            <label className="block min-w-0">
+              <span className="sr-only">사료명 검색</span>
+              <input type="search" value={productQuery}
+                onChange={(event) => { setProductQuery(event.target.value); setVisibleCount(16); }}
+                placeholder="사료명 검색"
+                aria-label="사료명 검색"
+                className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm outline-none focus:border-[var(--point)]" />
+            </label>
+            <label className="block min-w-0">
+              <span className="sr-only">브랜드 선택</span>
+              <select value={selectedBrand} onChange={(event) => { setSelectedBrand(event.target.value); setVisibleCount(16); }}
+                aria-label="브랜드 선택"
+                className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm">
+                <option value="">전체 브랜드</option>
+                {brands.map((brand) => <option key={brand} value={brand}>{brand}</option>)}
+              </select>
+            </label>
+            <label className="block min-w-0">
+              <span className="sr-only">급여 연령</span>
+              <select value={selectedLifeStage} onChange={(event) => { setSelectedLifeStage(event.target.value as "" | LifeStage); setVisibleCount(16); }}
+                aria-label="급여 연령"
+                className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm">
+                <option value="">전체 연령</option>
+                <option value="kitten">자묘</option>
+                <option value="adult">성묘</option>
+                <option value="senior">노령묘</option>
+                <option value="all">전연령 전용</option>
+              </select>
+            </label>
+            <label className="block min-w-0">
+              <span className="sr-only">사료 형태</span>
+              <select value={selectedFoodForm} onChange={(event) => { handleFoodFormChange(event.target.value as "" | FoodForm); setVisibleCount(16); }}
+                aria-label="사료 형태"
+                className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2.5 text-sm">
+                <option value="">전체 형태</option>
+                <option value="dry">건식</option>
+                <option value="wet">습식</option>
+                <option value="powder">분말</option>
+              </select>
+            </label>
           </div>
 
+          <section className="rounded-xl bg-[var(--point-soft)] px-3 py-3 dark:bg-[var(--point-soft)]">
+            <div className="mb-2 flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+              <h3 className="text-sm font-bold">피하고 싶은 원료</h3>
+              <Link
+                href="/ingredient-standards"
+                className="text-xs font-semibold text-[var(--point)] hover:underline"
+              >
+                원료 분류 기준 보기 →
+              </Link>
+            </div>
+
+            <label className="block">
+              <span className="sr-only">제외할 원료명 입력</span>
+              <input
+                type="search"
+                value={ingredientQuery}
+                onChange={(event) => setIngredientQuery(event.target.value)}
+                placeholder="피하고 싶은 원료 직접 입력 (예: 렌즈콩, 게, 밀)"
+                aria-label="피하고 싶은 원료 직접 입력"
+                className="w-full rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2 text-sm outline-none transition focus:border-[var(--point)]"
+              />
+            </label>
+
+            <div className="mt-2 flex flex-wrap items-center gap-1.5">
+              {exclusionOptions
+                .filter((option, index) => showAllIngredients || index < 6 || excludedGroups.includes(option.value))
+                .map((option) => {
+                  const isSelected = excludedGroups.includes(option.value);
+                  return (
+                    <button
+                      key={option.value}
+                      type="button"
+                      onClick={() => toggleExclusion(option.value)}
+                      aria-pressed={isSelected}
+                      className={`rounded-full border px-2.5 py-1.5 text-xs font-medium transition-colors ${
+                        isSelected
+                          ? "border-[var(--point)] bg-[var(--point)] text-white"
+                          : "border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] hover:border-[var(--point)]"
+                      }`}
+                    >
+                      {option.label}
+                    </button>
+                  );
+                })}
+              <button
+                type="button"
+                onClick={() => setShowAllIngredients((value) => !value)}
+                aria-expanded={showAllIngredients}
+                className="px-1 py-1.5 text-xs font-semibold text-[var(--point)] hover:underline"
+              >
+                {showAllIngredients ? "접기 ↑" : "원료 더 보기 ↓"}
+              </button>
+            </div>
+            <p className="mt-1.5 text-[11px] leading-4 text-[var(--muted-foreground)]">
+              여러 원료는 쉼표로 구분 · 선택한 원료가 표시된 제품 제외
+            </p>
+          </section>
+
+          <button type="button" onClick={() => setShowAdvanced((value) => !value)}
+            aria-expanded={showAdvanced}
+            className="flex w-full items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--background)] px-4 py-3 text-left text-sm font-bold hover:border-[var(--point)]">
+            <span>상세검색 · 영양성분 {hasNutrientFilter ? "(조건 적용 중)" : ""}</span>
+            <span>{showAdvanced ? "접기 ↑" : "펼치기 ↓"}</span>
+          </button>
+          {showAdvanced && (
+          <div className="space-y-4">
           <section className="rounded-xl border border-[var(--border)] bg-[var(--muted)]/30 p-4 sm:p-5">
             <div className="mb-4">
-              <p className="text-xs font-semibold text-[#93613F]">
-                영양성분 검색
-              </p>
-
               <h3 className="mt-1 text-lg font-bold">
-                단백질 · 지방 조건
+                영양성분 조건
               </h3>
 
               <p className="mt-1 text-xs leading-5 text-[var(--muted-foreground)]">
@@ -858,7 +750,7 @@ export default function ProductFinder({
             </div>
 
             {!selectedFoodForm ? (
-              <div className="mb-4 rounded-lg bg-[#F3E9DD] p-3 text-xs leading-5 text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]">
+              <div className="mb-4 rounded-lg bg-[var(--point-soft)] p-3 text-xs leading-5 text-[var(--point)] dark:bg-[var(--point-soft)] dark:text-[var(--foreground)]">
                 영양성분 검색을 사용하려면
                 먼저 사료 형태를
                 선택해주세요. 건식과
@@ -867,7 +759,7 @@ export default function ProductFinder({
                 비교하기 어렵습니다.
               </div>
             ) : (
-              <div className="mb-4 rounded-lg bg-[#F3E9DD] p-3 text-xs leading-5 text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]">
+              <div className="mb-4 rounded-lg bg-[var(--point-soft)] p-3 text-xs leading-5 text-[var(--point)] dark:bg-[var(--point-soft)] dark:text-[var(--foreground)]">
                 현재{" "}
                 <strong>
                   {
@@ -881,7 +773,7 @@ export default function ProductFinder({
               </div>
             )}
 
-            <div className="space-y-5">
+            <div className="grid gap-5 lg:grid-cols-2">
               <NutrientRangeField
                 label="조단백질 표시값"
                 minimum={minimumProtein}
@@ -930,26 +822,17 @@ export default function ProductFinder({
               </p>
             </div>
           </section>
+          </div>
+          )}
         </div>
       </section>
 
       <main className="min-w-0">
         <header className="mb-5 flex flex-wrap items-end justify-between gap-3 border-b border-[var(--border)] pb-4">
-          <div>
-            <p className="mb-1 text-sm font-semibold text-[#93613F]">
-              사료 탐색
-            </p>
-
-            <h2 className="text-2xl font-bold">
-              {hasActiveFilter
-                ? "조건에 맞는 사료"
-                : "사료 찾기"}
-            </h2>
-          </div>
+          <h2 className="text-2xl font-bold">검색 결과</h2>
 
           <div className="flex items-center gap-4">
-            {hasActiveFilter &&
-              !hasInvalidNutrientRange && (
+            {!hasInvalidNutrientRange && (
                 <span className="text-sm text-[var(--muted-foreground)]">
                   총{" "}
                   {
@@ -961,7 +844,7 @@ export default function ProductFinder({
 
             <Link
               href="/products"
-              className="text-sm font-semibold text-[#93613F] hover:underline"
+              className="text-sm font-semibold text-[var(--point)] hover:underline"
             >
               전체 제품 보기 →
             </Link>
@@ -978,7 +861,7 @@ export default function ProductFinder({
                   onClick={() =>
                     toggleExclusion(group)
                   }
-                  className="rounded-full bg-[#F3E9DD] px-3 py-1.5 text-sm text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]"
+                  className="rounded-full bg-[var(--point-soft)] px-3 py-1.5 text-sm text-[var(--point)] dark:bg-[var(--point-soft)] dark:text-[var(--foreground)]"
                 >
                   {
                     INGREDIENT_GROUP_NAMES[
@@ -996,7 +879,7 @@ export default function ProductFinder({
                 onClick={() =>
                   setIngredientQuery("")
                 }
-                className="rounded-full bg-[#F3E9DD] px-3 py-1.5 text-sm text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]"
+                className="rounded-full bg-[var(--point-soft)] px-3 py-1.5 text-sm text-[var(--point)] dark:bg-[var(--point-soft)] dark:text-[var(--foreground)]"
               >
                 {ingredientQuery.trim()}{" "}
                 제외 ×
@@ -1114,7 +997,7 @@ export default function ProductFinder({
         )}
 
         {comparisonSlugs.length > 0 && (
-          <section className="mb-5 rounded-xl border border-[#B9835A] bg-[#F3E9DD] p-4 dark:bg-[#392C24]">
+          <section className="mb-5 rounded-xl border border-[var(--point)] bg-[var(--point-soft)] p-4 dark:bg-[var(--point-soft)]">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
                 <p className="font-bold">
@@ -1139,7 +1022,7 @@ export default function ProductFinder({
               2 ? (
                 <Link
                   href={comparisonHref}
-                  className="rounded-lg bg-[#93613F] px-4 py-2 text-sm font-semibold !text-white"
+                  className="rounded-lg bg-[var(--point)] px-4 py-2 text-sm font-semibold !text-white"
                 >
                   선택 제품 비교
                 </Link>
@@ -1160,215 +1043,34 @@ export default function ProductFinder({
               확인해주세요.
             </p>
           </div>
-        ) : !hasActiveFilter ? (
-          <div className="flex min-h-80 items-center justify-center rounded-2xl border border-dashed border-[var(--border)] bg-[var(--muted)] p-8 text-center">
-            <div>
-              <p className="mb-2 text-xl font-bold">
-                우리 고양이의 조건을
-                선택해 보세요
-              </p>
-
-              <p className="mx-auto max-w-xl break-keep text-sm leading-6 text-[var(--muted-foreground)]">
-                피하고 싶은 원료,
-                급여 연령, 사료 형태,
-                영양성분 또는 브랜드를
-                선택하면 확인된
-                표시정보를 기준으로
-                사료를 찾아드립니다.
-              </p>
-
-              <Link
-                href="/products"
-                className="mt-5 inline-block text-sm font-semibold text-[#93613F] hover:underline"
-              >
-                등록된 전체 제품
-                둘러보기 →
-              </Link>
-            </div>
-          </div>
         ) : filteredProducts.length > 0 ? (
-          <div className="grid gap-4 xl:grid-cols-2">
-            {filteredProducts.map(
-              (product) => {
-                const isComparisonSelected =
-                  comparisonSlugs.includes(
-                    product.slug
-                  );
-
-                const comparisonLimitReached =
-                  comparisonSlugs.length >=
-                    2 &&
-                  !isComparisonSelected;
-
-                const proteinDisplay =
-                  nutrientDisplay(
-                    product
-                      .guaranteedAnalysis
-                      .protein,
-                    product.analysisBasis
-                      ?.protein
-                  );
-
-                const fatDisplay =
-                  nutrientDisplay(
-                    product
-                      .guaranteedAnalysis
-                      .fat,
-                    product.analysisBasis
-                      ?.fat
-                  );
-
-                return (
-                  <article
-                    key={product.slug}
-                    className="rounded-xl border border-[var(--border)] p-4 transition hover:border-[#B9835A] hover:shadow-sm"
-                  >
-                    <div className="flex gap-4">
-                      <Link
-                        href={`/products/${product.slug}`}
-                        className="flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-[var(--border)] bg-white"
-                      >
-                        {product.image ? (
-                          <Image
-                            src={
-                              product.image
-                            }
-                            alt={`${product.name} 제품 이미지`}
-                            width={160}
-                            height={160}
-                            className="h-full w-full object-contain p-2"
-                          />
-                        ) : (
-                          <span className="px-2 text-center text-xs text-gray-400">
-                            이미지 준비 중
-                          </span>
-                        )}
-                      </Link>
-
-                      <div className="min-w-0 flex-1">
-                        <div className="mb-1 flex flex-wrap items-start justify-between gap-2">
-                          <p className="text-sm text-[#93613F]">
-                            {product.brand}
-                          </p>
-
-                          <div className="flex flex-wrap gap-1">
-                            <span className="rounded-full bg-gray-100 px-2 py-1 text-xs dark:bg-gray-800">
-                              {
-                                foodFormNames[
-                                  product
-                                    .foodForm
-                                ]
-                              }
-                            </span>
-
-                            <span className="rounded-full bg-[#F3E9DD] px-2 py-1 text-xs text-[#79502F] dark:bg-[#392C24] dark:text-[#EADBCB]">
-                              {product.isVeterinaryDiet
-                                ? "처방식"
-                                : "일반식"}
-                            </span>
-                          </div>
-                        </div>
-
-                        <h3 className="mb-2 break-keep text-lg font-bold">
-                          <Link
-                            href={`/products/${product.slug}`}
-                            className="!text-[var(--foreground)] hover:!text-[#93613F]"
-                          >
-                            {product.name}
-                          </Link>
-                        </h3>
-
-                        {product.summary && (
-                          <p className="mb-3 break-keep text-sm leading-6 text-[var(--muted-foreground)]">
-                            {
-                              product.summary
-                            }
-                          </p>
-                        )}
-
-                        <p className="mb-1 text-sm">
-                          <span className="font-semibold text-[#93613F]">
-                            급여 연령:
-                          </span>{" "}
-                          {product.lifeStage
-                            .map(
-                              (stage) =>
-                                lifeStageNames[
-                                  stage
-                                ]
-                            )
-                            .join(", ")}
-                        </p>
-
-                        <p className="mb-2 break-keep text-sm">
-                          <span className="font-semibold text-[#93613F]">
-                            주단백질:
-                          </span>{" "}
-                          {product.mainProteins.join(
-                            ", "
-                          )}
-                        </p>
-
-                        {(proteinDisplay ||
-                          fatDisplay) && (
-                          <div className="flex flex-wrap gap-1.5">
-                            {proteinDisplay && (
-                              <span className="rounded-md bg-emerald-50 px-2 py-1 text-xs text-emerald-700 dark:bg-emerald-950 dark:text-emerald-200">
-                                조단백질{" "}
-                                {
-                                  proteinDisplay
-                                }
-                              </span>
-                            )}
-
-                            {fatDisplay && (
-                              <span className="rounded-md bg-amber-50 px-2 py-1 text-xs text-amber-700 dark:bg-amber-950 dark:text-amber-200">
-                                조지방{" "}
-                                {fatDisplay}
-                              </span>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className="mt-4 flex items-center justify-between gap-3">
-                      <Link
-                        href={`/products/${product.slug}`}
-                        className="text-sm font-semibold text-[#93613F] hover:underline"
-                      >
-                        상세정보 보기 →
-                      </Link>
-
-                      <button
-                        type="button"
-                        onClick={() =>
-                          toggleComparison(
-                            product.slug
-                          )
-                        }
-                        disabled={
-                          comparisonLimitReached
-                        }
-                        aria-pressed={
-                          isComparisonSelected
-                        }
-                        className={
-                          isComparisonSelected
-                            ? "rounded-lg border border-[#B9835A] bg-[#93613F] px-3 py-2 text-sm font-semibold text-white"
-                            : comparisonLimitReached
-                              ? "cursor-not-allowed rounded-lg border border-[var(--border)] px-3 py-2 text-sm text-gray-400"
-                              : "rounded-lg border border-[var(--border)] px-3 py-2 text-sm font-semibold hover:border-[#B9835A]"
-                        }
-                      >
-                        {isComparisonSelected
-                          ? "선택 해제"
-                          : "비교 선택"}
-                      </button>
-                    </div>
-                  </article>
-                );
-              }
+          <div className="space-y-3">
+            {visibleProducts.map((product) => {
+              const isComparisonSelected = comparisonSlugs.includes(product.slug);
+              const comparisonLimitReached = comparisonSlugs.length >= 2 && !isComparisonSelected;
+              return (
+                <article key={product.slug} className="flex flex-wrap items-center gap-3 rounded-xl border border-[var(--border)] p-3 transition hover:border-[var(--point)] sm:flex-nowrap">
+                  <Link href={`/products/${product.slug}`} className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-[var(--border)] bg-white sm:h-20 sm:w-20">
+                    {product.image ? <Image src={product.image} alt={`${product.name} 제품 이미지`} width={100} height={100} className="h-full w-full object-contain p-1" /> : <span className="text-center text-xs text-gray-400">이미지 없음</span>}
+                  </Link>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-xs text-[var(--muted-foreground)]">{product.brand} · {foodFormNames[product.foodForm]} · {product.lifeStage.map((stage) => lifeStageNames[stage]).join(", ")}{product.isVeterinaryDiet ? " · 처방식" : ""}</p>
+                    <Link href={`/products/${product.slug}`} className="mt-1 block break-keep font-bold text-[var(--foreground)] hover:text-[var(--point)]">{product.name}</Link>
+                    <p className="mt-1 line-clamp-1 text-xs text-[var(--muted-foreground)]">주단백질: {product.mainProteins.join(", ") || "정보 없음"}</p>
+                    <Link href={`/products/${product.slug}`} className="mt-1 inline-block text-xs font-semibold text-[var(--point)] hover:underline">상세정보 보기 →</Link>
+                  </div>
+                  <button type="button" onClick={() => toggleComparison(product.slug)} disabled={comparisonLimitReached} aria-pressed={isComparisonSelected}
+                    className={isComparisonSelected ? "shrink-0 rounded-lg bg-[var(--point)] px-3 py-2 text-sm font-semibold text-white" : comparisonLimitReached ? "shrink-0 cursor-not-allowed rounded-lg border border-[var(--border)] px-3 py-2 text-sm text-gray-400" : "shrink-0 rounded-lg border border-[var(--border)] px-3 py-2 text-sm font-semibold hover:border-[var(--point)]"}>
+                    {isComparisonSelected ? "선택 해제" : "비교 선택"}
+                  </button>
+                </article>
+              );
+            })}
+            {filteredProducts.length > visibleCount && (
+              <button type="button" onClick={() => setVisibleCount((count) => count + 16)}
+                className="w-full rounded-xl border border-[var(--border)] px-4 py-3 text-sm font-semibold hover:border-[var(--point)]">
+                더 보기 ({visibleProducts.length} / {filteredProducts.length}개)
+              </button>
             )}
           </div>
         ) : (
@@ -1388,7 +1090,7 @@ export default function ProductFinder({
             <button
               type="button"
               onClick={resetFilters}
-              className="mt-5 rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-semibold hover:border-[#B9835A]"
+              className="mt-5 rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-semibold hover:border-[var(--point)]"
             >
               조건 초기화
             </button>

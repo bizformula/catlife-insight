@@ -24,9 +24,7 @@ export default function FinderPage() {
         </h1>
 
         <p className="max-w-3xl break-keep leading-7 text-[var(--muted-foreground)]">
-          피하고 싶은 원료, 급여 연령, 사료 형태와 브랜드를
-          선택하고 조단백질·조지방 표시값 범위까지 설정해
-          조건에 맞는 고양이 사료를 찾아보세요.
+          원료, 급여 연령, 사료 형태, 브랜드와 영양성분을 선택해 우리 고양이에게 맞는 사료를 찾아보세요.
         </p>
       </header>
 

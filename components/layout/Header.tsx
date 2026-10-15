@@ -14,14 +14,16 @@ export default function Header() {
           className="flex items-center gap-2 !text-[var(--foreground)] transition-colors hover:!text-[var(--point)]"
         >
           <Image
-            src="/images/catlife-favicon-brown-v1.png"
+            src="/images/catlife-favicon-charcoal-v1.png"
             alt="Catlife Insight"
-            width={30}
-            height={30}
+            width={32}
+            height={32}
             priority
             className="h-[30px] w-[30px] rounded-md"
           />
-          <span className="text-[20px] font-bold">Catlife Insight</span>
+          <span className="font-bold !text-[var(--point)] transition-colors duration-200 hover:!text-[var(--foreground)]">
+  Catlife Insight
+</span>
         </Link>
 
         <HeaderNavigation categories={categories} />

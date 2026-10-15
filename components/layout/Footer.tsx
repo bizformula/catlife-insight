@@ -9,7 +9,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[var(--border)] bg-[#FFFDF9] py-10 text-center text-sm dark:bg-[var(--background)]">
+    <footer className="border-t border-[var(--border)] bg-[var(--card)] py-10 text-center text-sm dark:bg-[var(--background)]">
       <div className="flex flex-col items-center gap-3">
         <p className="font-bold text-[var(--foreground)]">Catlife Insight</p>
 

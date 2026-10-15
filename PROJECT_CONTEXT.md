@@ -1,4 +1,4 @@
-# Catlife Insight - Project Context
+﻿# Catlife Insight - Project Context
 
 최종 갱신: 2026-09-25
 
@@ -2773,3 +2773,1328 @@ O
 
 콘텐츠 수 자체보다 **검색 의도 커버리지와 사이트 기능 연결성**을 우선한다.
 
+---
+
+
+---
+
+## 35. 티스토리 일일 홍보 콘텐츠 기본 루틴
+
+2026-10-06부터 Catlife Insight의 외부 검색 유입과 사이트 홍보를 위해 티스토리 블로그 콘텐츠를 지속적으로 작성한다.
+
+사용자가 별도의 형식이나 주제를 지정하지 않고 다음과 같이 요청하면:
+
+```text
+블로그에 글 써줘
+오늘 블로그 글 써줘
+티스토리 글 써줘
+오늘 글 하나 작성해줘
+```
+
+기본적으로 **Catlife Insight 홍보 및 검색 유입을 위한 티스토리 콘텐츠 1세트**를 작성한다.
+
+### 1. 요청 해석 우선순위
+
+별도 설명이 없는:
+
+```text
+블로그에 글 써줘
+오늘 블로그 글 써줘
+오늘 글 하나 작성해줘
+```
+
+요청은 기본적으로 **티스토리 홍보용 글 작성**으로 해석한다.
+
+Catlife Insight 사이트 내부의 Markdown 원본 글을 원하는 경우에는 다음과 같이 명시한다.
+
+```text
+Catlife 블로그 글 추가해줘
+Catlife 원본 글 작성해줘
+사이트 원본 글 작성해줘
+```
+
+따라서 단순한 `블로그 글 써줘` 요청에서는 본 항목의 티스토리 콘텐츠 작성 규칙을 우선 적용한다.
+
+### 2. 하루 기본 산출물
+
+티스토리 글 1개를 작성할 때 특별한 요청이 없어도 다음을 한 세트로 제공한다.
+
+```text
+1. 티스토리 제목
+2. Primary keyword
+3. Secondary keywords
+4. Search intent
+5. 티스토리 HTML 본문
+6. Catlife Insight 연결 URL
+7. 링크용 앵커 텍스트
+8. 티스토리 태그 5~8개
+9. 썸네일 이미지 1개
+10. 본문 설명 이미지 3개
+11. 각 이미지 파일명
+12. 각 이미지 대체 텍스트(alt)
+13. 각 이미지 삽입 위치
+14. 각 이미지에 연결할 Catlife URL
+```
+
+기본 이미지 수는:
+
+```text
+썸네일 1개
++
+본문 이미지 3개
+=
+총 4개
+```
+
+로 한다.
+
+사용자가 이미지를 별도로 요청하지 않아도 티스토리 글 작성 작업에 포함된 것으로 간주한다.
+
+### 3. 티스토리 본문은 HTML로 작성
+
+티스토리 콘텐츠는 Markdown이 아니라 **티스토리 에디터의 HTML 모드에 바로 붙여넣을 수 있는 HTML 형식**으로 작성한다.
+
+기본적으로 다음 태그를 사용할 수 있다.
+
+```html
+<p>
+<h2>
+<h3>
+<strong>
+<ul>
+<li>
+<a>
+<div>
+```
+
+본문에 들어가는 Catlife Insight 링크는 상대경로가 아니라 실제 절대 URL을 사용한다.
+
+예:
+
+```text
+https://catlife.happy-insight.com/finder
+https://catlife.happy-insight.com/compare
+https://catlife.happy-insight.com/blog/...
+https://catlife.happy-insight.com/products/...
+```
+
+Catlife 홈페이지로 무조건 연결하지 않고 글의 검색 의도와 가장 관련 있는 페이지로 직접 연결한다.
+
+예:
+
+```text
+사료 추천·조건 검색
+→ https://catlife.happy-insight.com/finder
+
+제품 비교
+→ https://catlife.happy-insight.com/compare
+
+단백질 관련
+→ https://catlife.happy-insight.com/blog/cat-food-protein-guide
+
+건식·습식 관련
+→ https://catlife.happy-insight.com/blog/dry-vs-wet-cat-food
+
+특정 제품
+→ https://catlife.happy-insight.com/products/{slug}
+```
+
+### 4. 이미지 삽입 방식
+
+티스토리는 이미지 업로드 후 자체 이미지 URL을 생성하므로 HTML 본문에 존재하지 않는 이미지 `src`를 임의로 작성하지 않는다.
+
+대신 HTML 본문에 다음과 같이 이미지 삽입 위치를 표시한다.
+
+```html
+<!-- 썸네일 이미지 삽입 위치 -->
+```
+
+```html
+<!-- 본문 이미지 1 삽입 위치 -->
+```
+
+```html
+<!-- 본문 이미지 2 삽입 위치 -->
+```
+
+```html
+<!-- 본문 이미지 3 삽입 위치 -->
+```
+
+이미지를 생성한 뒤 각 이미지에 대해 다음 정보를 함께 제공한다.
+
+```text
+이미지 용도
+파일명
+대체 텍스트
+삽입 위치
+연결할 Catlife URL
+```
+
+### 5. 썸네일 이미지 원칙
+
+티스토리 썸네일은 Daum 및 블로그 목록에서 글의 주제가 바로 보이도록 만든다.
+
+기본 구성은 다음과 같다.
+
+```text
+Primary keyword를 가장 크게 표시
+핵심 메시지를 보조 문구로 표시
+고양이를 주요 시각 요소로 사용
+Catlife Insight 브랜드명은 작게 보조적으로 표시
+```
+
+Catlife Insight라는 브랜드명이 핵심 검색 키워드보다 더 크게 보이지 않게 한다.
+
+썸네일이 광고 배너처럼 보이지 않도록 하고, 검색자가 어떤 내용의 글인지 즉시 이해할 수 있게 한다.
+
+### 6. 본문 이미지 원칙
+
+본문 이미지 3개는 단순 장식용 사진보다 글 내용을 이해하는 데 도움이 되는 **설명형 이미지**를 우선한다.
+
+예:
+
+```text
+건식 vs 습식 비교
+원재료 확인 방법
+조단백질·조지방 표시 읽는 법
+급여량 확인 요소
+사료 변경 과정
+제품 선택 조건
+원료군 비교
+제품 성분표 읽는 방법
+```
+
+각 이미지는 서로 다른 내용을 설명하도록 한다.
+
+같은 디자인과 같은 내용을 반복하는 이미지를 만들지 않는다.
+
+### 7. 이미지 파일명과 대체 텍스트
+
+이미지 파일명은 가능하면 이미지 주제를 이해할 수 있는 한글 또는 영문 파일명을 사용한다.
+
+예:
+
+```text
+고양이_건식_vs_습식_사료_비교.png
+고양이_사료_원재료_확인_가이드.png
+고양이_사료_영양성분_제대로_보기.png
+```
+
+대체 텍스트는 이미지 안의 문구를 그대로 반복하기보다 이미지가 설명하는 내용을 자연스럽게 요약한다.
+
+예:
+
+```text
+고양이 건식 사료와 습식 사료의 수분 함량 차이와 비교 방법
+
+고양이 사료 원재료 목록에서 닭고기, 곡물, 유제품, 콩류를 확인하는 방법
+
+고양이 사료 조단백질과 조지방 표시값, 건물 기준 DMB 비교 방법
+```
+
+### 8. 이미지 링크 원칙
+
+티스토리 본문 이미지는 내용과 관련된 Catlife Insight 페이지로 연결할 수 있다.
+
+모든 이미지를 홈페이지 하나로 연결하지 않는다.
+
+예:
+
+```text
+건식 vs 습식 이미지
+→ https://catlife.happy-insight.com/blog/dry-vs-wet-cat-food
+
+원재료 확인 이미지
+→ https://catlife.happy-insight.com/finder
+또는 관련 원료 가이드
+
+영양성분 이미지
+→ https://catlife.happy-insight.com/blog/cat-food-protein-guide
+
+사료 검색 썸네일
+→ https://catlife.happy-insight.com/finder
+```
+
+이미지의 내용과 링크 목적지가 자연스럽게 이어져야 한다.
+
+### 9. 티스토리 태그
+
+티스토리 글마다 주제와 직접 관련된 태그를 기본적으로 5~8개 제공한다.
+
+Primary keyword와 주요 보조 키워드를 포함하되 관련성이 낮은 태그를 과도하게 넣지 않는다.
+
+예:
+
+```text
+고양이사료
+고양이사료추천
+고양이사료성분
+고양이사료고르는법
+고양이사료단백질
+고양이건식사료
+고양이습식사료
+캣라이프인사이트
+```
+
+태그 자체를 검색순위 상승의 핵심 수단으로 보지 않고 글의 주제를 명확하게 분류하는 보조 요소로 사용한다.
+
+### 10. 주제를 지정하지 않으면 자동 선정
+
+사용자가 티스토리 글의 주제를 지정하지 않으면 별도의 질문 없이 오늘 작성할 주제를 자동으로 선정한다.
+
+우선순위:
+
+```text
+1. 사용자가 제공한 Daum 연관검색어
+2. 최근 확인한 검색 연관 키워드
+3. 기존 Catlife Insight 콘텐츠와 연결할 수 있는 검색어
+4. Finder / Compare / 제품 DB 기능으로 해결할 수 있는 검색 의도
+5. 기존 티스토리 글과 중복되지 않는 주제
+```
+
+현재 확인된 주요 검색 후보 예:
+
+```text
+고양이 사료 추천
+고양이 사료 급여량
+고양이 사료 하루급여량
+고양이 사료거부
+고양이 사료 토
+로얄캐닌 고양이 사료
+고양이 사료 단백질
+고양이 습식 사료
+고양이 사료 성분표
+고양이 사료 알레르기
+```
+
+대형 키워드를 사용할 때도 단순 제품 순위형 글보다 Catlife Insight의 차별점과 연결되는 검색 의도를 우선한다.
+
+예:
+
+```text
+고양이 사료 추천
+→ 인기 순위보다 우리 고양이 조건으로 찾는 방법
+
+고양이 사료 단백질
+→ 조단백질 몇 %인지보다 표시값을 읽는 방법
+
+고양이 사료 급여량
+→ 하루 급여량을 정할 때 확인해야 할 요소
+```
+
+### 11. Daum 검색 유입을 고려한 티스토리 작성
+
+티스토리 글은 Daum 검색 유입을 주요 목표 중 하나로 고려한다.
+
+다만 검색 상위 노출만을 위해 키워드를 과도하게 반복하거나 본문과 관련 없는 이미지·태그를 넣지 않는다.
+
+기본적으로 다음을 적용한다.
+
+```text
+제목에 핵심 검색어를 자연스럽게 포함
+첫 부분에서 검색 질문에 빠르게 답변
+H2/H3에 관련 검색 질문을 자연스럽게 배치
+본문 중간에 설명 이미지 배치
+글의 검색 의도에 맞는 Catlife 링크 사용
+검색어를 억지로 반복하지 않음
+```
+
+### 12. Catlife 원본과 티스토리 글은 중복 작성하지 않는다
+
+Catlife Insight 사이트의 원본 블로그 글을 티스토리에 그대로 복사하지 않는다.
+
+역할은 다음처럼 구분한다.
+
+```text
+Catlife Insight
+→ 상세 원본 정보
+→ 제품 DB
+→ Finder
+→ Compare
+→ 장기 검색 자산
+
+Tistory
+→ 특정 검색 질문에 집중
+→ 내용을 간결하게 설명
+→ Catlife의 상세 콘텐츠 또는 기능으로 연결
+→ 외부 검색 진입점 역할
+```
+
+같은 주제를 다루더라도 제목, 문장, 구성과 검색 의도를 다르게 설계한다.
+
+Catlife 원문의 전체 본문을 그대로 복사하지 않는다.
+
+### 13. Catlife 연결 앵커 텍스트
+
+외부 링크의 앵커 텍스트는 단순히:
+
+```text
+바로가기
+사이트 방문
+Catlife Insight
+```
+
+처럼 작성하기보다 링크를 클릭했을 때 무엇을 할 수 있는지 알 수 있도록 구체적으로 작성한다.
+
+예:
+
+```text
+피하고 싶은 원료와 단백질·지방 조건으로 고양이 사료 찾기
+
+고양이 건식 사료와 습식 사료 차이 확인하기
+
+고양이 사료 단백질 표시값 읽는 방법
+
+두 고양이 사료의 원재료와 영양성분 비교하기
+```
+
+### 14. 기본 유입 흐름
+
+티스토리 콘텐츠는 다음 흐름을 목표로 한다.
+
+```text
+Daum / Google 검색
+→ Tistory 정보글
+→ Catlife 관련 블로그 또는 Finder
+→ 제품 상세
+→ Compare
+```
+
+Catlife 홈페이지 방문 자체를 목표로 하기보다 검색자가 다음 행동을 할 수 있는 구체적인 페이지로 연결한다.
+
+### 15. 질환·건강 관련 주제
+
+고양이 질환, 검사 수치, 알레르기, 구토 등 건강과 관련된 검색어는 검색 유입을 위해 과도한 치료·효과 표현을 사용하지 않는다.
+
+피해야 하는 표현:
+
+```text
+간수치를 낮추는 고양이 사료
+알레르기를 치료하는 사료
+구토를 멈추는 사료
+무조건 좋은 사료
+이 사료를 먹으면 좋아진다
+```
+
+대신 다음 방향으로 작성한다.
+
+```text
+사료에서 확인할 영양성분
+제품 선택 시 확인할 조건
+원재료 확인 방법
+수의사와 정한 조건으로 후보를 찾는 방법
+```
+
+질환의 진단·치료·처방식 선택은 담당 수의사의 판단이 우선한다.
+
+### 16. Threads와의 연계
+
+티스토리 글을 작성한 경우 같은 주제를 Threads에서도 사용할 수 있도록 짧은 파생 소재를 만들 수 있다.
+
+사용자가 별도로 요청하지 않아도 활용 가치가 높은 경우 티스토리 글의 핵심 내용에서 Threads용 짧은 소재 3~5개를 함께 제안할 수 있다.
+
+Threads 콘텐츠는 티스토리 글을 그대로 축약하지 않고 다음 구조를 우선한다.
+
+```text
+실제 경험
+→ 흥미로운 사실 또는 질문
+→ 짧은 설명
+→ Catlife 기능 또는 관련 글 연결
+```
+
+광고성 문구보다 실제 보호자가 궁금해할 만한 질문과 경험을 중심으로 작성한다.
+
+### 17. 기본 작업 완료 형태
+
+사용자가 단순히:
+
+```text
+블로그에 글 써줘
+```
+
+라고 요청하면 추가 질문 없이 가능한 한 한 번에 다음 작업을 완료한다.
+
+```text
+주제 자동 선정
+→ 제목 선정
+→ Primary / Secondary keyword 선정
+→ Search intent 정의
+→ 티스토리 HTML 본문 작성
+→ Catlife 링크 및 앵커 텍스트 삽입
+→ 태그 5~8개 제공
+→ 썸네일 이미지 1개 생성
+→ 본문 이미지 3개 생성
+→ 이미지 파일명 제공
+→ 각 이미지 alt 텍스트 제공
+→ 이미지 삽입 위치 제공
+→ 이미지별 연결 URL 제공
+```
+
+특별한 이유가 없는 한 위 작업을 여러 번의 확인 질문으로 나누지 않는다.
+
+### 18. 일일 운영 목표
+
+기본 목표는 하루에 티스토리 글 1개를 꾸준히 작성하는 것이다.
+
+콘텐츠 수를 무조건 늘리는 것보다 다음을 우선한다.
+
+```text
+검색 의도가 분명한 주제
+기존 글과 중복되지 않는 주제
+Catlife의 실제 기능과 연결되는 주제
+검색자가 Catlife에서 추가 행동을 할 수 있는 주제
+```
+
+티스토리 글이 쌓이면서 동일한 Catlife 페이지에 지나치게 같은 앵커 텍스트만 반복되지 않도록 문맥에 맞게 표현을 조금씩 다양화한다.
+
+---
+
+---
+
+## 2026-10-07 Catlife 운영 및 SEO 업데이트
+
+최종 갱신: 2026-10-07
+
+### 1. Production 및 기본 환경
+
+Production:
+
+```text
+https://catlife.happy-insight.com
+
+Catlife Insight는 고양이 사료·간식의 성분표를 쉽게 읽고 비교할 수 있도록 정보를 제공하는 콘텐츠·데이터 기반 사이트다.
+현재 운영 방향:
+콘텐츠 품질
+→ 검색 유입
+→ 제품 탐색·비교
+→ 브랜드 신뢰 형성
+→ 향후 제휴/어필리에이트 수익화
+
+AdSense는 Money Insight보다 보수적으로 운영하며, Catlife는 콘텐츠·브랜드·제휴를 우선하고 광고는 보조적으로 활용한다.
+2. Catlife 프로젝트 기본 구조
+Catlife는 Money Insight와 달리 src 폴더가 없는 Next.js App Router 구조를 사용한다.
+주요 구조:
+app/
+components/
+lib/
+generated/
+types/
+
+Root layout:
+app/layout.tsx
+
+블로그:
+app/blog/page.tsx
+
+블로그 데이터 관련:
+lib/posts.ts
+generated/posts.json
+types/post.ts
+
+GA4:
+G-VQE5R4HP9E
+
+AdSense Publisher:
+ca-pub-3781508655873635
+
+3. Root Metadata 및 네이버 소유확인
+2026-10-07 네이버 서치어드바이저 사이트 소유확인 완료.
+파일:
+app/layout.tsx
+
+Metadata에 다음 네이버 인증값 적용:
+verification: {
+  other: {
+    "naver-site-verification":
+      "befb838fb33b41a2fbe2591c81c26a148cdc97d1",
+  },
+},
+
+Production 페이지 소스에서 실제 meta tag 출력 확인:
+<meta
+  name="naver-site-verification"
+  content="befb838fb33b41a2fbe2591c81c26a148cdc97d1"
+/>
+
+네이버 서치어드바이저:
+사이트 소유확인
+완료
+
+Next.js Metadata API 방식이 정상 동작하므로 별도 HTML 파일 방식으로 변경하지 않는다.
+4. 현재 Root Metadata 주요 설정
+사이트 기본 URL:
+https://catlife.happy-insight.com
+
+기본 title:
+Catlife Insight
+
+기본 description:
+고양이 사료와 간식의 성분표를 쉽게 읽고 비교하는 곳
+
+OG 기본 이미지:
+/images/social/catlife-og-home-v2.png
+
+favicon:
+/images/catlife-favicon-512-v3.png
+
+Root Metadata 기본 구성:
+metadataBase
+title
+description
+openGraph
+twitter
+icons
+verification
+
+Root layout에는 Google Analytics 및 AdSense 글로벌 스크립트가 포함되어 있다.
+5. Catlife AdSense 운영 전략
+Catlife와 Money Insight는 광고 운영 전략을 구분한다.
+Money Insight:
+AdSense 적극 활용
+Auto Ads + 수동 In-page 광고 병행
+
+Catlife Insight:
+콘텐츠·브랜드·제휴 중심
+AdSense는 보조적으로 활용
+
+현재 Root layout의 AdSense 글로벌 스크립트는 유지한다.
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3781508655873635"
+  data-overlays="collapsed-bottom"
+  crossOrigin="anonymous"
+/>
+
+Publisher:
+ca-pub-3781508655873635
+
+2026-10-07 기준 happy-insight.com AdSense Auto Ads 페이지 제외 대상:
+catlife.happy-insight.com
+dream.happy-insight.com
+info.happy-insight.com
+life.happy-insight.com
+tech.happy-insight.com
+
+따라서 현재 Catlife는 Money Insight처럼 적극적인 Auto Ads 대상이 아니다.
+향후 기본 방향:
+브랜드 및 콘텐츠 경험 유지
+→ 제품 비교/검색 기능 강화
+→ 제휴 링크 및 어필리에이트 검토
+→ 필요한 위치에만 제한적 AdSense 적용
+
+Catlife에도 필요 시 광고를 일부 확대할 수 있으나, Money Insight와 동일한 수준으로 광고 밀도를 높이지 않는 방향을 기본 원칙으로 한다.
+Vignette 전면광고는 현재 Catlife의 기본 운영 전략으로 사용하지 않는다.
+6. 네이버 서치어드바이저 등록 현황
+2026-10-07 네이버 검색 등록 작업 수행.
+Production:
+https://catlife.happy-insight.com
+
+현재 완료 상태:
+사이트 소유확인
+완료
+
+robots.txt
+확인 완료
+
+sitemap.xml
+정상 접근 확인
+
+sitemap.xml
+네이버 제출 완료
+
+주요 페이지 웹페이지 수집 요청
+10개 완료
+
+rss.xml
+생성 및 Production 배포 완료
+
+RSS
+네이버 제출 완료
+
+7. robots.txt 확인
+Production:
+https://catlife.happy-insight.com/robots.txt
+
+브라우저에서 정상 접근 확인 완료.
+robots.txt는 검색로봇의 사이트 접근 허용 및 sitemap 위치 안내 용도로 사용한다.
+향후 robots 관련 변경 시 다음 검색로봇의 접근을 불필요하게 차단하지 않도록 주의한다.
+Googlebot
+Yeti / Naver
+일반 User-agent
+
+8. sitemap.xml 확인 및 제출
+Production:
+https://catlife.happy-insight.com/sitemap.xml
+
+2026-10-07 정상 접근 확인 완료.
+네이버 서치어드바이저에 sitemap 제출 완료.
+검색엔진 등록 운영 원칙:
+전체 URL
+→ sitemap.xml
+
+최신 콘텐츠
+→ RSS
+
+중요 페이지
+→ 네이버 수동 웹페이지 수집 요청
+
+전체 페이지를 반복적으로 수동 요청하지 않는다.
+9. 네이버 주요 URL 10개 수집 요청
+2026-10-07 네이버 서치어드바이저에서 주요 URL 10개 웹페이지 수집 요청 완료.
+기본 우선순위:
+홈
+→ 제품 목록
+→ 비교 페이지
+→ 핵심 블로그/가이드
+→ 대표 제품 상세
+
+수동 수집 요청은 sitemap과 RSS를 보조하는 용도로 사용한다.
+모든 제품 URL을 수동 요청하지 않는다.
+제품 상세 페이지가 다수 존재하므로 다음 구조를 통해 검색로봇이 자연스럽게 발견하도록 한다.
+/products
++
+sitemap.xml
++
+내부링크
+
+10. Catlife RSS 신규 구축
+2026-10-07 Catlife RSS 신규 구축 완료.
+Production RSS:
+https://catlife.happy-insight.com/rss.xml
+
+파일:
+app/rss.xml/route.ts
+
+Catlife는 src 폴더가 없으므로 다음 경로를 사용한다.
+app/
+└─ rss.xml/
+   └─ route.ts
+
+RSS 대상은 블로그 게시글이다.
+기존 블로그 데이터 구조:
+generated/posts.json
+→ lib/posts.ts
+→ getAllPosts()
+→ 블로그 화면 및 RSS
+
+RSS 역시 기존 getAllPosts()를 사용한다.
+11. lib/posts.ts 구조
+블로그 데이터 관리 파일:
+lib/posts.ts
+
+주요 함수:
+getPostSlugs()
+getPostBySlug()
+getAllPosts()
+getCategories()
+getPostsByCategory()
+getPopularPosts()
+
+getAllPosts()는 게시글을 날짜 기준 최신순으로 정렬하여 반환한다.
+따라서 RSS에서 별도의 게시글 목록을 수동 관리하지 않는다.
+RSS는 기존 블로그 데이터 소스를 그대로 재사용한다.
+12. Catlife RSS 기본 구성
+RSS 형식:
+RSS 2.0
+
+Production:
+https://catlife.happy-insight.com/rss.xml
+
+Content-Type:
+application/rss+xml; charset=utf-8
+
+Feed title:
+Catlife Insight
+
+최대 게시글:
+최신 30개
+
+각 RSS item 기본 구성:
+title
+link
+guid
+description
+pubDate
+
+게시글 URL:
+https://catlife.happy-insight.com/blog/{slug}
+
+게시글 description은 가능한 경우 다음 순서로 사용한다.
+description
+→ excerpt
+→ 기본 설명
+
+RSS 응답 cache:
+s-maxage=3600
+stale-while-revalidate=86400
+
+2026-10-07 완료:
+app/rss.xml/route.ts 생성
+
+Production 배포
+
+https://catlife.happy-insight.com/rss.xml
+정상 출력 확인
+
+네이버 서치어드바이저 RSS 제출
+완료
+
+13. 블로그 페이지 구조
+블로그 페이지:
+app/blog/page.tsx
+
+블로그 데이터:
+lib/posts.ts
+
+블로그 목록은:
+getAllPosts()
+
+를 사용한다.
+페이지당 게시글 수:
+6개
+
+Pagination:
+/blog
+/blog?page=2
+/blog?page=3
+...
+
+Canonical:
+/blog
+/blog?page={page}
+
+현재 블로그 pagination 구조와 canonical 설정은 유지한다.
+14. Catlife 검색엔진 발견 구조
+2026-10-07 이후 Catlife 검색엔진 발견 구조:
+robots.txt
+        ↓
+sitemap.xml
+        ↓
+전체 페이지 발견
+
+RSS
+        ↓
+최신 블로그 글 발견
+
+내부링크
+        ↓
+제품/콘텐츠 연결
+
+네이버 URL 수집 요청
+        ↓
+중요 페이지 초기 수집 보조
+
+검색 유입 목표 구조:
+Google / Naver 검색
+        ↓
+블로그 / 가이드
+        ↓
+제품 상세
+        ↓
+제품 목록 / 비교
+        ↓
+사용자의 제품 판단
+
+15. 네이버 검색 등록 최종 상태
+2026-10-07 기준:
+네이버 서치어드바이저 사이트 등록
+완료
+
+naver-site-verification
+완료
+
+robots.txt
+확인 완료
+
+sitemap.xml
+확인 및 제출 완료
+
+주요 URL 10개 수집 요청
+완료
+
+rss.xml
+신규 생성 완료
+
+rss.xml Production 확인
+완료
+
+네이버 RSS 제출
+완료
+
+현재는 추가 제출보다 네이버의 수집 및 색인 반영을 기다리는 단계다.
+향후 확인:
+네이버 서치어드바이저
+→ 수집 현황
+→ 색인 현황
+→ 수집 제외 URL
+→ 사이트 진단
+→ 실제 네이버 검색 노출
+
+16. 향후 Catlife SEO 운영 원칙
+신규 블로그 글 추가 시 확인 항목:
+title
+description
+canonical
+Open Graph
+내부링크
+sitemap 포함
+RSS 포함
+Production 정상 접근
+
+신규 글 발행 시 RSS 파일을 직접 수정하지 않는다.
+게시글이 기존 데이터 흐름에 정상 포함되면 RSS에도 자동 포함되도록 현재 구조를 유지한다.
+generated/posts.json
+→ lib/posts.ts
+→ getAllPosts()
+→ RSS 자동 반영
+
+신규 제품 추가 시에도 모든 제품을 네이버에 수동 제출하지 않는다.
+기본 흐름:
+제품 데이터 등록
+→ 제품 목록 노출
+→ sitemap 포함
+→ 내부링크 연결
+→ 검색엔진 자동 발견
+
+17. Catlife 향후 우선순위
+2026-10-07 이후 우선순위:
+1. 네이버 수집·색인 상태 확인
+
+2. Google Search Console 및 네이버 실제 검색 유입 확인
+
+3. 핵심 블로그 title / description / canonical 점검
+
+4. 블로그 → 관련 제품 내부링크 강화
+
+5. 제품 상세 → 관련 가이드 내부링크 강화
+
+6. 제품 비교 기능 강화
+
+7. 콘텐츠 지속 확대
+
+8. 제휴/어필리에이트 수익화 구조 검토
+
+9. 사용자 경험을 해치지 않는 범위에서 AdSense 보조 적용
+
+Catlife의 장기 콘텐츠 방향:
+검색용 얇은 콘텐츠 대량 생산
+지양
+
+실제 고양이 보호자가
+사료와 간식의 성분을 이해하고
+제품을 비교하는 데 도움이 되는 콘텐츠
+우선
+
+18. 2026-10-07 작업 요약
+오늘 Catlife 작업:
+네이버 서치어드바이저 사이트 등록
+→ 소유확인 meta 적용
+→ Production 배포
+→ 페이지 소스에서 verification 확인
+→ 네이버 소유확인 성공
+
+robots.txt
+→ 정상 확인
+
+sitemap.xml
+→ 정상 확인
+→ 네이버 제출 완료
+
+주요 URL
+→ 10개 수집 요청 완료
+
+RSS
+→ app/rss.xml/route.ts 신규 생성
+→ getAllPosts() 연계
+→ Production 배포
+→ /rss.xml 정상 출력 확인
+→ 네이버 RSS 제출 완료
+
+AdSense
+→ Catlife를 Auto Ads 페이지 제외 대상으로 유지
+→ 콘텐츠/브랜드/제휴 우선 전략 유지
+
+19. 다음 세션 연결 시 반드시 기억할 사항
+Catlife는 src 폴더가 없는 구조
+
+Root layout:
+app/layout.tsx
+
+블로그:
+app/blog/page.tsx
+
+게시글 데이터:
+lib/posts.ts
+generated/posts.json
+
+RSS:
+app/rss.xml/route.ts
+
+RSS 데이터 소스:
+getAllPosts()
+
+Production:
+https://catlife.happy-insight.com
+
+RSS:
+https://catlife.happy-insight.com/rss.xml
+
+Naver 소유확인:
+완료
+
+robots.txt:
+확인 완료
+
+sitemap.xml:
+네이버 제출 완료
+
+주요 URL 10개:
+수집 요청 완료
+
+RSS:
+네이버 제출 완료
+
+광고 전략:
+Money Insight보다 보수적
+콘텐츠·브랜드·제휴 우선
+AdSense는 보조적으로 활용
+
+
+그리고 Catlife 기존 `PROJECT_CONTEXT.md` 상단에 날짜가 있다면:
+
+```markdown
+최종 갱신: 2026-10-07
+
+# Catlife Insight — PROJECT_CONTEXT.md 업데이트
+
+**업데이트 기준일:** 2026-10-08  
+**프로젝트:** Catlife Insight  
+**운영 URL:** https://catlife.happy-insight.com  
+**기술 스택:** Next.js, TypeScript, Tailwind CSS, Cloudflare Workers  
+**현재 상태:** 디자인 개선 및 구매처 안내 기능 반영 후 운영 배포 완료, 사용자 확인 완료
+
+---
+
+## 1. 프로젝트 운영 현황
+
+Catlife Insight는 고양이 사료와 간식의 원재료, 영양성분, 제조사 공개정보를 검색하고 비교할 수 있도록 제공하는 정보형 웹사이트임.
+
+주요 기능:
+
+- 원료 및 영양성분 조건에 따른 제품 검색
+- 급여 연령, 사료 형태, 브랜드별 필터
+- 피하고 싶은 원료의 개별 입력 및 분류별 제외
+- 제품 2개 비교
+- 제품 상세정보 및 제조사 공개정보 확인
+- 네이버쇼핑 구매처 검색 연결
+- 고양이 사료·건강·생활 관련 블로그
+- 반응형 PC·모바일 화면
+- 라이트·다크모드
+- 브라운·블루 2종 계절별 테마
+
+2026-10-08 기준 주요 기능과 디자인 변경 사항에 대한 운영 배포 및 사용자 확인 완료.
+
+## 2. 디자인 및 계절별 테마
+
+### 2.1 두 가지 테마 운영
+
+계절별 홈페이지 테마는 다음 두 종류로 고정.
+
+| 구분 | Brown | Blue |
+|---|---|---|
+| 운영 계절 | 가을·겨울 | 봄·여름 |
+| 기본 강조색 | `#93613F` | `#2563EB` |
+| 기본 배경 | `#F7F2EB` | `#F8FAFF` |
+| 강조 배경 | `#F3E9DD` | `#EFF6FF` |
+| 제목·본문 | 검정색 중심 | 검정색 중심 |
+
+- 계절별 색상은 `app/globals.css`의 CSS 변수로 관리.
+- `app/layout.tsx`의 `data-season="brown"` 또는 `"blue"` 설정으로 전환.
+- 제목, 제품명, 블로그 제목, 일반 본문은 계절에 관계없이 검정색 중심 유지.
+- 계절별 강조색은 버튼, 링크, 선택 상태, 호버 등에 제한적으로 적용.
+- 제품 사진과 블로그 썸네일에는 계절별 색상 필터를 적용하지 않음.
+- 기존 다크모드 기능은 별도로 유지.
+
+### 2.2 파비콘 및 브랜드 로고
+
+공식 파비콘은 차콜 블랙 고양이 아이콘으로 고정.
+
+파일:
+
+`public/images/catlife-favicon-charcoal-v1.png`
+
+`app/layout.tsx`의 `metadata.icons`에서 동일 이미지 사용.
+
+- `icon`, `shortcut`, `apple` 모두 동일 파비콘 경로 사용.
+- 브라운·블루 테마를 전환하더라도 파비콘은 변경하지 않음.
+- 헤더에서도 동일한 고양이 아이콘 사용.
+- 헤더의 `Catlife Insight` 글자는 기본적으로 계절별 강조색 적용.
+- 마우스 호버 시 글자색은 `var(--foreground)`로 변경.
+- 향후 Happy Insight 통합 운영에 대비해 사이트별 브랜드 식별성을 유지.
+
+### 2.3 홈페이지 디자인
+
+홈페이지는 다음 4개 영역으로 구성.
+
+1. 폴라의 경험에서 시작했습니다 — 브랜드 스토리 및 대표 이미지
+2. 원하는 조건으로 제품 탐색 — Finder·Compare 이동
+3. 등록 사료 미리보기 — 대표 제품 카드
+4. 새로운 읽을거리 — 최신 블로그 게시글 카드
+
+디자인 원칙:
+
+- 각 주요 섹션에 둥근 테두리 적용.
+- 큰 섹션 간 세로 간격 24px로 통일.
+- 이미지 원본 색상 유지.
+- 주요 제목은 검정색.
+- 불필요한 중복 버튼 및 안내 문구 최소화.
+
+## 3. 블로그 개선
+
+관련 파일:
+
+- `app/blog/page.tsx`
+- `components/blog/PostCard.tsx`
+- `components/layout/Sidebar.tsx`
+- `app/blog/[slug]/page.tsx`
+- `app/category/[name]/page.tsx`
+
+주요 변경:
+
+- 블로그 목록의 게시글 제목 검정색 적용.
+- 긴 게시글 제목의 가독성을 고려해 목록 제목 크기 축소.
+- 제목 호버 시 계절별 강조색 적용.
+- 추천 글과 카테고리 링크는 기본 검정색 중심.
+- Sidebar의 버튼 및 링크에 공통 테마 변수 적용.
+- 기존 블로그 메타데이터, 카테고리 구조, SEO 관련 기능 유지.
+
+**주의:** 카테고리 동적 경로는 `app/category/[slug]/page.tsx`가 아니라 `app/category/[name]/page.tsx`임.
+
+## 4. 사료 찾기(Finder) 기능 개선
+
+주요 파일:
+
+`components/finder/ProductFinder.tsx`
+
+### 4.1 검색 필터 화면 구성
+
+검색 화면은 상단에 전체 필터를 배치하고, 하단에 검색 결과를 표시하는 구조.
+
+필터 순서:
+
+1. 기본 조건
+   - 급여 연령
+   - 사료 형태
+   - 브랜드
+2. 피하고 싶은 원료
+   - 개별 원료 직접 입력
+   - 원료 분류별 제외 버튼
+3. 영양성분 조건
+   - 조단백질 표시값
+   - 조지방 표시값
+
+기존의 `조건 선택 / 사료 필터` 중복 제목 제거.
+
+상단 제목은 **사료 필터** 하나로 통일.
+
+직접 입력과 원료 분류 선택을 한 영역으로 통합하되, 기존 검색 판정 로직은 유지.
+
+### 4.2 제외 원료 검색
+
+- 직접 입력한 개별 원료명에 대한 검색 지원.
+- 쉼표를 이용한 다중 원료 입력 지원.
+- 원료 사전의 유사 명칭·별칭 활용.
+- 원료 분류 버튼을 이용한 제외 조건 지원.
+- 동일 원료의 직접 입력과 분류 선택 조합 동작 확인.
+- 서로 다른 원료를 직접 입력하고 분류 버튼으로 추가 선택하는 조합 동작 확인.
+
+### 4.3 영양성분 검색
+
+- 조단백질·조지방의 최소값 및 최대값 설정.
+- 사료 형태를 먼저 선택하도록 하는 기존 검색 정책 유지.
+- 최소값이 최대값보다 큰 경우 오류 표시.
+- 수치 입력창의 위·아래 화살표 증감 단위는 기본 1%로 변경.
+- 소수 입력이 필요한 경우 직접 입력은 허용하는 방향.
+- 영양성분의 이상·이하·대표값 관련 안내문 유지.
+
+### 4.4 검색 결과 화면
+
+하단 제목은 **검색 결과**로 고정.
+
+기존의 `사료 탐색` 보조 제목 제거.
+
+검색 전 안내:
+
+- 제목: `검색 조건을 선택해 주세요`
+- 설명: `위쪽의 필터에서 원하는 조건을 선택하면 이곳에 해당 제품이 표시됩니다.`
+
+검색 전 안내 박스 높이를 기존보다 축소하여 시각적 부담 완화.
+
+`전체 제품 보기` 링크는 결과 영역 상단에 한 번만 표시.
+
+검색 결과 카드에는 다음 기능 유지:
+
+- 제품 이미지와 제품명
+- 급여 연령 및 주단백질
+- 영양성분 표시
+- 상세정보 보기
+- 구매처 보기
+- 비교 선택
+
+## 5. 제품 비교 기능
+
+관련 파일:
+
+- `app/compare/page.tsx`
+- `components/compare/ProductComparison.tsx`
+
+변경 사항:
+
+- 비교표의 제조사명·제품명·항목명·데이터를 검정색 중심으로 통일.
+- 표의 밝은 배경과 연한 테두리 유지.
+- 제품 2개 선택 및 비교 기능 유지.
+- 브라운·블루 테마와 다크모드 대응 유지.
+
+## 6. 구매처 안내 기능
+
+### 6.1 도입 목적
+
+사료 검색 및 제품 비교 이후 사용자가 해당 제품의 구매 가능한 판매처를 찾아갈 수 있도록 연결.
+
+현재 단계에서는 제휴마케팅 없이 일반 구매처 정보를 제공하는 방식으로 운영.
+
+### 6.2 주요 기능
+
+- Finder 제품 카드에 `구매처 보기` 링크 추가.
+- 제품 상세페이지에 `구매처 안내` 영역 신설.
+- 확인된 개별 판매처를 등록할 수 있도록 제품 데이터 구조 확장.
+- 구매처가 별도로 등록되지 않은 제품에는 쇼핑몰 검색 링크 제공.
+- 제조사 정보 출처와 판매처 링크는 별도 관리.
+
+### 6.3 쇼핑몰 검색 운영 정책
+
+**현재 기본 검색 경로는 네이버쇼핑만 사용.**
+
+- 네이버쇼핑 검색 링크 정상 동작 확인.
+- 쿠팡 검색 링크는 페이지 접근 권한 오류로 인해 제외.
+- 링크 표기는 실제 판매가 확정된 것처럼 표현하지 않고 `네이버쇼핑에서 제품 검색` 등으로 안내.
+- 가격·재고·배송 여부는 해당 쇼핑몰에서 확인하도록 안내.
+- 추후 검증된 공식몰 또는 판매처별 상품 링크를 추가할 수 있도록 구조 유지.
+
+### 6.4 관련 파일
+
+- `types/product.ts`
+- `lib/purchase-links.ts` — 신규 구매처 링크 처리 파일
+- `lib/products.ts`
+- `components/finder/ProductFinder.tsx`
+- `app/products/[slug]/page.tsx`
+
+제품 데이터는 `lib/products.ts`에서 `generated/products.json`을 읽는 구조임.
+
+제품별 구매처를 정식으로 관리하려면 향후 원본 제품 데이터 및 JSON 생성 과정과 연계할 필요가 있음.
+
+### 6.5 제품 정보 출처
+
+기존의 `정보 출처 확인` 버튼은 구매 링크와 혼동될 수 있으므로 `제품 정보 원문 보기` 등 보다 명확한 명칭으로 변경.
+
+`sourceUrl`은 제품 공개정보의 출처를 의미하며, 실제 구매처와 혼용하지 않음.
+
+## 7. SEO 및 광고 관련 유지 사항
+
+이번 UI 수정에서는 기존 검색엔진·광고 관련 설정을 유지하는 것을 원칙으로 함.
+
+주요 설정:
+
+- Google Analytics: 기존 GA4 측정 코드 유지
+- Google AdSense: 기존 광고 스크립트 유지
+- Google Search Console 및 네이버 서치어드바이저 관련 사이트 확인 설정 유지
+- 페이지별 메타데이터 및 canonical 유지
+- 블로그 상세페이지의 구조화 데이터 유지
+- 카테고리 페이지의 기존 영구 리디렉션 로직 유지
+
+**운영 배포 성공과 별개로**, 검색 색인 상태 및 광고 노출 성과는 각 관리 도구에서 주기적으로 확인 필요.
+
+## 8. 개발 및 배포 절차
+
+### 로컬 개발
+
+```bash
+npm run dev
+```
+
+### 최종 빌드
+
+```bash
+npm run build:vinext
+```
+
+### Cloudflare Workers 수동 배포
+
+```bash
+npx wrangler deploy --config dist/server/wrangler.json
+```
+
+GitHub 자동 배포가 설정된 경우 중복 배포 여부를 확인할 것.
+
+주요 화면과 기능은 로컬에서 확인한 후 운영 배포하는 것을 원칙으로 함.
+
+2026-10-08 기준 최종 운영 배포 및 사용자 확인 완료.
+
+## 9. 코드 수정 및 파일 제공 원칙
+
+향후 코드 수정 시 다음 규칙을 적용.
+
+- 부분 코드보다 전체 교체 가능한 TSX/CSS 파일 제공 선호.
+- 실제 로컬 최신 파일을 기준으로 수정.
+- 기존 검색·필터·비교 로직의 불필요한 변경 금지.
+- 브라운·블루 테마 변수를 유지.
+- 페이지별 하드코딩된 색상을 가급적 추가하지 않음.
+- 광고, SEO, Analytics 관련 기존 코드는 특별한 요청 없이 변경하지 않음.
+- 수정 후 로컬 기능 테스트와 빌드 검증을 구분하여 보고.
+- 배포 전에는 파일 경로 및 변경 범위 확인.
+
+## 10. 향후 작업 과제
+
+### 우선순위 1 — 운영 안정화
+
+- Google Search Console 색인 및 사이트맵 상태 확인
+- 네이버 서치어드바이저 등록·수집 상태 점검
+- Google Analytics 유입 및 사용자 행동 확인
+- AdSense 광고 표시 및 정책 관련 상태 점검
+- Finder 모바일 사용성 및 검색 결과 확인
+
+### 우선순위 2 — 제품 정보 확대
+
+- 신규 사료 및 간식 제품 등록
+- 원료 및 영양성분 정보 최신화
+- 제품별 공식 판매처 데이터 확보
+- 구매처 링크의 유효성 점검
+- 제품 데이터 생성 과정과 구매처 데이터 연결
+
+### 우선순위 3 — 콘텐츠 및 브랜드 운영
+
+- 사료 비교·성분 분석 블로그 콘텐츠 확대
+- 기존 글의 내부 링크와 관련 글 연결 개선
+- 계절별 브라운·블루 테마 운영
+- 차콜 블랙 파비콘 고정 유지
+- 향후 Happy Insight 통합 브랜드 운영 구조 검토
+
+---
+
+## 11. 현재 확정 사항 요약
+
+- **운영 상태:** Cloudflare Workers 배포 완료
+- **기본 테마:** Brown
+- **대체 테마:** Blue
+- **공식 파비콘:** Charcoal Black
+- **블로그 제목:** 검정색 및 축소된 글씨
+- **홈페이지 섹션 간격:** 24px
+- **Finder:** 기본 조건 → 제외 원료 → 영양성분 → 검색 결과
+- **제품 비교:** 검정색 중심 비교표
+- **구매처 안내:** 네이버쇼핑 검색 연결
+- **쿠팡:** 검색 링크 제외
+- **제휴마케팅:** 현재 미적용
+- **개발 원칙:** 기능 유지, 전체 파일 교체, CSS 변수 기반 테마 관리
+
+**다음 작업 시작점:** 운영 SEO·색인 상태 및 광고 운영 안정화 점검.

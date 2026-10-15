@@ -43,12 +43,12 @@ export default function Home() {
         }}
       />
 
-      <div className="space-y-10">
+      <div className="space-y-6">
         {/* 01. 폴라 스토리: 브랜드 소개와 대표 이미지만 배치 */}
-        <section className="overflow-hidden rounded-2xl border border-[#EADBCB] bg-[#F7F2EB] shadow-sm dark:border-[var(--border)] dark:bg-[#241F1B]">
+        <section className="overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--background)] shadow-sm dark:border-[var(--border)] dark:bg-[var(--card)]">
           <div className="grid lg:min-h-[390px] lg:grid-cols-2">
             <div className="flex flex-col justify-center px-6 py-9 sm:px-9 lg:px-10 lg:py-12">
-              <p className="mb-3 text-xs font-semibold tracking-wide text-[#93613F] dark:text-[#D3A886]">
+              <p className="mb-3 text-xs font-semibold tracking-wide text-[var(--point)] dark:text-[var(--point)]">
                 CATLIFE INSIGHT · OUR STORY
               </p>
               <h1 className="mb-5 break-keep text-[28px] font-bold leading-tight tracking-[-0.035em] sm:text-[34px] lg:text-[32px] xl:text-[36px]">
@@ -60,12 +60,12 @@ export default function Home() {
               </p>
               <Link
                 href="/about"
-                className="mt-5 inline-flex w-fit text-sm font-semibold text-[#93613F] hover:underline dark:text-[#D3A886]"
+                className="mt-5 inline-flex w-fit text-sm font-semibold text-[var(--point)] hover:underline dark:text-[var(--point)]"
               >
                 폴라와 Catlife의 이야기 →
               </Link>
             </div>
-            <div className="relative min-h-[255px] overflow-hidden bg-[#F7F2EB] sm:min-h-[340px] lg:min-h-[390px]">
+            <div className="relative min-h-[255px] overflow-hidden bg-[var(--background)] sm:min-h-[340px] lg:min-h-[390px]">
               <Image
                 src="/images/home/pola-food-finder-hero-v2.webp"
                 alt="폴라와 함께 사료 정보를 살펴보는 Catlife Insight 소개 이미지"
@@ -93,13 +93,13 @@ export default function Home() {
             <div className="flex shrink-0 flex-wrap gap-3">
               <Link
                 href="/finder"
-                className="inline-flex min-w-[124px] items-center justify-center rounded-xl bg-[#93613F] px-5 py-3.5 text-sm font-bold !text-white shadow-[0_8px_22px_rgba(185,131,90,0.20)] transition hover:bg-[#805136] sm:text-base"
+                className="inline-flex min-w-[124px] items-center justify-center rounded-xl bg-[var(--point)] px-5 py-3.5 text-sm font-bold !text-white shadow-[0_8px_22px_rgba(185,131,90,0.20)] transition hover:bg-[var(--point-hover)] sm:text-base"
               >
                 사료 찾기
               </Link>
               <Link
                 href="/compare"
-                className="inline-flex min-w-[124px] items-center justify-center rounded-xl border border-[#D9B08C] bg-[#FFFDF9] px-5 py-3.5 text-sm font-bold !text-[#111111] shadow-sm transition hover:border-[#B9835A] hover:!text-[#93613F] sm:text-base dark:border-gray-600 dark:bg-[#241F1B] dark:!text-white"
+                className="inline-flex min-w-[124px] items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--card)] px-5 py-3.5 text-sm font-bold !text-[#111111] shadow-sm transition hover:border-[var(--point)] hover:!text-[var(--point)] sm:text-base dark:border-gray-600 dark:bg-[var(--card)] dark:!text-white"
               >
                 제품 비교
               </Link>
@@ -122,7 +122,7 @@ export default function Home() {
 
             <Link
               href="/products"
-              className="shrink-0 text-xs font-semibold text-[#93613F] sm:text-sm"
+              className="shrink-0 text-xs font-semibold text-[var(--point)] sm:text-sm"
             >
               등록된 {products.length}개 제품 보기 →
             </Link>
@@ -133,7 +133,7 @@ export default function Home() {
               <Link
                 key={product.slug}
                 href={`/products/${product.slug}`}
-                className="group rounded-xl border border-[var(--border)] bg-[var(--card)] p-3.5 !text-[var(--foreground)] transition hover:-translate-y-0.5 hover:border-[#B9835A] hover:shadow-sm"
+                className="group rounded-xl border border-[var(--border)] bg-[var(--card)] p-3.5 !text-[var(--foreground)] transition hover:-translate-y-0.5 hover:border-[var(--point)] hover:shadow-sm"
               >
                 <div className="flex items-center gap-3">
                   <div className="flex h-[82px] w-[72px] shrink-0 items-center justify-center overflow-hidden rounded-lg bg-white">
@@ -153,20 +153,20 @@ export default function Home() {
                   </div>
 
                   <div className="min-w-0 flex-1">
-                    <p className="mb-1 text-xs font-semibold text-[#93613F]">
+                    <p className="mb-1 text-xs font-semibold text-[var(--point)]">
                       {product.brand}
                     </p>
 
-                    <h3 className="line-clamp-2 break-keep text-[15px] font-bold leading-[1.5] group-hover:text-[#93613F] lg:text-sm xl:text-[15px]">
+                    <h3 className="line-clamp-2 break-keep text-[15px] font-bold leading-[1.5] group-hover:text-[var(--point)] lg:text-sm xl:text-[15px]">
                       {product.name}
                     </h3>
 
                     <div className="mt-1.5 flex flex-wrap gap-1">
-                      <span className="rounded-full bg-[#F4ECE2] px-2 py-0.5 text-[11px] dark:bg-[#382C25]">
+                      <span className="rounded-full bg-[var(--point-soft)] px-2 py-0.5 text-[11px] dark:bg-[var(--point-soft)]">
                         {product.productType === "food" ? "사료" : "간식"}
                       </span>
 
-                      <span className="rounded-full bg-[#F4ECE2] px-2 py-0.5 text-[11px] dark:bg-[#382C25]">
+                      <span className="rounded-full bg-[var(--point-soft)] px-2 py-0.5 text-[11px] dark:bg-[var(--point-soft)]">
                         {product.foodForm === "dry"
                           ? "건식"
                           : product.foodForm === "wet"
@@ -187,7 +187,7 @@ export default function Home() {
             <h2 className="text-xl font-bold sm:text-2xl">새로운 읽을거리</h2>
             <Link
               href="/blog"
-              className="shrink-0 text-xs font-semibold text-[#93613F] sm:text-sm"
+              className="shrink-0 text-xs font-semibold text-[var(--point)] sm:text-sm"
             >
               전체 글 보기 →
             </Link>
@@ -198,9 +198,9 @@ export default function Home() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group block overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--card)] !text-[var(--foreground)] transition hover:-translate-y-0.5 hover:border-[#B9835A] hover:shadow-sm"
+                className="group block overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--card)] !text-[var(--foreground)] transition hover:-translate-y-0.5 hover:border-[var(--point)] hover:shadow-sm"
               >
-                <div className="relative aspect-[16/9] w-full overflow-hidden bg-[#FFFDF9] dark:bg-[#241F1B]">
+                <div className="relative aspect-[16/9] w-full overflow-hidden bg-[var(--card)] dark:bg-[var(--card)]">
                   {post.thumbnail ? (
                     <Image
                       src={post.thumbnail}
@@ -216,7 +216,7 @@ export default function Home() {
                   )}
                 </div>
                 <div className="flex min-h-[88px] items-center px-4 py-4 sm:min-h-[92px] sm:px-5">
-                  <h3 className="line-clamp-2 break-keep text-[17px] font-bold leading-[1.55] tracking-[-0.015em] group-hover:text-[#93613F] sm:text-[17px] lg:text-[16px] xl:text-[17px]">
+                  <h3 className="line-clamp-2 break-keep text-[17px] font-bold leading-[1.55] tracking-[-0.015em] group-hover:text-[var(--point)] sm:text-[17px] lg:text-[16px] xl:text-[17px]">
                     {post.title}
                   </h3>
                 </div>
