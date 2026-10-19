@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "연어를 첫 원료로 사용하고 닭고기분, 현미, 귀리와 완두 단백질을 포함한 성묘용 건식 완전사료입니다.",
   "image": "/images/products/nutro-wholesome-essentials-adult-salmon-brown-rice.png",
+  "productType": "food",
   "foodForm": "dry",
   "lifeStage": [
     "adult"

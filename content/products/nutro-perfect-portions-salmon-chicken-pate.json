@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "연어와 닭고기를 사용한 성묘용 그레인프리 파테 타입 습식 완전사료입니다.",
   "image": "/images/products/nutro-perfect-portions-salmon-chicken-pate.png",
+  "productType": "food",
   "foodForm": "wet",
   "lifeStage": [
     "adult"

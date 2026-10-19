@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "닭고기를 첫 원료로 사용하고 DHA와 칼슘을 표시한 자묘용 건식 완전사료입니다.",
   "image": "/images/products/nutro-wholesome-essentials-kitten-chicken-brown-rice.png",
+  "productType": "food",
   "foodForm": "dry",
   "lifeStage": [
     "kitten"

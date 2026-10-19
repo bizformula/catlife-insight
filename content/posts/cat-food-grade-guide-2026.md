@@ -4,7 +4,7 @@ date: "2026-10-14"
 updated: "2026-10-14"
 category: "nutrition-guide"
 description: "고양이 사료 등급표는 공식 품질 순위일까요? Catlife 등록 제품 160개의 성분 데이터 공개 현황과 건물 기준(DMB) 환산 예시, 비교할 때 주의할 점을 정리합니다."
-thumbnail: "/images/posts/pola-cat-food-grade-2026.webp"
+thumbnail: "/images/posts/cat-food-grade-guide-2026.webp"
 ---
 
 고양이 사료를 검색하면 ‘홀리스틱’, ‘슈퍼프리미엄’, ‘프리미엄’처럼 피라미드로 구분한 **고양이 사료 등급표**를 쉽게 접할 수 있습니다. 하지만 이런 이름만으로 영양 균형이나 우리 고양이에게 적합한지를 판단할 수 있을까요?

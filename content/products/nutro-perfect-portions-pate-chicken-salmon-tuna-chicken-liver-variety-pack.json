@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "닭고기, 연어&참치, 닭고기&간의 세 가지 파테 레시피를 묶은 성묘용 습식 멀티팩입니다.",
   "image": "/images/products/nutro-perfect-portions-pate-chicken-salmon-tuna-chicken-liver-variety-pack.png",
+  "productType": "food",
   "foodForm": "wet",
   "lifeStage": [
     "adult"

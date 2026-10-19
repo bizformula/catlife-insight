@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "칠면조 레시피와 닭고기 레시피 그레이비 컷을 묶은 성묘용 습식 멀티팩입니다.",
   "image": "/images/products/nutro-perfect-portions-cuts-gravy-turkey-chicken-variety-pack.png",
+  "productType": "food",
   "foodForm": "wet",
   "lifeStage": [
     "adult"

@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "닭고기를 첫 원료로 사용하고 쌀, 완두콩, 병아리콩과 건조 계란 제품을 포함한 민감한 소화를 고려한 성묘용 건식 완전사료입니다.",
   "image": "/images/products/nutro-wholesome-essentials-sensitive-adult-chicken-rice-peas.png",
+  "productType": "food",
   "foodForm": "dry",
   "lifeStage": [
     "adult"

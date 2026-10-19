@@ -4,7 +4,7 @@ date: "2026-08-24"
 updated: "2026-09-25"
 category: "nutrition-guide"
 description: "고양이 사료 성분표를 볼 때 주식 여부, 원재료, 등록성분량·보증성분, 수분, DMB, 열량을 어떤 순서로 확인하면 좋은지 정리합니다."
-thumbnail: "/images/posts/pola-cat-food-label-guide.webp"
+thumbnail: "/images/posts/how-to-read-cat-food-label.webp"
 ---
 
 고양이 사료 성분표를 볼 때는 단백질 수치나 첫 번째 원료 하나만 확인하기보다 **제품의 용도 → 원재료 → 등록성분량·보증성분 → 수분 → 열량** 순서로 살펴보는 것이 이해하기 쉽습니다.

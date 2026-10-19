@@ -1,0 +1,149 @@
+{
+  "slug": "acana-bountiful-catch-cat",
+  "name": "아카나 바운티풀 캐치 캣",
+  "brand": "아카나",
+  "summary": "연어·청어 등 생선 원료를 중심으로 한 성묘용 건식 주식. 호주 지역 공식 제품 정보 기준.",
+  "image": "/images/products/acana-bountiful-catch-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "연어",
+    "청어",
+    "헤이크",
+    "무지개송어"
+  ],
+  "ingredients": [
+    "Salmon (15%)",
+    "salmon fish meal (15%)",
+    "herring fish meal (15%)",
+    "oats",
+    "peas",
+    "pollock fish oil (8%)",
+    "green lentils",
+    "whole hake (4%)",
+    "whole herring (4%)",
+    "chickpeas",
+    "red lentils",
+    "lentil fiber",
+    "rainbow trout (2%)",
+    "salmon fish oil (2%)",
+    "sunflower oil",
+    "dried seaweed",
+    "butternut squash",
+    "pumpkin",
+    "cranberries",
+    "blueberries",
+    "flavor enhancer (hydrolyzed lamb powder)",
+    "lactoserum protein powder",
+    "choline chloride",
+    "taurine",
+    "zinc proteinate",
+    "vitamin E",
+    "rosemary extract",
+    "citric acid (preservative)",
+    "thiamine mononitrate (vitamin B1)",
+    "riboflavin (vitamin B2)",
+    "nicotinic acid (vitamin B3)",
+    "D-calcium pantothenate (vitamin B5)",
+    "pyridoxine hydrochloride (vitamin B6)",
+    "folic acid",
+    "D-biotin",
+    "cyanocobalamin (vitamin B12)",
+    "vitamin A acetate",
+    "vitamin D3",
+    "Vitamin E",
+    "Vitamin K1",
+    "copper proteinate",
+    "L-carnitine",
+    "DL-methionine",
+    "Enterococcus faecium"
+  ],
+  "ingredientStatus": {
+    "fish": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "dairy": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 34,
+    "fat": 16,
+    "fiber": 4,
+    "moisture": 10,
+    "ash": 9,
+    "calcium": 1.3,
+    "phosphorus": 1.3,
+    "taurine": 0.1
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://apac.acana.com/en-AU/ap-ds-aca-bountiful-catch-cat.html",
+  "checkedAt": "2026-10-18",
+  "ingredientDetails": [
+    {
+      "name": "연어",
+      "sourceText": "Salmon (15%)",
+      "form": "other",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어분",
+      "sourceText": "salmon fish meal (15%)",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "청어분",
+      "sourceText": "herring fish meal (15%)",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "귀리",
+      "sourceText": "oats",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "peas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "명태오일",
+      "sourceText": "pollock fish oil (8%)",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "유청단백질",
+      "sourceText": "lactoserum protein powder",
+      "form": "other",
+      "group": "dairy",
+      "specificity": "specific"
+    }
+  ],
+  "calories": 3800,
+  "notes": "공식 호주 지역 판매 레시피 기준. 가수분해 양고기 분말 및 유청단백질을 포함하므로 단일 생선원료 제품이 아님. 국내 유통 제품의 포장과 동일성 별도 확인 필요."
+}

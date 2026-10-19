@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "칠면조 육수와 칠면조, 닭 간 및 닭고기를 포함한 성묘용 그레인프리 그레이비 타입 습식 완전사료입니다.",
   "image": "/images/products/nutro-perfect-portions-turkey-cuts-gravy.png",
+  "productType": "food",
   "foodForm": "wet",
   "lifeStage": [
     "adult"

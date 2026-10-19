@@ -1,0 +1,98 @@
+{
+  "slug": "weruva-paw-lickin-chicken",
+  "name": "워루바 파우 리킨 치킨 그레이비 캔",
+  "brand": "워루바",
+  "summary": "뼈·껍질 없는 닭가슴살과 닭육수를 사용하는 성묘용 습식 주식.",
+  "image": "/images/products/weruva-paw-lickin-chicken.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭"
+  ],
+  "ingredients": [
+    "Chicken (Boneless, Skinless Breast)",
+    "Chicken Broth",
+    "Potato Starch",
+    "Sunflower Seed Oil",
+    "Calcium Lactate",
+    "Xanthan Gum",
+    "Tricalcium Phosphate",
+    "Choline Chloride",
+    "Taurine",
+    "Zinc Sulfate",
+    "Vitamin E Supplement",
+    "Ferrous Sulfate",
+    "Nicotinic Acid (Vitamin B3)",
+    "Thiamine Mononitrate (Vitamin B1)",
+    "Calcium Pantothenate",
+    "Copper Sulfate",
+    "Riboflavin Supplement (Vitamin B2)",
+    "Pyridoxine Hydrochloride (Vitamin B6)",
+    "Vitamin A Supplement",
+    "Manganese Sulfate",
+    "Vitamin D3 Supplement",
+    "Folic Acid",
+    "Potassium Iodide",
+    "Sodium Selenite",
+    "Biotin",
+    "Vitamin B12 Supplement"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "starch": "contains",
+    "fish": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10,
+    "fat": 1.4,
+    "fiber": 0.5,
+    "moisture": 85,
+    "ash": 1.2,
+    "calcium": 0.2,
+    "phosphorus": 0.17,
+    "taurine": 0.05
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max",
+    "calcium": "max",
+    "phosphorus": "max",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://www.weruva.com/collections/find-your-food/products/paw-lickin-chicken-cat-can",
+  "checkedAt": "2026-10-18",
+  "ingredientDetails": [
+    {
+      "name": "닭가슴살",
+      "sourceText": "Chicken (Boneless, Skinless Breast)",
+      "form": "whole",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭육수",
+      "sourceText": "Chicken Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "감자전분",
+      "sourceText": "Potato Starch",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    }
+  ],
+  "calories": 673,
+  "notes": "칼슘과 인 수치는 다른 제품과 달리 제조사 표시 기준이 최대값(max)이므로 분석 기준 그대로 저장함. 제조사는 Fish-Free라고 홍보하지만 실물 원료 최종 확인 필요. 국내 포장 동일성 별도 확인 필요."
+}

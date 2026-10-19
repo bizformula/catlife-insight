@@ -4,7 +4,7 @@ date: "2026-10-15"
 updated: "2026-10-15"
 category: "nutrition-guide"
 description: "로얄캐닌 인도어 고양이 사료 성분을 상세 분석하고, 주요 원료와 영양소 특성을 이해하며 올바른 사료 선택법을 안내합니다."
-thumbnail: "/images/posts/replace-with-real-image.webp"
+thumbnail: "/images/posts/royal-canin-indoor-ingredient-analysis.webp"
 ---
 
 ## 로얄캐닌 인도어 사료란 무엇인가?

@@ -1,0 +1,143 @@
+{
+  "slug": "wellness-complete-health-age-advantage-chicken-pate",
+  "name": "웰니스 컴플리트 헬스 에이지 어드밴티지 치킨 파테",
+  "brand": "웰니스",
+  "summary": "닭고기·닭내장 및 흰살생선을 사용하는 시니어 고양이용 습식 주식.",
+  "image": "/images/products/wellness-complete-health-age-advantage-chicken-pate.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "senior"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭",
+    "흰살생선"
+  ],
+  "ingredients": [
+    "Chicken (Source of Glucosamine and Chondroitin Sulfate)",
+    "Chicken Broth",
+    "Chicken Liver",
+    "Whitefish",
+    "Pea Protein",
+    "Chicken Hearts",
+    "Natural Flavor",
+    "Ground Flaxseed",
+    "Dried Plain Beet Pulp",
+    "Pea Fiber",
+    "Guar Gum",
+    "Taurine",
+    "Dried Chicory Root",
+    "Sunflower Oil",
+    "Potassium Chloride",
+    "Tricalcium Phosphate",
+    "Fish Oil (Preserved With Mixed Tocopherols)",
+    "Salt",
+    "Vitamin C (L-Ascorbyl-2-Polyphosphate)",
+    "Choline Chloride",
+    "Cassia Gum",
+    "Xanthan Gum",
+    "Yucca Schidigera Extract",
+    "Zinc Proteinate",
+    "Vitamin E Supplement",
+    "Iron Proteinate",
+    "Thiamine Mononitrate",
+    "Beta-Carotene",
+    "L-Carnitine",
+    "Niacin Supplement",
+    "Copper Proteinate",
+    "Manganese Proteinate",
+    "Sodium Selenite",
+    "Vitamin A Supplement",
+    "d-Calcium Pantothenate",
+    "Vitamin B12 Supplement",
+    "Riboflavin Supplement",
+    "Pyridoxine Hydrochloride",
+    "Biotin",
+    "Folic Acid",
+    "Potassium Iodide",
+    "Vitamin D3 Supplement"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "fish": "contains",
+    "legume": "contains",
+    "vegetable": "contains",
+    "beef": "unknown",
+    "pork": "unknown"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10.5,
+    "fat": 5,
+    "fiber": 1.5,
+    "moisture": 78,
+    "calcium": 0.2,
+    "phosphorus": 0.15,
+    "taurine": 0.2
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://www.wellnesspetfood.com/product-catalog/wellness-complete-health-pate-age-advantage-chicken/",
+  "checkedAt": "2026-10-18",
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken (Source of Glucosamine and Chondroitin Sulfate)",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭육수",
+      "sourceText": "Chicken Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭간",
+      "sourceText": "Chicken Liver",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "흰살생선",
+      "sourceText": "Whitefish",
+      "form": "other",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두콩 단백질",
+      "sourceText": "Pea Protein",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭심장",
+      "sourceText": "Chicken Hearts",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "생선 오일",
+      "sourceText": "Fish Oil (Preserved With Mixed Tocopherols)",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific"
+    }
+  ],
+  "notes": "제조사 홈페이지의 Senior Chicken Pâté, Complete & Balanced 설명 기준. Energy(kcal/kg)는 공식 제품 페이지에 확인 가능한 수치가 없어 생략. Natural Flavor 출처 미특정. 국내 포장 동일성 별도 확인 필요."
+}

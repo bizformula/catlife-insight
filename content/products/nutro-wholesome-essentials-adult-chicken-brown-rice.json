@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "닭고기를 첫 원료로 사용하고 현미·수수·완두를 포함한 성묘용 건식 완전사료입니다.",
   "image": "/images/products/nutro-wholesome-essentials-adult-chicken-brown-rice.png",
+  "productType": "food",
   "foodForm": "dry",
   "lifeStage": [
     "adult"

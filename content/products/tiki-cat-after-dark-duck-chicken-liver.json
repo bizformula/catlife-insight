@@ -1,0 +1,103 @@
+{
+  "slug": "tiki-cat-after-dark-duck-chicken-liver",
+  "name": "티키캣 애프터 다크 오리·닭간 파테",
+  "brand": "티키캣",
+  "summary": "오리와 닭간·닭심장을 원료로 하는 성묘 유지용 습식 주식.",
+  "image": "/images/products/tiki-cat-after-dark-duck-chicken-liver.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "오리",
+    "닭"
+  ],
+  "ingredients": [
+    "Duck",
+    "duck broth",
+    "chicken liver",
+    "chicken heart",
+    "natural flavor",
+    "brewers dried yeast",
+    "guar gum",
+    "potassium chloride",
+    "choline chloride",
+    "taurine",
+    "cassia gum",
+    "xanthan gum",
+    "iron proteinate",
+    "zinc proteinate",
+    "vitamin E supplement",
+    "thiamine mononitrate (vitamin B1)",
+    "copper proteinate",
+    "manganese proteinate",
+    "sodium selenite",
+    "niacin supplement (vitamin B3)",
+    "d-calcium pantothenate",
+    "pyridoxine hydrochloride (vitamin B6)",
+    "riboflavin supplement (vitamin B2)",
+    "vitamin A supplement",
+    "biotin",
+    "potassium iodide",
+    "vitamin D3 supplement",
+    "vitamin B12 supplement",
+    "folic acid"
+  ],
+  "ingredientStatus": {
+    "duck": "contains",
+    "chicken": "contains",
+    "fish": "unknown",
+    "beef": "unknown",
+    "pork": "unknown"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10,
+    "fat": 5,
+    "fiber": 1,
+    "moisture": 78
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "sourceUrl": "https://tikipets.com/product/tiki-cat/tiki-cat-wet-food/shredded-cat/after-dark/duck-chicken-liver-pate/",
+  "checkedAt": "2026-10-18",
+  "ingredientDetails": [
+    {
+      "name": "오리",
+      "sourceText": "Duck",
+      "form": "other",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리 육수",
+      "sourceText": "duck broth",
+      "form": "other",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭간",
+      "sourceText": "chicken liver",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭심장",
+      "sourceText": "chicken heart",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    }
+  ],
+  "calories": 1099,
+  "notes": "공식 성묘 유지용 AAFCO 충족 표시 확인. Natural flavor의 원료 출처는 제조사 자료에서 특정되지 않아 일부 동물원료군을 unknown 처리. 국내 포장 동일성 별도 확인 필요."
+}

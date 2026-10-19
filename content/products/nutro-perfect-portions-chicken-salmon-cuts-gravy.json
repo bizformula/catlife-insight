@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "닭고기 육수, 닭고기, 닭 간과 연어를 포함한 성묘용 그레인프리 그레이비 타입 습식 완전사료입니다.",
   "image": "/images/products/nutro-perfect-portions-chicken-salmon-cuts-gravy.png",
+  "productType": "food",
   "foodForm": "wet",
   "lifeStage": [
     "adult"

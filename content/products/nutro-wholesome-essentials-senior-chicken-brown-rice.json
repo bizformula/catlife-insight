@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "닭고기를 첫 원료로 사용하고 현미·귀리·완두 단백질을 포함한 시니어 고양이용 건식 완전사료입니다.",
   "image": "/images/products/nutro-wholesome-essentials-senior-chicken-brown-rice.png",
+  "productType": "food",
   "foodForm": "dry",
   "lifeStage": [
     "senior"

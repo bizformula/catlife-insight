@@ -4,6 +4,7 @@
   "brand": "뉴트로",
   "summary": "닭고기를 첫 원료로 하고 닭 간, 건조 계란 제품과 어유를 포함한 2~12개월 자묘용 파테 타입 습식 완전사료입니다.",
   "image": "/images/products/nutro-perfect-portions-kitten-chicken.png",
+  "productType": "food",
   "foodForm": "wet",
   "lifeStage": [
     "kitten"
