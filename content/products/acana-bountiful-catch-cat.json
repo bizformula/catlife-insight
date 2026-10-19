@@ -65,10 +65,19 @@
     "Enterococcus faecium"
   ],
   "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
     "fish": "contains",
+    "dairy": "contains",
+    "egg": "not-listed",
     "grain": "contains",
     "legume": "contains",
-    "dairy": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
     "vegetable": "contains"
   },
   "guaranteedAnalysis": {

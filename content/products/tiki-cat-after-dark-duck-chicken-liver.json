@@ -48,11 +48,20 @@
     "folic acid"
   ],
   "ingredientStatus": {
-    "duck": "contains",
     "chicken": "contains",
-    "fish": "unknown",
+    "turkey": "unknown",
+    "duck": "contains",
+    "quail": "unknown",
     "beef": "unknown",
-    "pork": "unknown"
+    "pork": "unknown",
+    "fish": "unknown",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
   },
   "guaranteedAnalysis": {
     "protein": 10,

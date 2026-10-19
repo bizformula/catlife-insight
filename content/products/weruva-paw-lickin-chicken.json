@@ -45,8 +45,19 @@
   ],
   "ingredientStatus": {
     "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
     "starch": "contains",
-    "fish": "not-listed"
+    "vegetable": "not-listed"
   },
   "guaranteedAnalysis": {
     "protein": 10,
