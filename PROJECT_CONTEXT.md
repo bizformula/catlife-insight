@@ -1,6 +1,8 @@
-﻿# Catlife Insight - Project Context
+# Catlife Insight - Project Context
 
-최종 갱신: 2026-09-25
+최종 갱신: 2026-10-19
+
+> **최신 운영 기준:** 아래 **36~41절(2026-10-19 업데이트)**을 우선 적용한다. 기존 1~35절 및 2026-10-07/08 기록은 작성 당시의 이력으로 보존하며, 충돌 시 최신 운영 기준과 실제 `main` 브랜치의 코드·Production 상태를 기준으로 한다.
 
 ## 1. 프로젝트 개요
 
@@ -4098,3 +4100,157 @@ GitHub 자동 배포가 설정된 경우 중복 배포 여부를 확인할 것.
 - **개발 원칙:** 기능 유지, 전체 파일 교체, CSS 변수 기반 테마 관리
 
 **다음 작업 시작점:** 운영 SEO·색인 상태 및 광고 운영 안정화 점검.
+
+---
+
+## 36. 2026-10-19 운영 현황 및 기준 우선순위
+
+**확정·사용자 확인(2026-10-19):**
+
+- 운영 URL: `https://catlife.happy-insight.com`
+- 운영 저장소: `bizformula/catlife-insight`, 운영 브랜치 `main`
+- 로컬 운영 작업 경로(사용자 Windows): `C:\Users\kdu\Desktop\애드센스\my-blog\my-blog`
+- GitHub 업로드 커밋: `39708e7` (`Update Catlife posts and products`), 당시 `HEAD -> main, origin/main` 일치 확인
+- **제품 JSON 165개**: 사용자 로컬 `npm run validate:products` 출력 기준 **오류 0개·경고 0개**
+- 원료 사전 **51개 항목** 검증 완료
+- Vinext 빌드 및 Cloudflare Workers 배포 완료, 사용자가 운영 사이트에서 **165개 제품과 추가 게시글 표시** 확인
+- 사용자가 첨부한 `products(1).zip`의 JSON 165개를 별도 파싱·브랜드 집계함. 파싱 오류 0개. ZIP은 이 날짜의 **중복 검사용 스냅샷**이며, 이후 실제 최신 로컬/원격 데이터가 우선함.
+- **블로그 총 게시글 수**는 최신 전체 `content/posts` 목록이 제공되지 않아 이 절에서 확정하지 않음. 이전 기록의 `14개`는 9월 기준 과거 수치임.
+- 별도 로컬 경로 `C:\Users\kdu\Desktop\애드센스\catlife`는 `feature/catlife-v2` 브랜치의 미커밋 개발 변경사항을 포함했던 것으로 확인됨. **운영 `main`과 혼동하여 일괄 커밋·배포 금지**.
+
+### 최신 정보 적용 규칙
+
+- 구문서의 `제품 160개`, `일일 제품 20개`는 과거 상태·과거 목표로 취급하고, **현재 일일 납품 기준은 신규 제품 5개**를 우선한다.
+- `PROJECT_CONTEXT.md` 설명보다 실물 코드(`types/product.ts`, `scripts/validate-products.mjs` 등)와 Production 동작을 우선 검증한다.
+- 최신 ZIP·저장소 접근이 없으면 **기존 등록 제품/글과의 중복 검증을 완료했다고 단정하지 않는다.**
+
+## 37. 매일 19:30 KST 콘텐츠 패키지 표준 (2026-10-19 확정)
+
+**제작 기준 시각:** 매일 **19:30, Asia/Seoul (KST)**. 사용자는 **20:00~23:00**에 결과를 최종 확인하고 파일 배치·GitHub 업로드·빌드·Cloudflare 배포를 **직접 수행**한다. 제작 측에서 외부 발행, GitHub 업로드 또는 Cloudflare 배포를 실행하지 않는다. 정시 작업은 실제 예약 실행 환경이 설정된 경우에만 자동화된 것으로 간주한다.
+
+매일 패키지 필수 구성:
+
+1. **완성형 Markdown 게시글 1개** (`content/posts/<slug>.md`): 개요·초안·발행 설명문이 아니라 실제 게시 가능한 완전한 본문.
+2. **실제 폴라 참고사진 기반 WEBP 썸네일 1개** (`public/images/posts/<slug>.webp`): 가능하면 1200×675, 폴라가 주인공.
+3. **신규 사료 JSON 5개** (`content/products/<product-slug>.json`): 1제품 1파일. 등록이 적거나 미등록된 브랜드 우선.
+4. **출처·검증 메모 1건** (`verification/verification-notes-YYYY-MM-DD.md`): 제품별 공식 출처·검토 결과·보류 사유·배치 및 배포 매뉴얼.
+5. **신규 5제품의 제조사 공식 상세페이지 링크 5개**를 결과 메시지와 검증 메모에 모두 표시. 브랜드 홈페이지가 아니라 **해당 제품 상세 페이지**를 우선하여 사용자가 사진을 직접 확인·복사할 수 있게 한다.
+
+- 파일이 실제로 생성되면 ZIP과 개별 다운로드 링크 제공. 생성·경로 확인 전에는 파일을 만들었다고 주장하지 않음.
+- **핵심 정보 확인이 남거나 폴라 썸네일이 없으면 '즉시 발행 가능'으로 표시하지 않고 '배포 보류' 및 미완료 항목 명시.**
+- 게시글 본문에는 TODO, 검토 메모, 임의 수치, 설명용 placeholder를 넣지 않음. 불확실성·배포 보류 사유는 별도의 검증 메모에 기록.
+- 원료/영양/공식 링크/국가별 레시피가 확인되지 않은 제품은 임의로 보완하지 않고 출처 메모에 개별 표시.
+
+### Markdown 및 이미지 파일 규칙
+
+```yaml
+---
+title: "게시글 제목"
+date: "YYYY-MM-DD"
+updated: "YYYY-MM-DD"
+category: "nutrition-guide"
+description: "검색 질문에 직접 답하는 소개 문장"
+thumbnail: "/images/posts/<slug>.webp"
+---
+```
+
+- 일일 산출물에는 `title`, `date`, `updated`, `category`, `description`, `thumbnail`을 모두 기재한다. **`category`는 기존 코드에서 허용되는 실제 값**만 사용한다. 위 `nutrition-guide`는 기존 게시글에서 확인된 예시일 뿐, 전 카테고리 목록을 뜻하지 않는다.
+- 게시글과 WEBP는 **동일 영문 소문자·하이픈 slug**: `<slug>.md`, `<slug>.webp`; 이미지 URL은 `/images/posts/<slug>.webp`.
+- 기존 게시글과 *검색 의도*까지 중복 비교하고, 첫 1~3문단 즉답, 정확한 설명·FAQ, 공식 근거, 유효한 내부 링크(`/blog/...`, `/products/...`, `/finder`, `/compare`) 포함. 임의의 내부 URL 생성 금지.
+- 폴라는 사용자가 실제 제공한 사진을 기준으로 사용한다. 일반 고양이로 대체하거나 미확인 이미지를 폴라라고 주장하지 않음. 사진에 접근할 수 없으면 참고사진 재첨부가 필요하다고 표시한다.
+- 참고로 2026-10-19 보완한 과거 게시글의 기존 이미지 경로: `cat-food-age-labels-7-11-15.webp`, `cat-food-storage-after-opening.webp` (모두 `public/images/posts/`).
+
+## 38. 신규 제품 5개 JSON과 PNG 이미지 규칙
+
+- **기존 `content/products/*.json` 및 `types/product.ts` 실사용 스키마 준수**. `slug`, `name`, `brand`, `summary`, `productType`, `foodForm`, `purpose`, `lifeStage`, `ingredients`, `ingredientStatus`, `guaranteedAnalysis`, `analysisBasis`, `sourceUrl`, `checkedAt` 등 실제 필요 필드 확인.
+- 사료는 `"productType": "food"` 필수. 현재 Validator에서 허용된 Product Type은 `food`, `treat`이며, 모래·영양제용 enum은 아직 허용된 것으로 **간주하지 않음**.
+- 가능하다면 제조사 제품 상세페이지에서 실제 제품 이미지를 확보하여 `public/images/products/<product-slug>.png`로 저장. JSON은 `"image": "/images/products/<product-slug>.png"`; **JSON 파일명과 PNG의 확장자 제외 파일명이 정확히 일치**해야 한다.
+- **이미지 파일을 실제 확보하지 못하면 `image` 필드를 넣지 않는다.** 가짜 경로 금지. 공식 제품 상세 링크는 이미지 수동 확보용으로 별도 제공. 확보 이미지는 제품·포장 일치 및 이용 권한·출처를 검토.
+- 공식 원재료 전체 목록과 보증성분(최소·최대·대표값 `min`, `max`, `typical`)을 출처 기준 그대로 반영. 공개되지 않은 수치·배합비·열량은 임의 추정하지 않는다.
+- `ingredientStatus`는 **14개 그룹 모두 명시**: `chicken`, `turkey`, `duck`, `quail`, `beef`, `pork`, `fish`, `dairy`, `egg`, `grain`, `legume`, `pseudograin`, `starch`, `vegetable`.
+- 값은 `contains`, `not-listed`, `unknown`만 허용. `not-listed`는 **공식 원료 목록에 명시되지 않음**이지 무함유·알레르기 안전성 보증이 아님. 원료 불명확 시 `unknown`.
+- `ingredientDetails`와 `ingredientStatus`의 그룹 일치 검증. `sourceUrl`은 제조사 정보 출처이며 네이버쇼핑 같은 **구매처 URL과 혼용 금지**. 국내 판매 제품과 해외 공식 레시피·표시가 다른지 별도 점검.
+- 일일 결과물 작성 후 `npm run validate:products`로 데이터 검증을 사용자 로컬에서 재실행하고, **오류 0개·경고 0개**를 목표로 한다. 2026-10-19 신규 5제품의 최초 경고 42개는 `ingredientStatus` 보완 후 사용자 로컬에서 최종 **0/0** 확인.
+
+## 39. 165개 제품 브랜드별 베이스라인 및 선정 규칙
+
+**근거:** 사용자가 첨부한 `products(1).zip`의 `content/products` JSON 165개(2026-10-19 집계). 실제 브랜드 문자열 기준 15종.
+
+| 브랜드 (`brand` 원문) | 등록 수 |
+|---|---:|
+| 로얄캐닌 | 47 |
+| 파미나 | 21 |
+| 뉴트로 | 21 |
+| 인스팅트 | 20 |
+| 퓨리나 프로플랜 | 20 |
+| 힐스 사이언스 다이어트 | 18 |
+| 오리젠 | 5 |
+| 아카나 | 4 |
+| 힐스 | 2 |
+| 지위픽 | 2 |
+| 눌로 | 1 |
+| 퓨어네이쳐 | 1 |
+| 티키캣 | 1 |
+| 웰니스 | 1 |
+| 워루바 | 1 |
+| **합계** | **165** |
+
+- 우선 확장 후보(각 1개 등록): **티키캣, 눌로, 워루바, 웰니스, 퓨어네이쳐**. 그 다음은 2개 등록 브랜드(지위픽, 힐스) 등.
+- `힐스`(2개)와 `힐스 사이언스 다이어트`(18개)는 **별도 문자열로 집계**됨. 동일 브랜드·제품군 여부와 데이터 규칙을 확인한 후 통일 검토; 자동 치환 금지.
+- 신규 선정 시 **최신 전체 JSON 기준 slug·제품명·브랜드·사양(맛, 건식/습식, 생애주기)**으로 중복 검사. 현재 165개 ZIP은 기준 스냅샷일 뿐 매일 실시간 목록이 아님.
+- 미등록 브랜드도 공식 제품 정보가 충분하면 후보에 포함. 각 브랜드의 신규 등록 후 개수와 제외 사유를 검증 메모에 기록.
+- 등록 편중 완화는 목표지만 공식 정보의 정확성을 희생해 5개를 억지로 채우지 않는다.
+
+## 40. 사용자 수동 GitHub 업로드 및 Cloudflare Workers 배포 절차
+
+**운영 폴더** `C:\Users\kdu\Desktop\애드센스\my-blog\my-blog`에서만 운영 배포. `catlife` v2 feature 브랜치는 별도 검증·병합 전 배포 대상 아님.
+
+```powershell
+# 1. 파일을 각 원본 디렉터리에 복사, 폴라/제품 이미지 실제 존재 확인
+cd "C:\Users\kdu\Desktop\애드센스\my-blog\my-blog"
+git branch --show-current
+git status
+
+# 2. 제품 검증 및 Vinext 빌드 (성공 확인 후 다음 단계 진행)
+npm run validate:products
+npm run build:vinext
+
+# 3. 의도한 콘텐츠 파일만 스테이징 및 검토
+git add content/posts content/products public/images/posts public/images/products
+git diff --cached --stat
+git diff --cached --name-status
+
+# 4. 변경 파일이 의도한 것과 일치할 때만 커밋/푸시
+git commit -m "Update Catlife daily content"
+git push origin main
+
+# 5. Cloudflare Worker 수동 배포 (Cloudflare 자동배포 설정 여부 사전 확인)
+npx wrangler deploy --config dist/server/wrangler.json
+
+# 6. 운영 확인
+git status
+```
+
+- 기존 문서의 Windows **우선 배포 명령은 `npx wrangler deploy --config dist/server/wrangler.json`**. `npm run deploy:vinext`도 `package.json`에 존재하지만, 기존 문서가 기록한 Windows 실행 이력 때문에 **우선 명령을 임의로 교체하지 않음**.
+- `wrangler.jsonc`: Worker 이름 `catlife-insight`, `main`은 `vinext/server/fetch-handler`, `assets.directory`는 `dist/client`; 실제 빌드 후 배포는 `dist/server/wrangler.json`을 사용.
+- GitHub 커밋/푸시 성공이 Cloudflare 배포 성공을 의미하지 않음. 배포 로그·운영 페이지를 별도로 확인.
+- 배포 후 `/blog/<slug>`, `/products/<product-slug>`, `/finder`, `/compare` 및 각 이미지 URL의 200 응답과 표시 결과 확인. 기존 기능, 모바일, SEO, AdSense, Analytics에 문제가 없는지도 확인.
+- `git add .` 금지(예상 외 변경 시). `git diff --cached --stat`로 **삭제/이름변경**까지 확인. JSON/이미지 수정만 있다면 해당 파일만 스테이징 가능.
+- PowerShell에서 LF→CRLF는 일반적으로 줄바꿈 안내이지만 데이터 파싱·파일명 변경 등 실제 오류는 구분해서 검토. `git diff` 출력이 `(END)`에 멈추면 `q`로 종료.
+- `git status`가 깨끗하면 이미 커밋되었을 수 있으므로 중복 커밋을 강행하지 않음. 마지막 커밋·파일 포함 여부는 `git log -3 --oneline`, `git ls-tree -r --name-only HEAD`로 확인.
+
+## 41. 일일 검증 메모 필수 목차 및 배포 보류 규칙
+
+매일 `verification/verification-notes-YYYY-MM-DD.md`는 아래 항목을 포함한다.
+
+1. 제작 날짜/기준 저장소 커밋 또는 ZIP 스냅샷 시점, 총 제품·브랜드 등록 수, 실제 중복 검사 범위
+2. 게시글 주제·키워드·검색 의도, YAML Front Matter 및 실제 내부 링크 확인
+3. 폴라 원본 참고 여부, 썸네일 파일명·크기·WEBP 생성/저장 상태
+4. 신규 사료 5종: 브랜드별 기존 등록 수, 신규 제품 slug 및 제품명, 제조사 **공식 상세페이지 직접 링크**, 이미지 확보 여부·이미지 파일 경로
+5. 공식 원료·영양성분·분석 기준·국가별 레시피 확인 근거, 불확실한 내용과 보류 사유
+6. `ingredientStatus` 14개 전수 검사, `image` 경로의 물리 파일 유무, JSON 구조 및 `validate:products` 검사 결과(실제 실행 여부 구분)
+7. Markdown/제품/이미지 파일 배치 경로, 명시적 `git add`·커밋·푸시 명령과 Vinext 빌드·Wrangler 배포 명령
+8. 빌드·배포 전 체크리스트, 운영 블로그·제품 상세·Finder/Compare·이미지 실물 확인 체크리스트
+9. 상태 표시: **제작 완료 / 로컬 검증 필요 / 배포 보류 / 배포 확인 완료** 등, 확인한 근거에 한해 표기
+
+**실행 경계:** 제작자는 결과 파일과 사용 설명만 제공하고 GitHub 업로드·외부 발행·Cloudflare Production 배포는 **사용자의 명시적 별도 요청이 없는 한 수행하지 않음**. 현재 확정된 일일 운영 모델은 **사용자 직접 배포**임.
