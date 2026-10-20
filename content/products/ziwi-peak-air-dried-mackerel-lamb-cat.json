@@ -1,0 +1,78 @@
+{
+  "slug": "ziwi-peak-air-dried-mackerel-lamb-cat",
+  "name": "지위픽 에어드라이드 고등어 & 양고기 캣",
+  "brand": "지위픽",
+  "summary": "공식 미국 제품 페이지의 원재료·보증성분을 바탕으로 정리한 제품. 실제 구매 국가의 최신 포장을 확인하세요.",
+  "image": "/images/products/ziwi-peak-air-dried-mackerel-lamb-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "고등어",
+    "양고기"
+  ],
+  "ingredients": [
+    "Whole Mackerel",
+    "Lamb",
+    "Lamb Tripe",
+    "Lamb Lung",
+    "Lamb Heart",
+    "Lamb Liver",
+    "New Zealand Green Mussel",
+    "Lamb Kidney",
+    "Lamb Spleen",
+    "Lamb Bone",
+    "Lecithin",
+    "Inulin (from Chicory Root)",
+    "Dried Apple Pomace",
+    "Minerals (Dipotassium Phosphate, Magnesium Sulfate, Zinc Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Manganese Amino Acid Complex)",
+    "Lamb Cartilage",
+    "Dried Organic Kelp",
+    "Salt",
+    "Preservative (Citric Acid, Mixed Tocopherols)",
+    "DL-Methionine",
+    "Vitamins (Choline Chloride, Thiamine Mononitrate, Pyridoxine Hydrochloride, Folic Acid, Vitamin D3 Supplement)",
+    "Taurine."
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "unknown"
+  },
+  "guaranteedAnalysis": {
+    "protein": 44,
+    "fat": 24,
+    "fiber": 3,
+    "moisture": 14,
+    "ash": 12,
+    "taurine": 0.2
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://us.ziwipets.com/products/air-dried-mackerel-and-lamb-cat-food",
+  "checkedAt": "2026-10-20",
+  "calories": 4550,
+  "notes": "ZIWI 미국 공식 제품 페이지 기준. 전 생애주기 AAFCO 적합 표시. Lamb는 현행 14개 원료 그룹에 없으므로 별도 속성 확장 없이 mainProteins/ingredients에서 확인하도록 함. Kelp의 vegetable 분류는 사전 매핑 검토 필요하여 unknown 처리. 칼로리 kcal/kg; 지역별 제품 수치 차이 주의. 공개 원료 목록의 미표기는 무함유 보증이 아니며 교차접촉·지역별 레시피는 별도 확인해야 합니다. 이미지 미확보: image 경로 미기재."
+}
