@@ -1,0 +1,83 @@
+{
+  "slug": "tiki-cat-after-dark-chicken-liver-quail",
+  "name": "티키캣 애프터다크 치킨·치킨간·메추리",
+  "brand": "티키캣",
+  "summary": "미국 제조사 공식 제품 상세 페이지의 원재료·보증성분을 2026-10-21 확인하여 정리했습니다. 구매 국가의 최신 실물 포장을 함께 확인하세요.",
+  "image": "/images/products/tiki-cat-after-dark-chicken-liver-quail.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "닭간",
+    "메추리"
+  ],
+  "ingredients": [
+    "Chicken",
+    "chicken broth",
+    "chicken liver",
+    "quail",
+    "brewers dried yeast",
+    "chicken heart",
+    "guar gum",
+    "potassium chloride",
+    "choline chloride",
+    "cassia gum",
+    "xanthan gum",
+    "taurine",
+    "iron proteinate",
+    "zinc proteinate",
+    "vitamin E supplement",
+    "thiamine mononitrate (vitamin B1)",
+    "copper proteinate",
+    "manganese proteinate",
+    "sodium selenite",
+    "niacin supplement (vitamin B3)",
+    "d-calcium pantothenate",
+    "pyridoxine hydrochloride (vitamin B6)",
+    "riboflavin supplement (vitamin B2)",
+    "vitamin A supplement",
+    "biotin",
+    "potassium iodide",
+    "vitamin D3 supplement",
+    "vitamin B12 supplement",
+    "folic acid"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "contains",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10.0,
+    "fat": 6.5,
+    "fiber": 1.0,
+    "moisture": 78.0
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "sourceUrl": "https://tikipets.com/product/tiki-cat/tiki-cat-wet-food/shredded-cat/after-dark/chicken-chicken-liver-quail-recipe/",
+  "checkedAt": "2026-10-21",
+  "notes": "AAFCO 성묘 유지용(Maintenance). 제조사 영양성분표에 회분·칼슘·인 수치는 미공개이므로 비워 둠. 원재료 brewers dried yeast는 곡물성 원료로 임의 분류하지 않음. 원재료 `not-listed`는 공개 성분표에 명시되지 않았다는 의미이며 무함유·알레르기 안전성 보증이 아닙니다. 제조사 제품 이미지의 저작권·사용권을 확인한 PNG 파일이 없으므로 image 경로는 기재하지 않았습니다.",
+  "calories": 1165
+}
