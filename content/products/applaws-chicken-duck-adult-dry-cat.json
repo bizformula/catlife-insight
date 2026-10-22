@@ -1,0 +1,100 @@
+{
+  "slug": "applaws-chicken-duck-adult-dry-cat",
+  "name": "아플라우즈 치킨 위드 덕 어덜트 건식",
+  "brand": "아플라우즈",
+  "summary": "제조사 공식 해외 제품 페이지의 원재료·영양정보를 2026-10-22 확인해 정리했습니다. 국내 제품은 포장 표시를 다시 확인하세요.",
+ "image": "/images/products/applaws-chicken-duck-adult-dry-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭",
+    "오리"
+  ],
+  "ingredients": [
+    "Chicken 44% (Chicken Meal 41%, Freshly Prepared Chicken 3%)",
+    "Potato",
+    "Poultry Fat 8%",
+    "Duck Meal 4%",
+    "Beet Pulp",
+    "Dried Brewer’s Yeast",
+    "Vitamins & Minerals",
+    "Poultry Gravy 1.5%",
+    "Egg Powder",
+    "Salmon Oil",
+    "Chicory Extract 0.2%",
+    "Seaweed",
+    "Yucca Schidigera Extract",
+    "Cranberry Powder"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "contains",
+    "quail": "unknown",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.5,
+    "fat": 16,
+    "fiber": 2,
+    "ash": 8,
+    "calcium": 2.1,
+    "phosphorus": 1.3
+  },
+  "sourceUrl": "https://applaws.com/uk/products/chicken-with-duck-adult-dry-cat-food/",
+  "checkedAt": "2026-10-22",
+  "notes": "영국 공식 사이트 기준 complete & balanced adult 표기. Analytical 수치는 min/max 구분이 없어 analysisBasis를 부여하지 않음. 수분 미공개로 생략. 타우린은 Nutritional Additives의 1000mg으로 표기되어 있어 완제품 함량(%)으로 환산하지 않았음. Poultry Fat, Poultry Gravy는 가금류 종을 특정할 수 없어 turkey 분류는 unknown. 제조사 이미지는 사용 권한과 실제 파일을 확보하지 않아 image 필드를 작성하지 않았습니다. 원료별 unknown/not-listed는 공개 원재료 표기의 한계이며 알레르기 안전성을 보장하지 않습니다.",
+  "calories": 4020,
+  "ingredientDetails": [
+    {
+      "name": "닭고기 분말",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기 분말",
+      "sourceText": "Duck Meal",
+      "form": "dried",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "감자",
+      "sourceText": "Potato",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "계란 분말",
+      "sourceText": "Egg Powder",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어오일",
+      "sourceText": "Salmon Oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "open-farm-wild-caught-salmon-dry-cat",
+  "name": "오픈팜 와일드 코트 연어 그레인프리 키블",
+  "brand": "오픈팜",
+  "summary": "제조사 공식 해외 제품 페이지의 원재료·영양정보를 2026-10-22 확인해 정리했습니다. 국내 제품은 포장 표시를 다시 확인하세요.",
+ "image": "/images/products/open-farm-wild-caught-salmon-dry-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "연어",
+    "흰살생선",
+    "청어"
+  ],
+  "ingredients": [
+    "Wild-Caught Pacific Salmon",
+    "Whitefish Meal",
+    "Herring Meal",
+    "Garbanzo Beans (Chickpeas)",
+    "Red Lentils",
+    "Coconut Oil",
+    "Herring Oil (preserved with mixed tocopherols)",
+    "Pumpkin",
+    "Natural Flavor (fish)",
+    "Green Lentils",
+    "Salmon Oil",
+    "Cranberries",
+    "Apples",
+    "Dandelion",
+    "Sunflower Oil",
+    "Calcium Carbonate",
+    "Salt",
+    "Dried Chicory Root",
+    "Choline Chloride",
+    "Niacin Supplement",
+    "Vitamin E Supplement",
+    "Vitamin A Supplement",
+    "Thiamine Mononitrate",
+    "D-calcium Pantothenate",
+    "Riboflavin Supplement",
+    "Pyridoxine Hydrochloride",
+    "Vitamin D3 Supplement",
+    "Vitamin B12 Supplement",
+    "Folic Acid",
+    "Biotin",
+    "Taurine",
+    "Zinc Proteinate",
+    "Iron Proteinate",
+    "Copper Proteinate",
+    "Manganese Proteinate",
+    "Sodium Selenite",
+    "Calcium Iodate",
+    "Mixed Tocopherols (a natural preservative)",
+    "Turmeric",
+    "Dried Yucca Schidigera Extract",
+    "Rosemary Extract"
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 37,
+    "fat": 18,
+    "fiber": 3,
+    "moisture": 10,
+    "calcium": 1,
+    "phosphorus": 0.8,
+    "taurine": 0.2
+  },
+  "sourceUrl": "https://openfarmpet.com/products/wild-caught-salmon-dry-cat-food",
+  "checkedAt": "2026-10-22",
+  "notes": "미국 공식 제품 페이지 2026-10-22의 most recent lot 원료 추적 목록(순서대로) 참고. 현지 포장 및 제조 로트별 원료 표시 차이 가능; 같은 페이지 AAFCO all life stages 영양 적합성 진술 확인. 제조사가 곡물 취급 시설 생산이라고 명시하므로 원료 목록에 곡물이 없다는 사실은 교차접촉·알레르기 안전 보장이 아님. 제조사 이미지는 사용 권한과 실제 파일을 확보하지 않아 image 필드를 작성하지 않았습니다. 원료별 unknown/not-listed는 공개 원재료 표기의 한계이며 알레르기 안전성을 보장하지 않습니다.",
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3840,
+  "ingredientDetails": [
+    {
+      "name": "연어",
+      "sourceText": "Wild-Caught Pacific Salmon",
+      "form": "whole",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "흰살생선분",
+      "sourceText": "Whitefish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "청어분",
+      "sourceText": "Herring Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "Garbanzo Beans (Chickpeas)",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "렌틸콩",
+      "sourceText": "Red Lentils",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific"
+    }
+  ]
+}

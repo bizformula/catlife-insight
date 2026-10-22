@@ -1,0 +1,130 @@
+{
+  "slug": "tiki-cat-born-carnivore-chicken-luau",
+  "name": "티키캣 본 카니보어 치킨 루아우(치킨·에그)",
+  "brand": "티키캣",
+  "summary": "제조사 공식 해외 제품 페이지의 원재료·영양정보를 2026-10-22 확인해 정리했습니다. 국내 제품은 포장 표시를 다시 확인하세요.",
+ "image": "/images/products/tiki-cat-born-carnivore-chicken-luau.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭",
+    "계란"
+  ],
+  "ingredients": [
+    "Deboned chicken",
+    "chicken meal",
+    "dehydrated chicken",
+    "dried egg product",
+    "tapioca",
+    "natural chicken flavor",
+    "ground whole flaxseed",
+    "chickpeas",
+    "peas",
+    "chicken fat (preserved with mixed tocopherols and citric acid)",
+    "brewers dried yeast",
+    "calcium sulfate",
+    "choline chloride",
+    "inulin (prebiotic)",
+    "salmon oil",
+    "pumpkin",
+    "taurine",
+    "ferrous sulfate",
+    "zinc sulfate",
+    "vitamin E supplement",
+    "niacin supplement (vitamin B3)",
+    "copper sulfate",
+    "vitamin A supplement",
+    "manganese sulfate",
+    "thiamine mononitrate (vitamin B1)",
+    "d-calcium pantothenate",
+    "pyridoxine hydrochloride (vitamin B6)",
+    "biotin",
+    "riboflavin supplement (vitamin B2)",
+    "vitamin B12 supplement",
+    "vitamin D3 supplement",
+    "calcium iodate",
+    "folic acid",
+    "sodium selenite",
+    "rosemary extract",
+    "ascorbic acid (preservative)",
+    "citric acid",
+    "tannic acid"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 43,
+    "fat": 19,
+    "fiber": 3.5,
+    "moisture": 10,
+    "taurine": 0.14
+  },
+  "sourceUrl": "https://tikipets.com/product/tiki-cat/tiki-cat-dry-food/born-carnivore/chicken-luau/",
+  "checkedAt": "2026-10-22",
+  "notes": "해외 공식 사이트의 Complete and balanced for all life stages 표기 확인. 별도 AAFCO 적합성 statement 원문은 보이지 않으므로 그 근거 방식을 단정하지 않음. 0.14%는 taurine min이고 높은 수치 우월성의 지표가 아님. 제조사 이미지는 사용 권한과 실제 파일을 확보하지 않아 image 필드를 작성하지 않았습니다. 원료별 unknown/not-listed는 공개 원재료 표기의 한계이며 알레르기 안전성을 보장하지 않습니다.",
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 3795,
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Deboned chicken",
+      "form": "whole",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "계란",
+      "sourceText": "dried egg product",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific"
+    },
+    {
+      "name": "타피오카",
+      "sourceText": "tapioca",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "chickpeas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어오일",
+      "sourceText": "salmon oil",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific"
+    }
+  ]
+}
