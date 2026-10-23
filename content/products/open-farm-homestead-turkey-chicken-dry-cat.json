@@ -1,0 +1,141 @@
+{
+  "slug": "open-farm-homestead-turkey-chicken-dry-cat",
+  "name": "오픈팜 홈스테드 터키 앤 치킨 그레인프리 건식 캣",
+  "brand": "오픈팜",
+  "summary": "미국 Open Farm 공식 최신 로트 기반 원료 표기와 건식 보증성분을 반영한 전연령 주식입니다.",
+  "image": "/images/products/open-farm-homestead-turkey-chicken-dry-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "칠면조",
+    "닭",
+    "흰살생선",
+    "청어",
+    "멘헤이든"
+  ],
+  "ingredients": [
+    "G.A.P. Step 1 Turkey",
+    "G.A.P. Step 2 Chicken",
+    "Whitefish Meal",
+    "Herring Meal",
+    "Garbanzo Beans (Chickpeas)",
+    "Red Lentils",
+    "Coconut Oil",
+    "Ocean Menhaden Fish Meal",
+    "Green Lentils",
+    "Flaxseed",
+    "Sunflower Oil",
+    "Pumpkin",
+    "Natural Flavor (fish)",
+    "Cranberries",
+    "Apples",
+    "Dandelion Greens",
+    "Calcium Carbonate",
+    "Niacin Supplement",
+    "Vitamin E Supplement",
+    "Vitamin A Supplement",
+    "Thiamine Mononitrate",
+    "D-calcium Pantothenate",
+    "Riboflavin Supplement",
+    "Pyridoxine Hydrochloride",
+    "Vitamin D3 Supplement",
+    "Vitamin B12 Supplement",
+    "Folic Acid",
+    "Biotin",
+    "Zinc Proteinate",
+    "Iron Proteinate",
+    "Copper Proteinate",
+    "Manganese Proteinate",
+    "Sodium Selenite",
+    "Calcium Iodate",
+    "Dried Chicory Root",
+    "Choline Chloride",
+    "Taurine",
+    "Salt",
+    "Mixed Tocopherols (a natural preservative)",
+    "Turmeric",
+    "Dried Yucca Schidigera Extract",
+    "Rosemary Extract"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 37,
+    "fat": 18,
+    "fiber": 3,
+    "moisture": 10,
+    "calcium": 1,
+    "phosphorus": 0.8,
+    "taurine": 0.2
+  },
+  "sourceUrl": "https://openfarmpet.com/products/homestead-turkey-chicken-dry-cat-food/",
+  "checkedAt": "2026-10-23",
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 3750,
+  "ingredientDetails": [
+    {
+      "name": "칠면조",
+      "sourceText": "G.A.P. Step 1 Turkey",
+      "form": "fresh",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭",
+      "sourceText": "G.A.P. Step 2 Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "흰살생선분",
+      "sourceText": "Whitefish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "청어분",
+      "sourceText": "Herring Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "병아리콩",
+      "sourceText": "Garbanzo Beans (Chickpeas)",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific"
+    }
+  ],
+  "notes": "미국 공식 제조사 홈페이지의 최신 로트 원료 추적 목록 순서를 참조했으며 실제 한국 판매 로트 표기는 다를 수 있습니다. AAFCO all life stages 표기 확인. 조회분(ash)은 영양표에 없어 생략. 제조사가 곡물 취급 시설 생산을 명시하므로 곡물 미표기는 교차접촉 부재 보증이 아닙니다. 공개 원재료 목록의 미표기는 특정 원료의 완전한 부재나 교차접촉 방지를 보증하지 않습니다. 한국 유통 포장 및 제조 로트와 같은지 별도 확인하세요. 제품 이미지는 확보하지 않아 image 필드를 쓰지 않았습니다."
+}

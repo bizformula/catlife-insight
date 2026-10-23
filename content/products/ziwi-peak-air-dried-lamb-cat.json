@@ -1,0 +1,77 @@
+{
+  "slug": "ziwi-peak-air-dried-lamb-cat",
+  "name": "지위피크 에어드라이 양고기 캣",
+  "brand": "지위피크",
+  "summary": "뉴질랜드 ZIWI 공식 Lamb Recipe의 원료와 보증성분을 반영한 전연령 에어드라이 주식입니다.",
+  "image": "/images/products/ziwi-peak-air-dried-lamb-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "양고기",
+    "양 내장"
+  ],
+  "ingredients": [
+    "Lamb",
+    "Lamb Tripe",
+    "Lamb Lung",
+    "Lamb Heart",
+    "Lamb Liver",
+    "Lamb Bone",
+    "New Zealand Green Mussel",
+    "Lamb Kidney",
+    "Lamb Spleen",
+    "Lecithin",
+    "Lamb Cartilage",
+    "Inulin (from Chicory Root)",
+    "Dried Apple Pomace",
+    "Minerals (Dipotassium Phosphate, Magnesium Sulphate, Zinc Amino Acid Complex, Iron Amino Acid Complex, Copper Amino Acid Complex, Manganese Amino Acid Complex, Sodium Selenite)",
+    "Dried Organic Kelp",
+    "Salt",
+    "DLMethionine",
+    "Preservative (Citric Acid, Mixed Tocopherols)",
+    "Vitamins (Choline Chloride, Thiamine Mononitrate, Pyridoxine Hydrochloride, Folic Acid, Vitamin D3 Supplement)",
+    "Taurine"
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "unknown",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 38,
+    "fat": 30,
+    "fiber": 3,
+    "moisture": 14,
+    "ash": 12,
+    "taurine": 0.2
+  },
+  "sourceUrl": "https://ziwipets.com/products/air-dried-lamb-recipe-for-cats",
+  "checkedAt": "2026-10-23",
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max",
+    "taurine": "min"
+  },
+  "calories": 4950,
+  "notes": "뉴질랜드 글로벌 공식 Lamb Recipe 기준. Air-Dried은 별도 식품 형태 enum이 없어 dry로 매핑했고 제품명을 통해 구별합니다. 초록입홍합(연체동물)이 함유되어 있으며 현행 원료 분류에서 shellfish 그룹이 없어 fish는 unknown으로 처리했습니다. 양고기(lamb) 그룹도 현재 schema에 없으므로 mainProteins 및 원료 문자열로 보존합니다. 4950kcal/kg 및 all life stages는 공식 정보에서 확인. 공개 원재료 목록의 미표기는 특정 원료의 완전한 부재나 교차접촉 방지를 보증하지 않습니다. 한국 유통 포장 및 제조 로트와 같은지 별도 확인하세요. 제품 이미지는 확보하지 않아 image 필드를 쓰지 않았습니다."
+}

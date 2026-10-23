@@ -1,0 +1,111 @@
+{
+  "slug": "acana-indoor-entree-cat",
+  "name": "아카나 인도어 엔트레 건식 캣",
+  "brand": "아카나",
+  "summary": "아카나 미국 공식 Indoor Entrée 제품의 원료·성분·열량 표시를 반영한 성묘용 건식 주식입니다.",
+  "image": "/images/products/acana-indoor-entree-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭",
+    "청어",
+    "칠면조",
+    "토끼"
+  ],
+  "ingredients": [
+    "Fresh chicken (18%)",
+    "chicken meal (16%)",
+    "herring meal (15%)",
+    "oat groats",
+    "whole peas",
+    "chicken fat (5%)",
+    "ground miscanthus grass",
+    "whole green lentils",
+    "raw turkey (4%)",
+    "raw whole herring (4%)",
+    "whole chickpeas",
+    "whole red lentils",
+    "lentil fibre",
+    "raw rabbit (1%)",
+    "fresh chicken giblets (liver, heart) (1%)",
+    "raw turkey liver (1%)",
+    "dried kelp",
+    "fresh whole butternut squash",
+    "fresh whole pumpkin",
+    "whole cranberries",
+    "whole blueberries"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 37,
+    "fat": 14,
+    "fiber": 6,
+    "ash": 9,
+    "moisture": 10,
+    "calcium": 1.3,
+    "phosphorus": 1,
+    "taurine": 0.1
+  },
+  "sourceUrl": "https://www.acana.com/en-US/cats/cat-food/indoor-entr%C3%A9e/ns-aca-indoor-entree-cat.html",
+  "checkedAt": "2026-10-23",
+  "calories": 3630,
+  "ingredientDetails": [
+    {
+      "name": "생닭고기",
+      "sourceText": "Fresh chicken (18%)",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기분",
+      "sourceText": "chicken meal (16%)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "청어분",
+      "sourceText": "herring meal (15%)",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "귀리",
+      "sourceText": "oat groats",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조",
+      "sourceText": "raw turkey (4%)",
+      "form": "raw",
+      "group": "turkey",
+      "specificity": "specific"
+    }
+  ],
+  "notes": "미국 공식 페이지 Adult Maintenance 및 FEDIAF 적합성 문구. Guarantee 항목에 개별 min/max 기준이 나와 있지 않아 analysisBasis는 생략함. 웹페이지의 에너지 비중(단백질38%/탄수화물22%/지방40%)은 중량 함량이 아님. raw rabbit 원료는 현행 ingredientStatus 그룹에 토끼 항목이 없으므로 ingredients 및 mainProteins에 원문으로 보존함. ADDITIVES 목록은 별도 공개되어 있으나 ingredients 배열에는 Ingredients 본문 목록만 기록함. 공개 원재료 목록의 미표기는 특정 원료의 완전한 부재나 교차접촉 방지를 보증하지 않습니다. 한국 유통 포장 및 제조 로트와 같은지 별도 확인하세요. 제품 이미지는 확보하지 않아 image 필드를 쓰지 않았습니다."
+}

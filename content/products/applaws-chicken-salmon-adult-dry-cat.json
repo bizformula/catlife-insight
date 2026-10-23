@@ -1,0 +1,86 @@
+{
+  "slug": "applaws-chicken-salmon-adult-dry-cat",
+  "name": "아플라우즈 치킨 위드 살몬 어덜트 건식",
+  "brand": "아플라우즈",
+  "summary": "영국 제조사 공식 400g 제품 페이지의 원료와 분석값을 대조한 성묘용 건식 주식입니다.",
+  "image": "/images/products/applaws-chicken-salmon-adult-dry-cat.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭",
+    "연어"
+  ],
+  "ingredients": [
+    "Chicken Meal 40%",
+    "Potato",
+    "Salmon 9.5% (Freshly Prepared Salmon 5.5%, Salmon Meal 4%)",
+    "Poultry Fat 8%",
+    "Vitamins & Minerals",
+    "Beet Pulp",
+    "Poultry Gravy 1.5%",
+    "Salmon Oil 0.5%",
+    "Egg Powder",
+    "Dried Brewer’s Yeast",
+    "Chicory Extract 0.2% (a source of prebiotic FOS)",
+    "Seaweed",
+    "Yucca Schidigera Extract",
+    "Cranberry Powder"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36.5,
+    "fat": 16,
+    "fiber": 1.5,
+    "ash": 8,
+    "calcium": 2.1,
+    "phosphorus": 1.2
+  },
+  "sourceUrl": "https://applaws.com/uk/products/chicken-with-salmon-adult-dry-cat-food/",
+  "checkedAt": "2026-10-23",
+  "calories": 4044,
+  "ingredientDetails": [
+    {
+      "name": "닭고기분",
+      "sourceText": "Chicken Meal 40%",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon 9.5% (Freshly Prepared Salmon 5.5%, Salmon Meal 4%)",
+      "form": "whole",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어오일",
+      "sourceText": "Salmon Oil 0.5%",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific"
+    }
+  ],
+  "notes": "영국 공식 400g 버전(Product code 4003C) 기준. Analytical에서 min/max를 구분하지 않아 analysisBasis를 임의 작성하지 않음. 수분 미공개로 생략. Nutritional Additives의 Taurine 1000mg은 최종 제품 보증 함량(%)으로 전환하지 않음. Poultry Fat/Gravy가 종을 구분하지 않아 관련 가금류는 unknown 처리. 공개 원재료 목록의 미표기는 특정 원료의 완전한 부재나 교차접촉 방지를 보증하지 않습니다. 한국 유통 포장 및 제조 로트와 같은지 별도 확인하세요. 제품 이미지는 확보하지 않아 image 필드를 쓰지 않았습니다."
+}

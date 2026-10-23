@@ -1,0 +1,107 @@
+{
+  "slug": "tiki-cat-after-dark-rabbit-chicken-liver-pate",
+  "name": "티키캣 애프터다크 래빗 앤 치킨 리버 레시피",
+  "brand": "티키캣",
+  "summary": "미국 티키펫츠 공식 After Dark 래빗·치킨 간 레시피의 원료와 보증성분을 반영한 성묘용 습식 주식입니다.",
+  "image": "/images/products/tiki-cat-after-dark-rabbit-chicken-liver-pate.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "토끼",
+    "오리",
+    "닭"
+  ],
+  "ingredients": [
+    "Rabbit",
+    "duck",
+    "chicken broth",
+    "chicken liver",
+    "chicken heart",
+    "natural flavor",
+    "brewers dried yeast",
+    "potassium chloride",
+    "guar gum",
+    "choline chloride",
+    "taurine",
+    "cassia gum",
+    "xanthan gum",
+    "iron proteinate",
+    "zinc proteinate",
+    "vitamin E supplement",
+    "thiamine mononitrate (vitamin B1)",
+    "copper proteinate",
+    "manganese proteinate",
+    "sodium selenite",
+    "niacin supplement (vitamin B3)",
+    "d-calcium pantothenate",
+    "pyridoxine hydrochloride (vitamin B6)",
+    "riboflavin supplement (vitamin B2)",
+    "vitamin A supplement",
+    "biotin",
+    "potassium iodide",
+    "vitamin D3 supplement",
+    "vitamin B12 supplement",
+    "folic acid"
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "contains",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "unknown",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "unknown",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10,
+    "fat": 6,
+    "fiber": 1,
+    "moisture": 78
+  },
+  "sourceUrl": "https://tikipets.com/product/tiki-cat/tiki-cat-wet-food/shredded-cat/after-dark/rabbit-chicken-liver-pate/",
+  "checkedAt": "2026-10-23",
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "calories": 1155,
+  "ingredientDetails": [
+    {
+      "name": "오리",
+      "sourceText": "duck",
+      "form": "whole",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 간",
+      "sourceText": "chicken liver",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭 심장",
+      "sourceText": "chicken heart",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    }
+  ],
+  "notes": "미국 공식 웹페이지 AAFCO Adult Maintenance 문구 확인. 토끼, 오리 및 닭 간/심장 함유: 단일 단백질 레시피가 아니며 닭 회피 식단에 적합하다고 단정하면 안 됩니다. Natural Flavor가 종을 특정하지 않아 기타 동물성 그룹을 unknown으로 기입. 조회분 미공개로 생략. 공개 원재료 목록의 미표기는 특정 원료의 완전한 부재나 교차접촉 방지를 보증하지 않습니다. 한국 유통 포장 및 제조 로트와 같은지 별도 확인하세요. 제품 이미지는 확보하지 않아 image 필드를 쓰지 않았습니다."
+}
