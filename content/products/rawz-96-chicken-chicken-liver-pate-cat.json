@@ -1,0 +1,114 @@
+{
+  "slug": "rawz-96-chicken-chicken-liver-pate-cat",
+  "name": "RAWZ 로우즈 96% 치킨·치킨리버 파테 캣",
+  "brand": "로우즈(RAWZ)",
+  "summary": "미국 RAWZ 공식 96% Chicken & Chicken Liver Pâté의 원료 및 보증성분을 정리한 전연령 습식 주식입니다.",
+  "image": "/images/products/rawz-96-chicken-chicken-liver-pate-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "닭간"
+  ],
+  "ingredients": [
+    "Chicken",
+    "Chicken Liver",
+    "Chicken Broth",
+    "Fenugreek Seed",
+    "Dandelion Greens",
+    "Natural Flavor",
+    "Tricalcium Phosphate",
+    "Potassium Chloride",
+    "Choline Chloride",
+    "Salt",
+    "Taurine",
+    "Magnesium Proteinate",
+    "Zinc Proteinate",
+    "Iron Proteinate",
+    "Kelp",
+    "Niacin Supplement",
+    "Vitamin E Supplement",
+    "Copper Proteinate",
+    "Vitamin A Supplement",
+    "Manganese Proteinate",
+    "Sodium Selenite",
+    "Thiamine Mononitrate",
+    "Calcium Pantothenate",
+    "Pyridoxine Hydrochloride",
+    "Vitamin D3 Supplement",
+    "Riboflavin Supplement",
+    "Vitamin B12 Supplement",
+    "Folic Acid",
+    "Calcium Iodate",
+    "Biotin"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "whole",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭간",
+      "sourceText": "Chicken Liver",
+      "form": "organ",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭육수",
+      "sourceText": "Chicken Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "천연 향미",
+      "sourceText": "Natural Flavor",
+      "form": "other",
+      "specificity": "group-only"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "unknown",
+    "dairy": "unknown",
+    "egg": "unknown",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10,
+    "fat": 8,
+    "fiber": 1,
+    "moisture": 78,
+    "taurine": 0.1
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 1209,
+  "sourceUrl": "https://rawznaturalpetfood.com/product/96-chicken-chicken-liver-pate/",
+  "checkedAt": "2026-10-25",
+  "notes": "미국 RAWZ 공식 3/5.5oz 캔 기준. 원료 표기는 공식 제품 페이지 각 원료 설명의 제목 순서에서 추출. Natural Flavor의 세부 기원 미확인. 대표 분석치(typical) 인 0.30%와 247.93mg/100kcal는 보증성분이 아니므로 guaranteedAnalysis.phosphorus에 넣지 않음. 대표 분석치에는 칼슘 0.40%, 인 0.30%가 별도 제시됨. 1,209 kcal/kg. 국내 유통 포장 차이 확인 필요."
+}

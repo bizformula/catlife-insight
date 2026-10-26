@@ -1,0 +1,116 @@
+{
+  "slug": "nulo-freestyle-silky-mousse-chicken-duck-cat",
+  "name": "눌로 프리스타일 실키 무스 치킨·덕 캣",
+  "brand": "눌로",
+  "summary": "미국 Nulo FreeStyle Silky Mousse Chicken & Duck Recipe의 원료·보증성분을 반영한 전연령 습식 주식입니다.",
+  "image": "/images/products/nulo-freestyle-silky-mousse-chicken-duck-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "오리고기",
+    "계란"
+  ],
+  "ingredients": [
+    "Chicken Broth",
+    "Chicken",
+    "Duck",
+    "Coconut Oil",
+    "Dried Egg",
+    "Tricalcium Phosphate",
+    "Guar Gum",
+    "Inulin",
+    "Potassium Chloride",
+    "Salt",
+    "Choline Chloride",
+    "Magnesium Sulfate",
+    "Taurine",
+    "Iron Amino Acid Chelate",
+    "Zinc Amino Acid Chelate",
+    "Vitamin E Supplement",
+    "L-Ascorbyl-2-Polyphosphate (source of Vitamin C)",
+    "Thiamine Mononitrate",
+    "Vitamin A Supplement",
+    "Niacin (Vitamin B3)",
+    "Manganese Amino Acid Chelate",
+    "Copper Amino Acid Chelate",
+    "Calcium Iodate",
+    "d-Calcium Pantothenate",
+    "Riboflavin Supplement",
+    "Sodium Selenite",
+    "Vitamin B12 Supplement",
+    "Pyridoxine Hydrochloride (source of Vitamin B6)",
+    "Folic Acid",
+    "Cholecalciferol (source of Vitamin D3)",
+    "Biotin",
+    "Menadione Sodium Bisulfite Complex (source of Vitamin K activity)"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭육수",
+      "sourceText": "Chicken Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "whole",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "오리고기",
+      "sourceText": "Duck",
+      "form": "whole",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "말린 계란",
+      "sourceText": "Dried Egg",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10,
+    "fat": 4,
+    "fiber": 1,
+    "moisture": 82
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "calories": 961,
+  "sourceUrl": "https://nulo.com/products/freestyle-silky-mousse-chicken-duck-recipe-for-cats",
+  "checkedAt": "2026-10-25",
+  "notes": "미국 제조사 AAFCO all life stages 표기. 2.8oz 파우치, 961kcal/kg, 77kcal/파우치. 제조사가 따로 공개하지 않은 칼슘·인·조회분·타우린 함량은 비워 둠. Inulin은 원료 그룹 legume으로 분류하지 않음. 실제 포장 및 국가별 제품 표시 대조 필요."
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "koha-limited-ingredient-turkey-pate-cat",
+  "name": "코하 리미티드 인그리디언트 칠면조 파테 캣",
+  "brand": "코하(KOHA)",
+  "summary": "미국 KOHA Limited Ingredient Diet Turkey Pâté의 제조사 공개 성분을 정리한 성묘 유지용 습식 주식입니다.",
+  "image": "/images/products/koha-limited-ingredient-turkey-pate-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "칠면조",
+    "칠면조 간"
+  ],
+  "ingredients": [
+    "Turkey",
+    "Water Sufficient For Processing",
+    "Turkey Liver",
+    "Ground Flaxseed",
+    "New Zealand Green Mussel",
+    "Agar Agar",
+    "Pumpkin",
+    "Potassium Chloride",
+    "Choline Chloride",
+    "Salt",
+    "Taurine",
+    "Dried Kale",
+    "Cranberries",
+    "Ginger",
+    "Turmeric",
+    "Iron Proteinate",
+    "Zinc Proteinate",
+    "Vitamin E Supplement",
+    "Niacin Supplement",
+    "Thiamine Mononitrate",
+    "Copper Proteinate",
+    "Manganese Proteinate",
+    "Sodium Selenite",
+    "Vitamin A Supplement",
+    "d-Calcium Pantothenate",
+    "Vitamin B12 Supplement",
+    "Riboflavin Supplement",
+    "Pyridoxine Hydrochloride",
+    "Biotin",
+    "Folic Acid",
+    "Potassium Iodide",
+    "Vitamin D3 Supplement"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "칠면조",
+      "sourceText": "Turkey",
+      "form": "whole",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조 간",
+      "sourceText": "Turkey Liver",
+      "form": "organ",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "녹색홍합",
+      "sourceText": "New Zealand Green Mussel",
+      "form": "whole",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "아마씨",
+      "sourceText": "Ground Flaxseed",
+      "form": "other",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "not-listed",
+    "turkey": "contains",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 9,
+    "fat": 9,
+    "fiber": 1,
+    "moisture": 78
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "calories": 1394,
+  "sourceUrl": "https://kohapet.com/products/turkey-pate-wet-cat-food",
+  "checkedAt": "2026-10-25",
+  "notes": "미국 제조사 AAFCO maintenance 성묘용. 공식 소개는 single meat protein이라고 하나 표시 원료에는 New Zealand Green Mussel(해산물)이 포함되므로 fish 그룹 contains. 알레르기 안전성 단정 금지. 1,394 kcal/kg, 5.5oz 217kcal/3oz 118kcal. 국내 포장 재확인 필요."
+}

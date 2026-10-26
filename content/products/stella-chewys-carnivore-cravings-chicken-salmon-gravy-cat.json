@@ -1,0 +1,119 @@
+{
+  "slug": "stella-chewys-carnivore-cravings-chicken-salmon-gravy-cat",
+  "name": "스텔라앤츄이스 카니보어 크레이빙스 치킨·연어 모셀 그레이비",
+  "brand": "스텔라앤츄이스",
+  "summary": "Stella & Chewy's Chicken & Salmon Morsels’N’Gravy 파우치의 원료와 공개 보증치를 기록한 습식 주식입니다.",
+  "image": "/images/products/stella-chewys-carnivore-cravings-chicken-salmon-gravy-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "연어",
+    "계란"
+  ],
+  "ingredients": [
+    "Chicken",
+    "Chicken Broth",
+    "Salmon Broth",
+    "Dried Egg",
+    "Salmon",
+    "Sunflower Oil",
+    "Tapioca",
+    "Tricalcium Phosphate",
+    "Natural Flavor",
+    "Taurine",
+    "Guar Gum",
+    "Magnesium Sulfate",
+    "Potassium Chloride",
+    "Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin Supplement, Vitamin A Supplement, Pyridoxine Hydrochloride, d-Calcium Pantothenate, Riboflavin Supplement, Folic Acid, Vitamin B12 Supplement, Vitamin D3 Supplement, Biotin)",
+    "Minerals (Zinc Oxide, Reduced Iron, Sodium Selenite, Manganese Sulfate, Copper Amino Acid Complex, Potassium Iodide, Copper Sulfate)",
+    "Salt",
+    "Choline Chloride"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "whole",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭육수",
+      "sourceText": "Chicken Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어육수",
+      "sourceText": "Salmon Broth",
+      "form": "other",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "whole",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "말린 계란",
+      "sourceText": "Dried Egg",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific"
+    },
+    {
+      "name": "타피오카",
+      "sourceText": "Tapioca",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "unknown",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 9,
+    "fat": 5,
+    "fiber": 1,
+    "moisture": 81,
+    "phosphorus": 0.1,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "calories": 1191,
+  "sourceUrl": "https://www.stellaandchewys.com/products/carnivore-cravings-morsels-n-gravy-chicken-salmon-recipe",
+  "checkedAt": "2026-10-25",
+  "notes": "미국 공식 파우치 기준 1,191kcal/kg, 94kcal/파우치. 인 0.10%는 최소 보증치(min)이지 평균 분석치가 아님. 공식 페이지는 완전·균형식과 성묘·자묘 급여 안내를 표기하나 AAFCO 전연령 문장을 직접 확인하지 못하여 lifeStage adult로 보수적 등록. Natural Flavor 출처 미상; 표기 원료만으로 교차접촉 미보증."
+}
