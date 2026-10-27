@@ -1,0 +1,112 @@
+{
+  "slug": "dr-elseys-cleanprotein-chicken-recipe-cat-dry",
+  "name": "닥터 엘시 클린프로틴 치킨 레시피 건식",
+  "brand": "닥터 엘시",
+  "summary": "닭고기, 가수분해 돼지고기, 돼지 혈장 등을 표시한 전연령용 고양이 건식 주식. 제조사 미국판 공식 원료 및 보증성분 기준입니다.",
+   "image": "/images/products/dr-elseys-cleanprotein-chicken-recipe-cat-dry.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "돼지고기"
+  ],
+  "ingredients": [
+    "Chicken",
+    "Hydrolyzed Pork",
+    "Pork Plasma",
+    "Gelatin",
+    "Chicken Fat (Preserved with Mixed Tocopherols)",
+    "Ground Flaxseed",
+    "Natural Flavor",
+    "Calcium Carbonate",
+    "Salmon Oil",
+    "Potassium Chloride",
+    "Choline Chloride",
+    "Fructooligosaccharides",
+    "Vitamins (Niacin, Vitamin A Supplement, Thiamine Mononitrate, d-Calcium Pantothenate, Folic Acid, Pyridoxine Hydrochloride, Riboflavin, Vitamin D Supplement, Biotin, Vitamin B12)",
+    "Minerals (Zinc Proteinate, Zinc Sulfate, Iron Proteinate, Ferrous Sulfate, Copper Proteinate, Copper Sulfate, Manganese Proteinate, Manganese Sulfate, CalciumIodate, Sodium Selenite)",
+    "Taurine",
+    "Magnesium Oxide",
+    "Mixed Tocopherols (Preservative)",
+    "Salt",
+    "Vitamin E Supplement",
+    "Rosemary Extract"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "Chicken",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Hydrolyzed Pork",
+      "sourceText": "Hydrolyzed Pork",
+      "form": "other",
+      "group": "pork",
+      "specificity": "specific"
+    },
+    {
+      "name": "Pork Plasma",
+      "sourceText": "Pork Plasma",
+      "form": "other",
+      "group": "pork",
+      "specificity": "specific"
+    },
+    {
+      "name": "Chicken Fat (Preserved with Mixed Tocopherols)",
+      "sourceText": "Chicken Fat (Preserved with Mixed Tocopherols)",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Salmon Oil",
+      "sourceText": "Salmon Oil",
+      "form": "other",
+      "group": "fish",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "unknown",
+    "egg": "unknown",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 59,
+    "fat": 17,
+    "fiber": 4,
+    "moisture": 12,
+    "taurine": 0.15
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 3953,
+  "sourceUrl": "https://drelseys.com/product/chicken-recipe-kibble/",
+  "checkedAt": "2026-10-27",
+  "notes": "제조사 미국 공식 페이지 2026-10-27 확인. 3953 kcal/kg / 523 kcal/cup; AAFCO All Life Stages. Gelatin/Natural Flavor의 생물학적 기원이 명시되지 않으므로 일부 동물 원료군 unknown. 회사 광고상 질환 관련 효능 표현은 데이터에 인용하지 않음. image 미등록."
+}

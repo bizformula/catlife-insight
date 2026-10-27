@@ -1,0 +1,166 @@
+{
+  "slug": "fromm-gold-adult-cat-dry",
+  "name": "프롬 골드 어덜트 캣 건식",
+  "brand": "프롬",
+  "summary": "닭고기·닭고기분·보리·백미·연어분·오리고기 등이 포함된 성묘용 건식 주식. 제조사의 공식 제품표와 영양 PDF 기준입니다.",
+  "image": "/images/products/fromm-gold-adult-cat-dry.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "연어",
+    "오리고기",
+    "달걀"
+  ],
+  "ingredients": [
+    "Chicken",
+    "chicken meal",
+    "pearled barley",
+    "white rice",
+    "salmon meal",
+    "chicken fat (preserved with mixed tocopherols)",
+    "dried tomato pomace",
+    "dried egg product",
+    "potatoes",
+    "duck",
+    "salmon oil (preserved with mixed tocopherols)",
+    "cheese",
+    "flaxseed",
+    "brewers dried yeast",
+    "chicken liver",
+    "alfalfa meal",
+    "dl-methionine",
+    "potassium chloride",
+    "Vitamins [choline chloride, Vitamin E supplement, niacin supplement, ascorbic acid, calcium carbonate, pyridoxine hydrochloride, Vitamin A supplement, folic acid, calcium pantothenate, thiamine mononitrate, riboflavin supplement, Vitamin D3 supplement, biotin, Vitamin B12 supplement]",
+    "chicken cartilage",
+    "chicory root extract",
+    "salt",
+    "monosodium phosphate",
+    "Minerals [zinc sulfate, manganese sulfate, ferrous sulfate, magnesium sulfate, zinc proteinate, ferrous proteinate, manganese proteinate, copper sulfate, magnesium proteinate, copper proteinate, calcium iodate]",
+    "sorbic acid (preservative)",
+    "yucca schidigera extract",
+    "sodium selenite",
+    "taurine",
+    "dried Lactobacillus paracasei fermentation product",
+    "dried Lactobacillus reuteri fermentation product",
+    "dried Lactobacillus acidophilus fermentation product",
+    "dried Lactobacillus plantarum fermentation product"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "Chicken",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "chicken meal",
+      "sourceText": "chicken meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "pearled barley",
+      "sourceText": "pearled barley",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "white rice",
+      "sourceText": "white rice",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "salmon meal",
+      "sourceText": "salmon meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "dried egg product",
+      "sourceText": "dried egg product",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific"
+    },
+    {
+      "name": "potatoes",
+      "sourceText": "potatoes",
+      "form": "whole",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "duck",
+      "sourceText": "duck",
+      "form": "fresh",
+      "group": "duck",
+      "specificity": "specific"
+    },
+    {
+      "name": "cheese",
+      "sourceText": "cheese",
+      "form": "whole",
+      "group": "dairy",
+      "specificity": "specific"
+    },
+    {
+      "name": "dried tomato pomace",
+      "sourceText": "dried tomato pomace",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "alfalfa meal",
+      "sourceText": "alfalfa meal",
+      "form": "dried",
+      "group": "legume",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "contains",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "contains",
+    "egg": "contains",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 32,
+    "fat": 18,
+    "fiber": 4.5,
+    "moisture": 10
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max"
+  },
+  "calories": 3820,
+  "sourceUrl": "https://frommfamily.com/adult-gold-cat-food",
+  "checkedAt": "2026-10-27",
+  "notes": "제조사 공식 상세 2026-10-27 확인, 제조사 F2349 성분표 PDF (20230104 버전) 원료 전체·보증성분 교차확인. 3820 kcal/kg, 395 kcal/cup. AAFCO Adult Maintenance. PDF typical ash/phosphorus/calcium 분석값은 보증성분과 다르므로 guaranteedAnalysis에 미기입. 제조사 최신 웹 원료 HTML 일부가 파싱 누락되어 2023 PDF와 실제 구매 포장 간 레시피 불일치 가능성 재확인 필요. image 미등록."
+}

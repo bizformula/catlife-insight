@@ -1,0 +1,107 @@
+{
+  "slug": "firstmate-chicken-meal-blueberries-cat-dry",
+  "name": "퍼스트메이트 치킨 밀 위드 블루베리 캣 건식",
+  "brand": "퍼스트메이트",
+  "summary": "닭고기분·감자·닭 지방·블루베리 등이 표시된 전연령 건식 주식. 보증성분과 열량은 캐나다 제조사 공식 공개값 기준입니다.",
+   "image": "/images/products/firstmate-chicken-meal-blueberries-cat-dry.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기"
+  ],
+  "ingredients": [
+    "Chicken Meal",
+    "Potato",
+    "Chicken Fat (preserved with mixed tocopherols)",
+    "Whole Blueberries",
+    "phosphoric acid",
+    "DL–Methionine",
+    "Minerals (Zinc Proteinate, Iron Proteinate, Calcium Carbonate, Manganese Proteinate, Copper Proteinate, Sodium selenite, Calcium Iodate)",
+    "Vitamins (Vitamin E Supplement, Niacin, Thiamine Mononitrate, Vitamin A Supplement, D-pantothenic Acid, Riboflavin, Pyridoxine Hydrochloride, Biotin, Vitamin B12 Supplement, Vitamin D3 Supplement, Folic Acid)",
+    "Choline Chloride",
+    "Potassium Chloride",
+    "Calcium Propionate (a preservative)",
+    "Taurine",
+    "Yeast Extract",
+    "Kale",
+    "Rosemary extract"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "Chicken Meal",
+      "sourceText": "Chicken Meal",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Potato",
+      "sourceText": "Potato",
+      "form": "whole",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "Chicken Fat (preserved with mixed tocopherols)",
+      "sourceText": "Chicken Fat (preserved with mixed tocopherols)",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Kale",
+      "sourceText": "Kale",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "not-listed",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 36,
+    "fat": 16,
+    "fiber": 4,
+    "moisture": 10,
+    "ash": 10,
+    "calcium": 2.0,
+    "phosphorus": 1.6,
+    "magnesium": 0.15,
+    "taurine": 0.2
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "magnesium": "max",
+    "taurine": "min"
+  },
+  "calories": 3460,
+  "sourceUrl": "https://firstmate.com/product/chicken-meal-with-blueberries-formula-for-cats/",
+  "checkedAt": "2026-10-27",
+  "notes": "제조사 캐나다 공식 페이지 2026-10-27 확인. ME(calculated) 3460 kcal/kg, 540 kcal/cup. All Life Stages 주식. 공식 원료 목록의 Minerals/Vitamins 하위 항목은 괄호 그룹으로 묶어 순서 보존. 국내 유통 제품·포장 별도 확인. 이미지 확보/사용권 확인 전이므로 image 미등록."
+}

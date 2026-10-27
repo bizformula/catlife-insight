@@ -1,0 +1,113 @@
+{
+  "slug": "hound-gatos-chicken-liver-pate-cat-wet",
+  "name": "하운드 앤 가토스 치킨 앤 리버 파테 습식",
+  "brand": "하운드 앤 가토스",
+  "summary": "닭고기·닭 육수·닭 간·연어 오일을 표시한 156g 캔 습식 주식. 미국 제조사 공식 제품 페이지에서 1,299kcal/kg과 203kcal/캔을 공개합니다.",
+  "image": "/images/products/hound-gatos-chicken-liver-pate-cat-wet.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "닭 간"
+  ],
+  "ingredients": [
+    "Chicken",
+    "Chicken Broth",
+    "Chicken Liver",
+    "Agar-Agar",
+    "Salt",
+    "Potassium Chloride",
+    "Calcium Carbonate",
+    "Choline Chloride",
+    "Magnesium Proteinate",
+    "Taurine",
+    "Salmon Oil",
+    "Zinc Proteinate",
+    "Iron Proteinate",
+    "Manganese Proteinate",
+    "Copper Proteinate",
+    "Sodium Selenite",
+    "Calcium Iodate",
+    "Thiamine Mononitrate",
+    "Vitamin E Supplement",
+    "Niacin Supplement",
+    "Vitamin A Supplement",
+    "Calcium Pantothenate",
+    "Pyridoxine Hydrochloride",
+    "Riboflavin Supplement",
+    "Biotin",
+    "Vitamin B12 Supplement",
+    "Folic Acid",
+    "Vitamin D3 Supplement"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "Chicken",
+      "sourceText": "Chicken",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Chicken Broth",
+      "sourceText": "Chicken Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Chicken Liver",
+      "sourceText": "Chicken Liver",
+      "form": "fresh",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Salmon Oil",
+      "sourceText": "Salmon Oil",
+      "form": "other",
+      "group": "fish",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "not-listed",
+    "duck": "not-listed",
+    "quail": "not-listed",
+    "beef": "not-listed",
+    "pork": "not-listed",
+    "fish": "contains",
+    "dairy": "not-listed",
+    "egg": "not-listed",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "not-listed"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10,
+    "fat": 9,
+    "fiber": 1,
+    "moisture": 78,
+    "ash": 2.5
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max"
+  },
+  "calories": 1299,
+  "sourceUrl": "https://houndgatos.com/products/chicken-liver-2/",
+  "checkedAt": "2026-10-27",
+  "notes": "미국 제조사 공식 상세 페이지 2026-10-27 확인. 1299 kcal/kg, 203 kcal/5.5oz (156g) can. AAFCO All Life Stages. 페이지 설명 중 Chicken 제품에 Duck이라 쓴 홍보문구 오류가 있어 해당 문장 사용하지 않고 Ingredients/Analysis/Feeding 및 제품 제목에 근거. image 미등록."
+}

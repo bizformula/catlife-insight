@@ -1,0 +1,156 @@
+{
+  "slug": "natures-logic-feline-chicken-meal-feast-cat-dry",
+  "name": "네이처스 로직 펠라인 치킨 밀 피스트 건식",
+  "brand": "네이처스 로직",
+  "summary": "닭고기분·기장·닭 지방·호박씨분·돼지 혈장·어분 등이 표시된 전연령 건식 주식. 제조사 공식 원료 구성에 기장(Millet)이 포함되어 있습니다.",
+   "image": "/images/products/natures-logic-feline-chicken-meal-feast-cat-dry.png",
+  "productType": "food",
+  "foodForm": "dry",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭고기",
+    "돼지고기",
+    "생선"
+  ],
+  "ingredients": [
+    "Chicken Meal (source of Taurine)",
+    "Millet",
+    "Chicken Fat (preserved with Mixed Tocopherols)",
+    "Pumpkin Seed Flour",
+    "Yeast Culture",
+    "Spray Dried Chicken Liver",
+    "Alfalfa Nutrient Concentrate",
+    "Montmorillonite Clay",
+    "Spray Dried Porcine Plasma",
+    "Dried Kelp",
+    "Menhaden Fish Meal",
+    "Natural Flavors",
+    "Dried Tomato",
+    "Almonds",
+    "Dried Chicory Root",
+    "Dried Apple",
+    "Dried Carrot",
+    "Dried Pumpkin",
+    "Dried Apricot",
+    "Dried Blueberry",
+    "Dried Spinach",
+    "Dried Broccoli",
+    "Parsley",
+    "Dried Cranberry",
+    "Dried Artichoke",
+    "Rosemary",
+    "Dried Mushroom",
+    "Dried Lactobacillus acidophilus Fermentation Product",
+    "Dried Lactobacillus casei Fermentation Product",
+    "Dried Bifidobacterium bifidum Fermentation Product",
+    "Dried Enterococcus faecium Fermentation Product",
+    "Dried Bacillus coagulans Fermentation Product",
+    "Dried Aspergillus niger Fermentation Extract",
+    "Dried Aspergillus oryzae Fermentation Extract",
+    "Dried Trichoderma longibrachiatum Fermentation Extract"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "Chicken Meal (source of Taurine)",
+      "sourceText": "Chicken Meal (source of Taurine)",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Millet",
+      "sourceText": "Millet",
+      "form": "whole",
+      "group": "grain",
+      "specificity": "specific"
+    },
+    {
+      "name": "Chicken Fat (preserved with Mixed Tocopherols)",
+      "sourceText": "Chicken Fat (preserved with Mixed Tocopherols)",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Spray Dried Chicken Liver",
+      "sourceText": "Spray Dried Chicken Liver",
+      "form": "dried",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "Spray Dried Porcine Plasma",
+      "sourceText": "Spray Dried Porcine Plasma",
+      "form": "dried",
+      "group": "pork",
+      "specificity": "specific"
+    },
+    {
+      "name": "Menhaden Fish Meal",
+      "sourceText": "Menhaden Fish Meal",
+      "form": "dried",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "Alfalfa Nutrient Concentrate",
+      "sourceText": "Alfalfa Nutrient Concentrate",
+      "form": "other",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "Dried Carrot",
+      "sourceText": "Dried Carrot",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "Dried Pumpkin",
+      "sourceText": "Dried Pumpkin",
+      "form": "dried",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "contains",
+    "fish": "contains",
+    "dairy": "unknown",
+    "egg": "unknown",
+    "grain": "contains",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 38,
+    "fat": 16,
+    "fiber": 5,
+    "moisture": 9,
+    "taurine": 0.1
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "calories": 3954,
+  "sourceUrl": "https://natureslogic.com/cat-products/feline-dry-kibble-chicken/",
+  "checkedAt": "2026-10-27",
+  "notes": "제조사 미국 공식 페이지 2026-10-27 확인. kcal/kg 3954, kcal/cup 517. AAFCO Feeding Trials All Life Stages. Millet 명시로 grain=contains. Natural Flavors가 불특정이므로 일부 동물성 군 unknown. image 미등록."
+}
