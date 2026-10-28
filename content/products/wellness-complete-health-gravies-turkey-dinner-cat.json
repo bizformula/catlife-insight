@@ -1,0 +1,141 @@
+{
+  "slug": "wellness-complete-health-gravies-turkey-dinner-cat",
+  "name": "웰니스 컴플리트 헬스 그레이비 터키 디너",
+  "brand": "웰니스",
+  "summary": "칠면조·칠면조육수·닭육수·건조 달걀·어유가 원료에 표시된 습식 주식. 타우린 최소 0.1%를 공식 공개합니다.",
+  "image": "/images/products/wellness-complete-health-gravies-turkey-dinner-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "adult"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "칠면조",
+    "닭",
+    "달걀"
+  ],
+  "ingredients": [
+    "Turkey",
+    "Turkey Broth",
+    "Chicken Broth",
+    "Turkey Liver",
+    "Natural Flavor",
+    "Dried Egg Product",
+    "Turkey Hearts",
+    "Dried Ground Peas",
+    "Carrots",
+    "Guar Gum",
+    "Fish Oil (Preserved With Mixed Tocopherols)",
+    "Sodium Phosphate",
+    "Ground Flaxseed",
+    "Salt",
+    "Dried Chicory Root",
+    "Calcium Carbonate",
+    "Potassium Chloride",
+    "Taurine",
+    "Minerals (Zinc Proteinate, Iron Proteinate, Copper Proteinate, Manganese Proteinate, Sodium Selenite, Potassium Iodide)",
+    "Sunflower Oil",
+    "Cranberries",
+    "Choline Chloride",
+    "Tricalcium Phosphate",
+    "Vitamins (Vitamin E Supplement, Thiamine Mononitrate, Niacin Supplement, d-Calcium Pantothenate, Pyridoxine Hydrochloride, Riboflavin Supplement, Vitamin A Supplement, Biotin, Vitamin D3 Supplement, Vitamin B12 Supplement, Folic Acid)"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "칠면조고기",
+      "sourceText": "Turkey",
+      "form": "whole",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조육수",
+      "sourceText": "Turkey Broth",
+      "form": "other",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭육수",
+      "sourceText": "Chicken Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "칠면조 간",
+      "sourceText": "Turkey Liver",
+      "form": "organ",
+      "group": "turkey",
+      "specificity": "specific"
+    },
+    {
+      "name": "건조 달걀",
+      "sourceText": "Dried Egg Product",
+      "form": "dried",
+      "group": "egg",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두콩 분쇄원료",
+      "sourceText": "Dried Ground Peas",
+      "form": "dried",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "어유",
+      "sourceText": "Fish Oil (Preserved With Mixed Tocopherols)",
+      "form": "oil",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "contains",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "unknown",
+    "egg": "contains",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "not-listed",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 8,
+    "fat": 3,
+    "fiber": 1,
+    "moisture": 83,
+    "calcium": 0.2,
+    "phosphorus": 0.15,
+    "taurine": 0.1
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "calcium": "min",
+    "phosphorus": "min",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://www.wellnesspetfood.com/product-catalog/wellness-complete-health-gravies-turkey-dinner/",
+  "checkedAt": "2026-10-28",
+  "notes": "미국 Wellness 공식 페이지 2026-10-28 확인. 제조사 제품명은 Turkey Dinner Bits in Ample Gravy. 타우린 최소 0.1%, 칼슘/인 최소값. 공식 페이지에서 제품별 대사에너지 숫자를 직접 확인할 수 없어 calories 생략. lifeStage adult는 카테고리상 보수적 분류로 실제 포장 영양 적합성 문구 재확인 필요. Natural Flavor 유래 불명, 국내 포장 확인 필요, image 미기재."
+}

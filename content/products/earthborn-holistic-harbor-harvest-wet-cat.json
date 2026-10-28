@@ -1,0 +1,128 @@
+{
+  "slug": "earthborn-holistic-harbor-harvest-wet-cat",
+  "name": "어스본 홀리스틱 하버 하베스트 살몬·화이트피시 그레이비",
+  "brand": "어스본 홀리스틱",
+  "summary": "참치·연어·화이트피시를 사용한 습식 주식. 미국 제조사 기준 성장 및 유지용 영양 적합성 표기가 있습니다.",
+  "image": "/images/products/earthborn-holistic-harbor-harvest-wet-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "참치",
+    "연어",
+    "화이트피시"
+  ],
+  "ingredients": [
+    "Fish Broth",
+    "Tuna",
+    "Salmon",
+    "Whitefish",
+    "Carrots",
+    "Peas",
+    "Potatoes",
+    "Natural Flavor",
+    "Sunflower Oil",
+    "Tricalcium Phosphate",
+    "Guar Gum",
+    "Potassium Chloride",
+    "Taurine",
+    "Choline Chloride",
+    "Zinc Oxide",
+    "Beta-Carotene",
+    "Niacin Supplement",
+    "Vitamin E Supplement",
+    "Iron Proteinate",
+    "Sodium Selenite",
+    "Thiamine Mononitrate",
+    "Vitamin B12 Supplement",
+    "Manganese Sulfate",
+    "Copper Proteinate",
+    "Vitamin A Supplement",
+    "D-Calcium Pantothenate",
+    "Riboflavin Supplement",
+    "Pyridoxine Hydrochloride",
+    "Biotin",
+    "Vitamin D3 Supplement",
+    "Folic Acid",
+    "Potassium Iodide",
+    "Menadione Sodium Bisulfite Complex (Source of Vitamin K)"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "참치",
+      "sourceText": "Tuna",
+      "form": "whole",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "연어",
+      "sourceText": "Salmon",
+      "form": "whole",
+      "group": "fish",
+      "specificity": "specific"
+    },
+    {
+      "name": "완두콩",
+      "sourceText": "Peas",
+      "form": "whole",
+      "group": "legume",
+      "specificity": "specific"
+    },
+    {
+      "name": "감자",
+      "sourceText": "Potatoes",
+      "form": "whole",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "unknown",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "contains",
+    "dairy": "unknown",
+    "egg": "unknown",
+    "grain": "not-listed",
+    "legume": "contains",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 12,
+    "fat": 2,
+    "fiber": 1.5,
+    "moisture": 82,
+    "ash": 3,
+    "taurine": 0.05
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "ash": "max",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://www.earthbornholisticpetfood.com/product/cat-food/cat-food-grain-free/harbor-harvest/",
+  "checkedAt": "2026-10-28",
+  "notes": "미국 제조사 공식 페이지 2026-10-28 확인. AAFCO growth and maintenance, ME 771 kcal/kg. 타우린 0.05%는 최소 보증치. Natural Flavor의 세부 유래와 국내 유통 포장·배합 확인 필요. 실제 제품 PNG 미확보로 image 필드 생략.",
+  "calories": 771
+}

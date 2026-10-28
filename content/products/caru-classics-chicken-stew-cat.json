@@ -1,0 +1,116 @@
+{
+  "slug": "caru-classics-chicken-stew-cat",
+  "name": "카루 클래식 치킨 스튜 포 캣",
+  "brand": "카루",
+  "summary": "닭고기·닭 뼈 육수와 타피오카 전분이 표기된 습식 주식. 미국 공식 자료에서 타우린 최소 0.08%를 공개합니다.",
+  "image": "/images/products/caru-classics-chicken-stew-cat.png",
+  "productType": "food",
+  "foodForm": "wet",
+  "purpose": "complete",
+  "lifeStage": [
+    "all"
+  ],
+  "isVeterinaryDiet": false,
+  "dietaryUses": [],
+  "mainProteins": [
+    "닭"
+  ],
+  "ingredients": [
+    "Chicken",
+    "Chicken Bone Broth",
+    "Tapioca Starch",
+    "Natural Flavor",
+    "Apples",
+    "Carrots",
+    "Sweet Potato",
+    "Choline Chloride",
+    "Tricalcium Phosphate",
+    "Potassium Chloride",
+    "Golden Flaxseed",
+    "Marine Microalgae Oil (Source of Omega-3 Fatty Acids)",
+    "Taurine",
+    "Minerals (Zinc Amino Acid Chelate, Iron Amino Acid Chelate, Copper Amino Acid Chelate, Manganese Amino Acid Chelate, Iodine Amino Acid Chelate, Sodium Selenite)",
+    "Dandelion Greens",
+    "Vitamins (Vitamin A Supplement, Vitamin D3 Supplement, Vitamin E Supplement, Thiamine Mononitrate, Niacin Supplement, Pyridoxine Hydrochloride, d-Calcium Pantothenate, Riboflavin Supplement, Folic Acid, Biotin, Vitamin B12 Supplement)",
+    "Magnesium Proteinate",
+    "Calcium Carbonate"
+  ],
+  "ingredientDetails": [
+    {
+      "name": "닭고기",
+      "sourceText": "Chicken",
+      "form": "whole",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "닭뼈 육수",
+      "sourceText": "Chicken Bone Broth",
+      "form": "other",
+      "group": "chicken",
+      "specificity": "specific"
+    },
+    {
+      "name": "타피오카 전분",
+      "sourceText": "Tapioca Starch",
+      "form": "starch",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "당근",
+      "sourceText": "Carrots",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific"
+    },
+    {
+      "name": "고구마",
+      "sourceText": "Sweet Potato",
+      "form": "whole",
+      "group": "starch",
+      "specificity": "specific"
+    },
+    {
+      "name": "민들레 잎",
+      "sourceText": "Dandelion Greens",
+      "form": "whole",
+      "group": "vegetable",
+      "specificity": "specific"
+    }
+  ],
+  "ingredientStatus": {
+    "chicken": "contains",
+    "turkey": "unknown",
+    "duck": "unknown",
+    "quail": "unknown",
+    "beef": "unknown",
+    "pork": "unknown",
+    "fish": "unknown",
+    "dairy": "unknown",
+    "egg": "unknown",
+    "grain": "not-listed",
+    "legume": "not-listed",
+    "pseudograin": "not-listed",
+    "starch": "contains",
+    "vegetable": "contains"
+  },
+  "guaranteedAnalysis": {
+    "protein": 10,
+    "fat": 2,
+    "fiber": 1,
+    "moisture": 82,
+    "taurine": 0.08
+  },
+  "analysisBasis": {
+    "protein": "min",
+    "fat": "min",
+    "fiber": "max",
+    "moisture": "max",
+    "taurine": "min"
+  },
+  "sourceUrl": "https://carupetfood.com/product/chicken-classic-stew-for-cats/",
+  "checkedAt": "2026-10-28",
+  "notes": "미국 Caru 공식 제품 페이지 2026-10-28 확인. AAFCO All Life Stages; ME 830 kcal/kg. Natural Flavor의 동물성 유래는 모름. Marine Microalgae Oil은 물고기 유래가 아닌 미세조류유로 분류하고 fish는 unknown(향미 유래 불명) 처리. 실제 제품 PNG 미확보로 image 필드 생략.",
+  "calories": 830
+}
